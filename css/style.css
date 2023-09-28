@@ -318,6 +318,11 @@
     background-size: cover;
 }
 
+.page-header-profile {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/dgb/capture0.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }

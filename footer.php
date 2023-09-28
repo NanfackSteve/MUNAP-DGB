@@ -24,9 +24,10 @@
 
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4">Documentation</h4>
-                <a class="btn btn-link" href="files/Mutuelle_Statuts.pdf" download="Mutuelle_Status.pdf">Les Status</a>
+                <a class="btn btn-link" href="files/Mutuelle_Statuts.pdf" download="Mutuelle_Status.pdf">Téléchargez -
+                    Les Status</a>
                 <a class="btn btn-link" href="files/Mutuelle_Reglement_interieur.pdf"
-                    download="Mutuelle_Reglement_interieur.pdf">Règlement Interiéur</a>
+                    download="Mutuelle_Reglement_interieur.pdf">Téléchargez - Règlement Intérieur</a>
             </div>
         </div>
     </div>
@@ -37,7 +38,7 @@
                     &copy; <a class="border-bottom" href="contact.php">MUNAP - DGB</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-bottom" href="#">Equipe BCSP</a>
+                    Designed By <a class="border-bottom" href="#">Equipe Technique MUNAP-DGB</a>
                 </div>
             </div>
         </div>

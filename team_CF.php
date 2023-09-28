@@ -9,8 +9,8 @@
                     <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="text-center border border-5 border-light border-top-0 p-4">
-                <h5 class="mb-0">Full Name</h5>
+            <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
+                <h5 class="mb-0">M. BEKOLO Xavier</h5>
                 <small>Président</small>
             </div>
         </div>
