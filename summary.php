@@ -2,13 +2,11 @@
 <div class="accordion " id="sommaire">
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 TITRE I : DES DISPOSITIONS GENERALES
             </button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-            data-bs-parent="#sommaire">
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#sommaire">
             <div class="accordion-body">
                 <a href="#title1-chap1">Chapitre I : DE LA CREATION DU SIEGE </a><br>
                 <a href="#title1-chap2">Chapitre II : DE L'OBJET</a>
@@ -17,13 +15,11 @@
     </div>
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 TITRE II : DE L'ORGANISATION ET DU FONCTIONNEMENT
             </button>
         </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#sommaire">
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#sommaire">
             <div class="accordion-body">
                 <a href="#title2-chap1">Chapitre I : DE LA QUALITE DE MEMBRE</a><br>
                 <a href="#title2-chap2">Chapitre II : DE L'ADMINISTRATION</a><br>
@@ -40,13 +36,11 @@
     </div>
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                TITRE III : DE DES DISPOSITIONS FINANCIERES
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                TITRE III : DES DISPOSITIONS FINANCIERES
             </button>
         </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#sommaire">
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#sommaire">
             <div class="accordion-body">
                 <a href="#title3-chap1">Chapitre I : DES RESSOURCES</a><br>
                 <a href="#title3-chap2">Chapitre II : DES EMPLOIS</a><br>
@@ -66,13 +60,11 @@
     </div>
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 TITRE IV : DES DISPOSITIONS DIVERSES, TRANSITOIRES ET FINALES
             </button>
         </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-            data-bs-parent="#sommaire">
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#sommaire">
             <div class="accordion-body">
                 ...
             </div>

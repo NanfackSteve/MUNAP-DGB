@@ -103,6 +103,33 @@
     </div>
     <!-- Carousel End -->
 
+    <!-- Speech DGB Start -->
+    <div class="container px-3">
+        <div class="row  ">
+            <div class="col-md-6 col-lg-12 ">
+                <h3 class="text-center">Mot du Président de l'Assemblée Général</h3>
+                <br />
+                <img src="img/organism/DGB.jpg" class="m-lg-2 float-end imgshadow img-center" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Speech DGB End -->
+
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">

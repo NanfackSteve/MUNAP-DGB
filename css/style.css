@@ -6,6 +6,11 @@
     .slogan {
         display: none;
     }
+
+    .img-center {
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 }
 
 .nested-paragraph {
