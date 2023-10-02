@@ -1,0 +1,29 @@
+# Workflow for deploying Dynamic WebSite to InfityFree Host
+name: Deploy MUNAP WebSite 
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout du code
+      uses: actions/checkout@v2
+    
+    - name: Configure FTP
+      run: |
+        echo "Host ftpupload.net" >> ~/.netrc
+        echo "Login if0_35105569" >> ~/.netrc
+        echo "Password SAZoEgJ127QbU" >> ~/.netrc
+        chmod 600 ~/.netrc
+
+    - name: Deploy to InfinityFree
+      run: |
+        lftp -e "mirror -R -v -e -x .gitignore -x .github --delete-first ./ htdocs" -d ftpupload.net  
