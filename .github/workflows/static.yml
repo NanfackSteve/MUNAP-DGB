@@ -23,7 +23,12 @@ jobs:
         echo "Login if0_35105569" >> ~/.netrc
         echo "Password SAZoEgJ127QbU" >> ~/.netrc
         chmod 600 ~/.netrc
-
+    
+    - name: Installer lftp
+      run: |
+        sudo apt-get update
+        sudo apt-get install lftp -y
+        
     - name: Deploy to InfinityFree
       run: |
         lftp -e "mirror -R -v -e -x .gitignore -x .github --delete-first ./ htdocs" -d ftpupload.net  
