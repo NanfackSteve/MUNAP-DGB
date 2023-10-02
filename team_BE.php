@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
-                <h5 class="mb-0">Mme ANKUONG Lucie </h5>
+                <h5 class="mb-0">Mme ANKUONG Lucie</h5>
                 <small>Secrétaire Général Adjoint</small>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
-                <h5 class="mb-0">Full Name</h5>
+                <h5 class="mb-0">M Mangoua Malette</h5>
                 <small>Trésorier Général</small>
             </div>
         </div>

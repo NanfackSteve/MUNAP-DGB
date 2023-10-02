@@ -108,13 +108,13 @@
                                 <div class="portfolio-overlay">
                                     <a class="btn btn-square btn-outline-light mx-1" href="img/dgb/capture14.jpg"
                                         data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
+                                    <a class="btn btn-square btn-outline-light mx-1" href="news_1.php"><i
                                             class="fa fa-link"></i></a>
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">General Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                                <p class="text-primary fw-medium mb-2">Palais des Congrès : 15 Juillet 2023</p>
+                                <h5 class="lh-base mb-0">Assemblée Générale Extraodinaire</a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/dgb/capture15.jpg" alt="" style="height: 250px;">
                                 <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-4.jpg"
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/dgb/capture15.jpg"
                                         data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href=""><i
                                             class="fa fa-link"></i></a>
@@ -140,7 +140,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/dgb/capture16.jpg" alt="" style="height: 250px;">
                                 <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-5.jpg"
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/dgb/capture16.jpg"
                                         data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href=""><i
                                             class="fa fa-link"></i></a>
@@ -157,7 +157,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/dgb/capture17.jpg" alt="" style="height: 250px;">
                                 <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-6.jpg"
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/dgb/capture17.jpg"
                                         data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href=""><i
                                             class="fa fa-link"></i></a>

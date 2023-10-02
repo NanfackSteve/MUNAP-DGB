@@ -48,7 +48,7 @@
                     <div class="col-lg-6 feature-text py-4 wow fadeIn" data-wow-delay="0.5s">
                         <div class="p-lg-5 ps-lg-0">
                             <div class="section-title text-start">
-                                <h1 class="display-5 mb-4">Why Choose Us</h1>
+                                <h2 class="display-5 mb-4">Assemblée Générale Extraodinaire</h2>
                             </div>
                             <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
                                 amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
@@ -72,40 +72,51 @@
         <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="section-title text-center">
-                    <h1 class="display-5 mb-5">Testimonial</h1>
+                    <h1 class="display-5 mb-5">Photos</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
-                            style="width: 90px; height: 90px;">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/dgb/capture0.jpg"
+                            style="height: 300px;">
                         <div class="testimonial-text text-center p-4">
                             <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
                                 Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
                                 justo sea clita.</p>
-                            <h5 class="mb-1">Client Name</h5>
-                            <span class="fst-italic">Profession</span>
+                            <h5 class="mb-1">Mme GOMO Flore</h5>
+                            <span class="fst-italic">Directeur Executif</span>
                         </div>
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
-                            style="width: 90px; height: 90px;">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/dgb/capture1.jpg"
+                            style="height: 300px;">
                         <div class="testimonial-text text-center p-4">
                             <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
                                 Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
                                 justo sea clita.</p>
-                            <h5 class="mb-1">Client Name</h5>
-                            <span class="fst-italic">Profession</span>
+                            <h5 class="mb-1">M. EDOU Alo'o Cyrill</h5>
+                            <span class="fst-italic">Pr Assemblée Général</span>
                         </div>
                     </div>
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
-                            style="width: 90px; height: 90px;">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/dgb/capture2.jpg"
+                            style="height: 300px;">
                         <div class="testimonial-text text-center p-4">
                             <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
                                 Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
                                 justo sea clita.</p>
-                            <h5 class="mb-1">Client Name</h5>
-                            <span class="fst-italic">Profession</span>
+                            <h5 class="mb-1">M. BEKOLO Francois Xavier</h5>
+                            <span class="fst-italic">Pr Commission Financière</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-3" src="img/dgb/capture3.jpg"
+                            style="height: 300px;">
+                        <div class="testimonial-text text-center p-4">
+                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.
+                                Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+                                justo sea clita.</p>
+                            <h5 class="mb-1">Mme MENGUELE Judith</h5>
+                            <span class="fst-italic">Secrétaire Général</span>
                         </div>
                     </div>
                 </div>
