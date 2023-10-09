@@ -31,4 +31,4 @@ jobs:
         
     - name: Deploy to InfinityFree
       run: |
-        lftp -e "mirror -R -e -x .gitignore -x scss -x .github --delete-first ./ htdocs/" -d ftpupload.net  
+        lftp -e "mirror -R -e -x .gitignore -x scss -x .git --delete-first ./ htdocs/" -d ftpupload.net  
