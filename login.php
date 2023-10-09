@@ -21,7 +21,7 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -37,7 +37,12 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/login.css">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -83,7 +88,9 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
                                         <div class="text-center pt-1 mb-5 pb-1">
                                             <button style="width:100%; background: #AB7442; " class="btn btn-block text-white fa-lg mb-3" type="submit"><b>Connexion</b>
                                             </button><br>
-                                            <a class="text-muted" href="#!">Mot de passe oublié ?</a>
+                                            <!-- <a class="text-muted" href="#!">Mot de passe oublié ?</a> -->
+                                            <div class="wow fadeInUp text-center mt-4"><a class="fw-medium " href="index.php">Aller sur le Site Web
+                                                    <i class="fa fa-arrow-right ms-2"></i></a></div>
                                         </div>
 
                                     </form>
@@ -94,13 +101,6 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
                                 <div class="text-white px-3 py-4 p-md-5 mx-md-4">
                                     <h4 class="font-verdana mb-4">Mutuelle Nationale du Personel
                                         de la Direction Générale du Budget</h4>
-                                    <!-- <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                            sed do
-                                            eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                            quis
-                                            nostrud
-                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
                                 </div>
                             </div>
                         </div>
