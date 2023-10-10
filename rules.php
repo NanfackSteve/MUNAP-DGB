@@ -45,14 +45,20 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header-about py-5 mb-5">
             <div class="container py-5">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">REGLEMENT INTERIEUR <br>DE LA MUNAP - DGB
+                <h1 class="display-3 text-white mb-3 animated slideInDown">REGLEMENT INTERIEUR DE LA<br>MUNAP - DGB
                 </h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-1">Titre I</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-2">Titre II</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-3">Titre III</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-4">Titre IV</a></li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#chap-1">Chap I</a></li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#chap-2">Chap II</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#chap-3">Chap III</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#chap-4">Chap IV</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#chap-5">Chap V</a></li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#chap-6">Chap VI</a>
+                        </li>
                     </ol>
                 </nav>
             </div>
@@ -60,14 +66,14 @@
         <!-- Page Header End -->
 
         <!-- Resume Start -->
-        <div class="container border border-2 rounded-3 mb-3">
+        <!-- <div class="container border border-2 rounded-3 mb-3">
             <p>Le site web de la direction générale du budget vise à renforcer les contacts avec les fonctionnaires,
                 d’une part, et avec les utilisateurs de l’administration, d’autre part, afin de faciliter les procédures
                 administratives. Cette volonté se traduit par l’ergonomie du site Web qui permet un accès fluide au
                 contenu et dans les deux langues officielles, soit le français et l’anglais. Vous pourrez également
                 consulter les textes et lois en vigueur, les procédures administratives ainsi que toute l’actualité
                 budgétaire.</p>
-        </div>
+        </div> -->
         <!-- Resume End -->
 
         <!-- Sommaire Start -->
@@ -76,7 +82,7 @@
             <div class="row my-3 justify-content-center">
                 <div class="col-lg-1"></div>
                 <div class="col-md-6 col-lg-10 align-self-center">
-                    <?php include_once("summary.php"); ?>
+                    <?php include_once("rules_summary.php"); ?>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -88,657 +94,604 @@
 
         <div class="container my-3">
 
-            <!-- TITRE I Start -->
+            <!-- CHAPITRE I Start -->
 
-            <span id="title-1"></span>
+            <span id="chap-1"></span>
             <div class="px-md-1">
-                <h3 class="bg-dark text-light rounded-3 display-5 text-center my-5 px-1">TITRE I : <br>DES DISPOSITIONS
-                    GENERALES
+                <h3 class="bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE I : <br>DES
+                    DISPOSITIONS
+                    GÉNÉRALES
                 </h3>
             </div>
 
-            <!-- TITRE I - CHAP I -->
-
-            <span id="title1-chap1"></span>
-            <h2 class="title-article my-4">Chapitre I : DE LA CREATION ET DU SIEGE</h2>
+            <!-- <span id="title1-chap1"></span>
+            <h2 class="title-article my-4">Chapitre I : DE LA CREATION ET DU SIEGE</h2> -->
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 1er : </a></h4>
-                <p>Il est créé pour une durée illimitée, entre les personnels en activité dans les services centraux et
-                    déconcentrés de la Direction Générale du Budget, sans distinction d'âge, de grade, de statut, de
-                    sexe ou de réligion, une association de secours mutuel, dénomée "Mutuelle Nationale des Personnels
-                    de la Direction Générale du Budget", en abrégé <b>"MUNAP-DGB"</b>, ci-après désignée la
-                    <b>"Mutuelle"</b>.
+                <p>Le présent règlement intérieur fixe les modalités d’application des Statuts de la Mutuelle Nationale
+                    des personnels de la Direction Générale du Budget, ci-après désignée la “Mutuelle”, et détermine les
+                    conditions de fonctionnement de celle-ci.
                 </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 2 : </a></h4>
                 <p>
-                <ol>
-                    <li>La Mutuelle est apolitique.</li>
-                    <li>Son siège social est fixé à Yaoundé.</li>
-                </ol>
+                    La mutuelle est régie par les principes énoncés dans ses Statuts et le présent Règlement Intérieur.
                 </p>
             </div>
-
-            <!-- TITRE I - CHAP II -->
-
-            <span id="title1-chap2"></span>
-            <h2 class="title-article mt-4 mb-3">Chapitre II : DE L'OBJET</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 3 : </a></h4>
-                <p>La Mutuelle a pour objet de créer, d'entretenir et de promouvoir des liens de solidarité et
-                    d'entraide entre ses membres en cas d'évènement malheureux ou heureux. A cet effet :
+                <p>
+                    Tout membre de la Mutuelle s’engage à poursuivre activement les objectifs énoncés dans les Statuts
+                    et à respecter les décisions des organes dirigeants de la Mutuelle.
+                </p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 4 : </a></h4>
+                <p>
                 <ol>
-                    <li>Elle organise pour les membres, des réunions, des manifestations culturelles ou des spectacles ;
-                    </li>
-                    <li>Dans les conditions fixées par les présents statuts :
-                        <ol type="a">
-                            <li>elle verse une allocation aux membres dans les cas suivants :</li>
-                            <ul>
-                                <li>décès du conjoint, d'un ascendant ou d'un descendant direct du membre ; </li>
-                                <li>obsèques en cas de décès d'un membre ;</li>
-                                <li>mariage, accouchement, décoration et départ à la retraite. </li>
-                            </ul>
-                            <li>elle participe, en partie ou en totalité, au remboursement des frais médicaux et
-                                pharmaceutiques dans les conditions fixées par les présents statuts. </li>
-                            <li>elle peut accorder une avance exceptionnelle aux membres actifs, en cas de maladie grave
-                                ou de longue durée, d'intervention chirurgicale ou hospitalisation.</li>
-                        </ol>
-                    </li>
+                    <li>L’adhésion à la Mutuelle s’effectue par le paiement auprès du Trésorier Général des droits
+                        d’adhésion.</li>
+                    <li>Après adhésion, tout membre est astreint au paiement régulier d’une cotisation mensuelle dont le
+                        montant est fixé par les Statuts.</li>
                 </ol>
                 </p>
             </div>
 
-            <!-- TITRE I End -->
+            <!-- CHAPITRE I End -->
         </div>
 
 
 
         <div class="container">
 
-            <!-- TITRE II Start -->
+            <!-- CHAPITRE II Start -->
 
-            <span id="title-2"></span>
+            <span id="chap-2"></span>
             <div class="mx-0">
-                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">TITRE II : <br>DE
-                    L'ORGANISATION ET DU
-                    FONCTIONNEMENT </h3>
+                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE II : <br>DU
+                    FONCTIONNEMENT DES ORGANES D’ADMINISTRATION DE LA MUTUELLE</h3>
             </div>
 
-            <!-- TITRE II - CHAP I -->
+            <!-- CHAP II - SECTION I -->
 
-            <span id="title2-chap1"></span>
-            <h2 class="title-article mt-5 mb-3">Chapitre I : DE LA QUALITE DE MEMBRE</h2>
-            <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 4 : </a></h4>
-                <p>La mutuelle comprend :
-                <ul>
-                    <li>Des membres honoraires ;</li>
-                    <li>Des membres bienfaiteurs ;</li>
-                    <li>Des membres actifs, ci-après désignés les "membres"</li>
-                </ul>
-                </p>
-            </div>
+            <span id="chap2-sect1"></span>
+            <h2 class="title-article mt-5 mb-3">Section I : DE L'ASSEMBLÉE GÉNÉRALE </h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 5 : </a></h4>
-                <p>A la qualité de membre honoraire ou de membre bienfaiteur toute personne physique ou morale qui, sans
-                    bénéficier des avantages de la Mutuelle, contribue à la prospérité de celle-ci par des contributions
-                    ou prestations de toutes sortes.</p>
+                <p>
+                <ol>
+                    <li>Les convocations aux sessions de l’Assemblée Générale ordinaire sont adressées aux membres au
+                        moins un (1) mois avant ladite session.</li>
+                    <li>Les convocations aux sessions de l’Assemblée Générale extraordinaire sont adressées quinze (15)
+                        jours au moins avant la date de la session, ce délai pouvant être réduit à cinq (5) jours en cas
+                        d’urgence.</li>
+                </ol>
+                </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 6 : </a></h4>
-                <p>Est membre actif tout personnel en activité dans les services centraux ou déconcentrés de la
-                    Direction Générale du Budget, qui adhère aux présents statuts, verse un droit d’adhésion et
-                    s’acquitte régulièrement de ses cotisations dûes.</p>
+                <p>L’ordre du jour ainsi que les documents de travail en vue d’une Assemblée Générale ordinaire ou
+                    extraordinaire sont remis aux membres en même temps que les convocations.
+                </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 7 : </a></h4>
-                <p>Demeurent membres actifs, à condition de continuer à s’acquitter des cotisations dûes :
-                <ul>
-                    <li>Les personnes visées à l’article 6 ci-dessus en position de détachement, de disponibilité ou
-                        admis à faire valoir leurs droits à la retraite et ayant adhéré à la Mutuelle six (6) mois avant
-                        leur départ.</li>
-                </ul>
-                </p>
-            </div>
-            <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 8 : </a></h4>
-                <p>La qualité de membre se perd par :
-                <ul>
-                    <li>La démission ;</li>
-                    <li>La suspension ;</li>
-                    <li>La radiation ;</li>
-                    <li>Le décès.</li>
-                </ul>
-                Les modalités d’application sont déterminées par le règlement intérieur.
-                </p>
-            </div>
-
-            <!-- TITRE II - CHAP II -->
-
-            <span id="title2-chap2"></span>
-            <h2 class="title-article mt-5 mb-3">Chapitre II : DE L'ADMINISTRATION</h2>
-            <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 9 : </a></h4>
-                <p>L’administration de la Mutuelle est assurée par les organes ci-après :
-                <ul>
-                    <li>L’assemblée Générale ;</li>
-                    <li>Le conseil d’administration ;</li>
-                    <li>Le bureau exécutif ;</li>
-                    <li>La commission financière.</li>
-                </ul>
-                </p>
-            </div>
-
-            <!-- TITRE II - CHAP II - SECTION I -->
-
-            <span id="title2-chap2-sect1"></span>
-            <h2 class="title-section mt-5 mb-3">Section I : De l'Assemblée Générale</h2>
-            <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 10 : </a></h4>
                 <p>
                 <ol>
-                    <li>L’Assemblée Générale est l’instance suprême de la Mutuelle.</li>
-                    <li>Elle comprend tout le personnel de la Direction Général du Budget, membre actif au sens des
-                        articles 4,-et 7 ci-dessus.</li>
                     <li>Les travaux de l’Assemblée Générale sont présidés par le Directeur Général du Budget.</li>
                     <li>Le Directeur Exécutif rapporte les affaires inscrites à l’ordre du jour.</li>
                 </ol>
                 </p>
             </div>
             <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 8 : </a></h4>
+                <p>
+                <ol>
+                    <li>Le Directeur Exécutif présente à l’Assemblée Générale le rapport d’activités du Bureau Exécutif
+                        (Administratif et financier).</li>
+                </ol>
+                </p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 9 : </a></h4>
+                <p>L’Assemblée Générale entend d’une manière générale, les comptes rendus inscrits à l’ordre du jour et
+                    en débat.
+                </p>
+                <p>Elle constitue des commissions chargées de la préparation de ses décisions sous forme de résolutions
+                    ou de recommandations.</p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 10 : </a></h4>
+                <p>Les rapports des commissions et les projets de résolution ou de recommandations sont soumis aux
+                    débats et à l’adoption de l’Assemblée Générale en séance plénière.
+                </p>
+            </div>
+
+            <!-- CHAPITRE II - SECTION II -->
+
+            <span id="chap2-sect2"></span>
+            <h2 class="title-article mt-5 mb-3">Section II : DU CONSEIL D’ADMINISTRATION</h2>
+
+            <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 11 : </a></h4>
-                <p>L’Assemblée Générale est chargée :
-                <ul>
-                    <li>De définir les grandes orientations de la Mutuelle ;</li>
-                    <li>D’élire les membres de conseil d’Administration ;</li>
-                    <li>D’élire les membres de la commission financière ;</li>
-                    <li>D’élire les membres du bureau exécutif ;</li>
-                    <li>D’adopter et de modifier les statuts et le règlement intérieur.</li>
-                </ul>
+                <p>
+                    Les membres du Conseil d’Administration sont élus par bulletin secret, au scrutin uninominal à un
+                    tour. En cas d’égalité de vote, il est organisé un second tour.
                 </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 12 : </a></h4>
                 <p>
                 <ol>
-                    <li>L’Assemblée Générale se tient une fois par an au siège de la Mutuelle en session ordinaire sur
-                        convocation de son président ou sur la demande des 2/3 de ses membres.
-                        <br>Les décisions sont prises à la majorité simple des membres présents ou représentés. En cas
-                        d’égalité de voix, celle du président est prépondérante.
-                    </li>
-                    <li>Elle peut également se réunir en cas de nécessité en session extraordinaire sur convocation de
-                        son Président ou à la demande des 2/3 de ses membres <br>
-                        Dans ce cas, les décisions sont prises à la majorité des 2/3 des membres présents ou
-                        représentés.</li>
-                    <li>Chaque membre a droit à une voix en cas de vote. Aucun membre ne peut être porteur de plus d’un
-                        mandat de représentation.</li>
-                    <li>Elle ne peut siéger et délibérer valablement que si les ¾ de ses membres sont présents ou
-                        représentés.</li>
+                    <li>Nul ne peut être élu membre du Conseil d'Administration <b>s'il n'est à jour de ses cotisations
+                            annuelles</b> auprès de la Mutuelle.</li>
+                    <li>Tout membre élu qui perd la qualité pour siéger au sein du Conseil d'Administration est remplacé
+                        par l'Assemblée Générale. Dans ce cas, le nouveau membre est élu pour la durée du mandat restant
+                        à courir.</li>
+                    <li>Nonobstant les dispositions qui précèdent, il n'est point procédé au remplacement d'un membre
+                        élu lorsque la durée du mandat restant à courir de ce dernier est inférieure à un (1) an.</li>
                 </ol>
                 </p>
             </div>
-
-            <!-- TITRE II - CHAP II - SECTION II -->
-
-            <span id="title2-chap2-sect2"></span>
-            <h2 class="title-section mt-5 mb-3">Section II : Du Conseil d'Administration</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 13 : </a></h4>
                 <p>
                 <ol>
-                    <li>Le conseil d’Administration de la Mutuelle comprend 10 (dix) membres élus répartis par collège
-                        comme suit :
-                        <ul>
-                            <li>Collège des Contrôleurs régionaux des finances : 1 membre</li>
-                            <li>Collège des Contrôleurs départementaux des finances : 1 membre</li>
-                            <li>Collège des Directeurs et chef de division : 1 membre</li>
-                            <li>Collège des sous directeurs : 1membre </li>
-                            <li>Collège des Contrôleurs financiers centraux et spécialisés : 1 membre ;</li>
-                            <li>Collège des chefs service : 1 membre ;</li>
-                            <li>Collège des cadres: 1 membre </li>
-                            <li>Collège des agents: 1 membre </li>
-                            <li>Collège des retraités: 1 membre.</li>
-                        </ul>
-                        Les membres du conseil d’administration sont élus pour un mandat de deux ans renouvelable.
+                    <li>Les convocations aux sessions du Conseil d'Administration sont adressées aux membres au moins
+                        quinze (15) jours avant ladite session. Toutefois ce délai peut être réduit à trois (3) jours au
+                        moins en cas d'urgence.
                     </li>
-                    <li>le conseil d’administration élit en son sein son président, a la majorité de 2/3 des membres
-                        présents ou représentés. En cas de pluralité de de candidature et qu’il faille recourir à un
-                        second tour, la majorité simple suffit pour départager les deux candidats ayant obtenu le plus
-                        grand nombre de suffrages.</li>
-                    <li>Le conseil d’administration se réunit au moins deux (2) fois par an et sur convocation de son
-                        président. Il peut se réunir en session extraordinaire sur convocation de son Président ou sur
-                        demande de la moitié de ses membres.
-                        <br><br>Dans tous les cas, il est tenu de siéger avant chaque session de l’assemblée Générale.
-                    </li>
-                    <li>la fonction de membre du conseil d’administration est gratuite. Toutefois, les administrateurs
-                        bénéficient des dépenses occasionnées par les sessions, sur présentation des pièces
-                        justificatives.</li>
+                    <li>L'ordre du jour et les documents de travail sont remis aux membres en même temps que les
+                        convocations.</li>
                 </ol>
                 </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 14 : </a></h4>
-                <p>le conseil d’administration dispose des pouvoirs les plus étendus pour évaluer la gestion de la
-                    mutuelle. A ce titre, il est chargé notamment :
-                <ul>
-                    <li>De fixer le programme d’action de la mutuelle ;</li>
-                    <li>D’adopter le budget de la mutuelle ;</li>
-                    <li>D’adopter les rapports les d’activités ;</li>
-                    <li>D’arrêter de manière définitive les comptes et les états financiers annuels (administratif et de
-                        gestion) ;</li>
-                    <li>D’adopter les projets d’ordre du jour de l’assemblée général ainsi que tous les documents soumis
-                        à cette instance ; </li>
-                </ul>
+                <p>
+                <ol>
+                    <li>Le Conseil d'Administration ne peut valablement siéger et délibérer que si les 2/3 au moins de
+                        ses membres sont présents ou représentés.<br />
+                        Chaque membre a droit à une voix en cas de vote.
+                    </li>
+                    <li>Les décisions sont prises à la majorité simple des membres présents ou représentés. En cas
+                        d'égalité des voix, celle du Président est prépondérante.</li>
+                </ol>
                 </p>
             </div>
-
-            <!-- TITRE II - CHAP II - SECTION III -->
-
-            <span id="title2-chap2-sect3"></span>
-            <h2 class="title-section mt-5 mb-3">Section III : Du Bureau Exécutif</h2>
-
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 15 : </a></h4>
                 <p>
                 <ol>
-                    <li>Le bureau exécutif est l’organe de <b>gestion</b> de la mutuelle.</li>
-                    <li>Il comprend :
-                        <ul>
-                            <li>Un directeur exécutif ;</li>
-                            <li>Un secrétaire général ;</li>
-                            <li>Un service général adjoint ;</li>
-                            <li>Un trésorier général ;</li>
-                            <li>Un trésorier général adjoint.</li>
-                        </ul>
+                    <li>Le Directeur Exécutif rapporte les affaires inscrites à l'ordre du jour des travaux du Conseil
+                        d'Administration.
                     </li>
-                    <li>Le bureau exécutif est représenté localement par les délégations régionales composer de :
-                        <ul>
-                            <li>Un délégué ;</li>
-                            <li>Un secrétaire ;</li>
-                            <li>Un trésorier.</li>
-                        </ul>
-                    </li>
-                    <li>Les membre du bureau exécutif sont élus pour une période de deux(2) ans renouvelable par
-                        l’assemblée générale.</li>
+                    <li>Le Secrétaire Général en assure le secrétariat. </li>
                 </ol>
                 </p>
             </div>
+
+            <!-- CHAPITRE II - SECTION III -->
+
+            <span id="chap2-sect3"></span>
+            <h2 class="title-article mt-5 mb-3">Section III : DU BUREAU EXÉCUTIF</h2>
+
+            <!-- CHAPITRE II - SECTION III - PARAGRAPHE I -->
+            <span id="chap2-sect3-para1"></span>
+            <h2 class="title-section mt-5 mb-3">Paragraphe I : Du Directeur Exécutif</h2>
+
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 16 : </a></h4>
                 <p>
                 <ol>
-                    <li>Les membre du bureau exécutif sont solidaires dans la gestion de la mutuelle.</li>
-                    <li>Le bureau exécutif se réunit au moins une fois par mois et aussi souvent que l’exigent les
-                        circonstances sure convocation du directeur exécutif pour débattre a des problèmes lies a la
-                        gestion de la mutuelle et à l’accomplissement de leurs fonctions.</li>
-                    <li>Le secrétaire générale rapporte les affaires inscrites à l’ordre du jour des réunions du bureau
-                        exécutif que convoque et préside le directeur exécutif.
-                        <br>En dehors du directeur exécutif ; leurs attributions sont précisées par le règlement
-                        intérieur
+                    <li>Le Directeur Exécutif représente la Mutuelle dans tous les actes de la vie civile et en justice.
+                        A ce titre notamment, il :
+                        <ul>
+                            <li>convoque et préside les réunions du Bureau Exécutif; </li>
+                            <li>est l'ordonnateur du budget de la Mutuelle; </li>
+                            <li>propose au Conseil d'Administration toutes mesures nécessaires au bon fonctionnement de
+                                la Mutuelle ;</li>
+                            <li>rapporte les affaires inscrites à l'ordre du jour de l'Assemblée Générale et du Conseil
+                                d'Administration. </li>
+                        </ul>
                     </li>
-                    <li>Le bureau exécutif peut déléguer certaines de ses attributions aux délégations régionales. Le
-                        délégué régional rend comte, en tant que de besoin de l’utilisation de cette délégation.</li>
+                    <li>En cas d’absence ou d'empêchement du Directeur Exécutif, le Secrétaire Général assure l'intérim.
+                    </li>
                 </ol>
                 </p>
             </div>
 
-            <!-- TITRE II - CHAP II - SECTION III - PARAGRAPH I -->
+            <!-- CHAPITRE II - SECTION III - PARAGRAPHE II -->
+            <span id="chap2-sect3-para2"></span>
+            <h2 class="title-section mt-5 mb-3">Paragraphe II : Du Secrétaire Général et du Secrétaire Général Adjoint
+            </h2>
 
-            <h2 class="title-paragraph mt-5 mb-3">Paragraphe I : Du Directeur Exécutif</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 17 : </a></h4>
                 <p>
                 <ol>
-                    <li>le directeur exécutif représente la mutuelle dans tous les actes de la vie civile et en justice.
-                        A ce titre notamment, il :
+                    <li>Le Secrétaire Général, assisté du Secrétaire Général Adjoint, coordonne sous l'autorité du
+                        Directeur Exécutif, les activités de la Mutuelle. A ce titre notamment, il :
                         <ul>
-                            <li>Convoque et préside les réunions du bureau exécutif ;</li>
-                            <li>Est l’ordonnateur du budget de la mutuelle ;</li>
-                            <li>Propose au conseil d’administration toutes mesures nécessaires au bon fonctionnement de
-                                la mutuelle ;</li>
-                            <li>Rapporte les affaires inscrites à l’ordre du jour de l’assemblée générale et du conseil
-                                d’administration.</li>
+                            <li>tient les registres du courrier ; </li>
+                            <li>tient le registre d'immatriculation des adhérents; </li>
+                            <li>prépare avec le Directeur Exécutif la tenue des Assemblée Générales, du Conseil
+                                d'Administration et du Bureau Exécutif dont il assure par ailleurs le secrétariat ;</li>
+                            <li>assure la rédaction des procès-verbaux et des délibérations de l'Assemblée Générale, du
+                                Conseil d'Administration et du Bureau Exécutif; </li>
+                            <li>est le responsable de la communication de la Mutuelle ;</li>
+                            <li>conserve les archives de la Mutuelle ; </li>
+                            <li>élabore le compte de gestion de la Mutuelle.</li>
                         </ul>
                     </li>
-                    <li>Rapporte les affaires inscrites à l’ordre du jour de l’assemblée générale et du conseil
-                        d’administration</li>
+                    <li>En cas d’absence ou d'empêchement du Secrétaire Général, le Secrétaire Général Adjoint assure
+                        l'intérim.</li>
                 </ol>
                 </p>
             </div>
 
-            <!-- TITRE II - CHAP II - SECTION III - PARAGRAPH II -->
+            <!-- CHAPITRE II - SECTION III - PARAGRAPHE III -->
+            <span id="chap2-sect3-para3"></span>
+            <h2 class="title-section mt-5 mb-3">Paragraphe III : Du Trésorier Général et du Trésorier Général Adjoint
+            </h2>
 
-            <h2 class="title-paragraph mt-5 mb-3">Paragraphe II : Des Délégations Régionales</h2>
+
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 18 : </a></h4>
                 <p>
                 <ol>
-                    <li>La mutuelle est représentée hors de Yaoundé par des délégations régionales chargées d’assister
-                        le bureau exécutif dans l’accomplissement de ses missions.</li>
-                    <li>Les membres de la délégation régionale sont élus par une assemble locale pour durer deux ans
-                        renouvelable.</li>
-                    <li>Chaque délégation régionale comprend :
+                    <li>Le Trésorier Général, assisté du Trésorier Général Adjoint, assure sous l’autorité du Directeur
+                        Exécutif, les encaissements et les décaissements des ressources de la Mutuelle. A ce titre
+                        notamment, il :
                         <ul>
-                            <li>Un délégué régional ;</li>
-                            <li>Un secrétaire régional ;</li>
-                            <li>Un trésorier régional.</li>
+                            <li>détient les livres de caisse, de banques, des recettes et de dépenses; </li>
+                            <li>adresse chaque mois un rapport financier au Directeur Exécutif récapitulant les
+                                différentes opérations de recettes et de dépenses;</li>
+                            <li>tient la comptabilité de la Mutuelle. </li>
+                            <li>élabore le compte de gestion en fin d'exercice.</li>
                         </ul>
-                        Leurs attributions sont précisées par le règlement intérieur.
+                    </li>
+                    <li>En cas d'absence ou d'empêchement du Trésorier Général, le Trésorier Général Adjoint assure
+                        l'intérim. </li>
+                    <li>
+                        <p>Le Trésorier Général, le Trésorier Général Adjoint et les Trésoriers régionaux doivent
+                            présenter un engagement matérialisé par un acte notarié autorisant la Mutuelle à opérer une
+                            saisie sur leurs biens meubles ou immeubles.</p>
+                        <p>Cette saisie est mise en œuvre en cas de déficit de caisse dûment établie par la Commission
+                            Financière et approuvée par le Conseil d'Administration. </p>
                     </li>
                 </ol>
                 </p>
             </div>
 
-            <!-- TITRE II - CHAP II - SECTION IV -->
+            <!-- CHAPITRE II - SECTION III - PARAGRAPHE IV -->
+            <span id="chap2-sect3-para4"></span>
+            <h2 class="title-section mt-5 mb-3">Paragraphe IV : Des Délégations Régionales</h2>
 
-            <span id="title2-chap2-sect4"></span>
-            <h2 class="title-section mt-5 mb-3">Section IV : De la Commission Financière</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 19 : </a></h4>
                 <p>
                 <ol>
-                    <li>La Commission Financière comprend :
+                    <li>Le Délégué régional représente le Bureau Exécutif dans sa circonscription. A ce titre,
+                        notamment, il :
                         <ul>
-                            <li>Un Président</li>
-                            <li>Un Rapporteur</li>
-                            <li>Un Membre</li>
-
+                            <li>veille à la bonne marche et à l’expansion de la Mutuelle ;</li>
+                            <li>adresse un rapport trimestriel d’activités au Directeur Exécutif.</li>
                         </ul>
                     </li>
-                    <li>Elle est élue pour une période de deux (02) ans renouvelable, par Assemblée Général au scrutin
-                        de liste majoritaire a un tour.
-                        <br>Leurs attributions sont précisées par le règlement intérieur.
-                    </li>
+                    <li>Le Secrétaire régional est chargé de la tenue du registre des membres de la Province, de la
+                        rédaction des rapports et procès-verbaux ainsi que de la conservation des archives.</li>
+                    <li>Le Trésorier régional encaisse les adhésions et les cotisations des membres et les reverse dans
+                        un compte ouvert dans une institution bancaire de la place au nom de la Mutuelle.</li>
+                    <li>Le Bureau Exécutif peut déléguer certaines de ses attributions à la Délégation Régionale. Le
+                        Délégué régional rend compte, en tant que de besoin, de l'utilisation de cette délégation.</li>
                 </ol>
                 </p>
             </div>
 
-            <!-- TITRE II End -->
-        </div>
+            <!-- CHAPITRE II - SECTION IV -->
 
+            <span id="chap2-sect4"></span>
+            <h2 class="title-article mt-5 mb-3">Section IV : DE LA COMMISSION FINANCIÈRE</h2>
 
-
-        <div class="container">
-
-            <!-- TITRE III Start -->
-
-            <span id="title-3"></span>
-            <div class="mx-0">
-                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">TITRE III : <br>DES
-                    DISPOSITIONS FINANCIERES</h3>
-            </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 20 : </a></h4>
-                <p>L’exercice financier de la Mutuelle court du 1er janvier au 31 décembre.</p>
+                <p>
+                <ol>
+                    <li>Les membres de la Commission Financière sont élus en même temps que ceux du Conseil
+                        d'Administration.</li>
+                    <li>Ils sont rééligibles et doivent remplir les mêmes conditions d'éligibilité que celles exigées
+                        aux membres du Conseil d'Administration. </li>
+                    <li>L'Assemblée Générale est garante de leur indépendance.</li>
+                </ol>
+                </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 21 : </a></h4>
-                <p>La gestion financier et comptable de la mutuelle est soumise aux règles de la comptabilité privée.
+                <p>
+                <ol>
+                    <li>
+                        La Commission Financière assure la fonction de commissariat aux Comptes. A cet effet :
+                        <ul>
+                            <li>elle examine la conformité des dépenses effectuées et des recettes encaissées en rapport
+                                avec les objectifs statutaires de la Mutuelle ; </li>
+                            <li>elle effectue toute mission de contrôle à elle confiée par l'Assemblée Générale ou le
+                                Conseil d'Administration </li>
+                        </ul>
+                    </li>
+                    <li>Elle a le droit de contrôle sur place ou sur pièces.</li>
+                </ol>
                 </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 22 : </a></h4>
-                <p>Les ressources et emplois sont inscrits dans un budget présenté en équilibre.</p>
-            </div>
-
-            <!-- TITRE III - CHAP I -->
-
-            <span id="title3-chap1"></span>
-            <h2 class="title-article mt-5 mb-3">Chapitre I : DES RESSOURCES</h2>
-            <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 23 : </a></h4>
-                <p>Les ressources de la Mutuelle proviennent :
-                <ul>
-                    <li>Des souscriptions des membres bienfaiteurs et honoraires.</li>
-                    <li>Des droits d’adhésion ;</li>
-                    <li>Des cotisations mensuelles des membres,</li>
-                    <li>Des produits financiers des fonds place ou déposer auprès des établissements financiers ;</li>
-                    <li>Des produits divers : produits des œuvres artistiques et des manifestations culturelles et
-                        sportives organisées par la Mutuelle.</li>
-                </ul>
+                <p>
+                    La Commission Financière donne son avis sur le compte de gestion de la Mutuelle avant adoption.
                 </p>
             </div>
             <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 24 : </a></h4>
+                <h4><a style="color: #353535;" href="#">Article 23 : </a></h4>
                 <p>
-                <ol type="1">
-                    <li>Il est ouvert au nom de la Mutuelle, un ou plusieurs comptes bancaires au siège et dans les
-                        délégations régionales.
-                        <br>A l’ouverture du compte trois signatures sont déposées : celle du Directeur Exécutif, celle
-                        du trésorier général et celle du secrétaire général.
-                        <br>Dans les délégations régionales, celle du Délégué, du trésorier et du secrétaire.
-                    </li>
-                    <li>Tout retrait d’argent requiert obligatoirement une double signature. Celle du Directeur Exécutif
-                        et du Trésorier Général. En ces d’empêchement de l’une de ces deux personnes, celle du
-                        Secrétaire général. </li>
-                    <li>Dans les délégations régionales, celles du délégué et du trésorier. En cas d’empêchement de
-                        l’une de ces deux personnes, celle du secrétaire général.</li>
-                </ol>
+                    La Commission Financière peut être saisie directement par un membre qui estime qu'une disposition
+                    des textes de la Mutuelle a été perdue de vue ou bien lorsqu'il soupçonne le flou dans la gestion.
+                </p>
+            </div>
+
+            <!-- CHAPITRE II End -->
+        </div>
+
+
+
+        <div class="container">
+
+            <!-- CHAPITRE III Start -->
+
+            <span id="chap-3"></span>
+            <div class="mx-0">
+                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE III :
+                    <br>DISPOSITIONS DISCIPLINAIRE
+                </h3>
+            </div>
+
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 24 : </a></h4>
+                <p>Les lettres de démission sont adressées au Président du Conseil d'Administration. La démission est
+                    entérinée par le Conseil d'Administration.
                 </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 25 : </a></h4>
-                <p>
-                <ol>
-                    <li>Les droits d’adhésion et de cotisations sont fixes de la manière suivante :</li>
-                    <ul><b>Adhésion</b> :
-                        <li>Agents Décisionnaires : 10 000F</li>
-                        <li>Agent Contractuel : 15 000F</li>
-                        <li>Cadres : 20 000F</li>
-                        <li>Chef de Service : 30 000F</li>
-                        <li>Sous-Directeur : 50 000F</li>
-                        <li>Chef de Division : 75 000F</li>
-                        <li>Directeur : 100 000F</li>
-                        <li>Directeur Général : PM</li>
-                    </ul>
-                    <ul>
-                        <b>Cotisation annuelle</b> :
-                        <li>Membre ayant rang de sous-Directeur et plus : 3 000 F  par mois soit 36 000F par an ;</li>
-                        <li>Membre responsables jusqu’au rang de Chef de service : 2 500 F par mois soit 30 000 F par
-                            an ;</li>
-                        <li>Cadre et Contractuels : 2 000 F par mois soit 24 000 F par an ;</li>
-                        <li>Agents Décisionnaires : 1 500 F par mois soit 18 000 F par an ;</li>
-                        <li>Retraites : cadres et responsables : 1 500 F par mois soit 18 000 F par an ;</li>
-                        <li>Agents : 1 000 F par mois soit 12 000 F par an ;</li>
-                        <li>Conjoint : 2/3 du montant de la cotisation du membre ;</li>
-                        <li>Enfant : 1/3 de la Cotisation du membre ;</li>
-                        <li>Parent : 1/3 de la cotisation du membre.</li>
-                    </ul>
-                    <b>Le montant annuel de la cotisation doit etre versé au plus tard le 30 juin de l’année en
-                        cours.</b>
-                </ol>
-                </p>
+                <p>Les décisions de suspension sont prises par le Directeur Exécutif, après délibération du Bureau
+                    Exécutif. </p>
+                <p>Toutefois, le membre mis en cause peut former un recours auprès du Conseil d'Administration qui
+                    tranche dans ce cas en dernier ressort.</p>
             </div>
-
-            <!-- TITRE III - CHAP II -->
-
-            <span id="title3-chap2"></span>
-            <h2 class="title-article mt-5 mb-3">Chapitre II : DES EMPLOIS</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 26 : </a></h4>
-                <p>
-                <ol>
-                    <li>Les emplois comprennent : <ul>
-                            <li>Les charges de la gestion de la Mutuelle ;</li>
-                            <li>Les charges d’assistance ci-après ;</li>
-                            <li>L’allocation de décès :</li>
-                        </ul>
-                    </li>
-                    <li>Seuls peuvent prétendre aux prestations ci-dessus les membres a jour de leurs cotisation.</li>
-                    <li>Le bénéfice des avantages de la mutuelle court trente (30) jours après la date d’adhésion au
-                        prorata de la cotisation.</li>
-                </ol>
+                <p>L'auto suspension est constatée par le Bureau Exécutif après le non paiement des cotisations
+                    annuelles pendant une période de trois (3) mois.<br />
+                    Une lettre constatant l'auto suspension est adressée à l'intéressé par le Directeur Exécutif.
                 </p>
             </div>
-
-            <!-- TITRE III - CHAP II - SECTION I -->
-
-            <span id="title3-chap2-sect1"></span>
-            <h2 class="title-section mt-5 mb-3">Section I : De l'Allocation de Décès</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 27 : </a></h4>
-                <p>
-                <ol>
-                    <li>A l’occasion du décès d’un membre, de son conjoint, d’un parent, d’un enfant au sens de la
-                        législation sur les prestations familiales, la mutuelle verse des allocations fixées de la
-                        matière suivante : <ul>
-                            <li>Membre : 300 000 F + 1 couronne de 50 000 F</li>
-                            <li>Conjoint : 200 000 F</li>
-                            <li>Parents : 100 000 F</li>
-                            <li>Enfant : 50 000 F.</li>
-                        </ul>
-                    </li>
-                </ol>
-                </p>
+                <p>Pendant la période de suspension, un membre mis en cause perd le droit aux avantages accordés par la
+                    Mutuelle. </p>
+                <p>Un membre suspendu pour non paiement de ses cotisations ne peut être réadmis qu'après paiement de
+                    toutes ses cotisations dues, y compris celles échues pendant la période de suspension.</p>
             </div>
-
-            <!-- TITRE III - CHAP II - SECTION II -->
-
-            <span id="title3-chap2-sect2"></span>
-            <h2 class="title-section mt-5 mb-3">Section II : Remboursement des Frais d'Hôspitalisation,
-                Médicaux et/ou Pharmaceutiques</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 28 : </a></h4>
-                <p>
-                <ol>
-                    <li>Les frais de séjour d’un adhérent ou d’un membre de sa famille au sens de la législation sur les
-                        prestations familiales, dans une formation sanitaire agrée par le Conseil d’administrations,
-                        sont rembourses de la manière suivante :
-                        <ul><b>Frais d’hospitalisation</b> :
-                            <li>Hopitaux publics : 40 %</li>
-                            <li>Hôpitaux privés : 20 %</li>
-                            <li>Consultation : 50 %</li>
-                        </ul>
-                        <ul><b>Soins dentaires</b> :
-                            <li>Hôpitaux publics : 25 %</li>
-                            <li>Hôpitaux privés : 15 %</li>
-                        </ul>
-                        <ul><b>Analyse médicale</b> :
-                            <li>Laboratoire publics : 30 %</li>
-                            <li>Laboratoire privés : 20 %</li>
-                        </ul>
-                        Les enfants ont le tiers payant et le conjoint les deux tiers.
-                    </li>
-                    <li>Les pièces justificatives pour le remboursement des frais d’hospitalisations, médicaux et ou
-                        pharmaceutiques sont déterminés par une délibération du conseil d’Administration.</li>
-                </ol>
+                <p>La radiation intervient :
+                <ul>
+                    <li>en cas de suspension d'une durée de deux (2) ans continu. </li>
+                    <li>A la suite d'une démission notifiée au Bureau Exécutif; </li>
+                    <li>En cas de démission, licenciement ou révocation de l'Administration;</li>
+                    <li>Pour tout membre convaincu de faux et usage de faux ou préjudice de la Mutuelle ou de
+                        détournement des fonds de la Mutuelle, sans préjudice de remboursement des sommes indûment
+                        perçues.</li>
+                </ul><br />
+                La radiation est prononcée par le Conseil d'Administration après avis de l'Assemblée Générale.<br />
+                La radiation est précédée d'une lettre de mise en demeure.<br />
+                La radiation est prononcée d'office si le mis en cause n'a pas donné satisfaction à la mise en demeure
+                dans un délai de deux (2) mois.
                 </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 29 : </a></h4>
-                <p>Nul ne peut bénéficier aux cours d’un même exercice financier de remboursement supérieurs a dix(10)
-                    fois le montant de sa contribution annuelle.</p>
+                <p>La réintégration d'un membre démissionnaire, suspendu (pour autre motif que le non paiement des
+                    cotisations annuelles) ou radié ne peut être prononcée que par l'Assemblée Générale après avis du
+                    Conseil d'Administration et après qu'il ait réparé le préjudice qu'il aurait causé.</p>
+                <p>Le membre réadmis est tenu de régulariser sa situation par versement de toutes ses cotisations
+                    annuelles échues. </p>
             </div>
-
-            <!-- TITRE III - CHAP II - SECTION III -->
-
-            <span id="title3-chap2-sect3"></span>
-            <h2 class="title-section mt-5 mb-3">Section III : Allocation de mariage et d’accouchement</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 30 : </a></h4>
-                <p>A l’occasion du mariage d’un membre à jour de ses cotisations, la Mutuelle lui verse une allocation
-                    fixée à 100.000 F</p>
+                <p>La démission, la suspension ou la radiation ne donne droit à aucun remboursement des sommes versées
+                    au profit de la Mutuelle.</p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 31 : </a></h4>
-                <p>A la naissance d'un enfant dans le foyer d'un membre a jour de ses cotisations, la Mutuelle célèbre
-                    l'évènement par l'octroi au membre d'une allocation fixée à 50 000 F.
-                    <br>Le traitement est unique si le membre et son conjoint sont membre de la MUNAP-DGB.
-                    <br>Les pièces justificatives des allocations fixées ci-dessus sont constituées des pièces
-                    officiellement reconnues au Cameroun en matière de prestation familiale.
-                </p>
+                <p>Il peut être mis fin aux fonctions des membres du Bureau Exécutif, avant terme, par décision de
+                    l'Assemblée Générale. </p>
+                <p>Toutefois, en cas de faute grave ou de manquements aux obligations de la charge, le Conseil
+                    d'Administration peut, à titre conservatoire, suspendre un membre du Bureau Exécutif. </p>
             </div>
-
-            <!-- TITRE III - CHAP II - SECTION IV -->
-
-            <span id="title3-chap2-sect4"></span>
-            <h2 class="title-section mt-5 mb-3">Section IV : (Nouveau) Allocation de décoration et de départ à la
-                retraite</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 32 : </a></h4>
-                <p>A l’occasion de la décoration d’un membre en règle, la Mutuelle lui verse une allocation fixée a 50
-                    000 F quelque soit le nombre de médailles reçus. </p>
+                <p>
+                <ol>
+                    <li>les membres du Bureau Exécutif sont solidaires dans la gestion de la Mutuelle.</li>
+                    <li>Ils se réunissent au moins une fois par mois et aussi souvent que l'exigent les circonstances
+                        pour débattre des problèmes liés à la gestion de la Mutuelle et à l'accomplissement de leurs
+                        fonctions. </li>
+                </ol>
+                </p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 33 : </a></h4>
-                <p>Lorsqu’un membre est admis à faire valoir ses droits à la retraite, la Mutuelle lui verse une
-                    allocation fixée à 100.000 F s’il a régulièrement verse ses cotisations au cours des trois (3)
-                    dernières années.</p>
+                <p>
+                <ol>
+                    <li>Le Secrétaire Général rapporte les affaires inscrites à l'ordre du jour des réunions du Bureau
+                        Exécutif que convoque et préside le Directeur Exécutif. </li>
+                    <li>II en assure le secrétariat. </li>
+                </ol>
+                </p>
             </div>
 
-            <!-- TITRE III End -->
+
+            <!-- CHAPITRE III End -->
         </div>
 
         <div class="container">
 
-            <!-- TITRE IV Start -->
-
-            <span id="title-4"></span>
+            <!-- CHAPITRE IV Start -->
+            <span id="chap-4"></span>
             <div class="mx-0">
-                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">TITRE IV : <br>DES
-                    DISPOSITIONS DIVERSES, TRANSITOIRES ET FINALES</h3>
+                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE IV : <br>DES
+                    ACTIVITÉS SOCIO-CULTURELLES</h3>
             </div>
+
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 34 : </a></h4>
-                <p>
-                <ol>
-                    <li>Toute modifications des statuts doit être approuvée par l’Assemblée Générale sur proposition du
-                        conseil d’administration.
-                        Dans ce cas, les membres de l’assemblée générale sont convoques au moins un (1) mois avant la
-                        date fixée, par lettre individuelle dûment notifiée et indiquant l’ordre du jour.</li>
-                    <li>Toute propositions de modification doit être approuvée par l’assemblée générale à la majorité
-                        des 2/3 au moins des membres présent ou représenter.</li>
-                </ol>
-                </p>
+                <p>Outre les réunions prévues par les statuts, la Mutuelle organise des manifestations culturelles,
+                    sportives et des spectacles dans le cadre de l'animation socio-culturelle de la Direction Générale
+                    Budget, à l'occasion de la promotion des membres, des départs à la retraite et de la présentation
+                    des vœux. </p>
+                <p>A cet effet, l'Assemblée Générale crée des commissions permanentes chargées d'animer les activités
+                    correspondantes.</p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 35 : </a></h4>
-                <p>
-                <ol>
-                    <li>La dissolutions de la mutuelle ne peut être prononcée que par une assemblée générale
-                        extraordinaire situant à la majorité des 2/3 au moins des membres ou représentés.</li>
-                    <li>L’assemblée générale, outre la dissolution, régle par délibération la dévolution du patrimoine
-                        de la Mutuelle conformément à la législation en vigueur.</li>
-                </ol>
-                </p>
+                <p>La fête du Budget est organisée une fois par an après le vote du budget par le parlement. Les
+                    préparatifs sont placés sous l'autorité du Directeur Exécutif.</p>
             </div>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 36 : </a></h4>
-                <p>
+                <p>Il est créé au sein de la MUNAP-DGB une chorale. Celle-ci est chargée de l'animation des évènements
+                    heureux et malheureux qui peuvent survenir au sein de la Mutuelle.</p>
+            </div>
+
+            <!-- CHAPITRE IV End -->
+        </div>
+
+        <div class="container">
+            <!-- CHAPITRE V Start -->
+
+            <span id="chap-5"></span>
+            <div class="mx-0">
+                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE V : <br>DES
+                    ACTIVITÉS SOCIO-CULTURELLES</h3>
+            </div>
+
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 37 : </a></h4>
+                <p>Les montants des droits d'adhésion et de cotisation prévus à l'article 25 des statuts peuvent être
+                    modifiés par l'Assemblée Générale. </p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 38 : </a></h4>
+                <p>Les taux d'acquisition de l'uniforme sont fixés par l'Assemblée Générale sur proposition du Conseil
+                    d'Administration. </p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 39 : </a></h4>
+                <p>Les cotisations dues au titre d'un exercice financier doivent être impérativement acquittées au plus
+                    tard le 30 juin de l'année en cours, sous peine de sanctions prévues par le présent règlement
+                    intérieur.</p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 40 : </a></h4>
+                <p>Les recettes de la Mutuelle sont, selon leur nature, perçues de la manière suivante :
                 <ol>
-                    <li>Les fonctions au sein de la mutuelle sont gratuites. Toutefois les membres des instances
-                        dirigeantes de la mutuelle peuvent prétendre à des remboursements des frais exposés dans
-                        l’intérêt de la mutuelle et à une indemnité pour travaux spéciaux octroyée par le Conseil
-                        d’Administration.</li>
-                    <li>Il est prévu le recrutement d’un personnel d’appui a temps plein pour le fonctionnement des
-                        services administratives de la mutuelle.</li>
+                    <li>Les dons des membres bienfaiteurs ou honoraires, les subventions diverses ainsi que la
+                        quote-part des produits des pénalités et autres contributions sont versés en espèces, par
+                        chèques, par virements, par bons de caisse ou de trésor ou par d'autres moyens adéquats. </li>
+                    <li>Les droits d'adhésion et les cotisations des membres, le produit des manifestations organisées
+                        par la Mutuelle ou pour son compte sont versés exclusivement en espèces et ou par prélèvement à
+                        la source lors du paiement des primes, des indemnités pour travaux spéciaux et autres avantages
+                        versés aux personnels. </li>
+                    <li>Les intérêts des fonds placés ou déposés sont comptabilisés par inscription au crédit des
+                        comptes bancaires de la Mutuelle. </li>
                 </ol>
                 </p>
             </div>
             <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 37 : </a></h4>
-                <p>Les membres actuellement débiteurs envers l’association DB-Solidarité de l’ancienne direction du
-                    budget ne peuvent prétendre au bénéfice des prestations de la mutuelle qu’après paiement intégral de
-                    leurs dettes auprès du liquidateur de ladite association.</p>
+                <h4><a style="color: #353535;" href="#">Article 41 : </a></h4>
+                <p>Toute recette donne lieu à la délivrance d'une quittance tirée d'un carnet à souches.
+                    <br />Elle doit être inscrite dans le registre des recettes avec indication des références de
+                    versement dans un compte bancaire.
+                </p>
             </div>
             <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 38 : </a></h4>
-                <p>Un règlement intérieur déterminera les modalités de fonctionnement de la mutuelle.</p>
+                <h4><a style="color: #353535;" href="#">Article 42 : </a></h4>
+                <p>Les livres comptables suivants sont obligatoirement tenus :
+                <ul>
+                    <li>le livre des adhésions et des cotisations ;</li>
+                    <li>le journal classique à partie double ;</li>
+                    <li>le compte individuel des membres ;</li>
+                    <li>le compte administratif ;</li>
+                    <li>le compte de gestion.</li>
+                </ul>
+                </p>
             </div>
             <div class="article">
-                <h4><a style="color: #353535;" href="#">Article 39 : </a></h4>
+                <h4><a style="color: #353535;" href="#">Article 43 : </a></h4>
                 <p>
                 <ol>
-                    <li>Les présents statuts ont été adoptés par l’assemblée générale constitutive de la mutuelle de
-                        personnels de la direction générale du budget (MUNAP-DGB) le samedi 23 juin 2007. Ils ne peuvent
-                        être modifies qu’en assemblée générale.</li>
-                    <li>Le Directeur exécutif est chargé des modalités de déclaration de la mutuelle. </li>
+                    <li>Les dépenses de la Mutuelle sont payées par voie d'un bulletin libellé «Ordre de paiement»
+                        établi au vu des pièces justificatives y annexées. Ce bulletin porte obligatoirement la double
+                        signature du Directeur Exécutif et du Trésorier Général. </li>
+                    <li>Toutes les dépenses sont inscrites dans un registre avec indication des références du paiement
+                        et comptabilisées immédiatement.</li>
+                </ol>
+                </p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 44 : </a></h4>
+                <p>Sont considérés comme ayant droit :
+                <ul>
+                    <li>le conjoint, la ou les conjointes(s) survivant(e)s ;</li>
+                    <li>les enfants à charge du défunt tels qu’ils sont définis par la législation sur les prestations
+                        familiales.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 45 : </a></h4>
+                <p>
+                <ol>
+                    <li>L'allocation de décès au titre de la participation aux obsèques d'un membre décédé est versée au
+                        conjoint(e).</li>
+                    <li>En cas de pluralité de conjointes, l'allocation de décès est versée en la présence de toutes les
+                        veuves.</li>
                 </ol>
                 </p>
             </div>
 
-            <!-- TITRE IV End -->
+            <!-- CHAPITRE V End -->
+        </div>
+
+        <div class="container">
+            <!-- CHAPITRE VI Start -->
+
+            <span id="chap-6"></span>
+            <div class="mx-0">
+                <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE VI : <br>DES
+                    DISPOSITIONS DIVERSES ET FINALES</h3>
+            </div>
+
+            <div class="article">
+                <h4><a style="color: #353535;" href="#">Article 46 : </a></h4>
+                <p>
+                <ol>
+                    <li>Toute modification du Règlement Intérieur doit être approuvée par</li>
+                </ol>
+                </p>
+            </div>
+
+            <!-- CHAPITRE VI End -->
         </div>
 
         <!-- About End -->

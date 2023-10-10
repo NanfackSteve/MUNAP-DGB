@@ -48,10 +48,14 @@
                 <h1 class="display-3 text-white mb-3 animated slideInDown">STATUTS DE LA MUNAP - DGB</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-1">Titre I</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-2">Titre II</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-3">Titre III</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#title-4">Titre IV</a></li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#title-1">Titre I</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#title-2">Titre II</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#title-3">Titre III</a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover" href="#title-4">Titre IV</a>
+                        </li>
                     </ol>
                 </nav>
             </div>
@@ -59,14 +63,14 @@
         <!-- Page Header End -->
 
         <!-- Resume Start -->
-        <div class="container border border-2 rounded-3 mb-3">
+        <!-- <div class="container border border-2 rounded-3 mb-3">
             <p>Le site web de la direction générale du budget vise à renforcer les contacts avec les fonctionnaires,
                 d’une part, et avec les utilisateurs de l’administration, d’autre part, afin de faciliter les procédures
                 administratives. Cette volonté se traduit par l’ergonomie du site Web qui permet un accès fluide au
                 contenu et dans les deux langues officielles, soit le français et l’anglais. Vous pourrez également
                 consulter les textes et lois en vigueur, les procédures administratives ainsi que toute l’actualité
                 budgétaire.</p>
-        </div>
+        </div> -->
         <!-- Resume End -->
 
         <!-- Sommaire Start -->
@@ -75,7 +79,7 @@
             <div class="row my-3 justify-content-center">
                 <div class="col-lg-1"></div>
                 <div class="col-md-6 col-lg-10 align-self-center">
-                    <?php include_once("summary.php"); ?>
+                    <?php include_once("status_summary.php"); ?>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
