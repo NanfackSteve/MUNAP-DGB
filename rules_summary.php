@@ -27,10 +27,10 @@
                 <a href="#chap2-sect1">Section I : De l'Assemblée Générale</a><br>
                 <a href="#chap2-sect2">Section II : Du Conseil d'Administration</a><br>
                 <span>
-                    <a class="nested-paragraph" href="#chap2-sect2-para1">Para I: </a><br>
-                    <a class="nested-paragraph" href="#chap2-sect2-para2">Para II: </a><br>
-                    <a class="nested-paragraph" href="#chap2-sect2-para3">Para III: </a><br>
-                    <a class="nested-paragraph" href="#chap2-sect2-para4">Para IV: </a><br>
+                    <a class="nested-paragraph" href="#chap2-sect2-para1">Para I: Du Directeur Executif</a><br>
+                    <a class="nested-paragraph" href="#chap2-sect2-para2">Para II: Du Secrétaire Général/Adjoint</a><br>
+                    <a class="nested-paragraph" href="#chap2-sect2-para3">Para III: Du Trésorier Général/Adjoint</a><br>
+                    <a class="nested-paragraph" href="#chap2-sect2-para4">Para IV: Des Délégations Régionales</a><br>
                 </span>
                 <a href="#chap2-sect3">Section III : Du Bureau Exécutif</a><br>
                 <a href="#chap2-sect4">Section IV : De la Commission Financière</a><br>
