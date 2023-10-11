@@ -138,8 +138,8 @@
                 </div>
             </div>
             <div class="text-center border border-5 border-light border-top-0 p-4">
-                <h5 class="mb-0">M. ....</h5>
-                <small>Rep. Agents</small>
+                <h5 class="mb-0">M. JEUTSA David</h5>
+                <small>Rep. des Agents</small>
             </div>
         </div>
     </div>
