@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
-                <h5 class="mb-0">M Mangoua Malette</h5>
+                <h5 class="mb-0">Mme MANGOUA Mallette</h5>
                 <small>Trésorier Général</small>
             </div>
         </div>
