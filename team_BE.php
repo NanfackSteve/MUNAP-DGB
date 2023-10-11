@@ -2,7 +2,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/Directeur_Executif.jpg" alt=""
+                <img class="img-fluid" src="img/organism/BE_Directeur_Executif.jpg" alt=""
                     style="height: 280px; width: 100%;">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -19,7 +19,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/SG.jpg" alt="" style="height: 280px; width: 100%;">
+                <img class="img-fluid" src="img/organism/BE_SG.jpg" alt="" style="height: 280px; width: 100%;">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -35,7 +35,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/SGA.jpg" alt="" style="height: 280px; width: 100%;">
+                <img class="img-fluid" src="img/organism/BE_SGA.jpg" alt="" style="height: 280px; width: 100%;">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -51,7 +51,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/Tresorier_General.jpg" style="height: 280px; width: 100%;">
+                <img class="img-fluid" src="img/organism/BE_Tresorier_General.jpg" style="height: 280px; width: 100%;">
                 <div class=" team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -68,7 +68,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/Tresorier_Gen_Adjoint.jpg" alt=""
+                <img class="img-fluid" src="img/organism/BE_Tresorier_Gen_Adjoint.jpg" alt=""
                     style="height: 280px; width: 100%;">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
@@ -85,7 +85,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/SP.jpg" alt="" style="height: 280px; width: 100%;">
+                <img class="img-fluid" src="img/organism/BE_SP.jpg" alt="" style="height: 280px; width: 100%;">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -94,7 +94,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">Mme FOPA</h5>
-                <small>Secrétaire Permanent(e)</small>
+                <small>Secrétaire Permanent</small>
             </div>
         </div>
     </div>
