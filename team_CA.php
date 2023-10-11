@@ -107,7 +107,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                 <h5 class="mb-0">M. BITETE Roger</h5>
-                <small>Rep. des Contrôleurs Départementaux des Finances</small>
+                <small>Rep. des Contrôleurs <br />Départementaux des Finances</small>
             </div>
         </div>
     </div>
