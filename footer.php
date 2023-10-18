@@ -16,10 +16,10 @@
 
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4">Liens Utiles</h4>
-                <a class="btn btn-link" href="about.php">Qui sommes nous ?</a>
+                <a class="btn btn-link" href="index.php">Qui sommes nous ?</a>
                 <a class="btn btn-link" href="team.php">Bureaux et Membres</a>
                 <a class="btn btn-link" href="news.php">Nos Actualités</a>
-                <a class="btn btn-link" href="contact.php">Nous contacter</a>
+                <a class="btn btn-link" href="prestation_allocations.php">Nos Services</a>
             </div>
 
             <div class="col-lg-4 col-md-6">

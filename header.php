@@ -69,9 +69,13 @@
                         Prestations
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="process">
-                        <li><a class="dropdown-item" href="#">Procédures</a></li>
-                        <li><a class="dropdown-item" href="#">Décorations</a></li>
-                        <li><a class="dropdown-item" href="#">Naissances</a></li>
+                        <li><a class="dropdown-item" href="prestation_allocations.php">Allocations et frais Médicaux</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="prestation_locations_bus.php">Location Bus</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Naissances</a></li> -->
                     </ul>
                 </li>
                 <li class="nav-item">
