@@ -36,7 +36,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="bg-light">
 
         <!-- Nav bar Start -->
         <?php include_once("header.php") ?>
@@ -47,7 +47,7 @@
             <div class="row mt-2 g-4 ">
                 <div class="col-md-6 col-lg-1"></div>
                 <div class="col-md-6 col-lg-5 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow p-3 mb-5 bg-body rounded">
                         <img src="img/prestations/location-bus.jpg" class="card-img-top img-fluid " alt="...">
                         <div class="card-body ">
                             <h5 class="card-title">Mini Bus COASTER</h5>
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-5 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow p-3 mb-5 bg-body rounded">
                         <img src="img/prestations/location-bus-vip.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Bus Climatisé VIP « LE SAPHIR »</h5>

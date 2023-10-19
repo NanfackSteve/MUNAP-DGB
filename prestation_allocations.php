@@ -36,7 +36,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="bg-light">
 
         <!-- Nav bar Start -->
         <?php include_once("header.php") ?>
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row mt-2 g-4 ">
                 <div class="col-md-6 col-lg-4 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
                         <img src="img/prestations/allo-mariage.jpg" class="card-img-top img-fluid " alt="...">
                         <div class="card-body ">
                             <h5 class="card-title">Mariage</h5>
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
                         <img src="img/prestations/allo-medicaux.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Frais Médicaux</h5>
@@ -104,7 +104,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
                         <img src="img/prestations/allo-decoration.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Décoration</h5>
@@ -133,7 +133,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 px-4 ">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
                         <img src="img/prestations/allo-naissance.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Naissance</h5>
@@ -163,7 +163,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
                         <img src="img/prestations/allo-deces.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Décès </h5>
@@ -193,7 +193,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 px-4">
-                    <div class="card wow fadeInUp">
+                    <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
                         <img src="img/prestations/allo-retraire.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Retraite</h5>

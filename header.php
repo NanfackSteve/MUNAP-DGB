@@ -78,7 +78,7 @@
                         <li>
                             <hr class="dropdown-divider" />
                         </li>
-                        <li><a class="dropdown-item" href="prestation_locations_bus.php">Pagnes et gadgets</a></li>
+                        <li><a class="dropdown-item" href="#">Pagnes et gadgets</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
