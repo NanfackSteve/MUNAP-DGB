@@ -117,7 +117,7 @@
                 <div class="col-md-6 col-lg-12 ">
                     <h3 class="text-center">Mot du Président de l'Assemblée Général</h3>
                     <br />
-                    <img src="img/organism/CA_DGB.jpg" class="m-lg-2 float-end imgshadow img-center" alt="">
+                    <img src="img/organes/CA_DGB.jpg" class="m-lg-2 float-end imgshadow img-center" alt="DGB">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -138,7 +138,7 @@
         </div>
         <!-- Speech DGB End -->
 
-        <!-- Service Start -->
+        <!-- News Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="section-title text-center">
@@ -188,93 +188,11 @@
                 </div>
             </div>
         </div>
-        <!-- Service End -->
+        <!-- News End -->
 
-        <!-- Team Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h1 class="display-5 mb-5">Direction Exécutive</h1>
-                </div>
-                <div class="row g-4">
+        <!-- Partner Start -->
 
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item">
-                            <div class="overflow-hidden position-relative">
-                                <img class="img-fluid" src="img/organism/BE_Directeur_Executif.jpg" alt=""
-                                    style="height: 280px; width: 100%;">
-                                <div class="team-social">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
-                                <h5 class="mb-0">Mme GOMA Flore</h5>
-                                <small>Directeur Exécutif</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item">
-                            <div class="overflow-hidden position-relative">
-                                <img class="img-fluid" src="img/organism/BE_SG.jpg" alt=""
-                                    style="height: 280px; width: 100%;">
-                                <div class="team-social">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
-                                <h5 class="mb-0">M. BEKONO Marc Désiré</h5>
-                                <small>Secrétaire Général</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item">
-                            <div class="overflow-hidden position-relative">
-                                <img class="img-fluid" src="img/organism/BE_SGA.jpg" alt=""
-                                    style="height: 280px; width: 100%;">
-                                <div class="team-social">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-5 border-light border-top-0 p-4">
-                                <h5 class="mb-0">Mme ANKUONG Lucie</h5>
-                                <small>Secrétaire Général Adjoint</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item">
-                            <div class="overflow-hidden position-relative">
-                                <img class="img-fluid" src="img/organism/BE_Tresorier_General.jpg" alt=""
-                                    style="height: 280px; width: 100%;">
-                                <div class="team-social">
-                                    <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
-                                <h5 class="mb-0">Mme Mangoua Malette</h5>
-                                <small>Trésorier Général</small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="wow fadeInUp text-center mt-4"><a class="fw-medium " href="team.php">Voir Tous les
-                        Responsables
-                        <i class="fa fa-arrow-right ms-2"></i></a></div>
-
-            </div>
-        </div>
-        <!-- Team End -->
+        <!-- Partner End -->
 
         <!-- Footer Start -->
         <?php include_once("footer.php") ?>

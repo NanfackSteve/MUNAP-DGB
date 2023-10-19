@@ -2,7 +2,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_EN.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_EN.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -18,7 +18,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_NORD.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_NORD.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -34,7 +34,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_AD.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_AD.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -50,7 +50,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_CE.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_CE.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -67,7 +67,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_NW.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_NW.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -83,7 +83,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_SW.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_SW.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -99,7 +99,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_LIT.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_LIT.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -115,7 +115,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_LIT2.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_LIT2.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -131,7 +131,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/organism/DR_SUD.jpg" alt="">
+                <img class="img-fluid" src="img/organes/DR_SUD.jpg" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
