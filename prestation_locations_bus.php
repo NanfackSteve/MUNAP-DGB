@@ -57,8 +57,8 @@
                             <li class="list-group-item">
                                 <h6>Conditions à remplir :</h6>
                                 <ul>
-                                    <li>Verser une somme de <b>75.000F</b> par jour de location.</li>
-                                    <li>Verser au chauffeur une somme de <b>15.000F</b> par jour de location</li>
+                                    <li>Verser une somme de <b>75.000F</b><br />par jour de location.</li>
+                                    <li>Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location</li>
                                     <li>Prendre en charge les frais de carburant, de payage et de lavage du véhicule.
                                     </li>
                                 </ul>
@@ -78,7 +78,7 @@
 
                 <div class="col-md-6 col-lg-5 px-4">
                     <div class="card wow fadeInUp">
-                        <img src="img/prestations/location-bus.jpg" class="card-img-top img-fluid w-100" alt="...">
+                        <img src="img/prestations/location-bus-vip.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Bus Climatisé VIP « LE SAPHIR »</h5>
                             <p class="card-text"></p>
@@ -87,8 +87,8 @@
                             <li class="list-group-item">
                                 <h6>Conditions à remplir :</h6>
                                 <ul>
-                                    <li>Verser une somme de <b>100.000F</b> par jour de location.</li>
-                                    <li>Verser au chauffeur une somme de <b>15.000F</b> par jour de location</li>
+                                    <li>Verser une somme de <b>100.000F</b><br />par jour de location.</li>
+                                    <li>Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location</li>
                                     <li>Prendre en charge les frais de carburant, de payage et de lavage du véhicule
                                     </li>
                                 </ul>

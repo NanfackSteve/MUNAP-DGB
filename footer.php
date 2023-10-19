@@ -3,9 +3,15 @@
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4">Addresses</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Cameroun - Yaoundé</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+237) 699 955 507</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>munapdgb@yahoo.fr</p>
+                <a href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9">
+                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>Cameroun - Yaoundé</p>
+                </a>
+                <a href="tel:+237699955507">
+                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>(+237) 699 955 507</p>
+                </a>
+                <a href="mailto:munapdgb@yahoo.fr">
+                    <p class="mb-2 text-white"><i class="fa fa-envelope me-3"></i>munapdgb@yahoo.fr</p>
+                </a>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
