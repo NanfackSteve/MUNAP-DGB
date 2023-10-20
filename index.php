@@ -148,40 +148,127 @@
                 </p>
             </div>
             <!-- Speech DGB End -->
-
-
         </div>
 
-        <div class="row px-2 mt-4 ">
+        <!-- About Start -->
+        <div class="row wow fadeInUp overflow-hidden my-3 px-2">
+            <div class="about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div class="col-lg-5 ps-lg-0" style="min-height: 400px; background-color: #eeee;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="img/MUNAP_DGB.png" style="object-fit: cover;" alt="">
+                        </div>
+                    </div>
+                    <div class="bg-light col-lg-7 about-text py-2" data-wow-delay="0.5s">
+                        <div class="p-2 p-lg-3">
+                            <div class="section-title text-start">
+                                <h5 class="display-5 mb-4">Qui est membre ?</h5>
+                            </div>
+                            <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                                duo justo erat amet</p>
+                            <div class="section-title text-start">
+                                <h5 class="display-5 mb-4">Qualités de membres </h5>
+                            </div>
+                            <p>Les Mutualistes sont divisés en quatre (04) catégories
+                            <ul class="mb-0">
+                                <li><b>Membre Actifs : </b>Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                                    sit. Aliqu
+                                    diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                    clita
+                                    duo justo erat amet</li><br />
+                                <li><b>Membres d’Honneur : </b>Tempor erat elitr rebum at clita. Diam dolor diam
+                                    ipsum sit. Aliqu
+                                    diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                    clita
+                                    duo justo erat amet</li><br />
+                                <li><b>Membres Conseillers : </b>Tempor erat elitr rebum at clita. Diam dolor diam
+                                    ipsum sit. Aliqu
+                                    diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                    clita
+                                    duo justo erat amet</li><br />
+                                <li><b>Membres Retraités : </b>Tempor erat elitr rebum at clita. Diam dolor diam
+                                    ipsum sit. Aliqu
+                                    diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                    clita
+                                    duo justo erat amet</li>
+                            </ul>
+                            </p>
+
+                            <!-- <div class="row px-2 mt-4 mb-4 wow fadeInUp "> -->
+                            <!-- Stats Start -->
+                            <!-- <fieldset class="bg-light p-0 border">
+
+                                        <h3 class="text-center pt-4">Statistiques MUNAP-DGB </h3>
+                                        <div class="wow fadeInUp pb-2 px-2" data-wow-delay="0.3s">
+                                            <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+                                                <div class="m-3 d-flex flex-column align-items-center">
+                                                    <i class="fa fa-users fa-2x text-primary"></i>
+                                                    <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
+                                                    <p class="fw-medium mb-0">Mutualistes</p>
+                                                </div>
+
+                                                <div class="m-3 d-flex flex-column align-items-center">
+                                                    <i class="fa fa-users fa-2x text-primary"></i>
+                                                    <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
+                                                    <p class="fw-medium mb-0">Mutualistes</p>
+                                                </div>
+
+                                                <div class="m-3 d-flex flex-column align-items-center">
+                                                    <i class="fa fa-users fa-2x text-primary"></i>
+                                                    <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
+                                                    <p class="fw-medium mb-0">Mutualistes</p>
+                                                </div>
+
+                                                <div class="m-3 d-flex flex-column align-items-center">
+                                                    <i class="fa fa-users fa-2x text-primary"></i>
+                                                    <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
+                                                    <p class="fw-medium mb-0">Mutualistes</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </fieldset> -->
+                            <!-- Stats End -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <div class="row px-4 px-lg-2 ">
             <!-- Stats Start -->
-            <fieldset class="bg-light  p-0 border border-3">
+            <fieldset class="bg-light border-top border-bottom border-3">
 
                 <h3 class="text-center pt-4">Statistiques MUNAP-DGB </h3>
-                <div class="wow fadeIn pb-2 px-2" data-wow-delay="0.1s">
+                <div class="wow fadeInUp pb-2 px-2" data-wow-delay="0.3s">
                     <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
-                            <p class="fw-medium mb-0">Mutualistes</p>
+                            <h2 class="text-primary m-0" data-toggle="counter-up">50</h2>
+                            <p class="fw-medium mb-0">Membres<br />d'Honneur</p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
-                            <p class="fw-medium mb-0">Mutualistes</p>
+                            <h2 class="text-primary m-0" data-toggle="counter-up">10</h2>
+                            <p class="fw-medium mb-0">Membres<br />Conseillers</p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
-                            <p class="fw-medium mb-0">Mutualistes</p>
+                            <h2 class="text-primary m-0" data-toggle="counter-up">700</h2>
+                            <p class="fw-medium mb-0">Membres<br />Actifs</p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">1234</h2>
-                            <p class="fw-medium mb-0">Mutualistes</p>
+                            <h2 class="text-primary m-0" data-toggle="counter-up">150</h2>
+                            <p class="fw-medium mb-0">Membres<br />Retraités</p>
                         </div>
 
                     </div>
@@ -195,9 +282,9 @@
 
     <!-- Partner Start -->
 
-    <div class="row mt-5 px-2">
+    <div class="row mt-5 px-lg-5">
         <h3 class="text-center ">Nos Partenaires</h3>
-        <div class="wow fadeIn pb-2 px-2" data-wow-delay="0.1s">
+        <div class="wow fadeIn pb-2 px-2 px-lg-5" data-wow-delay="0.1s">
             <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
                 <div class="m-3 d-flex flex-column align-items-center">
