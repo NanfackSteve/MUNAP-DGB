@@ -45,7 +45,7 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header-team py-5 mb-5">
             <div class="container py-5">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Personnel Dirigeant</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Les Organes de la Mutuelle</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a class="text-white underline-hover" href="#ca">Conseil
@@ -102,25 +102,6 @@
         <?php include_once("footer.php") ?>
         <!-- Footer End -->
 
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
-                class="bi bi-arrow-up"></i></a>
-
-
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
         <script>
         let List_header = document.getElementsByClassName('nav-link');
         for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
