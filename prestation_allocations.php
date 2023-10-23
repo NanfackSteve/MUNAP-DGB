@@ -48,7 +48,7 @@
                     <img src="img/prestations/allo-mariage.jpg" class="card-img-top img-fluid " alt="...">
                     <div class="card-body ">
                         <h5 class="card-title">Mariage</h5>
-                        <p class="card-text">Pour bénéficier de l'allocation Mariage </p>
+                        <p class="card-text">Pour bénéficier de cette allocation </p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -77,7 +77,7 @@
                     <img src="img/prestations/allo-medicaux.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Frais Médicaux</h5>
-                        <p class="card-text">Pour bénéficier de l'allocation Frais Médicaux </p>
+                        <p class="card-text"> Pour bénéficier de cette allocation </p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -106,7 +106,7 @@
                     <img src="img/prestations/allo-decoration.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Décoration</h5>
-                        <p class="card-text">Pour bénéficier de l'allocation Décoration </p>
+                        <p class="card-text">Pour bénéficier de cette allocation  </p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -135,7 +135,7 @@
                     <img src="img/prestations/allo-naissance.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Naissance</h5>
-                        <p class="card-text">Pour bénéficier de l'allocation Naissance </p>
+                        <p class="card-text">Pour bénéficier de cette allocation  </p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -165,7 +165,7 @@
                     <img src="img/prestations/allo-deces.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Décès </h5>
-                        <p class="card-text">Pour bénéficier de l'allocation Décès </p>
+                        <p class="card-text">Pour bénéficier de cette allocation  </p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -195,7 +195,7 @@
                     <img src="img/prestations/allo-retraire.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Retraite</h5>
-                        <p class="card-text">Pour bénéficier de l'allocation Retraite </p>
+                        <p class="card-text">Pour bénéficier de cette allocation  </p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
