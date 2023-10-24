@@ -45,19 +45,20 @@
         <div class="container-fluid p-0 pb-4 ">
             <div class="owl-carousel header-carousel position-relative ">
                 <div class="owl-carousel-item position-relative">
-                    <img class="img-fluid" src="img/dgb/capture11.jpg" alt="">
+                    <img class="img-fluid" src="img/carossel/capture_1.jpg" alt=""  style="height: 580px; width: 100%;">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                         style="background: rgba(53, 53, 53, .6);">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-8 text-center">
-                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Bienvenue à la
-                                        MUNAP-DGB
+                                    
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">INAUGURATION DU NOUVEAU BUS
+                                        </h1>
+                                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                                        Ministère des Finances
                                     </h5>
-                                    <h1 class="display-3 text-white animated slideInDown mb-4">STATUTS DES DISPOSITIONS
-                                        GENERALES</h1>
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                    <a href="about.php#title-1"
+                                    <a href="#"
                                         class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Lire
                                         plus</a>
 
@@ -67,19 +68,19 @@
                     </div>
                 </div>
                 <div class="owl-carousel-item position-relative">
-                    <img class="img-fluid" src="img/dgb/capture11.jpg" alt="">
+                    <img class="img-fluid" src="img/carossel/capture_9.jpg" alt=""  style="height: 580px; width: 100%;">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                         style="background: rgba(53, 53, 53, .6);">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-8 text-center">
-                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Bienvenue à la
-                                        MUNAP-DGB
-                                    </h5>
-                                    <h1 class="display-3 text-white animated slideInDown mb-4">STATUTS DE L'ORGANISATION
-                                        ET DU FONCTIONNEMENT</h1>
+                                    
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">ASSEMBLEE GENERALE EXTRAORDINAIRE
+                                        </h1>
+                                        <h5 class="text-white text-uppercase mb-3 animated slideInDown"> Palais des Congrès
+                                         </h5>
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                    <a href="about.php#title-2"
+                                    <a href="news_1.php"
                                         class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Lire
                                         plus</a>
                                 </div>
@@ -88,18 +89,45 @@
                     </div>
                 </div>
                 <div class="owl-carousel-item position-relative">
-                    <img class="img-fluid" src="img/dgb/capture11.jpg" alt="">
+                    <img class="img-fluid" src="img/carossel/capture_6.jpg" alt=""  style="height: 580px; width: 100%;">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                         style="background: rgba(53, 53, 53, .6);">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-8 text-center">
-                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Bienvenue à la
-                                        MUNAP-DGB </h5>
-                                    <h1 class="display-3 text-white animated slideInDown mb-4">STATUTS DES DISPOSITIONS
-                                        FINANCIERES</h1>
+                                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                                        
+                                    </h5>
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">INAUGURATION DU NOUVEAU BUS
+                                        </h1>
+                                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                                        Ministère des Finances
+                                    </h5>
                                     <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                    <a href="about.php#title-3"
+                                    <a href="#"
+                                        class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Lire
+                                        plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carossel/capture_11.jpg" alt=""  style="height: 580px; width: 100%;">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(53, 53, 53, .6);">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-8 text-center">
+                                    
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">ASSEMBLEE GENERALE EXTRAORDINAIRE
+                                        </h1>
+                                        <h5 class="text-white text-uppercase mb-3 animated slideInDown"> Palais des Congrès
+                                         </h5>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
+                                    <a href="news_1.php"
                                         class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Lire
                                         plus</a>
                                 </div>
