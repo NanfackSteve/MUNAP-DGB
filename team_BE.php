@@ -72,8 +72,7 @@
                     style="height: 280px; width: 100%;">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square" href="tel:+237697911555"><i class="fa fa-phone"></i></a>
                 </div>
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">

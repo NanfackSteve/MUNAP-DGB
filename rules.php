@@ -85,15 +85,13 @@
 
             <!-- CHAPITRE I Start -->
 
-            <span id="chap-1"></span>
-            <div class="px-md-1">
+            <div id="chap-1" class="px-md-1 decalage-haut">
                 <h3 class="bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE I : <br>DES
                     DISPOSITIONS
                     GÉNÉRALES
                 </h3>
             </div>
 
-            <!-- <span id="title1-chap1"></span>
             <h2 class="title-article my-4">Chapitre I : DE LA CREATION ET DU SIEGE</h2> -->
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 1er : </a></h4>
@@ -136,7 +134,7 @@
 
             <!-- CHAPITRE II Start -->
 
-            <span id="chap-2"></span>
+            <span id="chap-2" class="decalage-haut"></span>
             <div class="mx-0">
                 <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE II : <br>DU
                     FONCTIONNEMENT DES ORGANES D’ADMINISTRATION DE LA MUTUELLE</h3>
@@ -144,7 +142,7 @@
 
             <!-- CHAP II - SECTION I -->
 
-            <span id="chap2-sect1"></span>
+            <span id="chap2-sect1" class="decalage-haut"></span>
             <h2 class="title-article mt-5 mb-3">Section I : DE L'ASSEMBLÉE GÉNÉRALE </h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 5 : </a></h4>
@@ -199,7 +197,7 @@
 
             <!-- CHAPITRE II - SECTION II -->
 
-            <span id="chap2-sect2"></span>
+            <span id="chap2-sect2" class="decalage-haut"></span>
             <h2 class="title-article mt-5 mb-3">Section II : DU CONSEIL D’ADMINISTRATION</h2>
 
             <div class="article">
@@ -263,11 +261,11 @@
 
             <!-- CHAPITRE II - SECTION III -->
 
-            <span id="chap2-sect3"></span>
+            <span id="chap2-sect3" class="decalage-haut"></span>
             <h2 class="title-article mt-5 mb-3">Section III : DU BUREAU EXÉCUTIF</h2>
 
             <!-- CHAPITRE II - SECTION III - PARAGRAPHE I -->
-            <span id="chap2-sect3-para1"></span>
+            <span id="chap2-sect3-para1" class="decalage-haut"></span>
             <h2 class="title-section mt-5 mb-3">Paragraphe I : Du Directeur Exécutif</h2>
 
             <div class="article">
@@ -292,7 +290,7 @@
             </div>
 
             <!-- CHAPITRE II - SECTION III - PARAGRAPHE II -->
-            <span id="chap2-sect3-para2"></span>
+            <span id="chap2-sect3-para2" class="decalage-haut"></span>
             <h2 class="title-section mt-5 mb-3">Paragraphe II : Du Secrétaire Général et du Secrétaire Général Adjoint
             </h2>
 
@@ -321,7 +319,7 @@
             </div>
 
             <!-- CHAPITRE II - SECTION III - PARAGRAPHE III -->
-            <span id="chap2-sect3-para3"></span>
+            <span id="chap2-sect3-para3" class="decalage-haut"></span>
             <h2 class="title-section mt-5 mb-3">Paragraphe III : Du Trésorier Général et du Trésorier Général Adjoint
             </h2>
 
@@ -355,7 +353,7 @@
             </div>
 
             <!-- CHAPITRE II - SECTION III - PARAGRAPHE IV -->
-            <span id="chap2-sect3-para4"></span>
+            <span id="chap2-sect3-para4" class="decalage-haut"></span>
             <h2 class="title-section mt-5 mb-3">Paragraphe IV : Des Délégations Régionales</h2>
 
             <div class="article">
@@ -381,7 +379,7 @@
 
             <!-- CHAPITRE II - SECTION IV -->
 
-            <span id="chap2-sect4"></span>
+            <span id="chap2-sect4" class="decalage-haut"></span>
             <h2 class="title-article mt-5 mb-3">Section IV : DE LA COMMISSION FINANCIÈRE</h2>
 
             <div class="article">
@@ -436,7 +434,7 @@
 
             <!-- CHAPITRE III Start -->
 
-            <span id="chap-3"></span>
+            <span id="chap-3" class="decalage-haut"></span>
             <div class="mx-0">
                 <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE III :
                     <br>DISPOSITIONS DISCIPLINAIRE
@@ -536,7 +534,7 @@
         <div class="container">
 
             <!-- CHAPITRE IV Start -->
-            <span id="chap-4"></span>
+            <span id="chap-4" class="decalage-haut"></span>
             <div class="mx-0">
                 <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE IV : <br>DES
                     ACTIVITÉS SOCIO-CULTURELLES</h3>
@@ -568,7 +566,7 @@
         <div class="container">
             <!-- CHAPITRE V Start -->
 
-            <span id="chap-5"></span>
+            <span id="chap-5" class="decalage-haut"></span>
             <div class="mx-0">
                 <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE V : <br>DES
                     ACTIVITÉS SOCIO-CULTURELLES</h3>
@@ -665,7 +663,7 @@
         <div class="container">
             <!-- CHAPITRE VI Start -->
 
-            <span id="chap-6"></span>
+            <span id="chap-6" class="decalage-haut"></span>
             <div class="mx-0">
                 <h3 class=" bg-dark text-light rounded-3 display-5 text-center my-5 px-1">CHAPITRE VI : <br>DES
                     DISPOSITIONS DIVERSES ET FINALES</h3>

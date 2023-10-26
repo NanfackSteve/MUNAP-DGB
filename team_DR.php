@@ -147,7 +147,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/avatar-anonyme.png" alt="">
+                <img class="img-fluid w-100" src="img/avatar-anonyme.png" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
@@ -163,7 +163,7 @@
     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="team-item">
             <div class="overflow-hidden position-relative">
-                <img class="img-fluid" src="img/avatar-anonyme.png" alt="">
+                <img class="img-fluid w-100" src="img/avatar-anonyme.png" alt="">
                 <div class="team-social">
                     <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>

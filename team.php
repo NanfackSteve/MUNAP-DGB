@@ -67,28 +67,28 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <!-- Conseil d'administration -->
-                <span id="ca"></span>
+                <span id="ca" class="decalage-haut"></span>
                 <div class="section-title text-center">
                     <h1 id="ca" class="display-5 mb-5">Conseil d'Administration</h1>
                     <?php include_once("team_CA.php"); ?>
                 </div>
 
                 <!-- Bureau Executif -->
-                <span id="be"></span>
+                <span id="be" class="decalage-haut"></span>
                 <div class="section-title text-center">
                     <h1 class="display-5 mb-5 mt-5">Bureau Executif</h1>
                     <?php include_once("team_BE.php"); ?>
                 </div>
 
                 <!-- Commision Financiere -->
-                <span id="cf"></span>
+                <span id="cf" class="decalage-haut"></span>
                 <div class="section-title text-center">
                     <h1 class="display-5 mb-5 mt-5">Commission Financière</h1>
                     <?php include_once("team_CF.php"); ?>
                 </div>
 
                 <!-- Delegation Regionale -->
-                <span id="dr"></span>
+                <span id="dr" class="decalage-haut"></span>
                 <div class="section-title text-center">
                     <h1 class="display-5 mb-5 mt-5">Délégation Régionale</h1>
                     <?php include_once("team_DR.php"); ?>
@@ -105,7 +105,7 @@
         <script>
         let List_header = document.getElementsByClassName('nav-link');
         for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
-        document.getElementById('team').setAttribute("class", "nav-link active");
+        document.getElementById('members').setAttribute("class", "nav-link active");
         </script>
     </body>
 
