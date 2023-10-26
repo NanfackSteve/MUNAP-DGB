@@ -77,7 +77,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-8 text-center">
 
-                                    <h1 class="display-3 text-white animated slideInDown mb-4">DON AUX ENFANTS DES
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">DONS AUX ORPHELINS DES
                                         MUTUALISTES DECEDES
                                     </h1>
                                     <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ministère des
