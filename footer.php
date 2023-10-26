@@ -24,7 +24,7 @@
                 <h4 class="text-light mb-4">Liens Utiles</h4>
                 <a class="btn btn-link" href="index.php">Qui sommes nous ?</a>
                 <a class="btn btn-link" href="team.php">Bureaux et Membres</a>
-                <a class="btn btn-link" href="news.php">Nos Actualités</a>
+                <a class="btn btn-link" href="actus_events.php">Nos Actualités</a>
                 <a class="btn btn-link" href="prestation_allocations.php">Nos Services</a>
             </div>
 
