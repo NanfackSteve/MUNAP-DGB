@@ -358,6 +358,11 @@
     background-size: cover;
 }
 
+.page-header-team-predecessors {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/predecessors.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .page-header-news {
     background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .4)), url(../img/dgb/capture8.jpg) center center no-repeat;
     background-size: cover;

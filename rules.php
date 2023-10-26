@@ -43,8 +43,8 @@
         <!-- Nav bar End -->
 
         <!-- Page Header Start -->
-        <div class="container-fluid page-header-about py-5 mb-5">
-            <div class="container py-5">
+        <div class="container-fluid page-header-about py-3 mb-5">
+            <div class="container py-3">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">REGLEMENT INTERIEUR DE LA<br>MUNAP - DGB
                 </h1>
                 <nav aria-label="breadcrumb animated slideInDown">
