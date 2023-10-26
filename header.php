@@ -82,7 +82,7 @@
                         Membres
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="members">
-                        <li><a class="dropdown-item" href="word_of_DE.php">Mot du Directeur Exécutif</a></li>
+                        <li><a class="dropdown-item" href="team_word_of_DE.php">Mot du Directeur Exécutif</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -94,7 +94,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Statistiques</a></li>
+                        <li><a class="dropdown-item" href="team_stats.php">Statistiques</a></li>
                     </ul>
                 </li>
                 <!-- Members End -->

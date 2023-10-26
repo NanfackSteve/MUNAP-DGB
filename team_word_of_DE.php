@@ -44,24 +44,32 @@
         <div class="row ">
 
             <!-- Speech DE Start -->
-            <div class="col-md-6 col-lg-12 mt-4">
-                <h3 class="text-center">Mot du Directeur Exécutif</h3>
-                <br />
-                <img src="img/organes/BE_Directeur_Executif.jpg" class="m-lg-2 float-lg-end imgshadow px-2 img-word img-sm-word" alt="DE">
-                <p style="text-align: justify;" class="m-2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="col-md-6 col-lg-12 mt-4 wow fadeIn" data-wow-delay="0.3s">
+                <h3 class="text-center mb-3">Mot du Directeur Exécutif</h3>
 
-                    <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <div class="border border-3 border-primary bo pt-lg-2">
+                    <img src="img/organes/BE_Directeur_Executif.jpg" class="m-lg-2 float-lg-end imgshadow px-2 img-word img-sm-word" alt="DE">
+                    <p style="text-align: justify;" class="m-2 wow fadeInUp" data-wow-delay="0.2s">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+
+                        <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </p>
+                    <br /><br /><br />
+                </div>
+
             </div>
             <!-- Speech DE End -->
         </div>

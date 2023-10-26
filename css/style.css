@@ -4,6 +4,7 @@
 
 @media (max-width: 768px) {
 
+
     .slogan {
         display: none;
     }
@@ -16,7 +17,25 @@
     .img-word.img-sm-word {
         width: 100%;
         height: 330px;
+        margin-top: 15px;
+        border-radius: 20px;
     }
+}
+
+/* CSS carte */
+.map__image path {
+    fill: #b2beae;
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map__image path:hover {
+    fill: #AB7442;
+}
+
+.bo {
+    border-radius: 20px;
 }
 
 .decalage-haut {
@@ -24,8 +43,9 @@
 }
 
 .img-word {
-    width: 35%;
+    width: 34%;
     height: 330px;
+    border-radius: 20px;
 }
 
 .nested-paragraph {
@@ -330,6 +350,11 @@
 
 .page-header-team {
     background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/dgb/capture12.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-team-stats {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/team_stats.png) center center no-repeat;
     background-size: cover;
 }
 
