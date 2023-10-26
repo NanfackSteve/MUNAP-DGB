@@ -92,7 +92,7 @@
                 </h3>
             </div>
 
-            <h2 class="title-article my-4">Chapitre I : DE LA CREATION ET DU SIEGE</h2> -->
+            <h2 class="title-article my-4">Chapitre I : DE LA CREATION ET DU SIEGE</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 1er : </a></h4>
                 <p>Le présent règlement intérieur fixe les modalités d’application des Statuts de la Mutuelle Nationale
