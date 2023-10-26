@@ -3,147 +3,143 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>MUNAP - Prédécesseurs</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>MUNAP - Prédécesseurs</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Favicon -->
-        <link href="img/logo-munap.jpg" rel="icon">
+    <!-- Favicon -->
+    <link href="img/logo-munap.jpg" rel="icon">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
-            rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <body class="bg-white">
+<body class="bg-white">
 
-        <!-- Nav bar Start -->
-        <?php include_once("header.php") ?>
-        <!-- Nav bar End -->
+    <!-- Nav bar Start -->
+    <?php include_once("header.php") ?>
+    <!-- Nav bar End -->
 
-        <!-- Page Header Start -->
-        <div class="container-fluid page-header-team-predecessors py-2 mb-5">
-            <div class="container py-5">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Nos Prédécésseurs</h1>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-team-predecessors py-2 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Nos Prédécésseurs</h1>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                <!-- Table One Start -->
+                <table class="table table-hover table-bordered border-primary caption-top ">
+                    <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#AB7442;">
+                        PRÉSIDENTS ASSEMBLÉE GÉNÉRALE</caption>
+                    <thead style="background-color: var(--primary); color: white;">
+                        <tr>
+                            <th scope="col">Période</th>
+                            <th scope="col">Nom & Prénoms</th>
+                            <th scope="col">Fonctions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>xxxx</td>
+                            <td>M./Mme ...</td>
+                            <td>Président Assemblée Gen.</td>
+                        </tr>
+                        <tr>
+                            <td>xxxx</td>
+                            <td>M./Mme ...</td>
+                            <td>Président Assemblée Gen.</td>
+                        </tr>
+                        <tr>
+                            <td>xxxx</td>
+                            <td>M./Mme ...</td>
+                            <td>Président Assemblée Gen.</td>
+                        </tr>
+                        <tr>
+                            <td>2017 -</td>
+                            <td>M. EDOU ALO'O Cyril</td>
+                            <td>Président Assemblée Gen.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Table One End -->
+
+            </div>
+
+            <div class="col wow fadeInUp" data-wow-delay="0.3s">
+                <!-- Table Two Start -->
+                <table class="table table-hover table-bordered border-primary caption-top bo">
+                    <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color: #AB7442;">
+                        DIRECTEURS EXÉCUTIFS</caption>
+                    <thead style="background-color: var(--primary); color: white;">
+                        <tr>
+                            <th scope="col">Période</th>
+                            <th scope="col">Nom & Prénoms</th>
+                            <th scope="col">Fonctions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>xxxx</td>
+                            <td>M./Mme ...</td>
+                            <td>Directeur Exécutif</td>
+                        </tr>
+                        <tr>
+                            <td>xxxx</td>
+                            <td>Dr AKOA AKOA Samuel</td>
+                            <td>Directeur Exécutif</td>
+                        </tr>
+                        <tr>
+                            <td>xxxx</td>
+                            <td>Mme GOMA Flore</td>
+                            <td> - </td>
+                        </tr>
+                        <tr>
+                            <td>Juillet 2023 -</td>
+                            <td>Mme GOMA Flore</td>
+                            <td>Directeur Exécutif</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Table Two End -->
             </div>
         </div>
-        <!-- Page Header End -->
-
-        <div class="container mt-4">
-            <div class="row">
-
-                <div class="col mb-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <!-- Table One Start -->
-                    <table class="table table-hover table-bordered border-primary caption-top ">
-                        <caption
-                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#AB7442;">
-                            PRÉSIDENTS ASSEMBLÉe GÉNÉRALE</caption>
-                        <thead style="background-color: var(--primary); color: white;">
-                            <tr>
-                                <th scope="col">Période</th>
-                                <th scope="col">Nom & Prénoms</th>
-                                <th scope="col">Fonctions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
-                                <td>Président Assemblée Gen.</td>
-                            </tr>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
-                                <td>Président Assemblée Gen.</td>
-                            </tr>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
-                                <td>Président Assemblée Gen.</td>
-                            </tr>
-                            <tr>
-                                <td>2017 -</td>
-                                <td>M. EDOU ALO'O Cyril</td>
-                                <td>Président Assemblée Gen.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- Table One End -->
-
-                </div>
-
-                <div class="col wow fadeInUp" data-wow-delay="0.3s">
-                    <!-- Table Two Start -->
-                    <table class="table table-hover table-bordered border-primary caption-top bo">
-                        <caption
-                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color: #AB7442;">
-                            DIRECTEURS EXÉCUTIFS</caption>
-                        <thead style="background-color: var(--primary); color: white;">
-                            <tr>
-                                <th scope="col">Période</th>
-                                <th scope="col">Nom & Prénoms</th>
-                                <th scope="col">Fonctions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
-                                <td>Directeur Exécutif</td>
-                            </tr>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>Dr AKOA AKOA Samuel</td>
-                                <td>Directeur Exécutif</td>
-                            </tr>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>Mme GOMA Flore</td>
-                                <td> - </td>
-                            </tr>
-                            <tr>
-                                <td>Juillet 2023 -</td>
-                                <td>Mme GOMA Flore</td>
-                                <td>Directeur Exécutif</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <!-- Table Two End -->
-                </div>
-            </div>
-        </div>
+    </div>
 
 
-        <!-- Footer Start -->
-        <?php include_once("footer.php") ?>
-        <!-- Footer End -->
+    <!-- Footer Start -->
+    <?php include_once("footer.php") ?>
+    <!-- Footer End -->
 
-        <script>
+    <script>
         let List_header = document.getElementsByClassName('nav-link');
         for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
         document.getElementById('members').setAttribute("class", "nav-link active");
-        </script>
-    </body>
+    </script>
+</body>
 
 </html>

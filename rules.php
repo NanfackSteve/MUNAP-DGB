@@ -43,7 +43,7 @@
         <!-- Nav bar End -->
 
         <!-- Page Header Start -->
-        <div class="container-fluid page-header-about py-3 mb-5">
+        <div class="container-fluid page-header-docu py-3 mb-5">
             <div class="container py-3">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">REGLEMENT INTERIEUR DE LA<br>MUNAP - DGB
                 </h1>
@@ -92,7 +92,6 @@
                 </h3>
             </div>
 
-            <h2 class="title-article my-4">Chapitre I : DE LA CREATION ET DU SIEGE</h2>
             <div class="article">
                 <h4><a style="color: #353535;" href="#">Article 1er : </a></h4>
                 <p>Le présent règlement intérieur fixe les modalités d’application des Statuts de la Mutuelle Nationale

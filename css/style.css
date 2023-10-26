@@ -343,13 +343,13 @@
     border-color: var(--primary);
 }
 
-.page-header-about {
-    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/about1.avif) center center no-repeat;
+.page-header-docu {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/docu.avif) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-team {
-    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/dgb/capture12.jpg) center center no-repeat;
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/team_members.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -364,12 +364,12 @@
 }
 
 .page-header-news {
-    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .4)), url(../img/dgb/capture8.jpg) center center no-repeat;
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .4)), url(../img/header/actus.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-profile {
-    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/dgb/capture0.jpg) center center no-repeat;
+    background: linear-gradient(rgba(121, 65, 14, 0.719), rgba(121, 65, 14, 0.6));
     background-size: cover;
 }
 
