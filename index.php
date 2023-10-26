@@ -152,10 +152,10 @@
                         <b>n°000728/RDA/J06/BAPP du 19 juillet 2007</b> complété par son modificatif
                         <b>n°001336/RRDA/ JO6/BAPP du 23 août
                             2012.</b><br /> Elle regroupe en son sein, le personnel en service dans les services
-                        centraux dela Direction Générale du Budget; le personnel en service dans les services
+                        centraux de la Direction Générale du Budget, le personnel en service dans les services
                         déconcentrés de la
-                        Direction Générale du Budget; le Personnel en service dans les Contrôles Régionaux
-                        des Finances; le personnel en service dans les Contrôle Départementaux des Finances;
+                        Direction Générale du Budget, le Personnel en service dans les Contrôles Régionaux
+                        des Finances, le personnel en service dans les Contrôle Départementaux des Finances.
                     </p>
                 </fieldset>
                 <!-- Historiq End -->
@@ -209,7 +209,7 @@
                                 </div>
                                 <p>Les Mutualistes sont divisés en quatre (04) catégories
                                 <ul class="mb-0">
-                                    <li><b>Membre Actifs : </b>Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                                    <li><b>Membres Actifs : </b>Tempor erat elitr rebum at clita. Diam dolor diam ipsum
                                         sit. Aliqu
                                         diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
                                         clita
