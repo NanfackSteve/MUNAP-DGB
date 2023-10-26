@@ -206,34 +206,16 @@
                                 <div class="section-title text-start">
                                     <h5 class="display-5 mb-4">Qui est membre ?</h5>
                                 </div>
-                                <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-                                    diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita
-                                    duo justo erat amet</p>
+                                <p class="mb-4 pb-2">Toute personne physique ou morale qui s'acquitte régulièrement de ses cotisations, ou qui contribue à la prospérité de la mutuelle par des contributions ou prestations de toutes sortes.</p>
                                 <div class="section-title text-start">
                                     <h5 class="display-5 mb-4">Qualités de membres </h5>
                                 </div>
                                 <p>Les Mutualistes sont divisés en quatre (04) catégories
                                 <ul class="mb-0">
-                                    <li><b>Membres Actifs : </b>Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                                        sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita
-                                        duo justo erat amet</li><br />
-                                    <li><b>Membres d’Honneur : </b>Tempor erat elitr rebum at clita. Diam dolor diam
-                                        ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita
-                                        duo justo erat amet</li><br />
-                                    <li><b>Membres Conseillers : </b>Tempor erat elitr rebum at clita. Diam dolor diam
-                                        ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita
-                                        duo justo erat amet</li><br />
-                                    <li><b>Membres Retraités : </b>Tempor erat elitr rebum at clita. Diam dolor diam
-                                        ipsum sit. Aliqu
-                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
-                                        clita
-                                        duo justo erat amet</li>
+                                    <li><b>Membres Actifs : </b>tout personnel en activité dans les services centraux ou déconcentrés de la Direction Générale du Budget, qui adhère aux présents statuts, verse un droit d’adhésion et s’acquitte régulièrement de ses cotisations dûes.</li><br />
+                                    <li><b>Membres d’Honneur : </b>toute personne physique ou morale qui, sans bénéficier des avantages de la Mutuelle, contribue à la prospérité de celle-ci par des contributions ou prestations de toutes sortes.</li><br />
+                                    <li><b>Membres Conseillers : </b>toute personne physique ou morale qui, sans bénéficier des avantages de la Mutuelle, contribue à la prospérité de celle-ci par des contributions ou prestations de toutes sortes.</li><br />
+                                    <li><b>Membres Retraités : </b>tout personnel n'étant plus en activité dans les services centraux ou déconcentrés de la Direction Générale du Budget, qui adhère aux présents statuts, verse un droit d’adhésion et s’acquitte régulièrement de ses cotisations dûes.</li>
                                 </ul>
                                 </p>
 
