@@ -4,7 +4,6 @@
 
 @media (max-width: 768px) {
 
-
     .slogan {
         display: none;
     }
@@ -20,9 +19,15 @@
         margin-top: 15px;
         border-radius: 20px;
     }
+
+    .map {
+        scroll-margin-top: 110px;
+    }
 }
 
 /* CSS carte */
+
+
 .map__image path {
     fill: #b2beae;
     stroke: #FFF;
