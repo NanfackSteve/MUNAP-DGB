@@ -42,6 +42,11 @@
     scroll-margin-top: 100px;
 }
 
+.allo-text {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
 .img-word {
     width: 34%;
     height: 330px;

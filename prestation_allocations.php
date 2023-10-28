@@ -43,12 +43,15 @@
     <!-- Prestations Start -->
     <div class="container">
         <div class="row mt-2 g-4 ">
+
+            <!-- Prestation Mariage Start -->
             <div class="col-md-6 col-lg-4 px-4">
-                <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
-                    <img src="img/prestations/allo-mariage.jpg" class="card-img-top img-fluid " alt="...">
+                <div class="card wow fadeInUp shadow-lg mb-5 bg-body rounded" data-wow-delay="0.3s">
+                    <img src=" img/prestations/allo-mariage.jpg" class="card-img-top img-fluid " alt="...">
                     <div class="card-body ">
                         <h5 class="card-title">Mariage</h5>
-                        <p class="card-text">Pour bénéficier de cette allocation </p>
+                        <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#mariageModal">Voir
+                            Détails Montant</a>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -72,12 +75,36 @@
                 </div>
             </div>
 
+            <!-- Modal -->
+            <div class="modal fade" id="mariageModal" tabindex="-1" aria-labelledby="mariageModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mariageModalLabel">Frais Allocation Mariage</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="allo-text"> A l’occasion du mariage d’un membre à jour de ses cotisations, la
+                                Mutuelle lui verse une
+                                allocation fixée à <b>100.000 F</b></p>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <a href="status.php#title3-chap2-sect3" class="btn btn-link">Voir article</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Prestation Mariage End -->
+
+            <!-- Prestation Sante/Hopitaux Start -->
             <div class="col-md-6 col-lg-4 px-4">
-                <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
-                    <img src="img/prestations/allo-medicaux.jpg" class="card-img-top img-fluid w-100" alt="...">
+                <div class="card wow fadeInUp shadow-lg mb-5 bg-body rounded" data-wow-delay="0.5s">
+                    <img src=" img/prestations/allo-medicaux.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Frais Médicaux</h5>
-                        <p class="card-text"> Pour bénéficier de cette allocation </p>
+                        <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#santeModal">Voir
+                            Détails Montant</a>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -100,13 +127,55 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="santeModal" tabindex="-1" aria-labelledby="santeModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="santeModal">Frais Allocation Santé</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="allo-text">
+                                Les frais de séjour d’un adhérent ou d’un membre de sa famille au sens de la
+                                législation sur les
+                                prestations familiales, dans une formation sanitaire agrée par le Conseil
+                                d’administrations,
+                                sont rembourses de la manière suivante :
+                            <ul><b>Frais d’hospitalisation</b> :
+                                <li>Hopitaux publics : 40 %</li>
+                                <li>Hôpitaux privés : 20 %</li>
+                                <li>Consultation : 50 %</li>
+                            </ul>
+                            <ul><b>Soins dentaires</b> :
+                                <li>Hôpitaux publics : 25 %</li>
+                                <li>Hôpitaux privés : 15 %</li>
+                            </ul>
+                            <ul><b>Analyse médicale</b> :
+                                <li>Laboratoire publics : 30 %</li>
+                                <li>Laboratoire privés : 20 %</li>
+                            </ul>
+                            Les enfants ont le tiers payant et le conjoint les deux tiers.
 
+                            </p>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <a href="status.php#title3-chap2-sect2" class="btn btn-link">Voir article</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Prestation Sante/Hopitaux End -->
+
+            <!-- Prestation Decoration Start -->
             <div class="col-md-6 col-lg-4 px-4">
-                <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
-                    <img src="img/prestations/allo-decoration.jpg" class="card-img-top img-fluid w-100" alt="...">
+                <div class="card wow fadeInUp shadow-lg mb-5 bg-body rounded" data-wow-delay="0.7s">
+                    <img src=" img/prestations/allo-decoration.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Décoration</h5>
-                        <p class="card-text">Pour bénéficier de cette allocation  </p>
+                        <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#decorationModal">Voir
+                            Détails Montant</a>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -129,13 +198,36 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="decorationModal" tabindex="-1" aria-labelledby="decorationModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="decorationModal">Frais Allocation Décoration</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="allo-text">A l’occasion de la décoration d’un membre en règle, la Mutuelle lui
+                                verse une allocation fixée à <b>50 000 F</b> quelque soit le nombre de médailles
+                                reçus.</p>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <a href="status.php#title3-chap2-sect4" class="btn btn-link">Voir article</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Prestation Decoration End -->
 
+            <!-- Prestation Naissance Start -->
             <div class="col-md-6 col-lg-4 px-4 ">
-                <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
+                <div class="card wow fadeInUp shadow-lg mb-5 bg-body rounded" data-wow-delay="0.3s">
                     <img src="img/prestations/allo-naissance.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Naissance</h5>
-                        <p class="card-text">Pour bénéficier de cette allocation  </p>
+                        <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#naissanceModal">Voir
+                            Détails Montant</a>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -159,13 +251,38 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="naissanceModal" tabindex="-1" aria-labelledby="naissanceModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="naissanceModal">Frais Allocation Naissance/Accouchement</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="allo-text">A la naissance d'un enfant dans le foyer d'un membre à jour de ses
+                                cotisations, la Mutuelle célèbre l'évènement par l'octroi au membre d'une allocation
+                                fixée à <b>50 000 F</b>.
+                                Le traitement est unique si le membre et son conjoint sont membre de la MUNAP-DGB.
+                            </p>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <a href="status.php#title3-chap2-sect3" class="btn btn-link">Voir article</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Prestation Naissance End -->
 
+            <!-- Prestation Deces Start -->
             <div class="col-md-6 col-lg-4 px-4">
-                <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
+                <div class="card wow fadeInUp shadow-lg mb-5 bg-body rounded" data-wow-delay="0.5s">
                     <img src="img/prestations/allo-deces.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Décès </h5>
-                        <p class="card-text">Pour bénéficier de cette allocation  </p>
+                        <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#decesModal">Voir
+                            Détails Montant</a>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -189,13 +306,46 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="decesModal" tabindex="-1" aria-labelledby="decesModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="decesModal">Frais Allocation Décès</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="allo-text">
+                                A l’occasion du décès d’un membre, de son conjoint, d’un parent, d’un enfant au
+                                sens de la
+                                législation sur les prestations familiales, la mutuelle verse des allocations
+                                fixées de la
+                                matière suivante :
+                            <ul>
+                                <li><b>Membre</b> : 300.000 F + 1 couronne de 50.000 F</li>
+                                <li><b>Conjoint</b> : 200.000 F</li>
+                                <li><b>Parents</b> : 100.000 F</li>
+                                <li><b>Enfant</b> : 50.000 F.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <a href="status.php#title3-chap2-sect1" class="btn btn-link">Voir article</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Prestation Deces End -->
 
+            <!-- Prestation Retraite Start -->
             <div class="col-md-6 col-lg-4 px-4">
-                <div class="card wow fadeInUp shadow-lg   mb-5 bg-body rounded">
+                <div class="card wow fadeInUp shadow-lg mb-5 bg-body rounded" data-wow-delay="0.7s">
                     <img src="img/prestations/allo-retraire.jpg" class="card-img-top img-fluid w-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Retraite</h5>
-                        <p class="card-text">Pour bénéficier de cette allocation  </p>
+                        <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#retraiteModal">Voir
+                            Détails Montant</a>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -216,6 +366,28 @@
                     </div>
                 </div>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="retraiteModal" tabindex="-1" aria-labelledby="retraiteModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="retraiteModal">Frais Allocation Retraite</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="allo-text">Lorsqu’un membre est admis à faire valoir ses droits à la retraite,
+                                la Mutuelle lui verse une allocation fixée à <b>100.000 F</b> s’il a régulièrement
+                                verse ses cotisations au cours des <b>trois (3) dernières années</b>.
+                            </p>
+                        </div>
+                        <div class="modal-footer align-items-center">
+                            <a href="status.php#title3-chap2-sect4" class="btn btn-link">Voir article</a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Prestation Retraite End -->
         </div>
     </div>
     <!-- Prestations End -->
