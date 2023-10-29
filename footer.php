@@ -4,15 +4,21 @@
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4">Addresses</h4>
                 <a href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>Cameroun - Yaoundé <a class="rounded-pill btn btn-outline-light btn-sm ms-1 " href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" style="width: 80px;">Itinéraire</a></p>
+                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>Cameroun - Yaoundé <a
+                            class="rounded-pill btn btn-outline-light btn-sm ms-1 "
+                            href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" style="width: 80px;">Itinéraire</a></p>
 
                 </a>
                 <a href="tel:+237699955507" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>(+237) 699 955 507 <a class="rounded-pill btn btn-outline-light btn-sm ms-3 " href="tel:+237699955507" style="width: 80px;">Appeler</a>
+                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>(+237) 699 955 507 <a
+                            class="rounded-pill btn btn-outline-light btn-sm ms-3 " href="tel:+237699955507"
+                            style="width: 80px;">Appeler</a>
                     </p>
                 </a>
                 <a href=" mailto:munapdgb@yahoo.fr" class="text-white">
-                    <p class="mb-2 "><i class="fa fa-envelope me-2"></i>munapdgb@yahoo.fr <a class="rounded-pill btn btn-outline-light btn-sm ms-2" href="mailto:munapdgb@yahoo.fr" style="width: 80px;">Écrire</a>
+                    <p class="mb-2 "><i class="fa fa-envelope me-2"></i>munapdgb@yahoo.fr <a
+                            class="rounded-pill btn btn-outline-light btn-sm ms-2" href="mailto:munapdgb@yahoo.fr"
+                            style="width: 80px;">Écrire</a>
                     </p>
                 </a>
                 <div class="d-flex pt-2">
@@ -34,17 +40,19 @@
 
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4">Documentation</h4>
-                <a class="btn btn-link" target="_blank" href="files/Mutuelle_Statuts.pdf" download="Mutuelle_Status.pdf">Téléchargez -
+                <a class="btn btn-link" target="_blank" href="files/Mutuelle_Statuts.pdf"
+                    download="Mutuelle_Status.pdf">Téléchargez -
                     Les Status</a>
-                <a class="btn btn-link" target="_blank" href="files/Mutuelle_Reglement_interieur.pdf" download="Mutuelle_Reglement_interieur.pdf">Téléchargez - Règlement Intérieur</a>
+                <a class="btn btn-link" target="_blank" href="files/Mutuelle_Reglement_interieur.pdf"
+                    download="Mutuelle_Reglement_interieur.pdf">Téléchargez - Règlement Intérieur</a>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="copyright">
             <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="index.php">MUNAP - DGB</a>, All Right Reserved.
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">Copyright
+                    &copy; 2023 <a class="border-bottom" href="index.php">MUNAP - DGB</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     Designed By <a class="border-bottom" href="#">Equipe Technique MUNAP-DGB</a>

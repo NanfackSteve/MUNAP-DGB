@@ -47,12 +47,12 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
 
     </head>
 
-    <body>
+    <body style="background-color: #eee;">
         <section class="h-100 gradient-form" style="background-color: #eee;">
-            <div class="container py-5 h-100">
+            <div class="container pb-3 pt-5 h-100">
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-xl-10">
-                        <div class="card rounded-3 text-black">
+                        <div class="card rounded-3 text-black ">
                             <div class="row g-0">
                                 <div class="col-lg-6">
                                     <div class="card-body p-md-5 mx-md-4">
@@ -77,38 +77,38 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
                                         <form class="mt-4" action="login.php" method="POST">
                                             <p></p>
 
-                                            <div class="form-outline mb-4">
-                                                <label class="form-label font-verdana" for="email">Nom
-                                                    d'utilisateur :</label>
-                                                <input type="email" id="email" name="email" class="form-control"
-                                                    placeholder="Nom d'utilisateur ou adress email " />
+                                            <div class="form-floating mb-3">
+                                                <input type="email" id="floatingInput" name="email" class="form-control"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingInput">Nom
+                                                    d'utilisateur ou Email</label>
                                             </div>
 
-                                            <div class="form-outline mb-4">
-                                                <label class="form-label font-verdana" for="password">Mot de
-                                                    Passe : </label>
-                                                <input type="password" id="password" name="password"
-                                                    class="form-control" placeholder="Entrez votre mot de Passe" />
+                                            <div class="form-floating mb-4">
+                                                <input type="password" id="floatingPassword" name="password"
+                                                    class="form-control" placeholder="Password">
+                                                <label for="floatingPassword">Mot de Passe</label>
                                             </div>
 
-                                            <div class="text-center pt-1 mb-5 pb-1">
-                                                <button style="width:100%; background: #AB7442; "
+                                            <div class="text-center pt-1 mb-4 pb-1">
+                                                <button style="width:70%; background: #AB7442; border-radius: 20px;"
                                                     class="btn btn-block text-white fa-lg mb-3"
                                                     type="submit"><b>Connexion</b>
                                                 </button><br>
                                                 <!-- <a class="text-muted" href="#!">Mot de passe oublié ?</a> -->
-                                                <div class="wow fadeInUp text-center mt-4"><a class="fw-medium "
-                                                        href="index.php">Aller sur le Site Web
-                                                        <i class="fa fa-arrow-right ms-2"></i></a></div>
+                                                <div class="text-center mt-4">
+                                                    <a href="index.php">Aller sur le Site Web </a>
+                                                </div>
                                             </div>
 
                                         </form>
 
                                     </div>
                                 </div>
-                                <div class="col-lg-6 d-flex align-items-center" style="background: #AB7442;">
-                                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                                        <h4 class="font-verdana mb-4">Mutuelle Nationale du Personnel
+
+                                <div class="col-lg-6 d-flex align-items-center munap-login">
+                                    <div class="text-white px-3 py-4 p-md-5 mx-md-4  ">
+                                        <h4 class="font-verdana mb-4 text-white">Mutuelle Nationale du Personnel
                                             de la Direction Générale du Budget</h4>
                                     </div>
                                 </div>

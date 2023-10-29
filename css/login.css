@@ -1,31 +1,42 @@
-.gradient-custom-2 {
-    /* fallback for old browsers */
-    background: #fccb90;
+ .munap-login {
+     /* background: linear-gradient(rgba(53, 53, 53, .2), rgba(53, 53, 53, .3)), url(../img/MUNAP_DGB.png) center center no-repeat;
+    background-size: cover; */
+     background: #AB7442;
+ }
 
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #ee7724, #ee9d07, #b1761e, #c01013);
+ /* .munap-login h4 {
+    display: none;
+}  */
 
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #ee7724, #ee9d07, #b1761e, #c01013);
-}
+ .gradient-custom-2 {
+     /* fallback for old browsers */
+     background: #fccb90;
 
-.font-sans-serif {
-    font-family: sans-serif;
-}
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to right, #ee7724, #ee9d07, #b1761e, #c01013);
 
-.font-verdana {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to right, #ee7724, #ee9d07, #b1761e, #c01013);
+ }
 
-@media (min-width: 768px) {
-    .gradient-form {
-        height: 100vh !important;
-    }
-}
+ .font-sans-serif {
+     font-family: sans-serif;
+ }
 
-@media (min-width: 769px) {
-    .gradient-custom-2 {
-        border-top-right-radius: .3rem;
-        border-bottom-right-radius: .3rem;
-    }
-}
+ .font-verdana {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ @media (min-width: 768px) {
+     .gradient-form {
+         height: 100vh !important;
+     }
+
+ }
+
+ @media (min-width: 769px) {
+     .gradient-custom-2 {
+         border-top-right-radius: .3rem;
+         border-bottom-right-radius: .3rem;
+     }
+ }

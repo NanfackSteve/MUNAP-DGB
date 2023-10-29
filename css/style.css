@@ -28,6 +28,8 @@
 /* CSS carte */
 
 
+
+
 .map__image path {
     fill: #b2beae;
     stroke: #FFF;
@@ -170,6 +172,7 @@ ul.fleche-puce li::before {
 /* Retirer l'effet Bootstap sur les bouttons */
 .btn,
 .btn.btn-primary,
+.btn.btn-outline-light,
 .btn.btn-link:focus {
     box-shadow: none;
 }
