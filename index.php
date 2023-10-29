@@ -206,16 +206,200 @@
                                 <div class="section-title text-start">
                                     <h5 class="display-5 mb-4">Qui est membre ?</h5>
                                 </div>
-                                <p class="mb-4 pb-2">Toute personne physique ou morale qui s'acquitte régulièrement de ses cotisations, ou qui contribue à la prospérité de la mutuelle par des contributions ou prestations de toutes sortes.</p>
+                                <p class="mb-0 pb-2" style="text-align: justify;">Toute personne physique ou morale qui
+                                    s'acquitte régulièrement de
+                                    ses cotisations, ou qui contribue à la prospérité de la mutuelle par des
+                                    contributions ou prestations de toutes sortes.
+                                <ul class="mb-4 py-0 fleche-puce">
+                                    <li><a href="#" class="btn btn-link p-0" data-bs-toggle="modal"
+                                            data-bs-target="#adhesionModal">Voir les Frais
+                                            d'Adhésion</a></li>
+                                    <li><a href="#" class="btn btn-link p-0" data-bs-toggle="modal"
+                                            data-bs-target="#cotisationModal">Voir les Frais
+                                            de Cotisation Annuelles</a></li>
+                                </ul>
+                                </p>
+
+                                <!-- Modal Adhesion Start -->
+                                <div class="modal fade" id="adhesionModal" tabindex="-1" aria-labelledby="adhesionModal"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="adhesionModal">Frais Adhésion Mutuelle</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="allo-text">
+                                                <ul>
+                                                    <li><b>Agents Décisionnaires</b> : 10.000 F </li>
+                                                    <li><b>Agent Contractuel</b> : 15.000 F </li>
+                                                    <hr />
+                                                    <li><b>Chef de Bureau</b> : 15.000 F</li>
+                                                    <li><b>Cadres</b> : 20.000 F</li>
+                                                    <li><b>Chef de Service</b> : 30.000 F.</li>
+                                                    <hr />
+                                                    <li><b>Sous Directeur</b> : 50.000 F</li>
+                                                    <li><b>Chef de Division</b> : 75.000 F</li>
+                                                    <li><b>Directeur</b> : 100.000 F.</li>
+                                                    <li><b>Directeur Général</b> : PM </li>
+                                                </ul>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Fermer</button>
+                                                <button class="btn btn-primary" data-bs-target="#cotisationModal"
+                                                    data-bs-toggle="modal" data-bs-dismiss="modal">Voir les Cotisations
+                                                    annuelle</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal Adhesion End -->
+
+                                <!-- Modal Cotisation Start -->
+                                <div class="modal fade" id="cotisationModal" tabindex="-1"
+                                    aria-labelledby="cotisationModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="cotisationModal">Cotisation Annuelle</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <table
+                                                    class="table align-middle table-hover table-bordered border-primary caption-top">
+                                                    <caption
+                                                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#AB7442;">
+                                                        Membres Actifs</caption>
+                                                    <thead style="background-color: var(--primary); color: white;">
+                                                        <tr>
+                                                            <th scope="col">Type Membre</th>
+                                                            <th scope="col">Montant / an</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Agents décisionnaires</td>
+                                                            <td>18.000 F</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <ul class="mb-0">
+                                                                    <li>Contractuels</li>
+                                                                    <li>Cadres</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td>24.000 F</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <ul class="mb-0">
+                                                                    <li>Chefs de service</li>
+                                                                    <li>Contrôleurs de la solde</li>
+                                                                    <li>Chef de Bureau</li>
+                                                                    <li>C E A</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td>30.000 F</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>sous Directeur et
+                                                                plus</td>
+                                                            <td>36.000 F</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="table align-middle table-hover table-bordered border-dark caption-top">
+                                                    <caption
+                                                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#353535;">
+                                                        Membres Retraités</caption>
+                                                    <thead style="background-color: var(--dark); color: white;">
+                                                        <tr>
+                                                            <th scope="col">Type Membre</th>
+                                                            <th scope="col">Montant / an</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Cadres et responsables</td>
+                                                            <td>18.000 F</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Agents
+                                                            </td>
+                                                            <td>12.000 F</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table
+                                                    class="table align-middle table-hover table-bordered border-primary caption-top">
+                                                    <caption
+                                                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#cc6608;">
+                                                        Membres Affiliés</caption>
+                                                    <thead style="background-color: #cc6608; color: white;">
+                                                        <tr>
+                                                            <th scope="col">Type Membre</th>
+                                                            <th scope="col">Montant / an</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Conjoint</td>
+                                                            <td>2/3 de la cotisation du membre</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <ul class="mb-0">
+                                                                    <li>Parent</li>
+                                                                    <li>Enfant</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td>1/3 de la cotisation du membre</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Fermer</button>
+                                                <button class="btn btn-primary" data-bs-target="#adhesionModal"
+                                                    data-bs-toggle="modal" data-bs-dismiss="modal">Voir Frais
+                                                    d'Adhésion</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal Cotisation End -->
+
                                 <div class="section-title text-start">
                                     <h5 class="display-5 mb-4">Qualités de membres </h5>
                                 </div>
                                 <p>Les Mutualistes sont divisés en quatre (04) catégories
                                 <ul class="mb-0">
-                                    <li><b>Membres Actifs : </b>tout personnel en activité dans les services centraux ou déconcentrés de la Direction Générale du Budget, qui adhère aux présents statuts, verse un droit d’adhésion et s’acquitte régulièrement de ses cotisations dûes.</li><br />
-                                    <li><b>Membres d’Honneur : </b>toute personne physique ou morale qui, sans bénéficier des avantages de la Mutuelle, contribue à la prospérité de celle-ci par des contributions ou prestations de toutes sortes.</li><br />
-                                    <li><b>Membres Conseillers : </b>toute personne physique ou morale qui, sans bénéficier des avantages de la Mutuelle, contribue à la prospérité de celle-ci par des contributions ou prestations de toutes sortes.</li><br />
-                                    <li><b>Membres Retraités : </b>tout personnel n'étant plus en activité dans les services centraux ou déconcentrés de la Direction Générale du Budget, qui adhère aux présents statuts, verse un droit d’adhésion et s’acquitte régulièrement de ses cotisations dûes.</li>
+                                    <li><b>Membres Actifs : </b>tout personnel en activité dans les services
+                                        centraux ou
+                                        déconcentrés de la Direction Générale du Budget, qui adhère aux présents
+                                        statuts, verse un droit d’adhésion et s’acquitte régulièrement de ses
+                                        cotisations dûes.</li><br />
+                                    <li><b>Membres d’Honneur : </b>toute personne physique ou morale qui, sans
+                                        bénéficier des avantages de la Mutuelle, contribue à la prospérité de
+                                        celle-ci
+                                        par des contributions ou prestations de toutes sortes.</li><br />
+                                    <li><b>Membres Conseillers : </b>toute personne physique ou morale qui, sans
+                                        bénéficier des avantages de la Mutuelle, contribue à la prospérité de
+                                        celle-ci
+                                        par des contributions ou prestations de toutes sortes.</li><br />
+                                    <li><b>Membres Retraités : </b>tout personnel n'étant plus en activité dans les
+                                        services centraux ou déconcentrés de la Direction Générale du Budget, qui
+                                        adhère
+                                        aux présents statuts, verse un droit d’adhésion et s’acquitte régulièrement
+                                        de
+                                        ses cotisations dûes.</li>
                                 </ul>
                                 </p>
 
@@ -281,7 +465,7 @@
 
                     <div class="m-3 d-flex flex-column align-items-center">
                         <img src="img/partenaires/cenadi.jpg" alt="" srcset="" width="70px" height="70px">
-                        <p class="fw-medium m-2"><b>CENDAI</b></p>
+                        <p class="fw-medium m-2"><b>CENADI</b></p>
                     </div>
 
                     <div class="m-3 d-flex flex-column align-items-center">

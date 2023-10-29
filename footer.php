@@ -16,7 +16,7 @@
                     </p>
                 </a>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -27,9 +27,9 @@
                 <h4 class="text-light mb-4">Liens Utiles</h4>
                 <a class="btn btn-link" href="index.php#creation">Qui sommes nous ?</a>
                 <a class="btn btn-link" href="team.php">Bureaux et Membres</a>
+                <a class="btn btn-link" href="prestation_allocations.php">Avantages des Membres</a>
                 <a class="btn btn-link" href="actus_events.php">Nos Évènements</a>
                 <a class="btn btn-link" href="actus_activities.php">Nos Activités</a>
-                <a class="btn btn-link" href="prestation_allocations.php">Nos Services</a>
             </div>
 
             <div class="col-lg-4 col-md-6">

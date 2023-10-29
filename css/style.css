@@ -107,6 +107,16 @@
     color: #1b1108;
 }
 
+ul.fleche-puce {
+    list-style-type: none;
+    padding-left: 0.5rem;
+}
+
+ul.fleche-puce li::before {
+    content: "➙";
+    margin-right: 0.5em;
+}
+
 /* Fin de Mon CSS*/
 
 :root {
@@ -155,6 +165,19 @@
 .btn {
     font-weight: 500;
     transition: .5s;
+}
+
+/* Retirer l'effet Bootstap sur les bouttons */
+.btn,
+.btn.btn-primary,
+.btn.btn-link:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
 }
 
 .btn.btn-primary,
