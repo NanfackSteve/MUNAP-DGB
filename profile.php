@@ -1,11 +1,31 @@
 <?php session_start(); ?>
+<?php
+
+if (!isset($_SESSION['num_adhesion'])) header("Location: login.php ");
+
+$num_adhesion = $_SESSION['num_adhesion'];
+$date_adhesion = $_SESSION['date_adhesion'];
+$matricule = $_SESSION['matricule'];
+$nom = $_SESSION['nom'];
+$prenom = $_SESSION['prenom'];
+$ne_le = $_SESSION['ne_le'];
+$statut = $_SESSION['statut'];
+
+$admin = $_SESSION['administration'];
+$fonction = $_SESSION['fonction'];
+$region = $_SESSION['region'];
+$qualite = $_SESSION['qualite'];
+$frais_adhesion = $_SESSION['adhesion'];
+$cotisation = $_SESSION['cotisation'];
+
+?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
-    <title>MUNAP - Profile</title>
+    <title>MUNAP - Mon Profile</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -70,23 +90,23 @@
                             <div class="row card-text pb-0">
                                 <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li><span class="me-2"><b>Numéro adhésion</b></span><span class="mx-1">/
-                                        </span><span>A0001</span></li>
+                                        </span><span><?= $num_adhesion ?></span></li>
                                     <li><span class="me-1"><b>Matricule</b></span><span><span class="mx-2">/
-                                            </span></span>75142J</li>
+                                            </span></span><?= $matricule ?></li>
                                     <li><span style="margin-right: 30px;"><b>Noms</b></span><span class="mx-2">/
-                                        </span><span>NSOCK</span></li>
+                                        </span><span><?= $nom ?></span></li>
                                     <li><span class="me-2"><b>Prénoms</b></span><span class="mx-2">/
-                                        </span><span>Sidoine</span>
+                                        </span><span><?= $prenom ?></span>
                                     </li>
                                     <li><span style="margin-right: 36px;"><b>Né le</b></span><span class="mx-2">/
-                                        </span><span>1979-05-16</span></li>
+                                        </span><span><?= $ne_le ?></span></li>
                                     <li><span style="margin-right: 28px;"><b>Statut</b></span><span class="mx-2">/
-                                        </span><span>Actif</span> </li>
+                                        </span><span><?= $statut ?></span> </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer text-center text-muted">
-                            Membre depuis -
+                            Membre depuis : <span class="text-dark"><?= $date_adhesion ?></span>
                         </div>
                     </div>
                 </div>
@@ -99,22 +119,22 @@
                             <div class="row card-text pb-0">
                                 <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li><span class="me-1"><b>administration</b></span><span class="mx-1">/
-                                        </span><span>Assemblée Générale</span></li>
+                                        </span><span><?= $admin ?></span></li>
                                     <li><span class="me-1"><b>Fonction</b></span><span><span class="mx-2">/
-                                            </span>Chef de Bureau</span></li>
+                                            </span><?= $fonction ?></span></li>
                                     <li><span style="margin-right: 18px;"><b>Région</b></span><span class="mx-2">/
-                                        </span><span>Centre</span></li>
+                                        </span><span><?= $region ?></span></li>
                                     <li><span style="margin-right: 20px;"><b>Qualité</b></span><span class="mx-2">/
-                                        </span><span>Membre Actif</span> </li>
+                                        </span><span><?= $qualite ?></span> </li>
                                     <li><span class="me-1"><b>Frais adhésion</b></span><span class="mx-2">/
-                                        </span><span>15000</span>FCFA</li>
+                                        </span><span><?= $frais_adhesion ?></span> FCFA</li>
                                     <li><span class="me-1""><b>Montant cotisé</b></span><span class=" mx-2">/
-                                        </span><span>30.000</span>FCFA</li>
+                                        </span><span><?= $cotisation ?></span> FCFA</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer text-center text-muted">
-                            Cotisation à jour - Oui/Non
+                            Cotisation à jour : <span class="text-dark">Oui/Non</span>
                         </div>
                     </div>
                 </div>
@@ -148,7 +168,8 @@
                             </div>
                         </div>
                         <div class="card-footer text-center text-muted">
-                            Total - <b><span id="total">0</span></b> personnes affiliées
+                            Total : <span id="total" class="text-dark">0</span><span class="text-dark"> personnes
+                                affiliées</span>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,23 @@
  /* .munap-login h4 {
     display: none;
 }  */
+ .underline-hover::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -2px;
+     width: 100%;
+     height: 2px;
+     background-color: #AB7442;
+     transform: scaleX(0);
+     transform-origin: right;
+     transition: transform 0.3s ease;
+ }
+
+ .underline-hover:hover::after {
+     transform: scaleX(1);
+     transform-origin: left;
+ }
 
  .gradient-custom-2 {
      /* fallback for old browsers */
