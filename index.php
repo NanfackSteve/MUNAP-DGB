@@ -288,7 +288,7 @@
                                                         <td>30.000 F</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>sous Directeur et
+                                                        <td>Sous-Directeur et
                                                             plus</td>
                                                         <td>36.000 F</td>
                                                     </tr>
@@ -331,10 +331,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <ul class="mb-0">
-                                                                <li>Parent</li>
-                                                                <li>Enfant</li>
-                                                            </ul>
+                                                            Parent et Enfant
                                                         </td>
                                                         <td>1/3 de la cotisation du membre</td>
                                                     </tr>
