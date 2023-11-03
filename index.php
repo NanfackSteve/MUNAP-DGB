@@ -56,7 +56,7 @@
                                     Palais des Congrès
                                 </h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="news_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
+                                <a href="actus_activ_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
                                     plus</a>
 
                             </div>
@@ -72,14 +72,15 @@
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
 
-                                <h1 class="display-3 text-white animated slideInDown mb-4">DONS AUX ORPHELINS DES
+                                <h1 class="display-3 text-white animated slideInDown mb-4">DONS AUX ORPHELINS
+                                    DES
                                     MUTUALISTES DECEDES
                                 </h1>
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ministère des
                                     Finances
                                 </h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
+                                <a href="actus_event_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
                                     plus</a>
                             </div>
                         </div>
@@ -103,7 +104,7 @@
                                     Ministère des Finances
                                 </h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
+                                <a href="actus_activ_2.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
                                     plus</a>
                             </div>
                         </div>
@@ -125,7 +126,7 @@
                                     Finances
                                 </h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="#" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
+                                <a href="actus_activ_3.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
                                     plus</a>
                             </div>
                         </div>
