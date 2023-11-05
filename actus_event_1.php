@@ -75,27 +75,30 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-1"></div>
-                    <div class="col-lg-10" style="min-height: 400px;">
+                    <div class="col-lg-10">
                         <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/actus/events/actus_dons_A_1.jpg" class="d-block w-100 " alt="..." ">
+                                    <img src="img/actus/events/actus_dons_A_1.jpg" class="d-block mx-auto img-fluid  "
+                                        alt="..." style="height: 20rem;" ">
                             </div>
                             <div class=" carousel-item">
-                                    <img src="img/actus/events/actus_dons_A_2.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/actus/events/actus_dons_A_2.jpg" class="d-block mx-auto img-fluid "
+                                        alt="..." style="height: 20rem;">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/actus/events/actus_dons_A_3.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/actus/events/actus_dons_A_3.jpg" class="d-block mx-auto img-fluid "
+                                        alt="..." style="height: 20rem;">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                                 data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
                                 data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
