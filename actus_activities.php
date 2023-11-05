@@ -82,8 +82,8 @@
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Inauguration du Nouveau Bus (VIP)</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                                <p class="text-primary fw-medium mb-2">Ministère des Finances</p>
+                                <h5 class="lh-base mb-0">Inauguration du Nouveau Bus (VIP)</a>
                             </div>
                         </div>
                     </div>
@@ -101,8 +101,8 @@
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Cérémonie de départ en retraite</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                                <p class="text-primary fw-medium mb-2">Ministère des Finances</p>
+                                <h5 class="lh-base mb-0">Cérémonie de départ en retraite des Mutualistes </a>
                             </div>
                         </div>
                     </div>
