@@ -1,4 +1,22 @@
-<?php session_start(); ?>
+<?php session_start();
+
+// Vérifiez si le paramètre "lang" est présent dans l'URL
+if (isset($_GET['lang'])) {
+    $langue = $_GET['lang'];
+    $_SESSION['lang'] = $langue;
+} else {
+    $lang = json_decode(file_get_contents('./language/fr.json'), true);
+}
+
+// Choisis la langue
+if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
+    $lang = json_decode(file_get_contents('./language/fr.json'), true);
+} else if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'en') {
+    $lang = json_decode(file_get_contents('./language/en.json'), true);
+} else {
+    $lang = json_decode(file_get_contents('./language/fr.json'), true);
+}
+?>
 
 <!DOCTYPE html>
 <html lang="fr">

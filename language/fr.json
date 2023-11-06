@@ -1,0 +1,26 @@
+{
+    "header": {
+        "spin": "chargement...",
+        "slogan": "Mutuelle de la Performance",
+        "home": "accueil",
+        "services": "prestations",
+        "services-allocation": "Allocations et frais Médicaux",
+        "services-bus": "Location Bus",
+        "services-tools": "Pagnes et gadgets",
+        "news": "actualités",
+        "news-activ": "Nos Activités",
+        "news-events": "Nos Évènements",
+        "docu": "documentation",
+        "docu-status": "Statuts",
+        "docu-rules": "Règlement Intérieur",
+        "team": "membres",
+        "team-wordDE": "Mot du Directeur Exécutif",
+        "team-organes": "Personnel Dirigeant",
+        "team-before": "Prédécesseurs",
+        "team-stats": "Statistiques",
+        "profil": "profil",
+        "login": "Se Connecter",
+        "logout": "Se Déconnecter",
+        "welcome": "Bienvenue sur le Site Officiel de la Mutuelle de la Direction Generale du Budget du MINFI"
+    }
+}
