@@ -14,7 +14,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
 <head>
     <meta charset="utf-8">
-    <title>MUNAP - Mot Du D.E</title>
+    <title><?= $lang['team']['DE']['title-page'] ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -33,8 +33,6 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,37 +52,20 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
             <!-- Speech DE Start -->
             <div class="col-md-6 col-lg-12 mt-4 wow fadeIn" data-wow-delay="0.3s">
-                <h3 class="text-center mb-3">Mot du Directeur Exécutif</h3>
+                <h3 class="text-center mb-3"><?= $lang['team']['DE']['word-title'] ?></h3>
 
                 <div class="border border-3 border-primary bo pt-lg-2">
                     <img src="img/organes/BE_Directeur_Executif.jpg" class="m-lg-2 float-lg-end imgshadow px-2 img-word img-sm-word" alt="DE">
                     <p style="text-align: justify;" class="m-2 wow fadeInUp" data-wow-delay="0.2s">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                        sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
-
-                        <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                        sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
+                        <?= $lang['team']['DE']['word-body'] ?>
                     </p>
                     <br /><br /><br />
                 </div>
-
             </div>
             <!-- Speech DE End -->
         </div>
 
     </div>
-
 
     <!-- Footer Start -->
     <?php include_once("footer.php") ?>

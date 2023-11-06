@@ -14,7 +14,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
 <head>
     <meta charset="utf-8">
-    <title>MUNAP - Prédécesseurs</title>
+    <title><?= $lang['team']['before']['title-page'] ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -52,7 +52,8 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
     <!-- Page Header Start -->
     <div class="container-fluid page-header-team-predecessors py-2 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Nos Prédécésseurs</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown"><?= $lang['team']['before']['head-title'] ?>
+            </h1>
         </div>
     </div>
     <!-- Page Header End -->
@@ -64,34 +65,34 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                 <!-- Table One Start -->
                 <table class="table align-middle table-hover table-bordered border-primary caption-top ">
                     <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#AB7442;">
-                        PRÉSIDENTS ASSEMBLÉE GÉNÉRALE</caption>
+                        <?= $lang['team']['before']['table-title-1'] ?></caption>
                     <thead style="background-color: var(--primary); color: white;">
                         <tr>
-                            <th scope="col">Période</th>
-                            <th scope="col">Nom & Prénoms</th>
-                            <th scope="col">Fonctions</th>
+                            <th scope="col"><?= $lang['team']['before']['table-col-1'] ?></th>
+                            <th scope="col"><?= $lang['team']['before']['table-col-2'] ?></th>
+                            <th scope="col"><?= $lang['team']['before']['table-col-3'] ?></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td>Président Assemblée Gen.</td>
+                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td>Président Assemblée Gen.</td>
+                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td>Président Assemblée Gen.</td>
+                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                         <tr>
                             <td>2017 -</td>
                             <td>M. EDOU ALO'O Cyril</td>
-                            <td>Président Assemblée Gen.</td>
+                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                     </tbody>
                 </table>
@@ -103,24 +104,24 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                 <!-- Table Two Start -->
                 <table class="table table-hover table-bordered border-primary caption-top bo">
                     <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color: #AB7442;">
-                        DIRECTEURS EXÉCUTIFS</caption>
+                        <?= $lang['team']['before']['table-title-2'] ?></caption>
                     <thead style="background-color: var(--primary); color: white;">
                         <tr>
-                            <th scope="col">Période</th>
-                            <th scope="col">Nom & Prénoms</th>
-                            <th scope="col">Fonctions</th>
+                            <th scope="col"><?= $lang['team']['before']['table-col-1'] ?></th>
+                            <th scope="col"><?= $lang['team']['before']['table-col-2'] ?></th>
+                            <th scope="col"><?= $lang['team']['before']['table-col-3'] ?></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td>Directeur Exécutif</td>
+                            <td><?= $lang['team']['before']['table-funct-2'] ?></td>
                         </tr>
                         <tr>
                             <td>xxxx</td>
                             <td>Dr AKOA AKOA Samuel</td>
-                            <td>Directeur Exécutif</td>
+                            <td><?= $lang['team']['before']['table-funct-2'] ?></td>
                         </tr>
                         <tr>
                             <td>xxxx</td>
@@ -128,9 +129,9 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                             <td> - </td>
                         </tr>
                         <tr>
-                            <td>Juillet 2023 -</td>
+                            <td>2023 -</td>
                             <td>Mme GOMA Flore</td>
-                            <td>Directeur Exécutif</td>
+                            <td><?= $lang['team']['before']['table-funct-2'] ?></td>
                         </tr>
                     </tbody>
                 </table>

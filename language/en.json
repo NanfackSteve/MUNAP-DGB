@@ -84,6 +84,50 @@
         "munap-stats-4": "Retired<br />Members",
         "partner": "Our Partners"
     },
+    "team": {
+        "DE": {
+            "title-page": "MUNAP - Director's Word",
+            "word-title": "Executive Director's Word",
+            "word-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        "organes": {
+            "title-page": "MUNAP - Bodies",
+            "head-title": "The Mutual Fund's Bodies",
+            "head-link-1": "Board of Directors",
+            "head-link-2": "Executive Board",
+            "head-link-3": "Financial Commission",
+            "head-link-4": "Regional Delegation"
+        },
+        "before": {
+            "title-page": "MUNAP - Predecessors",
+            "head-title": "Our Predecessors",
+            "table-title-1": "GENERAL ASSEMBLY PRESIDENTS",
+            "table-title-2": "EXECUTIVE DIRECTORS",
+            "table-col-1": "Period",
+            "table-col-2": "Name & Surnames",
+            "table-col-3": "Functions",
+            "table-funct-1": "Gen. Assembly President",
+            "table-funct-2": "Executive Director"
+        },
+        "stats": {
+            "title-page": "MUNAP - Stats",
+            "head-title": "Mutual Fund Statistics",
+            "card-title": "National Card",
+            "cm-en": "Far North",
+            "cm-nd": "North",
+            "cm-ad": "Adamaoua",
+            "cm-ce": "Centre",
+            "cm-su": "South",
+            "cm-es": "East",
+            "cm-ou": "West",
+            "cm-nw": "North-West",
+            "cm-sw": "South-West",
+            "cm-lt": "Littoral",
+            "cm-lit-1": "Littoral I",
+            "cm-lit-2": "Littoral II",
+            "stats-title": "Mutualists / Region"
+        }
+    },
     "footer": {
         "section-1": "Addresses",
         "location": "Cameroon - Yaoundé",

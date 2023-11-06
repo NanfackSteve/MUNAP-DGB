@@ -84,6 +84,50 @@
         "munap-stats-4": "Membres<br />Retraités",
         "partner": "Nos Partenaires"
     },
+    "team": {
+        "DE": {
+            "title-page": "MUNAP - Mot Du D.E",
+            "word-title": "Mot du Directeur Exécutif",
+            "word-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        "organes": {
+            "title-page": "MUNAP - Organes",
+            "head-title": "Les Organes de la Mutuelle",
+            "head-link-1": "Conseil d'Administration",
+            "head-link-2": "Bureau Exécutif",
+            "head-link-3": "Commission Financière",
+            "head-link-4": "Délégation  Régionale"
+        },
+        "before": {
+            "title-page": "MUNAP - Prédécesseurs",
+            "head-title": "Nos Prédécésseurs",
+            "table-title-1": "PRÉSIDENTS ASSEMBLÉE GÉNÉRALE",
+            "table-title-2": "DIRECTEURS EXÉCUTIFS",
+            "table-col-1": "Période",
+            "table-col-2": "Nom & Prénoms",
+            "table-col-3": "Fonctions",
+            "table-funct-1": "Président Assemblée Gen.",
+            "table-funct-2": "Directeur Exécutif"
+        },
+        "stats": {
+            "title-page": "MUNAP - Stats",
+            "head-title": "Statistiques de la Mutuelle",
+            "card-title": "Carte nationale",
+            "cm-en": "Extrême-Nord",
+            "cm-nd": "Nord",
+            "cm-ad": "Adamaoua",
+            "cm-ce": "Centre",
+            "cm-su": "Sud",
+            "cm-es": "Est",
+            "cm-ou": "Ouest",
+            "cm-nw": "Nord-Ouest",
+            "cm-sw": "Sud-Ouest",
+            "cm-lt": "Littoral",
+            "cm-lit-1": "Littoral I",
+            "cm-lit-2": "Littoral II",
+            "stats-title": "Mutualistes / Région"
+        }
+    },
     "footer": {
         "section-1": "Adresses",
         "location": "Cameroun - Yaoundé ",
