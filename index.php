@@ -205,30 +205,38 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="adhesionModal">Frais Adhésion Mutuelle</h5>
+                                            <h5 class="modal-title" id="adhesionModal">
+                                                <?= $lang['index']['modal-entry-title'] ?></h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
                                             <p class="allo-text">
                                             <ul>
-                                                <li><b>Agents Décisionnaires</b> : 10.000 F </li>
-                                                <li><b>Agent Contractuel</b> : 15.000 F </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-1'] ?></b> : 10.000 F
+                                                </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-2'] ?></b> : 15.000 F
+                                                </li>
                                                 <hr />
-                                                <li><b>Chef de Bureau</b> : 15.000 F</li>
-                                                <li><b>Cadres</b> : 20.000 F</li>
-                                                <li><b>Chef de Service</b> : 30.000 F.</li>
+                                                <li><b><?= $lang['index']['modal-entry-person-3'] ?></b> : 15.000 F
+                                                </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-4'] ?></b> : 20.000 F
+                                                </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-5'] ?></b> : 30.000 F.
+                                                </li>
                                                 <hr />
-                                                <li><b>Sous Directeur</b> : 50.000 F</li>
-                                                <li><b>Chef de Division</b> : 75.000 F</li>
-                                                <li><b>Directeur</b> : 100.000 F.</li>
-                                                <li><b>Directeur Général</b> : PM </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-6'] ?></b> : 50.000 F
+                                                </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-7'] ?></b> : 75.000 F
+                                                </li>
+                                                <li><b><?= $lang['index']['modal-entry-person-8'] ?></b> : 100.000
+                                                    F.</li>
+                                                <li><b><?= $lang['index']['modal-entry-person-9'] ?></b> : PM </li>
                                             </ul>
                                             </p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                            <button class="btn btn-primary" data-bs-target="#cotisationModal" data-bs-toggle="modal" data-bs-dismiss="modal">Voir les Cotisations
-                                                annuelle</button>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['index']['modal-close'] ?></button>
+                                            <button class="btn btn-primary" data-bs-target="#cotisationModal" data-bs-toggle="modal" data-bs-dismiss="modal"><?= $lang['index']['modal-see-dues'] ?></button>
                                         </div>
                                     </div>
                                 </div>
@@ -240,29 +248,34 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="cotisationModal">Cotisation Annuelle</h5>
+                                            <h5 class="modal-title" id="cotisationModal">
+                                                <?= $lang['index']['modal-dues-title'] ?></h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
                                             <table class="table align-middle table-hover table-bordered border-primary caption-top">
                                                 <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#AB7442;">
-                                                    Membres Actifs</caption>
+                                                    <?= $lang['index']['member-type-1'] ?></caption>
                                                 <thead style="background-color: var(--primary); color: white;">
                                                     <tr>
-                                                        <th scope="col">Statut Membre</th>
-                                                        <th scope="col">Montant / an</th>
+                                                        <th scope="col"><?= $lang['index']['modal-dues-status'] ?>
+                                                        </th>
+                                                        <th scope="col"><?= $lang['index']['modal-dues-cost'] ?>
+                                                        </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>Agents décisionnaires</td>
+                                                        <td><?= $lang['index']['modal-entry-person-1'] ?></td>
                                                         <td>18.000 F</td>
                                                     </tr>
                                                     <tr>
                                                         <td>
                                                             <ul class="mb-0">
-                                                                <li>Contractuels</li>
-                                                                <li>Cadres</li>
+                                                                <li><?= $lang['index']['modal-entry-person-2'] ?>
+                                                                </li>
+                                                                <li><?= $lang['index']['modal-entry-person-4'] ?>
+                                                                </li>
                                                             </ul>
                                                         </td>
                                                         <td>24.000 F</td>
@@ -270,37 +283,41 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                                     <tr>
                                                         <td>
                                                             <ul class="mb-0">
-                                                                <li>Chefs de service</li>
-                                                                <li>Contrôleurs de la solde</li>
-                                                                <li>Chef de Bureau</li>
+                                                                <li><?= $lang['index']['modal-entry-person-5'] ?>
+                                                                </li>
+                                                                <li><?= $lang['index']['modal-dues-person-1'] ?>
+                                                                </li>
+                                                                <li><?= $lang['index']['modal-entry-person-3'] ?>
+                                                                </li>
                                                                 <li>C E A</li>
                                                             </ul>
                                                         </td>
                                                         <td>30.000 F</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Sous-Directeur et
-                                                            plus</td>
+                                                        <td><?= $lang['index']['modal-dues-person-2'] ?></td>
                                                         <td>36.000 F</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                             <table class="table align-middle table-hover table-bordered border-dark caption-top">
                                                 <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#353535;">
-                                                    Membres Retraités</caption>
+                                                    <?= $lang['index']['member-type-4'] ?></caption>
                                                 <thead style="background-color: var(--dark); color: white;">
                                                     <tr>
-                                                        <th scope="col">Statut Membre</th>
-                                                        <th scope="col">Montant / an</th>
+                                                        <th scope="col"><?= $lang['index']['modal-dues-status'] ?>
+                                                        </th>
+                                                        <th scope="col"><?= $lang['index']['modal-dues-cost'] ?>
+                                                        </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>Cadres et responsables</td>
+                                                        <td><?= $lang['index']['modal-dues-person-3'] ?></td>
                                                         <td>18.000 F</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Agents
+                                                        <td><?= $lang['index']['modal-dues-person-4'] ?>
                                                         </td>
                                                         <td>12.000 F</td>
                                                     </tr>
@@ -308,31 +325,30 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                             </table>
                                             <table class="table align-middle table-hover table-bordered border-primary caption-top">
                                                 <caption style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger; font-weight: 800; color:#cc6608;">
-                                                    Membres Affiliés</caption>
+                                                    <?= $lang['index']['member-type-5'] ?></caption>
                                                 <thead style="background-color: #cc6608; color: white;">
                                                     <tr>
-                                                        <th scope="col">Statut Membre</th>
-                                                        <th scope="col">Montant / an</th>
+                                                        <th scope="col"><?= $lang['index']['modal-dues-status'] ?>
+                                                        </th>
+                                                        <th scope="col"><?= $lang['index']['modal-dues-cost'] ?>
+                                                        </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>Conjoint</td>
-                                                        <td>2/3 de la cotisation du membre</td>
+                                                        <td><?= $lang['index']['modal-dues-person-5'] ?></td>
+                                                        <td><?= $lang['index']['modal-dues-person-5-cost'] ?></td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
-                                                            Parent et Enfant
-                                                        </td>
-                                                        <td>1/3 de la cotisation du membre</td>
+                                                        <td><?= $lang['index']['modal-dues-person-6'] ?></td>
+                                                        <td><?= $lang['index']['modal-dues-person-6-cost'] ?></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                            <button class="btn btn-primary" data-bs-target="#adhesionModal" data-bs-toggle="modal" data-bs-dismiss="modal">Voir Frais
-                                                d'Adhésion</button>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['index']['modal-close'] ?></button>
+                                            <button class="btn btn-primary" data-bs-target="#adhesionModal" data-bs-toggle="modal" data-bs-dismiss="modal"><?= $lang['index']['modal-see-fees'] ?></button>
                                         </div>
                                     </div>
                                 </div>
@@ -344,13 +360,17 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                             </div>
                             <p><?= $lang['index']['quality-text'] ?>
                             <ul class="mb-0">
-                                <li><b><?= $lang['index']['member-type-1'] ?></b><?= $lang['index']['member-type-1-def'] ?>
+                                <li><b><?= $lang['index']['member-type-1'] ?> :
+                                    </b><?= $lang['index']['member-type-1-def'] ?>
                                 </li><br />
-                                <li><b><?= $lang['index']['member-type-2'] ?></b><?= $lang['index']['member-type-2-def'] ?>
+                                <li><b><?= $lang['index']['member-type-2'] ?> :
+                                    </b><?= $lang['index']['member-type-2-def'] ?>
                                 </li><br />
-                                <li><b><?= $lang['index']['member-type-3'] ?></b><?= $lang['index']['member-type-3-def'] ?>
+                                <li><b><?= $lang['index']['member-type-3'] ?> :
+                                    </b><?= $lang['index']['member-type-3-def'] ?>
                                 </li><br />
-                                <li><b><?= $lang['index']['member-type-4'] ?></b><?= $lang['index']['member-type-4-def'] ?>
+                                <li><b><?= $lang['index']['member-type-4'] ?> :
+                                    </b><?= $lang['index']['member-type-4-def'] ?>
                                 </li>
                             </ul>
                             </p>
