@@ -23,7 +23,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
 <head>
     <meta charset="utf-8">
-    <title>MUNAP - DGB</title>
+    <title><?= $lang['index']['title-page'] ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -67,15 +67,12 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
 
-                                <h1 class="display-3 text-white animated slideInDown mb-4">ASSEMBLEE GENERALE
-                                    EXTRAORDINAIRE
-                                </h1>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">
+                                    <?= $lang['index']['caroussel-1-title'] ?></h1>
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">
-                                    Palais des Congrès
-                                </h5>
+                                    <?= $lang['index']['caroussel-1-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_activ_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
-                                    plus</a>
+                                <a href="actus_activ_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
 
                             </div>
                         </div>
@@ -90,16 +87,12 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
 
-                                <h1 class="display-3 text-white animated slideInDown mb-4">DONS AUX ORPHELINS
-                                    DES
-                                    MUTUALISTES DECEDES
-                                </h1>
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ministère des
-                                    Finances
-                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">
+                                    <?= $lang['index']['caroussel-2-title'] ?></h1>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                                    <?= $lang['index']['caroussel-2-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_event_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
-                                    plus</a>
+                                <a href="actus_event_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
                             </div>
                         </div>
                     </div>
@@ -112,18 +105,12 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
+                                <h1 class="display-3 text-white animated slideInDown mb-4">
+                                    <?= $lang['index']['caroussel-3-title'] ?></h1>
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">
-
-                                </h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">INAUGURATION DU NOUVEAU
-                                    BUS
-                                </h1>
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
-                                    Ministère des Finances
-                                </h5>
+                                    <?= $lang['index']['caroussel-3-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_activ_2.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
-                                    plus</a>
+                                <a href="actus_activ_2.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
                             </div>
                         </div>
                     </div>
@@ -136,16 +123,12 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-
-                                <h1 class="display-3 text-white animated slideInDown mb-4">CEREMONIE DE DEPART EN
-                                    RETRAITE
-                                </h1>
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Ministère des
-                                    Finances
-                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">
+                                    <?= $lang['index']['caroussel-4-title'] ?></h1>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                                    <?= $lang['index']['caroussel-4-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_activ_3.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft">Lire
-                                    plus</a>
+                                <a href="actus_activ_3.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
                             </div>
                         </div>
                     </div>
@@ -161,18 +144,9 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
         <!-- Historiq Start -->
         <div id="creation" class="row px-2 mb-4 wow fadeIn decalage-haut" data-wow-delay="0.3s">
             <fieldset class="bg-light  p-0 border-bottom border-3">
-                <legend class="p-2" style="background-color: var(--primary); color: white;">La Création
-                </legend>
-                <p class="p-2" style="text-align: justify;">L'Association Mutualiste MUNAP-DGB, créée le <b>23 JUIN
-                        2007</b>, est une association de droit camerounais reconnue officiellement suivant RDA
-                    <b>n°000728/RDA/J06/BAPP du 19 juillet 2007</b> complété par son modificatif
-                    <b>n°001336/RRDA/ JO6/BAPP du 23 août
-                        2012.</b><br /> Elle regroupe en son sein, le personnel en service dans les services
-                    centraux de la Direction Générale du Budget, le personnel en service dans les services
-                    déconcentrés de la
-                    Direction Générale du Budget, le Personnel en service dans les Contrôles Régionaux
-                    des Finances, le personnel en service dans les Contrôle Départementaux des Finances.
-                </p>
+                <legend class="p-2" style="background-color: var(--primary); color: white;">
+                    <?= $lang['index']['creation-title'] ?></legend>
+                <p class="p-2" style="text-align: justify;"><?= $lang['index']['creation-body'] ?></p>
             </fieldset>
         </div>
         <!-- Historiq End -->
@@ -181,7 +155,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
             <!-- Speech DGB Start -->
             <div class="col-md-6 col-lg-12 mt-3">
-                <h3 class="text-center">Mot du Président de l'Assemblée Général</h3>
+                <h3 class="text-center"><?= $lang['index']['president-word-title'] ?></h3>
                 <br />
                 <img src="img/organes/CA_DGB.jpg" class="m-lg-2 float-lg-end imgshadow px-2" alt="MINFI-DGB">
                 <p style="text-align: justify;" class="m-2 wow fadeIn" data-wow-delay="0.4s">
@@ -214,17 +188,15 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                     <div class="bg-light col-lg-7 about-text py-2 ">
                         <div class="p-2 p-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="section-title text-start">
-                                <h5 class="display-5 mb-4">Qui est membre ?</h5>
+                                <h5 class="display-5 mb-4"><?= $lang['index']['who-member'] ?></h5>
                             </div>
-                            <p class="mb-0 pb-2" style="text-align: justify;">Toute personne physique ou morale qui
-                                s'acquitte régulièrement de
-                                ses cotisations, ou qui contribue à la prospérité de la mutuelle par des
-                                contributions ou prestations de toutes sortes.
+                            <p class="mb-0 pb-2" style="text-align: justify;">
+                                <?= $lang['index']['who-member-def'] ?>
                             <ul class="mb-4 py-0 fleche-puce">
-                                <li><a href="#" class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#adhesionModal">Voir les Frais
-                                        d'Adhésion</a></li>
-                                <li><a href="#" class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#cotisationModal">Voir les Frais
-                                        de Cotisation Annuelles</a></li>
+                                <li><a href="#" class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#adhesionModal"><?= $lang['index']['entry-cost-link'] ?></a>
+                                </li>
+                                <li><a href="#" class="btn btn-link p-0" data-bs-toggle="modal" data-bs-target="#cotisationModal"><?= $lang['index']['cotisation-link'] ?></a>
+                                </li>
                             </ul>
                             </p>
 
@@ -368,29 +340,18 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                             <!-- Modal Cotisation End -->
 
                             <div class="section-title text-start">
-                                <h5 class="display-5 mb-4">Qualités de membres </h5>
+                                <h5 class="display-5 mb-4"><?= $lang['index']['quality-title'] ?></h5>
                             </div>
-                            <p>Les Mutualistes sont divisés en quatre (04) catégories
+                            <p><?= $lang['index']['quality-text'] ?>
                             <ul class="mb-0">
-                                <li><b>Membres Actifs : </b>tout personnel en activité dans les services
-                                    centraux ou
-                                    déconcentrés de la Direction Générale du Budget, qui adhère aux présents
-                                    statuts, verse un droit d’adhésion et s’acquitte régulièrement de ses
-                                    cotisations dûes.</li><br />
-                                <li><b>Membres d’Honneur : </b>toute personne physique ou morale qui, sans
-                                    bénéficier des avantages de la Mutuelle, contribue à la prospérité de
-                                    celle-ci
-                                    par des contributions ou prestations de toutes sortes.</li><br />
-                                <li><b>Membres Conseillers : </b>toute personne physique ou morale qui, sans
-                                    bénéficier des avantages de la Mutuelle, contribue à la prospérité de
-                                    celle-ci
-                                    par des contributions ou prestations de toutes sortes.</li><br />
-                                <li><b>Membres Retraités : </b>tout personnel n'étant plus en activité dans les
-                                    services centraux ou déconcentrés de la Direction Générale du Budget, qui
-                                    adhère
-                                    aux présents statuts, verse un droit d’adhésion et s’acquitte régulièrement
-                                    de
-                                    ses cotisations dûes.</li>
+                                <li><b><?= $lang['index']['member-type-1'] ?></b><?= $lang['index']['member-type-1-def'] ?>
+                                </li><br />
+                                <li><b><?= $lang['index']['member-type-2'] ?></b><?= $lang['index']['member-type-2-def'] ?>
+                                </li><br />
+                                <li><b><?= $lang['index']['member-type-3'] ?></b><?= $lang['index']['member-type-3-def'] ?>
+                                </li><br />
+                                <li><b><?= $lang['index']['member-type-4'] ?></b><?= $lang['index']['member-type-4-def'] ?>
+                                </li>
                             </ul>
                             </p>
 
@@ -405,32 +366,32 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
             <!-- Stats Start -->
             <fieldset class="bg-light border-top border-bottom border-3">
 
-                <h3 class="text-center pt-4">Statistiques MUNAP-DGB </h3>
+                <h3 class="text-center pt-4"><?= $lang['index']['munap-stats'] ?></h3>
                 <div class="wow fadeInUp pb-2 px-2" data-wow-delay="0.5s">
                     <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
                             <h2 class="text-primary m-0" data-toggle="counter-up">50</h2>
-                            <p class="fw-medium mb-0">Membres<br />d'Honneur</p>
+                            <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-1'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
                             <h2 class="text-primary m-0" data-toggle="counter-up">10</h2>
-                            <p class="fw-medium mb-0">Membres<br />Conseillers</p>
+                            <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-2'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
                             <h2 class="text-primary m-0" data-toggle="counter-up">700</h2>
-                            <p class="fw-medium mb-0">Membres<br />Actifs</p>
+                            <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-3'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
                             <h2 class="text-primary m-0" data-toggle="counter-up">150</h2>
-                            <p class="fw-medium mb-0">Membres<br />Retraités</p>
+                            <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-4'] ?></p>
                         </div>
 
                     </div>
@@ -445,7 +406,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
     <!-- Partner Start -->
 
     <div class="row mt-5 px-lg-5">
-        <h3 class="text-center ">Nos Partenaires</h3>
+        <h3 class="text-center "><?= $lang['index']['partner'] ?></h3>
         <div class="wow fadeIn pb-2 px-4 px-lg-5" data-wow-delay="0.7s">
             <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
@@ -467,9 +428,6 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                     <img src="img/partenaires/bunec.jpg" alt="Logo_BUNEC" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>BUNEC</b></p>
                 </div>
-
-
-
             </div>
         </div>
     </div>
