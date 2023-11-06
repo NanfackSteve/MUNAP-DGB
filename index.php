@@ -165,7 +165,7 @@
             <div class="col-md-6 col-lg-12 mt-3">
                 <h3 class="text-center">Mot du Président de l'Assemblée Général</h3>
                 <br />
-                <img src="img/organes/CA_DGB.jpg" class="m-lg-2 float-lg-end imgshadow px-2" alt="DGB">
+                <img src="img/organes/CA_DGB.jpg" class="m-lg-2 float-lg-end imgshadow px-2" alt="MINFI-DGB">
                 <p style="text-align: justify;" class="m-2 wow fadeIn" data-wow-delay="0.4s">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -190,7 +190,7 @@
                 <div class="row g-0 mx-lg-0">
                     <div class="col-lg-5 ps-lg-0" style="min-height: 400px; background-color: #eeee;">
                         <div class="position-relative h-100">
-                            <img class="position-absolute img-fluid w-100 h-100" src="img/MUNAP_DGB.png" style="object-fit: cover;" alt="">
+                            <img class="position-absolute img-fluid w-100 h-100" src="img/MUNAP_DGB.png" style="object-fit: cover;" alt="Logo_MUNAP-DGB">
                         </div>
                     </div>
                     <div class="bg-light col-lg-7 about-text py-2 ">
@@ -428,28 +428,29 @@
 
     <div class="row mt-5 px-lg-5">
         <h3 class="text-center ">Nos Partenaires</h3>
-        <div class="wow fadeIn pb-2 px-2 px-lg-5" data-wow-delay="0.7s">
+        <div class="wow fadeIn pb-2 px-4 px-lg-5" data-wow-delay="0.7s">
             <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
                 <div class="m-3 d-flex flex-column align-items-center">
-                    <img src="img/partenaires/minsante.jpg" alt="" srcset="" width="70px" height="70px">
+                    <img src="img/partenaires/minsante.jpg" alt="Logo_MINSANTE" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>MINSANTE</b></p>
                 </div>
 
                 <div class="m-3 d-flex flex-column align-items-center">
-                    <img src="img/partenaires/cenadi.jpg" alt="" srcset="" width="70px" height="70px">
+                    <img src="img/partenaires/logo_Fidev.jpg" alt="Logo_FIDEV" width="70px" height="70px">
+                    <p class="fw-medium m-2"><b>FIDEV</b></p>
+                </div>
+                <div class="m-3 d-flex flex-column align-items-center">
+                    <img src="img/partenaires/cenadi.jpg" alt="Logo_CENADI" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>CENADI</b></p>
                 </div>
 
                 <div class="m-3 d-flex flex-column align-items-center">
-                    <img src="img/partenaires/bunec.jpg" alt="" srcset="" width="70px" height="70px">
+                    <img src="img/partenaires/bunec.jpg" alt="Logo_BUNEC" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>BUNEC</b></p>
                 </div>
 
-                <div class="m-3 d-flex flex-column align-items-center">
-                    <img src="img/partenaires/anor.jpg" alt="" srcset="" width="70px" height="70px">
-                    <p class="fw-medium m-2"><b>ANOR</b></p>
-                </div>
+
 
             </div>
         </div>
