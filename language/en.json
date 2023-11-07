@@ -84,6 +84,24 @@
         "munap-stats-4": "Retired<br />Members",
         "partner": "Our Partners"
     },
+    "news": {
+        "title-page": "MUNAP - News",
+        "filter-all": "All",
+        "activ": {
+            "head-title": "Mutual Fund Activities",
+            "section-title": "Our Activities",
+            "filter-1": "Meetings",
+            "filter-2": "Retirements",
+            "filter-3": "Materials"
+        },
+        "events": {
+            "head-title": "Mutual Fund Events",
+            "section-title": "Our Events",
+            "filter-1": "Weddings",
+            "filter-2": "Births",
+            "filter-3": "Donations"
+        }
+    },
     "team": {
         "DE": {
             "title-page": "MUNAP - Director's Word",

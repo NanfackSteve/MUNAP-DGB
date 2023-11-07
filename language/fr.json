@@ -84,6 +84,24 @@
         "munap-stats-4": "Membres<br />Retraités",
         "partner": "Nos Partenaires"
     },
+    "news": {
+        "title-page": "MUNAP - Actualités",
+        "filter-all": "Tout",
+        "activ": {
+            "head-title": "Activités de la Mutuelle",
+            "section-title": "Nos Activités",
+            "filter-1": "Meetings",
+            "filter-2": "Retraites",
+            "filter-3": "Materiels"
+        },
+        "events": {
+            "head-title": "Évèments de la Mutuelle",
+            "section-title": "Nos Évènements",
+            "filter-1": "Mariages",
+            "filter-2": "Naissances",
+            "filter-3": "Dons"
+        }
+    },
     "team": {
         "DE": {
             "title-page": "MUNAP - Mot Du D.E",
