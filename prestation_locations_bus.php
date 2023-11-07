@@ -14,7 +14,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
 <head>
     <meta charset="utf-8">
-    <title>MUNAP - Prestations</title>
+    <title><?= $lang['services']['title-page'] ?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -62,23 +62,22 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <h6>Conditions à remplir :</h6>
+                            <h6><?= $lang['services']['condition-title'] ?></h6>
                             <ul>
-                                <li>Verser une somme de <b>75.000F</b> par jour de location.</li>
-                                <li>Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location</li>
-                                <li>Prendre en charge les frais de carburant, de payage et de lavage du véhicule.
-                                </li>
+                                <li><?= $lang['services']['bus-classic-condition'] ?></li>
+                                <li><?= $lang['services']['bus-condition-1'] ?></li>
+                                <li><?= $lang['services']['bus-condition-2'] ?></li>
                             </ul>
                         </li>
                         <li class="list-group-item">
-                            <h6>Pièces à fournir :</h6>
+                            <h6><?= $lang['services']['pieces-title'] ?></h6>
                             <ul>
-                                <li>Demande non timbrée addressée à Mme le Directeur Exécutif de la MUNAP-DGB</li>
+                                <li><?= $lang['services']['bus-piece-1'] ?></li>
                             </ul>
                         </li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Téléchargez le formulaire</a>
+                        <a href="#" class="card-link"><?= $lang['services']['download'] ?></a>
                     </div>
                 </div>
             </div>
@@ -92,23 +91,22 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <h6>Conditions à remplir :</h6>
+                            <h6><?= $lang['services']['condition-title'] ?></h6>
                             <ul>
-                                <li>Verser une somme de <b>100.000F</b> par jour de location.</li>
-                                <li>Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location</li>
-                                <li>Prendre en charge les frais de carburant, de payage et de lavage du véhicule
-                                </li>
+                                <li><?= $lang['services']['bus-vip-condition'] ?></li>
+                                <li><?= $lang['services']['bus-condition-1'] ?></li>
+                                <li><?= $lang['services']['bus-condition-2'] ?></li>
                             </ul>
                         </li>
                         <li class="list-group-item pe-0">
-                            <h6>Pièces à fournir :</h6>
+                            <h6><?= $lang['services']['pieces-title'] ?></h6>
                             <ul>
-                                <li>Demande non timbrée addressée à Mme le Directeur Exécutif de la MUNAP-DGB</li>
+                                <li><?= $lang['services']['bus-piece-1'] ?></li>
                             </ul>
                         </li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Téléchargez le formulaire</a>
+                        <a href="#" class="card-link"><?= $lang['services']['download'] ?></a>
                     </div>
                 </div>
             </div>
