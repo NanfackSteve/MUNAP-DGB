@@ -126,6 +126,8 @@
         "piece-13": "Notification de retraite",
         "r-modal-title": "Frais Allocation Retraite",
         "r-modal-body": "Lorsqu’un membre est admis à faire valoir ses droits à la retraite, la Mutuelle lui verse une allocation fixée à <b>100.000 F</b> s’il a régulièrement verse ses cotisations au cours des <b>trois (3) dernières années</b>.",
+        "bus-vip-title": "Bus Climatisé VIP « LE SAPHIR »",
+        "bus-classic-title": "Mini Bus COASTER",
         "bus-vip-condition": "Verser une somme de <b>100.000F</b> par jour de location.",
         "bus-classic-condition": "Verser une somme de <b>75.000F</b> par jour de location.",
         "bus-condition-1": "Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location",
