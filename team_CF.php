@@ -12,7 +12,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">M. BEKOLO Xavier</h5>
-                <small>Président</small>
+                <small><?=$lang['team']['organes']['CF-ex-1']?></small>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 p-4">
                 <h5 class="mb-0">M. NJOH NIBA B.</h5>
-                <small>Rapporteur</small>
+                <small><?=$lang['team']['organes']['CF-ex-2']?></small>
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 p-4">
                 <h5 class="mb-0">Mme MBONG Rachel </h5>
-                <small>Membre</small>
+                <small><?=$lang['team']['organes']['CF-ex-3']?></small>
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">Mme GOMA Flore</h5>
-                <small>Directeur Exécutif</small>
+                <small><?=$lang['team']['organes']['BE-ex-1']?></small>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">M. BEKONO Marc Désiré</h5>
-                <small>Secrétaire Général</small>
+                <small><?=$lang['team']['organes']['BE-ex-2']?></small>
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">Mme ANKUONG Lucie</h5>
-                <small>Secrétaire Général Adjoint</small>
+                <small><?=$lang['team']['organes']['BE-ex-3']?></small>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">Mme MANGOUA Mallette</h5>
-                <small>Trésorier Général</small>
+                <small><?=$lang['team']['organes']['BE-ex-4']?></small>
             </div>
         </div>
     </div>
@@ -77,7 +77,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">M. NSOCK Sidoine</h5>
-                <small>Trésorier Général Adjoint</small>
+                <small><?=$lang['team']['organes']['BE-ex-5']?></small>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 px-2 py-4">
                 <h5 class="mb-0">Mme FOPA</h5>
-                <small>Secrétaire Permanent</small>
+                <small><?=$lang['team']['organes']['BE-ex-6']?></small>
             </div>
         </div>
     </div>

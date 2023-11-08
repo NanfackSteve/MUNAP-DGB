@@ -11,7 +11,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 py-4 px-2">
                 <h5 class="mb-1">Mme MENGUELE Judith</h5>
-                <small><b>Présidente</b></small>
+                <small><b><?=$lang['team']['organes']['ca-president']?></b></small>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                 <h5 class="mb-0">M. OYONO Thierry A.</h5>
-                <small>Rep. des Contrôleurs <br />Régionaux des Finances</small>
+                <small><?=$lang['team']['organes']['ca-controler']?></br><?=$lang['team']['organes']['ca-controler-1']?></small>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 py-4 px-2">
                 <h5 class="mb-1">M. NSOM Hugues</h5>
-                <small>Rep. des Sous-Directeurs</small>
+                <small><?=$lang['team']['organes']['ca-controler-2']?></small>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                 <h5 class="mb-0">M. NDONG MVE Eric</h5>
-                <small>Rep. des Contrôleurs Financiers<br />Centraux/Spécialisés</small>
+                <small><?=$lang['team']['organes']['ca-controler-3']?><br /><?=$lang['team']['organes']['ca-controler-4']?></small>
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                 <h5 class="mb-0">M. BITETE Roger</h5>
-                <small>Rep. des Contrôleurs <br />Départementaux des Finances</small>
+                <small><?=$lang['team']['organes']['ca-controler-5']?><br /><?=$lang['team']['organes']['ca-controler-6']?></small>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 py-4 px-2">
                 <h5 class="mb-1">M. MAYO Dieudonné</h5>
-                <small>Rep. des Chefs de Services<br /></small>
+                <small><?=$lang['team']['organes']['ca-controler-7']?><br /></small>
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 py-4 px-2">
                 <h5 class="mb-0">M. NYANGON Patient</h5>
-                <small>Rep. des Chefs de Bureau</small>
+                <small><?=$lang['team']['organes']['ca-controler-8']?></small>
             </div>
         </div>
     </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 py-4 px-2">
                 <h5 class="mb-0">Mme NTSAMA Sylvie</h5>
-                <small>Rep. des Cadres</small>
+                <small><?=$lang['team']['organes']['ca-controler-9']?></small>
             </div>
         </div>
     </div>
@@ -140,7 +140,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 p-4">
                 <h5 class="mb-0">M. JEUTSA David</h5>
-                <small>Rep. des Agents</small>
+                <small><?=$lang['team']['organes']['ca-controler-10']?></small>
             </div>
         </div>
     </div>
@@ -156,7 +156,7 @@
             </div>
             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-4 px-2">
                 <h5 class="mb-1 p-0">Mme NTSAMA Isabelle</h5>
-                <small>Rep. des Retraités</small>
+                <small><?=$lang['team']['organes']['ca-controler-11']?></small>
             </div>
         </div>
     </div>
