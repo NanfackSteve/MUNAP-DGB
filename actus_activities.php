@@ -92,8 +92,8 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Ministère des Finances</p>
-                                <h5 class="lh-base mb-0">Inauguration du Nouveau Bus (VIP)</a>
+                                <p class="text-primary fw-medium mb-2"><?=$lang['news']['activ']['Activities-1']?></p>
+                                <h5 class="lh-base mb-0"><?=$lang['news']['activ']['Activities-2']?></a>
                             </div>
                         </div>
                     </div>
@@ -111,8 +111,8 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Ministère des Finances</p>
-                                <h5 class="lh-base mb-0">Cérémonie de départ en retraite des Mutualistes </a>
+                                <p class="text-primary fw-medium mb-2"><?=$lang['news']['activ']['Activities-3']?></p>
+                                <h5 class="lh-base mb-0"><?=$lang['news']['activ']['Activities-4']?> </a>
                             </div>
                         </div>
                     </div>
@@ -130,8 +130,8 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Palais des Congrès : 15 Juillet 2023</p>
-                                <h5 class="lh-base mb-0">Assemblée Générale Extraodinaire</a>
+                                <p class="text-primary fw-medium mb-2"><?=$lang['news']['activ']['Activities-5']?></p>
+                                <h5 class="lh-base mb-0"><?=$lang['news']['activ']['Activities-6']?></a>
                             </div>
                         </div>
                     </div>

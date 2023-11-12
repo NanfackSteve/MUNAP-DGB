@@ -92,8 +92,8 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Ministere des Finances</p>
-                                <h5 class="lh-base mb-0">Dons aux orphelins</a>
+                                <p class="text-primary fw-medium mb-2"><?=$lang['news']['events']['event-1']?></p>
+                                <h5 class="lh-base mb-0"><?=$lang['news']['events']['event-2']?></a>
                             </div>
                         </div>
                     </div>

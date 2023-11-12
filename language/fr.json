@@ -288,15 +288,52 @@
             "section-title": "Nos Activités",
             "filter-1": "Meetings",
             "filter-2": "Retraites",
-            "filter-3": "Materiels"
+            "filter-3": "Materiels",
+            "Activities-1": "Ministère des Finances",
+            "Activities-2": "Inauguration du Nouveau Bus (VIP)",
+            "Activities-3": "Ministère des Finances",
+            "Activities-4": "Cérémonie de départ en retraite des Mutualistes",
+            "Activities-5": "Palais des Congrès : 15 Juillet 2023",
+            "Activities-6": "Assemblée Générale Extraodinaire"
         },
         "events": {
             "head-title": "Évèments de la Mutuelle",
             "section-title": "Nos Évènements",
             "filter-1": "Mariages",
             "filter-2": "Naissances",
-            "filter-3": "Dons"
+            "filter-3": "Dons",
+            "event-1":"Ministère des Finances",
+            "event-2":"Dons aux orphelins"
         }
+    },
+    "Profile": {
+        "title-1":"MUNAP My Profile",
+        "title-2":"My Profile",
+        "title-3":"Home",
+        "title-4":"Modify password",
+        
+        "infos" : {
+            "header-title" :"Mes Informations Personnelles",
+            "num-adhesion" : "Numéro adhésion",
+            "matricule" : "Matricule ",
+            "name" : "Nom",
+            "surnames" : "prenoms",
+            "born on" : "Né le",
+            "status" : "status",
+            "footer-title" :"Membre depuis"
+            },
+           
+            "cost" : {
+            "header-title-2" :"Mes Cotisations",
+            "admin" : "administration",
+            "function" : "fonction",
+            "Region" : "Région",
+            "Quality" : "Qualité",
+            "membership fees" : "Frais adhésion",
+            "montant cotisé" : "Montant cotisé",
+            "footer-title" :"Cotisation à jour ",
+            "def" :"oui/non"
+            }
     },
     "team": {
         "DE": {
@@ -387,6 +424,7 @@
             "stats-title": "Mutualistes / Région"
         }
     },
+
     "footer": {
         "section-1": "Adresses",
         "location": "Cameroun - Yaoundé ",

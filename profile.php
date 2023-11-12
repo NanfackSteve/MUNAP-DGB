@@ -35,7 +35,7 @@ $cotisation = $_SESSION['cotisation'];
 
 <head>
     <meta charset="utf-8">
-    <title>MUNAP - Mon Profile</title>
+    <title><?=$lang['Profile']['title-1']?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -73,13 +73,13 @@ $cotisation = $_SESSION['cotisation'];
     <!-- Page Header Start -->
     <div class="container-fluid page-header-profile h-3 mb-5">
         <div class="container py-2">
-            <h1 class="display-3 text-white mb-2 mt-3 animated slideInDown">Mon Profil</h1>
+            <h1 class="display-3 text-white mb-2 mt-3 animated slideInDown"><?=$lang['Profile']['title-2']?></h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item "><a class="text-white underline-hover" href="index.php">Accueil</a>
+                    <li class="breadcrumb-item "><a class="text-white underline-hover" href="index.php"><?=$lang['Profile']['title-3']?></a>
                     </li>
-                    <li class="breadcrumb-item"><a class="text-white underline-hover" href="#">Modifier Mot de
-                            passe</a></li>
+                    <li class="breadcrumb-item"><a class="text-white underline-hover" href="#"><?=$lang['Profile']['title-4']?>
+                            </a></li>
                 </ol>
             </nav>
         </div>
@@ -94,57 +94,57 @@ $cotisation = $_SESSION['cotisation'];
                 <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="card shadow">
                         <div class="card-header text-center">
-                            <h5>Mes Informations Personnelles</h5>
+                            <h5><?=$lang['Profile']['infos']['header-title']?></h5>
                         </div>
                         <div class="card-body pt-1 pb-0">
                             <div class="row card-text pb-0">
                                 <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
-                                    <li><span class="me-2"><b>Numéro adhésion</b></span><span class="mx-1">/
+                                    <li><span class="me-2"><b><?=$lang['Profile']['infos']['num-adhesion']?></b></span><span class="mx-1">/
                                         </span><span><?= $num_adhesion ?></span></li>
-                                    <li><span class="me-1"><b>Matricule</b></span><span><span class="mx-2">/
+                                    <li><span class="me-1"><b><?=$lang['Profile']['infos']['matricule']?></b></span><span><span class="mx-2">/
                                             </span></span><?= $matricule ?></li>
-                                    <li><span style="margin-right: 30px;"><b>Noms</b></span><span class="mx-2">/
+                                    <li><span style="margin-right: 30px;"><b><?=$lang['Profile']['infos']['name']?></b></span><span class="mx-2">/
                                         </span><span><?= $nom ?></span></li>
-                                    <li><span class="me-2"><b>Prénoms</b></span><span class="mx-2">/
+                                    <li><span class="me-2"><b><?=$lang['Profile']['infos']['surnames']?></b></span><span class="mx-2">/
                                         </span><span><?= $prenom ?></span>
                                     </li>
-                                    <li><span style="margin-right: 36px;"><b>Né le</b></span><span class="mx-2">/
+                                    <li><span style="margin-right: 36px;"><b><?=$lang['Profile']['infos']['born on']?></b></span><span class="mx-2">/
                                         </span><span><?= $ne_le ?></span></li>
-                                    <li><span style="margin-right: 28px;"><b>Statut</b></span><span class="mx-2">/
+                                    <li><span style="margin-right: 28px;"><b><?=$lang['Profile']['infos']['status']?></b></span><span class="mx-2">/
                                         </span><span><?= $statut ?></span> </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer text-center text-muted">
-                            Membre depuis : <span class="text-dark"><?= $date_adhesion ?></span>
+                        <?=$lang['Profile']['infos']['footer-title']?> <span class="text-dark"><?= $date_adhesion ?></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="card  shadow">
                         <div class="card-header text-center">
-                            <h5>Mes Cotisations</h5>
+                            <h5><?=$lang['Profile']['cost']['header-title-2']?></h5>
                         </div>
                         <div class="card-body pt-1 pb-0">
                             <div class="row card-text pb-0">
                                 <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
-                                    <li><span class="me-1"><b>administration</b></span><span class="mx-1">/
+                                    <li><span class="me-1"><b><?=$lang['Profile']['cost']['admin']?></b></span><span class="mx-1">/
                                         </span><span><?= $admin ?></span></li>
-                                    <li><span class="me-1"><b>Fonction</b></span><span><span class="mx-2">/
+                                    <li><span class="me-1"><b><?=$lang['Profile']['cost']['function']?></b></span><span><span class="mx-2">/
                                             </span><?= $fonction ?></span></li>
-                                    <li><span style="margin-right: 18px;"><b>Région</b></span><span class="mx-2">/
+                                    <li><span style="margin-right: 18px;"><b><?=$lang['Profile']['cost']['Region']?></b></span><span class="mx-2">/
                                         </span><span><?= $region ?></span></li>
-                                    <li><span style="margin-right: 20px;"><b>Qualité</b></span><span class="mx-2">/
+                                    <li><span style="margin-right: 20px;"><b><?=$lang['Profile']['cost']['Quality']?></b></span><span class="mx-2">/
                                         </span><span><?= $qualite ?></span> </li>
-                                    <li><span class="me-1"><b>Frais adhésion</b></span><span class="mx-2">/
+                                    <li><span class="me-1"><b><?=$lang['Profile']['cost']['membership fees']?></b></span><span class="mx-2">/
                                         </span><span><?= $frais_adhesion ?></span> FCFA</li>
-                                    <li><span class="me-1""><b>Montant cotisé</b></span><span class=" mx-2">/
+                                    <li><span class="me-1"><b><?=$lang['Profile']['cost']['Montant cotisé']?></b></span><span class=" mx-2">/
                                         </span><span><?= $cotisation ?></span> FCFA</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="card-footer text-center text-muted">
-                            Cotisation à jour : <span class="text-dark">Oui/Non</span>
+                        <?=$lang['Profile']['cost']['footer-title']?> <span class="text-dark"><?=$lang['Profile']['cost']['def']?></span>
                         </div>
                     </div>
                 </div>
