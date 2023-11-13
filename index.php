@@ -50,6 +50,16 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Load Stats Members -->
+    <script>
+        fetch("http://127.0.0.1:5000/api/totalmembres").then(rep => rep.json()).then(data => {
+            $('#munap-stats-1').text(data['membres_actif']);
+            $("#munap-stats-2").text(data['membres_honneur']);
+            $("#munap-stats-3").text(data['membres_conseiller']);
+            $("#munap-stats-4").text(data['membres_retraite']);
+        });
+    </script>
 </head>
 
 <body>
@@ -159,19 +169,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
                 <br />
                 <img src="img/organes/CA_DGB.jpg" class="m-lg-2 float-lg-end imgshadow px-2" alt="MINFI-DGB">
                 <p style="text-align: justify;" class="m-2 wow fadeIn" data-wow-delay="0.4s">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                    <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                    <?= $lang['index']['president-word-body'] ?></p>
             </div>
             <!-- Speech DGB End -->
         </div>
@@ -392,25 +390,25 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">50</h2>
+                            <h2 id="munap-stats-1" class="text-primary m-0" data-toggle="counter-up">15</h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-1'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">10</h2>
+                            <h2 id="munap-stats-2" class="text-primary m-0" data-toggle="counter-up">7</h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-2'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">700</h2>
+                            <h2 id="munap-stats-3" class="text-primary m-0" data-toggle="counter-up">80</h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-3'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 class="text-primary m-0" data-toggle="counter-up">150</h2>
+                            <h2 id="munap-stats-4" class="text-primary m-0" data-toggle="counter-up">5</h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-4'] ?></p>
                         </div>
 
@@ -462,6 +460,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
         for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
         document.getElementById('home').setAttribute("class", "nav-link active");
     </script>
+
 </body>
 
 </html>

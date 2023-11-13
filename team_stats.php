@@ -43,6 +43,23 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <!-- Load Regions Stats -->
+        <script>
+        fetch("http://127.0.0.1:5000/api/totalmembres").then(rep => rep.json()).then(data => {
+            $("#EN span").text(data['membres_extreme_nord']);
+            $("#ND span").text(data['membres_nord']);
+            $("#AD span").text(data['membres_adamaoua']);
+            $("#CE span").text(data['membres_centre']);
+            $("#SU span").text(data['membres_sud']);
+            $("#ES span").text(data['membres_est']);
+            $("#OU span").text(data['membres_ouest']);
+            $("#NO span").text(data['membres_nord_ouest']);
+            $("#SO span").text(data['membres_sud_ouest']);
+            $("#LT1 span").text(data['membres_littoral']);
+            $("#LT2 span").text(data['membres_littoral']);
+        });
+        </script>
     </head>
 
     <body>
@@ -213,6 +230,7 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
         for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
         document.getElementById('members').setAttribute("class", "nav-link active");
         </script>
+
         <script src="js/map_scroll.js"></script>
     </body>
 
