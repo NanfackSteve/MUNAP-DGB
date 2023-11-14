@@ -5,15 +5,57 @@ session_destroy();
 
 
 // Validation du formulaire
-if (isset($_POST['email']) &&  isset($_POST['password'])) {
+if (isset($_POST['num_adh']) &&  isset($_POST['password'])) {
 
-    $email = $_POST['email'];
+    $email = $_POST['num_adh'];
     $pass = $_POST['password'];
 
-    if ($email == "munap@gmail.com" && $pass == "123") {
-        session_start();
-        $_SESSION['LOGGED_USER'] = $email;
+    // URL de l'API cible
+    $addr = "https://3acd-41-202-207-13.ngrok-free.app/";
+    $url = $addr . "api/login";
 
+    // Données à envoyer
+    $data = array(
+        'num_adhesion' => $email,
+        'password' => $pass,
+    );
+
+    // Initialisation de la session cURL
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $response = curl_exec($ch);
+
+    // Recupere la reponse en JSON
+    $data = json_decode($response, true);
+    curl_close($ch);
+
+    if ($data === null) {
+        //echo 'Erreur lors de la conversion JSON : ' . json_last_error_msg();
+        $check_user = False;
+    } else if (isset($data['error'])) {
+        //echo 'Erreur API';
+        $check_user = False;
+    } else {
+        $check_user = True;
+    }
+
+    if ($check_user) {
+        session_start();
+        $_SESSION['LOGGED_USER'] = $data['id'];
+        $_SESSION['num_adhesion'] = $data['num_adhesion'];
+        $_SESSION['token'] = $data['token'];
+        $_SESSION['role'] = $data['role'];
+        $_SESSION['nom'] = $data['user_details'][0]['nom'];
+        $_SESSION['prenom'] = $data['user_details'][0]['prenom'];
+
+        // Go to Home Page
+        header("Location: index.php ");
+    } else if ($email == "munap@gmail.com" && $pass == "123") {
+        session_start();
+
+        $_SESSION['LOGGED_USER'] = $email;
         $_SESSION['num_adhesion'] = "A0001";
         $_SESSION['date_adhesion'] = "2015-09-11";
         $_SESSION['matricule'] = "75142J";
@@ -22,13 +64,7 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
         $_SESSION['ne_le'] = "1979-05-16";
         $_SESSION['statut'] = "actif";
 
-        $_SESSION['administration'] = "Assemblée Générale";
-        $_SESSION['fonction'] = "Chef de Bureau";
-        $_SESSION['region'] = "Centre";
-        $_SESSION['qualite'] = "Membre Actif";
-        $_SESSION['adhesion'] = "15000";
-        $_SESSION['cotisation'] = "30000";
-
+        // Go to Home Page
         header("Location: index.php ");
     } else {
         $check_user = False;
@@ -84,7 +120,7 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
                                     <form class="mt-4" action="login.php" method="POST">
 
                                         <div class="form-floating mb-3">
-                                            <input type="email" id="floatingInput" name="email" class="form-control" placeholder="name@example.com">
+                                            <input type="text" id="floatingInput" name="num_adh" class="form-control" placeholder="name@example.com">
                                             <label for="floatingInput">Nom
                                                 d'utilisateur ou Email</label>
                                         </div>
