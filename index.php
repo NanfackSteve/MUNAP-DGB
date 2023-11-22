@@ -56,9 +56,9 @@ if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
         <!-- Load Stats Members -->
         <script>
         fetch("https://236f-41-202-207-4.ngrok-free.app/api/totalmembres").then(rep => rep.json()).then(data => {
-            $('#munap-stats-1').text(data['membres_actif']);
-            $("#munap-stats-2").text(data['membres_honneur']);
-            $("#munap-stats-3").text(data['membres_conseiller']);
+            $('#munap-stats-1').text(data['membres_honneur']);
+            $("#munap-stats-2").text(data['membres_conseiller']);
+            $("#munap-stats-3").text(data['membres_actif']);
             $("#munap-stats-4").text(data['membres_retraite']);
         });
         </script>
