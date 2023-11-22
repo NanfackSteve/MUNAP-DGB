@@ -433,8 +433,8 @@
             "cm-nw": "Nord-Ouest",
             "cm-sw": "Sud-Ouest",
             "cm-lt": "Littoral",
-            "cm-lit-1": "Littoral I",
-            "cm-lit-2": "Littoral II",
+            "cm-lit-1": "Littoral",
+            "cm-central-services": "Services Centraux",
             "stats-title": "Mutualistes / Région"
         }
     },

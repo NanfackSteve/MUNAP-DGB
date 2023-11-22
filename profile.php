@@ -18,7 +18,7 @@ $nom = $_SESSION['nom'];
 $prenom = $_SESSION['prenom'];
 
 // URL de l'API cible
-$addr = "https://3acd-41-202-207-13.ngrok-free.app/";
+$addr = "https://236f-41-202-207-4.ngrok-free.app/";
 $url = $addr . "api/membrebynumadhesion/?num_adhesion=" . $num_adhesion;
 
 // Initialisation de la requete cURL
