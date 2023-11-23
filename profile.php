@@ -1,48 +1,7 @@
-<?php session_start();
-
-// Choisis la langue
-if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'fr') {
-    $lang = json_decode(file_get_contents('./language/fr.json'), true);
-} else if (isset($_SESSION['lang']) && $_SESSION['lang'] === 'en') {
-    $lang = json_decode(file_get_contents('./language/en.json'), true);
-} else {
-    $lang = json_decode(file_get_contents('./language/fr.json'), true);
-} ?>
-
 <?php
-
-if (!isset($_SESSION['num_adhesion'])) header("Location: login.php ");
-
-$num_adhesion = $_SESSION['num_adhesion'];
-$nom = $_SESSION['nom'];
-$prenom = $_SESSION['prenom'];
-
-// URL de l'API cible
-$addr = "https://236f-41-202-207-4.ngrok-free.app/";
-$url = $addr . "api/membrebynumadhesion/?num_adhesion=" . $num_adhesion;
-
-// Initialisation de la requete cURL
-$ch = curl_init($url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: Bearer ' . $_SESSION['token'],));
-$response = curl_exec($ch);
-
-// Recupere la reponse en JSON
-$data = json_decode($response, true)[0];
-curl_close($ch);
-
-$date_adhesion = $data['date_adhesion'];
-//$matricule = $_SESSION['matricule'];
-$ne_le = $data['date_naissance'];
-$statut = $data['status'];
-
-$admin = $data['libelle_adm'];
-$fonction = $data['libelle_fonction'];
-$region = $data['libelle_region'];
-$qualite = $data['libelle_qualite'];
-$frais_adhesion = $data['frais_adhesion'];
-//$cotisation = $_SESSION['cotisation'];
-
+session_start();
+include_once("language/lang.php");
+include_once("models/profile.php");
 ?>
 
 <!DOCTYPE html>
@@ -69,8 +28,6 @@ $frais_adhesion = $data['frais_adhesion'];
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -116,15 +73,16 @@ $frais_adhesion = $data['frais_adhesion'];
                                 <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li><span class="me-2"><b><?= $lang['Profile']['infos']['num-adhesion'] ?></b></span><span class="mx-1">/
                                         </span><span><?= $num_adhesion ?></span></li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['infos']['matricule'] ?></b></span><span><span class="mx-2">/
-                                            </span></span><?= $matricule ?></li>
+                                    <!-- <li><span class="me-1"><b><?= $lang['Profile']['infos']['matricule'] ?></b></span><span><span class="mx-2">/
+                                            </span></span><?= $matricule ?></li> -->
+
                                     <li><span style="margin-right: 30px;"><b><?= $lang['Profile']['infos']['name'] ?></b></span><span class="mx-2">/
                                         </span><span><?= $nom ?></span></li>
                                     <li><span class="me-2"><b><?= $lang['Profile']['infos']['surnames'] ?></b></span><span class="mx-2">/
                                         </span><span><?= $prenom ?></span>
                                     </li>
-                                    <li><span style="margin-right: 36px;"><b><?= $lang['Profile']['infos']['born on'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $ne_le ?></span></li>
+                                    <!-- <li><span style="margin-right: 36px;"><b><?= $lang['Profile']['infos']['born on'] ?></b></span><span class="mx-2">/
+                                        </span><span><?= $ne_le ?></span></li> -->
                                     <li><span style="margin-right: 28px;"><b><?= $lang['Profile']['infos']['status'] ?></b></span><span class="mx-2">/
                                         </span><span><?= $statut ?></span> </li>
                                 </ul>
@@ -173,19 +131,19 @@ $frais_adhesion = $data['frais_adhesion'];
                                 <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['affiliated']['parent'] ?>
-                                        <span id="parent-number" class="badge rounded-pill bg-primary ms-4">2</span>
+                                        <span id="parent-number" class="badge rounded-pill bg-primary ms-4"><?= $nbr_parent ?></span>
                                         <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#parentModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
                                         </a>
                                     </li>
                                     <li id="conjoint" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['affiliated']['spouse'] ?>
-                                        <span id="conjoint-number" class="badge rounded-pill bg-primary">0</span>
+                                        <span id="conjoint-number" class="badge rounded-pill bg-primary"><?= $nbr_conjoint ?></span>
                                         <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#conjointModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
                                         </a>
                                     </li>
                                     <li id="child" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['affiliated']['child'] ?>
-                                        <span id="child-number" class="badge rounded-pill bg-primary ms-4">3</span>
+                                        <span id="child-number" class="badge rounded-pill bg-primary ms-4"><?= $nbr_enfant ?></span>
                                         <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#childModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
                                         </a>
                                     </li>

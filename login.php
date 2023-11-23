@@ -11,9 +11,8 @@ if (isset($_POST['num_adh']) &&  isset($_POST['password'])) {
     $pass = $_POST['password'];
 
     // URL de l'API cible
-    $addr = "https://236f-41-202-207-4.ngrok-free.app/";
-    $url = $addr . "api/login";
-
+    $api = json_decode(file_get_contents('./models/api.json'), true);
+    $url = $api['link'] . "/api/login";
     // Données à envoyer
     $data = array(
         'num_adhesion' => $email,
