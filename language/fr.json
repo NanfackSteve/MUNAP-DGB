@@ -10,13 +10,16 @@
         "news": "actualités",
         "news-activ": "Nos Activités",
         "news-events": "Nos Évènements",
-        "docu": "documentation",
+        "docu": "Documentation",
         "docu-status": "Statuts",
         "docu-rules": "Règlement Intérieur",
-        "team": "membres",
+        "docu-speech": "Discours",
+        "docu-report": "Rapports",
+        "team": "LA MUNAP",
         "team-wordDE": "Mot du Directeur Exécutif",
-        "team-organes": "Personnel Dirigeant",
-        "team-before": "Prédécesseurs",
+        "team-member": "Qui est Membre ?",
+        "team-organes": "Organes de Gestion",
+        "team-before": "Historique",
         "team-stats": "Statistiques",
         "profil": "profil",
         "login": "Se Connecter",
@@ -36,7 +39,7 @@
         "read-more": "Lire plus",
         "creation-title": "La Création",
         "creation-body": "L'Association Mutualiste MUNAP-DGB, créée le <b>23 JUIN2007</b>, est une association de droit camerounais reconnue officiellement suivant RDA<b>n°000728/RDA/J06/BAPP du 19 juillet 2007</b> complété par son modificatif <b>n°001336/RRDA/ JO6/BAPP du 23 août 2012.</b> Elle regroupe en son sein, le personnel en service dans les services centraux de la Direction Générale du Budget, le personnel en service dans les services déconcentrés de la Direction Générale du Budget, le Personnel en service dans les Contrôles Régionaux des Finances, le personnel en service dans les Contrôle Départementaux des Finances.",
-        "president-word-title": "Mot du Président de l'Assemblée Général",
+        "president-word-title": "Mot du Président de l'Assemblée Générale",
         "president-word-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
         "who-member": "Qui est membre ?",
         "who-member-def": "Toute personne physique ou morale qui s'acquitte régulièrement de ses cotisations, ou qui contribue à la prospérité de la mutuelle par des contributions ou prestations de toutes sortes.",
@@ -94,7 +97,7 @@
         "condition-title": "Conditions à remplir :",
         "condition-1": "Etre à jour de ses cotisations",
         "pieces-title": "Pièces à fournir :",
-        "piece-1": "Demande non timbrée",
+        "piece-1": "Demande non timbrée addressée au Directeur Exécutif",
         "piece-2": "Photocopie acte de mariage",
         "piece-3": "Une photo avec Mr le Maire",
         "m-modal-title": "Frais Allocation Mariage",
@@ -116,9 +119,9 @@
         "n-modal-title": "Frais Allocation Naissance/Accouchement",
         "n-modal-body": "A la naissance d'un enfant dans le foyer d'un membre à jour de ses cotisations, la Mutuelle célèbre l'évènement par l'octroi au membre d'une allocation fixée à <b>50 000 F</b>.\nLe traitement est unique si le membre et son conjoint sont membre de la MUNAP-DGB.",
         "D-title": "Décès",
-        "piece-10": "Programme des obsèques (Mutualiste)",
-        "piece-11": "Reçus de cotisation (parents,enfants,conjoint)",
-        "piece-12": "Certificat de genre de mort ou Acte de décès (parents,enfants,conjoint)",
+        "piece-10": "Programme des obsèques (Mutualiste/Membre Affilié)",
+        "piece-11": "Acte filiatif",
+        "piece-12": "Certificat de genre de mort ou Acte de décès (Mutualiste/Membre Affilié)",
         "D-modal-title": "Frais Allocation Décès",
         "D-modal-body": "A l’occasion du décès d’un membre, de son conjoint, d’un parent, d’un enfant au sens de la législation sur les prestations familiales, la mutuelle verse des allocations fixées de la matière suivante :\n<ul><li><b>Membre</b> : 300.000 F + 1 couronne de 50.000 F</li><li><b>Conjoint</b> : 200.000 F</li><li><b>Parents</b> : 100.000 F</li><li><b>Enfant</b> : 50.000 F.</li></ul>",
         "r-title": "Retraite",
@@ -131,8 +134,8 @@
         "bus-vip-condition": "Verser une somme de <b>100.000F</b> par jour de location.",
         "bus-classic-condition": "Verser une somme de <b>75.000F</b> par jour de location.",
         "bus-condition-1": "Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location",
-        "bus-condition-2": "Prendre en charge les frais de carburant, de payage et de lavage du véhicule",
-        "bus-piece-1": "Demande non timbrée addressée à Mme le Directeur Exécutif de la MUNAP-DGB"
+        "bus-condition-2": "Prendre en charge les frais de carburant, de péage et de lavage du véhicule",
+        "bus-piece-1": "Demande non timbrée addressée au Directeur Exécutif"
     },
     "status": {
         "page-title": "MUNAP - Statuts",
@@ -193,7 +196,7 @@
         "article-25": "<ol> <li>Les droits d’adhésion et de cotisations sont fixes de la manière suivante :</li> <ul><b>Adhésion</b> :   <li>Agents Décisionnaires : 10 000F</li>   <li>Agent Contractuel : 15 000F</li>   <li>Cadres : 20 000F</li>   <li>Chef de Service : 30 000F</li>   <li>Sous-Directeur : 50 000F</li>   <li>Chef de Division : 75 000F</li>   <li>Directeur : 100 000F</li>   <li>Directeur Général : PM</li> </ul> <ul>   <b>Cotisation annuelle</b> :   <li>Membre ayant rang de sous-Directeur et plus : 3 000 F  par mois soit 36 000F par an ;</li>   <li>Membre responsables jusqu’au rang de Chef de service : 2 500 F par mois soit 30 000 F par  an ;</li>   <li>Cadre et Contractuels : 2 000 F par mois soit 24 000 F par an ;</li>   <li>Agents Décisionnaires : 1 500 F par mois soit 18 000 F par an ;</li>   <li>Retraites : cadres et responsables : 1 500 F par mois soit 18 000 F par an ;</li>   <li>Agents : 1 000 F par mois soit 12 000 F par an ;</li>   <li>Conjoint : 2/3 du montant de la cotisation du membre ;</li>   <li>Enfant : 1/3 de la Cotisation du membre ;</li>   <li>Parent : 1/3 de la cotisation du membre.</li> </ul> <b>Le montant annuel de la cotisation doit etre versé au plus tard le 30 juin de l’année en   cours.</b> </ol>",
         "article-26": "<ol> <li>Les emplois comprennent : <ul>  <li>Les charges de la gestion de la Mutuelle ;</li>  <li>Les charges d’assistance ci-après ;</li>  <li>L’allocation de décès :</li>   </ul> </li> <li>Seuls peuvent prétendre aux prestations ci-dessus les membres a jour de leurs cotisation.</li> <li>Le bénéfice des avantages de la mutuelle court trente (30) jours après la date d’adhésion au   prorata de la cotisation.</li> </ol>",
         "article-27": "<ol> <li>A l’occasion du décès d’un membre, de son conjoint, d’un parent, d’un enfant au sens de la   législation sur les prestations familiales, la mutuelle verse des allocations fixées de la   matière suivante : <ul>  <li>Membre : 300 000 F + 1 couronne de 50 000 F</li>  <li>Conjoint : 200 000 F</li>  <li>Parents : 100 000 F</li>  <li>Enfant : 50 000 F.</li>   </ul> </li> </ol>",
-        "article-28": "<ol> <li>Les frais de séjour d’un adhérent ou d’un membre de sa famille au sens de la législation sur les   prestations familiales, dans une formation sanitaire agrée par le Conseil d’administrations,   sont rembourses de la manière suivante :   <ul><b>Frais d’hospitalisation</b> :  <li>Hopitaux publics : 40 %</li>  <li>Hôpitaux privés : 20 %</li>  <li>Consultation : 50 %</li>   </ul>   <ul><b>Soins dentaires</b> :  <li>Hôpitaux publics : 25 %</li>  <li>Hôpitaux privés : 15 %</li>   </ul>   <ul><b>Analyse médicale</b> :  <li>Laboratoire publics : 30 %</li>  <li>Laboratoire privés : 20 %</li>   </ul>   Les enfants ont le tiers payant et le conjoint les deux tiers. </li> <li>Les pièces justificatives pour le remboursement des frais d’hospitalisations, médicaux et ou   pharmaceutiques sont déterminés par une délibération du conseil d’Administration.</li> </ol>",
+        "article-28": "<ol> <li>Les frais de séjour d’un adhérent ou d’un membre de sa famille au sens de la législation sur les   prestations familiales, dans une formation sanitaire agrée par le Conseil d’administrations,   sont rembourses de la manière suivante :   <ul><b>Frais d’hospitalisation</b> :  <li>Hopitaux publics : 40 %</li>  <li>Hôpitaux privés : 20 %</li>  <li>Consultation : 50 %</li>   </ul>   <ul><b>Soins dentaires</b> :  <li>Hôpitaux publics : 25 %</li>  <li>Hôpitaux privés : 15 %</li>   </ul>   <ul><b>Analyse médicale</b> :  <li>Laboratoire publics : 30 %</li>  <li>Laboratoire privés : 20 %</li>  <b>Les verres médicaux </b> <li>50 % une fois tous les deux ans</li> </ul>   Les enfants ont le tiers payant et le conjoint les deux tiers. </li><br/> <li>Les pièces justificatives pour le remboursement des frais d’hospitalisations, médicaux et ou   pharmaceutiques sont déterminés par une délibération du conseil d’Administration.</li> </ol>",
         "article-29": "Nul ne peut bénéficier aux cours d’un même exercice financier de remboursement supérieurs a dix(10) fois le montant de sa contribution annuelle.",
         "article-30": "A l’occasion du mariage d’un membre à jour de ses cotisations, la Mutuelle lui verse une allocation fixée à 100.000 F",
         "article-31": "A la naissance d'un enfant dans le foyer d'un membre à jour de ses cotisations, la Mutuelle célèbre l'évènement par l'octroi au membre d'une allocation fixée à 50 000 F. <br>Le traitement est unique si le membre et son conjoint sont membre de la MUNAP-DGB. <br>Les pièces justificatives des allocations fixées ci-dessus sont constituées des pièces officiellement reconnues au Cameroun en matière de prestation familiale.",
@@ -280,6 +283,12 @@
         "article-45": "<ol><li>L'allocation de décès au titre de la participation aux obsèques d'un membre décédé est versée au conjoint(e).</li><li>En cas de pluralité de conjointes, l'allocation de décès est versée en la présence de toutes les veuves.</li>  </ol>",
         "article-46": "<ol><li>Toute modification du Règlement Intérieur doit être approuvée par</li>  </ol>"
     },
+    "speech": {
+        "title-page": "MUNAP - Discours"
+    },
+    "report": {
+        "title-page": "MUNAP - Rapports"
+    },
     "news": {
         "title-page": "MUNAP - Actualités",
         "filter-all": "Tout",
@@ -325,14 +334,14 @@
         },
         "cost": {
             "header": "Mes Cotisations",
-            "admin": "Administration",
+            "admin": "Structure",
             "function": "Fonction",
             "region": "Région",
             "quality": "Qualité",
-            "fees": "Frais adhésion",
+            "fees": "Montant à cotiser",
             "amount": "Montant cotisé",
-            "footer": "Cotisation à jour : ",
-            "def": "oui/non"
+            "footer": "Reste à cotiser : ",
+            "def": "0"
         },
         "affiliated": {
             "header": "Personnes Affiliées",
@@ -355,6 +364,10 @@
             "title-page": "MUNAP - Mot Du D.E",
             "word-title": "Mot du Directeur Exécutif",
             "word-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        "who": {
+            "title-page": "Qui est Membre ?",
+            "head-title": "Catégories de Membre"
         },
         "organes": {
             "title-page": "MUNAP - Organes",
@@ -410,9 +423,9 @@
         },
         "before": {
             "title-page": "MUNAP - Prédécesseurs",
-            "head-title": "Nos Prédécésseurs",
+            "head-title": "Historique de la Mutuelle",
             "table-title-1": "PRÉSIDENTS ASSEMBLÉE GÉNÉRALE",
-            "table-title-2": "DIRECTEURS EXÉCUTIFS",
+            "table-title-2": "BUREAU EXÉCUTIF",
             "table-col-1": "Période",
             "table-col-2": "Nom & Prénoms",
             "table-col-3": "Fonctions",

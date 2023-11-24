@@ -13,10 +13,13 @@
         "docu": "Documentation",
         "docu-status": "Statutes",
         "docu-rules": "Internal Rules",
-        "team": "Members",
+        "docu-speech": "Speech",
+        "docu-report": "Reports",
+        "team": "THE NMFS",
         "team-wordDE": "Executive Director's Word",
-        "team-organes": "Executive Personnel",
-        "team-before": "Predecessors",
+        "team-member": "Who is a Member ?",
+        "team-organes": "Management Bodies",
+        "team-before": "Histoical",
         "team-stats": "Statistics",
         "profil": "Profile",
         "login": "Log In",
@@ -94,7 +97,7 @@
         "condition-title": "Conditions to Fulfill:",
         "condition-1": "Be up to date with your contributions",
         "pieces-title": "Documents to Provide:",
-        "piece-1": "Non-stamped request",
+        "piece-1": "Unstamped request addressed to the Executive Director",
         "piece-2": "Copy of marriage certificate",
         "piece-3": "A photo with the Mayor",
         "m-modal-title": "Marriage Allowance Fees",
@@ -116,9 +119,9 @@
         "n-modal-title": "Birth/Delivery Allowance Fees",
         "n-modal-body": "On the birth of a child in the household of a member up to date with their contributions, the Mutual Fund celebrates the event by granting the member an allowance set at <b>50,000 F</b>.\nThe treatment is unique if the member and their spouse are members of MUNAP-DGB.",
         "D-title": "Death",
-        "piece-10": "Funeral program (Mutualist)",
-        "piece-11": "Contribution receipts (parents, children, spouse)",
-        "piece-12": "Death certificate or Act of death (parents, children, spouse)",
+        "piece-10": "Funeral program (Mutualist/Affiliate Member)",
+        "piece-11": "Filial deed",
+        "piece-12": "Death certificate or Act of death (Mutualist/Affiliate Member)",
         "D-modal-title": "Death Allowance Fees",
         "D-modal-body": "On the occasion of the death of a member, their spouse, a parent, or a child within the meaning of the legislation on family benefits, the mutual fund pays fixed allowances as follows:\n<ul><li><b>Member</b>: 300,000 F + a 50,000 F wreath</li><li><b>Spouse</b>: 200,000 F</li><li><b>Parents</b>: 100,000 F</li><li><b>Child</b>: 50,000 F.</li></ul>",
         "r-title": "Retirement",
@@ -132,7 +135,7 @@
         "bus-classic-condition": "Pay an amount of <b>75,000F</b> per day of rental.",
         "bus-condition-1": "Pay the driver an amount of <b>15,000F</b><br />per day of rental.",
         "bus-condition-2": "Cover the costs of fuel, tolls, and vehicle cleaning.",
-        "bus-piece-1": "Non-stamped request addressed to Mrs. the Executive Director of MUNAP-DGB"
+        "bus-piece-1": "Unstamped request addressed to the Executive Director"
     },
     "status": {
         "page-title": "MUNAP - Statutes",
@@ -193,7 +196,7 @@
         "article-25": "<ol> <li>The membership fees and contributions are fixed as follows:   </li> <ul><b>Admission fee</b> :   <li>Decision-Making Agents: 10,000 F</li>   <li>Contractual Agent: 15,000 F</li>   <li>Cadres: 20,000 F</li>   <li>Department Heads: 30,000 F</li>   <li>Deputy Directors: 50,000 F</li>   <li>Division Chiefs: 75,000 F</li>   <li>Directors: 100,000 F</li>   <li>Director General: PM</li> </ul> <ul>   <b>Annual Contribution</b> :   <li>Members holding the rank of Deputy Director and above: 3,000 F per month, i.e., 36,000 F per year;</li>   <li>Members responsible up to the rank of Department Head: 2,500 F per month, i.e., 30,000 F per year;</li>   <li>Cadres and Contractual Staff: 2,000 F per month, i.e., 24,000 F per year;</li>   <li>Decision-Making Agents: 1,500 F per month, i.e., 18,000 F per year;</li>   <li>Retirees: Cadres and Managers: 1,500 F per month, i.e., 18,000 F per year;</li>   <li>Agents: 1,000 F per month, i.e., 12,000 F per year;</li>   <li>Spouse: 2/3 of the member's contribution amount;</li>   <li>Child: 1/3 of the member's contribution amount;</li>   <li>Parent: 1/3 of the member's contribution amount.</li> </ul> <b>The annual contribution amount must be paid no later than June 30th of the current year.</b> </ol>",
         "article-26": "<ol> <li>The expenses include: <ul>  <li>The costs of managing the Mutual;</li>  <li>Assistance charges as follows;</li>  <li>Death allowance:</li>   </ul> </li> <li>Only members who are up to date with their contributions can claim the benefits mentioned above.</li> <li>The entitlement to the Mutual's benefits commences thirty (30) days after the date of membership,   prorated to the contribution.</li> </ol>",
         "article-27": "<ol> <li>Upon the death of a member, their spouse, a parent, or a child within the meaning of the family   benefits legislation, the Mutual pays fixed allowances as follows: <ul>  <li>Member: 300,000 F + a wreath worth 50,000 F</li>  <li>Spouse: 200,000 F</li>  <li>Parents: 100,000 F</li>  <li>Child: 50,000 F.</li>   </ul> </li> </ol>",
-        "article-28": "<ol> <li>The costs of a member or a family member within the meaning of the family benefits legislation,   staying in a health facility approved by the Board of Directors, are reimbursed as follows:   <ul><b>Hospitalization Expenses</b> :  <li>Public Hospitals: 40%</li>  <li>Private Hospitals: 20%</li>  <li>Consultation: 50%</li>   </ul>   <ul><b>Dental Care</b> :  <li>Public Hospitals: 25%</li>  <li>Private Hospitals: 15%</li>   </ul>   <ul><b>Medical Tests</b> :  <li>Public Laboratories: 30%</li>  <li>Private Laboratories: 20%</li>   </ul>   Children have a one-third copayment, and spouses have a two-thirds copayment. </li> <li>The supporting documents for the reimbursement of hospitalization, medical, and pharmaceutical   expenses are determined by a resolution of the Board of Directors.</li> </ol>",
+        "article-28": "<ol> <li>The costs of a member or a family member within the meaning of the family benefits legislation,   staying in a health facility approved by the Board of Directors, are reimbursed as follows:   <ul><b>Hospitalization Expenses</b> :  <li>Public Hospitals: 40%</li>  <li>Private Hospitals: 20%</li>  <li>Consultation: 50%</li>   </ul>   <ul><b>Dental Care</b> :  <li>Public Hospitals: 25%</li>  <li>Private Hospitals: 15%</li>   </ul>   <ul><b>Medical Tests</b> :  <li>Public Laboratories: 30%</li>  <li>Private Laboratories: 20%</li> <b>Medical glasses</b> <li>50 % once every two years</li>  </ul>   Children have a one-third copayment, and spouses have a two-thirds copayment. </li><br/> <li>The supporting documents for the reimbursement of hospitalization, medical, and pharmaceutical   expenses are determined by a resolution of the Board of Directors.</li> </ol>",
         "article-29": "No one can claim reimbursements exceeding ten (10) times the amount of their annual contribution during the same financial year.",
         "article-30": "On the occasion of a member's marriage who is up to date with their contributions, the Mutual pays an allowance of 100,000 F.",
         "article-31": "Upon the birth of a child in the household of a member up to date with their contributions, the Mutual celebrates the event by granting the member an allowance of 50,000 F.   <br>The treatment is one-time if the member and their spouse are members of MUNAP-DGB.   <br>The supporting documents for the above fixed allowances consist of documents officially recognized in Cameroon for family benefits.",
@@ -280,6 +283,12 @@
         "article-45": "<ol><li>The funeral allowance for the participation in the funeral of a deceased member is paid to the spouse.</li><li>In case of multiple spouses, the funeral allowance is paid in the presence of all widows.</li>  </ol>",
         "article-46": "<ol><li>Any modification of the Internal Regulations must be approved by</li>  </ol>"
     },
+    "speech": {
+        "title-page": "MUNAP - Speech"
+    },
+    "report": {
+        "title-page": "MUNAP - Reports"
+    },
     "news": {
         "title-page": "MUNAP - News",
         "filter-all": "All",
@@ -325,14 +334,14 @@
         },
         "cost": {
             "header": "My contribution",
-            "admin": "Administration",
+            "admin": "Structure",
             "function": "Function",
             "region": "Region",
             "quality": "Quality",
-            "fees": "Membership fees",
+            "fees": "Amount to contribute",
             "amount": "Amount contributed",
-            "footer": "Contribution update : ",
-            "def": "yes/no "
+            "footer": "Still to contribute : ",
+            "def": "0"
         },
         "affiliated": {
             "header": "Affiliated Persons",
@@ -355,6 +364,10 @@
             "title-page": "MUNAP - Director's Word",
             "word-title": "Executive Director's Word",
             "word-body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        "who": {
+            "title-page": "Who is a Member ?",
+            "head-title": "Member Categories"
         },
         "organes": {
             "title-page": "MUNAP - Bodies",
@@ -410,9 +423,9 @@
         },
         "before": {
             "title-page": "MUNAP - Predecessors",
-            "head-title": "Our Predecessors",
+            "head-title": "The Mutual Fund's History",
             "table-title-1": "GENERAL ASSEMBLY PRESIDENTS",
-            "table-title-2": "EXECUTIVE DIRECTORS",
+            "table-title-2": "EXECUTIVE OFFICE",
             "table-col-1": "Period",
             "table-col-2": "Name & Surnames",
             "table-col-3": "Functions",

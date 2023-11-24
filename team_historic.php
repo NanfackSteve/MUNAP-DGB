@@ -53,6 +53,16 @@ include_once("language/lang.php"); ?>
     <div class="container mt-4">
         <div class="row">
 
+            <!-- Historiq Start -->
+            <div id="creation" class="row px-2 mb-4 wow fadeIn decalage-haut" data-wow-delay="0.3s">
+                <fieldset class="bg-light  p-0 border-bottom border-3">
+                    <legend class="p-2" style="background-color: var(--primary); color: white;">
+                        <?= $lang['index']['creation-title'] ?></legend>
+                    <p class="p-2" style="text-align: justify;"><?= $lang['index']['creation-body'] ?></p>
+                </fieldset>
+            </div>
+            <!-- Historiq End -->
+
             <div class="col mb-4 wow fadeInUp" data-wow-delay="0.3s">
                 <!-- Table One Start -->
                 <table class="table align-middle table-hover table-bordered border-primary caption-top ">
@@ -62,29 +72,24 @@ include_once("language/lang.php"); ?>
                         <tr>
                             <th scope="col"><?= $lang['team']['before']['table-col-1'] ?></th>
                             <th scope="col"><?= $lang['team']['before']['table-col-2'] ?></th>
-                            <th scope="col"><?= $lang['team']['before']['table-col-3'] ?></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                         <tr>
                             <td>xxxx</td>
                             <td>M./Mme ...</td>
-                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                         <tr>
                             <td>2017 -</td>
                             <td>M. EDOU ALO'O Cyril</td>
-                            <td><?= $lang['team']['before']['table-funct-1'] ?></td>
                         </tr>
                     </tbody>
                 </table>
