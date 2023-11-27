@@ -27,9 +27,6 @@
 
 /* CSS carte */
 
-
-
-
 .map__image path {
     fill: #b2beae;
     stroke: #FFF;
@@ -89,6 +86,8 @@
     transform-origin: left;
 }
 
+/* CSS DOCUMENTATION */
+
 .article {
     background-color: #fff;
     padding: 20px;
@@ -107,6 +106,14 @@
 
 .title-paragraph {
     color: #1b1108;
+}
+
+/* CSS TABLEAU */
+
+.title-history {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 900;
 }
 
 ul.fleche-puce {

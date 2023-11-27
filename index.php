@@ -233,23 +233,26 @@ include_once("language/lang.php");
                 <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
                     <div class="m-3 d-flex flex-column align-items-center">
-                        <img src="img/partenaires/minsante.jpg" alt="Logo_MINSANTE" width="70px" height="70px">
-                        <p class="fw-medium m-2"><b>MINSANTE</b></p>
+                        <img src="img/partenaires/mundi.jpg" alt="Logo_BUNEC" width="70px" height="70px">
+                        <p class="fw-medium m-2"><b>MUNDI</b></p>
+                    </div>
+
+                    <div class="m-3 d-flex flex-column align-items-center">
+                        <img src="img/partenaires/mutresor.jpg" alt="Logo_CENADI" width="70px" height="70px">
+                        <p class="fw-medium m-2"><b>MUTRESOR</b></p>
+                    </div>
+
+                    <div class="m-3 d-flex flex-column align-items-center">
+                        <img src="img/partenaires/douanes.jpeg" alt="Logo_MINSANTE" width="70px" height="70px">
+                        <p class="fw-medium m-2"><b>DOUANES</b></p>
                     </div>
 
                     <div class="m-3 d-flex flex-column align-items-center">
                         <img src="img/partenaires/logo_Fidev.jpg" alt="Logo_FIDEV" width="70px" height="70px">
                         <p class="fw-medium m-2"><b>FIDEV</b></p>
                     </div>
-                    <div class="m-3 d-flex flex-column align-items-center">
-                        <img src="img/partenaires/cenadi.jpg" alt="Logo_CENADI" width="70px" height="70px">
-                        <p class="fw-medium m-2"><b>CENADI</b></p>
-                    </div>
 
-                    <div class="m-3 d-flex flex-column align-items-center">
-                        <img src="img/partenaires/bunec.jpg" alt="Logo_BUNEC" width="70px" height="70px">
-                        <p class="fw-medium m-2"><b>BUNEC</b></p>
-                    </div>
+
                 </div>
             </div>
         </div>
