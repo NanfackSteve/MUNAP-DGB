@@ -25,8 +25,6 @@ include_once("language/lang.php"); ?>
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,11 +54,27 @@ include_once("language/lang.php"); ?>
                         <li class="list-group-item">
                             <h6><?= $lang['services']['condition-title'] ?></h6>
                             <ul>
-                                <li><?= $lang['services']['bus-classic-condition'] ?></li>
                                 <li><?= $lang['services']['bus-condition-1'] ?></li>
                                 <li><?= $lang['services']['bus-condition-2'] ?></li>
                             </ul>
                         </li>
+                        <li class="list-group-item">
+                            <h6><?= $lang['services']['bus-case-1'] ?></h6>
+                            <ul>
+                                <li><?= $lang['services']['bus-classic-condition-1'] ?></li>
+                                <li> <a target="_blank" download="Mutuelle_Status.pdf" href="#" class="card-link"><?= $lang['services']['download'] ?></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">
+                            <h6><?= $lang['services']['bus-case-2'] ?></h6>
+                            <ul>
+                                <li><?= $lang['services']['bus-classic-condition-2'] ?></li>
+                                <li> <a target="_blank" download="Formulaire_non_adherent_Coaster.pdf" href="files/Formulaire_non_adherent_Coaster.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                                </li>
+                            </ul>
+                        </li>
+
                         <li class="list-group-item">
                             <h6><?= $lang['services']['pieces-title'] ?></h6>
                             <ul>
@@ -68,9 +82,6 @@ include_once("language/lang.php"); ?>
                             </ul>
                         </li>
                     </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link"><?= $lang['services']['download'] ?></a>
-                    </div>
                 </div>
             </div>
 
@@ -85,9 +96,24 @@ include_once("language/lang.php"); ?>
                         <li class="list-group-item">
                             <h6><?= $lang['services']['condition-title'] ?></h6>
                             <ul>
-                                <li><?= $lang['services']['bus-vip-condition'] ?></li>
                                 <li><?= $lang['services']['bus-condition-1'] ?></li>
                                 <li><?= $lang['services']['bus-condition-2'] ?></li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">
+                            <h6><?= $lang['services']['bus-case-1'] ?></h6>
+                            <ul>
+                                <li><?= $lang['services']['bus-vip-condition-1'] ?></li>
+                                <li> <a target="_blank" download="Mutuelle_Status.pdf" href="#" class="card-link"><?= $lang['services']['download'] ?></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">
+                            <h6><?= $lang['services']['bus-case-2'] ?></h6>
+                            <ul>
+                                <li><?= $lang['services']['bus-vip-condition-2'] ?></li>
+                                <li> <a target="_blank" download="Formulaire_non_adherent_Saphir.pdf" href="files/Formulaire_non_adherent_Saphir.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                                </li>
                             </ul>
                         </li>
                         <li class="list-group-item pe-0">
@@ -97,9 +123,6 @@ include_once("language/lang.php"); ?>
                             </ul>
                         </li>
                     </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link"><?= $lang['services']['download'] ?></a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-1"></div>
