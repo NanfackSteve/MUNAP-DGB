@@ -56,8 +56,8 @@ include_once("language/lang.php"); ?>
                 <div class="row g-4">
 
                     <span id="cf" class="decalage-haut"></span>
-                    <div class="row ">
-                        <div class="col-lg-8 bg-light ">
+                    <div class="row g-4">
+                        <div class="col-lg-8 bg-light mt-3">
                             <p class="p-4 mb-4" style="text-align: justify;">Le bureau exécutif est l’organe de gestion
                                 de la
                                 mutuelle. Il est représenté localement par les délégations régionales et peut leur
@@ -70,7 +70,7 @@ include_once("language/lang.php"); ?>
                                 bureau exécutif que convoque et préside le directeur exécutif.
                             </p>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-item ">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/CF_President.jpg" alt=""
@@ -85,8 +85,8 @@ include_once("language/lang.php"); ?>
                     </div>
 
                     <div class="row mt-3">
-                        <div class="col-lg-3 mx-auto"></div>
-                        <div class="col-lg-3 col-md-6 mx-auto wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-3 mx-auto mt-3"></div>
+                        <div class="col-lg-3 col-md-6 mx-auto wow fadeIn" data-wow-delay="0.3s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/CF_Rapporteur.jpg" alt="">
@@ -98,7 +98,7 @@ include_once("language/lang.php"); ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-3 col-md-6 mx-auto mt-3 wow fadeIn" data-wow-delay="0.5s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/CF_membre.jpg" alt="">

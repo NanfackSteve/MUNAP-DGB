@@ -57,9 +57,9 @@ include_once("language/lang.php"); ?>
                 <div class="row g-4">
 
                     <span id="be" class="decalage-haut"></span>
-                    <div class="row ">
+                    <div class="row g-4">
 
-                        <div class="col-lg-8 bg-light">
+                        <div class="col-lg-8 bg-light mt-3">
                             <p class="p-4" style="text-align: justify;">Le bureau exécutif est l’organe de gestion de la
                                 mutuelle. Il est représenté localement par les délégations régionales et peut leur
                                 déléguer certaines de ses attributions.
@@ -73,7 +73,7 @@ include_once("language/lang.php"); ?>
 
                             </p>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-item ">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/BE_Directeur_Executif.jpg" alt=""
@@ -88,7 +88,7 @@ include_once("language/lang.php"); ?>
                     </div>
 
                     <div class="row mt-1 g-4">
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/BE_SG.jpg" alt=""
@@ -101,7 +101,7 @@ include_once("language/lang.php"); ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/BE_SGA.jpg" alt=""
@@ -114,7 +114,7 @@ include_once("language/lang.php"); ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/BE_Tresorier_General.jpg"
@@ -132,7 +132,7 @@ include_once("language/lang.php"); ?>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="team-item">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/BE_Tresorier_Gen_Adjoint.jpg" alt=""
@@ -152,7 +152,7 @@ include_once("language/lang.php"); ?>
                     </div>
                     <div class="row mt-1 g-1"></div>
                     <span class="col-lg-4 mx-auto"></span>
-                    <div class="col-lg-3 col-md-6 mx-auto wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-3 col-md-6 mx-auto wow fadeIn" data-wow-delay="0.1s">
                         <div class="team-item">
                             <div class="overflow-hidden position-relative">
                                 <img class="img-fluid" src="img/organes/BE_SP.jpg" alt=""
