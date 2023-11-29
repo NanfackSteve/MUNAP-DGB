@@ -64,7 +64,8 @@ include_once("language/lang.php"); ?>
                                 <h6><?= $lang['services']['bus-case-1'] ?></h6>
                                 <ul>
                                     <li><?= $lang['services']['bus-classic-condition-2'] ?></li>
-                                    <li> <a target="_blank" download="Mutuelle_Status.pdf" href="#"
+                                    <li> <a target="_blank" download="Formulaire_Bus.pdf"
+                                            href="files/Formulaire_Bus.pdf"
                                             class="card-link"><?= $lang['services']['download'] ?></a>
                                     </li>
                                 </ul>
@@ -73,8 +74,8 @@ include_once("language/lang.php"); ?>
                                 <h6><?= $lang['services']['bus-case-2'] ?></h6>
                                 <ul>
                                     <li><?= $lang['services']['bus-classic-condition-1'] ?></li>
-                                    <li> <a target="_blank" download="Formulaire_non_adherent_Coaster.pdf"
-                                            href="files/Formulaire_non_adherent_Coaster.pdf"
+                                    <li> <a target="_blank" download="Formulaire_Bus.pdf"
+                                            href="files/Formulaire_Bus.pdf"
                                             class="card-link"><?= $lang['services']['download'] ?></a>
                                     </li>
                                 </ul>
