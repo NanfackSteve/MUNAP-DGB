@@ -154,7 +154,7 @@
 </nav>
 <!-- Nav End -->
 
-<div class="bg-dark style=" margin-bottom: -1px; ">
+<div class="bg-dark" style="margin-bottom: -1px;">
         <marquee behavior=" scroll" direction="left" width="100%" height="35px" class="bg-dark text-light" style="padding-top: 10px; padding-left: 20%; padding-right: 20%;">
     <b><?= $lang['header']['welcome']; ?></b>
     </marquee>
