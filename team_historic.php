@@ -27,8 +27,6 @@ include_once("language/lang.php"); ?>
 
         <!-- Libraries Stylesheet -->
         <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -82,19 +80,15 @@ include_once("language/lang.php"); ?>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
+                                <td>2007 - 2009</td>
+                                <td>M. Pierre TITTI </td>
                             </tr>
                             <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
-                            </tr>
-                            <tr>
-                                <td>xxxx</td>
-                                <td>M./Mme ...</td>
+                                <td>2010 - 2016</td>
+                                <td>M. EDOA Gilbert Didier</td>
                             </tr>
                             <tr class="table-active">
-                                <td>2017 -</td>
+                                <td>2017 - </td>
                                 <td>M. EDOU ALO'O Cyril</td>
                             </tr>
                         </tbody>
@@ -108,17 +102,16 @@ include_once("language/lang.php"); ?>
             <div class="row">
                 <div class="col-md-6 col-lg-4 mb-5 wow fadeInUp" data-wow-delay="0.3s">
                     <h4 class="title-history">Conseil d'Adminstration</h4>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ca-2021">2021</button>
-                    <button class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#ca-2022">2022</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ca-2007">2007 -
+                        2008</button>
+                    <button class=" btn btn-primary" data-bs-toggle="modal" data-bs-target="#ca-2009">2009</button>
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ca-2023">2023</button>
 
-                    <!-- Modal 2021 Start -->
-                    <div class="modal fade" id="ca-2021" tabindex="-1" aria-labelledby="ca-2021" aria-hidden="true">
+                    <!-- Modal CA 2007 - 2008 Start -->
+                    <div class="modal fade" id="ca-2007" tabindex="-1" aria-labelledby="ca-2007" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <!-- <h5 class="modal-title" id="ca-2021">
-                                    <?= $lang['index']['modal-dues-title'] ?></h5> -->
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -133,30 +126,9 @@ include_once("language/lang.php"); ?>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>M./Mme ...</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>Mme TSAFACK Berthe</td>
+                                                <td>PCA</td>
                                             </tr>
-                                            <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
-                                            </tr>
-
                                         </tbody>
                                     </table>
                                 </div>
@@ -164,12 +136,12 @@ include_once("language/lang.php"); ?>
                         </div>
                     </div>
 
-                    <!-- Modal 2022 Start -->
-                    <div class="modal fade" id="ca-2022" tabindex="-1" aria-labelledby="ca-2022" aria-hidden="true">
+                    <!-- Modal CA 2009 Start -->
+                    <div class="modal fade" id="ca-2009" tabindex="-1" aria-labelledby="ca-2009" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="ca-2022">
+                                    <h5 class="modal-title" id="ca-2009">
                                         <?= $lang['index']['modal-dues-title'] ?></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
@@ -179,36 +151,58 @@ include_once("language/lang.php"); ?>
 
                                         <thead style="background-color: var(--primary); color: white;">
                                             <tr>
-                                                <th scope="col"><?= $lang['team']['before']['table-col-1'] ?></th>
                                                 <th scope="col"><?= $lang['team']['before']['table-col-2'] ?></th>
                                                 <th scope="col"><?= $lang['team']['before']['table-col-3'] ?></th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td rowspan="6">xxxx</td>
-                                                <td>M./Mme ...</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>Mme Mme TSAFACK Berthe</td>
+                                                <td>PCA</td>
                                             </tr>
                                             <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>MEKONTCHOU Samuel</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>ABENA Hubert</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>M. AKAME Charles</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>Mme GOUADJIO Colette</td>
+                                                <td></td>
                                             </tr>
                                             <tr>
-                                                <td>Dr AKOA AKOA Samuel</td>
-                                                <td><?= $lang['team']['before']['table-funct-2'] ?></td>
+                                                <td>NGALEU</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>HAMAN TIZI</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>NTSAMA Jean Marie</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>AZEFAC Olivier</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>ETOBE Joséphine</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>MAMA OLOA Aloys</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>DJOKNA DAMSALA</td>
+                                                <td></td>
                                             </tr>
 
                                         </tbody>
