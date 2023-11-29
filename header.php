@@ -28,8 +28,8 @@
 
             <!-- MUNAP Start -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="members" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <?= $lang['header']['team']; ?>
+                <a class="nav-link dropdown-toggle" href="#" id="members" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?= $lang['header']['team']; ?><i class="ms-2 fas fa-angle-down"></i>
+                    
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="members">
                     <li><a class="dropdown-item" href="team_word_of_DE.php"><?= $lang['header']['team-wordDE']; ?></a>
@@ -64,7 +64,7 @@
             <!-- Services Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="process" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <?= $lang['header']['services']; ?>
+                    <?= $lang['header']['services']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="process">
                     <li><a class="dropdown-item" href="prestation_allocations.php"><?= $lang['header']['services-allocation']; ?></a>
@@ -84,7 +84,7 @@
             <!-- Actus Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="actus" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <?= $lang['header']['news']; ?>
+                    <?= $lang['header']['news']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="actus">
                     <li><a class="dropdown-item" href="actus_activities.php"><?= $lang['header']['news-activ']; ?></a>
@@ -100,7 +100,7 @@
             <!-- Docus Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="docu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <?= $lang['header']['docu']; ?>
+                    <?= $lang['header']['docu']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="docu">
                     <li><a class="dropdown-item" href="docu_status.php"><?= $lang['header']['docu-status']; ?></a></li>
