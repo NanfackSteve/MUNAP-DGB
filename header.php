@@ -37,7 +37,7 @@
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#"><?= $lang['header']['team-mission']; ?></a>
+                    <li><a class="dropdown-item" href="team_mission.php"><?= $lang['header']['team-mission']; ?></a>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
