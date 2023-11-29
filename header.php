@@ -22,14 +22,14 @@
 
             <!-- Home Start -->
             <li class="nav-item">
-                <a id="home" href="index.php" class="nav-link"><?= $lang['header']['home']; ?></a>
+                <a id="home" href="index.php" class="nav-link" style="margin: 0 15px 0 0 ;"><?= $lang['header']['home']; ?></a>
             </li>
             <!-- Home End -->
 
             <!-- MUNAP Start -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="members" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?= $lang['header']['team']; ?><i class="ms-2 fas fa-angle-down"></i>
-                    
+                <a class="nav-link dropdown-toggle" href="#" id="members" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin: 0 15px 0 0 ;"><?= $lang['header']['team']; ?><i class="ms-2 fas fa-angle-down"></i>
+
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="members">
                     <li><a class="dropdown-item" href="team_word_of_DE.php"><?= $lang['header']['team-wordDE']; ?></a>
@@ -63,7 +63,7 @@
 
             <!-- Services Start -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="process" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="process" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin: 0 15px 0 0 ;">
                     <?= $lang['header']['services']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="process">
@@ -83,7 +83,7 @@
 
             <!-- Actus Start -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="actus" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="actus" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin: 0 15px 0 0 ;">
                     <?= $lang['header']['news']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="actus">
@@ -99,7 +99,7 @@
 
             <!-- Docus Start -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="docu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="docu" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin: 0 15px 0 0 ;">
                     <?= $lang['header']['docu']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="docu">
