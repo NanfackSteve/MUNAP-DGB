@@ -46,6 +46,19 @@ include_once("language/lang.php"); ?>
             <div class="container py-4">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">
                     <?= $lang['team']['organes']['head-link-2'] ?> </h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a class="text-white underline-hover"
+                                href="team_CA.php"><?= $lang['team']['organes']['head-link-1'] ?></a></li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover"
+                                href="team_BE.php"><?= $lang['team']['organes']['head-link-2'] ?></a>
+                        </li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover"
+                                href="team_CF.php"><?= $lang['team']['organes']['head-link-3'] ?></a></li>
+                        <li class="breadcrumb-item"><a class="text-white underline-hover"
+                                href="team_DR.php"><?= $lang['team']['organes']['head-link-4'] ?></a></li>
+                    </ol>
+                </nav>
             </div>
         </div>
         <!-- Page Header End -->
@@ -60,18 +73,7 @@ include_once("language/lang.php"); ?>
                     <div class="row g-4">
 
                         <div class="col-lg-8 bg-light mt-3">
-                            <p class="p-4" style="text-align: justify;">Le bureau exécutif est l’organe de gestion de la
-                                mutuelle. Il est représenté localement par les délégations régionales et peut leur
-                                déléguer certaines de ses attributions.
-                                Les membres du bureau exécutif sont solidaires dans la gestion de la mutuelle.
-                                Le bureau exécutif se réunit au moins une fois par mois et aussi souvent que l’exigent
-                                les circonstances sure convocation du directeur exécutif pour débattre a des problèmes
-                                lies a la gestion de la mutuelle et à l’accomplissement de leurs fonctions.
-                                Le secrétaire générale rapporte les affaires inscrites à l’ordre du jour des réunions du
-                                bureau exécutif que convoque et préside le directeur exécutif.
-
-
-                            </p>
+                            <p class="p-4" style="text-align: justify;"><?= $lang['team']['organes']['word-be'] ?></p>
                         </div>
                         <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-item ">

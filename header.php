@@ -37,12 +37,17 @@
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="team-whoIsMember.php"><?= $lang['header']['team-member']; ?></a>
+                    <li><a class="dropdown-item" href="#"><?= $lang['header']['team-mission']; ?></a>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="team.php"><?= $lang['header']['team-organes']; ?></a>
                     </li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="team.php"><?= $lang['header']['team-organes']; ?></a></li>
+                    <li><a class="dropdown-item" href="team-whoIsMember.php"><?= $lang['header']['team-member']; ?></a>
+                    </li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
