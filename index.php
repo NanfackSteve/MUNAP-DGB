@@ -152,9 +152,33 @@ include_once("language/lang.php");
                 <br />
                 <img src="img/organes/CA_DGB.jpg" class="m-lg-2 float-lg-end imgshadow px-2" alt="MINFI-DGB">
                 <p style="text-align: justify;" class="m-2 wow fadeIn" data-wow-delay="0.4s">
-                    <?= $lang['index']['president-word-brief'] ?></p>
+                    <?= $lang['index']['president-word-brief'] ?>  <a href="#" data-bs-toggle="modal"
+                                            data-bs-target="#dgb-speech-modal"><?= $lang['index']['read-more'] ?><i class="ms-2 fa fa-arrow-right ms-1"></i></a></p>
             </div>
-            <a href="mot president.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
+            
+            
+
+                                            <!-- Speech Modal Start -->
+                                            <div class="modal fade" id="dgb-speech-modal" tabindex="-1"
+                                    aria-labelledby="dgb-speech-modal" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="dgb-speech-modal">
+                                                    <?= $lang['index']['president-word-title'] ?></h5>
+                                            </div>
+                                            <div class="modal-body">
+                                                                                               <p><?= $lang['index']['president-word-body'] ?></p>
+                                            </div>
+                                            <div class="modal-footer align-items-center">
+                           
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                            <!-- Speech Modal Start -->
             <!-- Speech DGB End -->
         </div>
 
