@@ -1,0 +1,336 @@
+{
+    "2007": {
+        "ca": {
+            "nbr": 1,
+            "member-1": {
+                "name": "Mme TSAFACK Berthe",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 2,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            }
+        },
+        "cf": {
+            "nbr": 0
+        }
+    },
+    "2008": {
+        "ca": {
+            "nbr": 1,
+            "member-1": {
+                "name": "Mme TSAFACK Berthe",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 2,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            }
+        },
+        "cf": {
+            "nbr": 1,
+            "member-1": {
+                "name": "M. MENGBANG EDOU",
+                "post": "CF-ex-1"
+            }
+        }
+    },
+    "2009": {
+        "ca": {
+            "nbr": 12,
+            "member-1": {
+                "name": "Mme TSAFACK Berthe",
+                "post": "ca-president"
+            },
+            "member-2": {
+                "name": "M. MEKONTCHOU Samuel",
+                "post": "ca-president"
+            },
+            "member-3": {
+                "name": "M. ABENA Hubert",
+                "post": "ca-president"
+            },
+            "member-4": {
+                "name": "M. AKAME Charles",
+                "post": "ca-president"
+            },
+            "member-5": {
+                "name": "Mme GOUADJIO Colette",
+                "post": "ca-president"
+            },
+            "member-6": {
+                "name": "M. NGALEU",
+                "post": "ca-president"
+            },
+            "member-7": {
+                "name": "M. HAMAN TIZI",
+                "post": "ca-president"
+            },
+            "member-8": {
+                "name": "M. NTSAMA Jean Marie",
+                "post": "ca-president"
+            },
+            "member-9": {
+                "name": "M. AZEFAC Olivier",
+                "post": "ca-president"
+            },
+            "member-10": {
+                "name": "Mme ETOBE Joséphine",
+                "post": "ca-president"
+            },
+            "member-11": {
+                "name": "M. MAMA OLOA Aloys",
+                "post": "ca-president"
+            },
+            "member-12": {
+                "name": "M. DJOKNA DAMSALA",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 2,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            }
+        },
+        "cf": {
+            "nbr": 1,
+            "member-1": {
+                "name": "M. MENGBANG EDOU",
+                "post": "CF-ex-1"
+            }
+        }
+    },
+    "2010": {
+        "ca": {
+            "nbr": 1,
+            "member-1": {
+                "name": "M. YAZID AMINOU",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 5,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            },
+            "member-3": {
+                "name": "Mme TOUKAM Rosalie",
+                "post": "BE-ex-3"
+            },
+            "member-4": {
+                "name": "M. MOUT ABALANG",
+                "post": "BE-ex-4"
+            },
+            "member-5": {
+                "name": "Mme TONG SONGUE Prudentienne",
+                "post": "BE-ex-5"
+            }
+        },
+        "cf": {
+            "nbr": 3,
+            "member-1": {
+                "name": "Mme ETAME TOTO Justine",
+                "post": "CF-ex-1"
+            },
+            "member-2": {
+                "name": "M. YAMDJEU Lazare",
+                "post": "CF-ex-2"
+            },
+            "member-3": {
+                "name": "Mme MANGOUA Mallette",
+                "post": "CF-ex-3"
+            }
+        }
+    },
+    "2012": {
+        "ca": {
+            "nbr": 10,
+            "member-1": {
+                "name": "M. YAZID AMINOU RADJI",
+                "post": "ca-president"
+            },
+            "member-2": {
+                "name": "M. EDOU ALO’O Cyrille",
+                "post": "ca-president"
+            },
+            "member-3": {
+                "name": "Mme NOUBOUE Alice",
+                "post": "ca-president"
+            },
+            "member-4": {
+                "name": "M. SOULEYMANOU HALILOU",
+                "post": "ca-president"
+            },
+            "member-5": {
+                "name": "M. NGUESSONG André Gérard",
+                "post": "ca-president"
+            },
+            "member-6": {
+                "name": "Mme MOUDIO Lydie Victorine",
+                "post": "ca-president"
+            },
+            "member-7": {
+                "name": "M. NTOUNG Andrew ATEM",
+                "post": "ca-president"
+            },
+            "member-8": {
+                "name": "M. BEKOLO François Xavier",
+                "post": "ca-president"
+            },
+            "member-9": {
+                "name": "Mme NGONO Anastasie",
+                "post": "ca-president"
+            },
+            "member-10": {
+                "name": "Mme ETAME TOTO Justine",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 5,
+            "member-1": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "Mme GOUAJIO Colette",
+                "post": "BE-ex-2"
+            },
+            "member-3": {
+                "name": "Mme MANGOUA Mallette",
+                "post": "BE-ex-3"
+            },
+            "member-4": {
+                "name": "Mme NTSAMA ZOA Isabelle",
+                "post": "BE-ex-4"
+            },
+            "member-5": {
+                "name": "Mme TCHINDJI Regina",
+                "post": "BE-ex-5"
+            }
+        },
+        "cf": {
+            "nbr": 3,
+            "member-1": {
+                "name": "Dr. AKOA AKOA Samuel",
+                "post": "CF-ex-1"
+            },
+            "member-2": {
+                "name": "Mme KONCHIEU Juliette",
+                "post": "CF-ex-2"
+            },
+            "member-3": {
+                "name": "M. BITETE Roger",
+                "post": "CF-ex-3"
+            }
+        }
+    },
+    "2016": {
+        "ca": {
+            "nbr": 10,
+            "member-1": {
+                "name": "M. WAKOU Roger",
+                "post": "ca-president"
+            },
+            "member-2": {
+                "name": "M. EDOU ALO’O Cyrille",
+                "post": "ca-president"
+            },
+            "member-3": {
+                "name": "Mme NOUBOUE Alice",
+                "post": "ca-president"
+            },
+            "member-4": {
+                "name": "M. SOULEYMANOU HALILOU",
+                "post": "ca-president"
+            },
+            "member-5": {
+                "name": "M. NGUESSONG André Gérard",
+                "post": "ca-president"
+            },
+            "member-6": {
+                "name": "Mme MOUDIO Lydie Victorine",
+                "post": "ca-president"
+            },
+            "member-7": {
+                "name": "M. NTOUNG Andrew ATEM",
+                "post": "ca-president"
+            },
+            "member-8": {
+                "name": "M. BEKOLO François Xavier",
+                "post": "ca-president"
+            },
+            "member-9": {
+                "name": "Mme NGONO Anastasie",
+                "post": "ca-president"
+            },
+            "member-10": {
+                "name": "Mme ETAME TOTO Justine",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 5,
+            "member-1": {
+                "name": "Dr. AKOA AKOA Samuel",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "Mme MENGUELE Judith Clairence",
+                "post": "BE-ex-2"
+            },
+            "member-3": {
+                "name": "M. FEGMI Guy",
+                "post": "BE-ex-3"
+            },
+            "member-4": {
+                "name": "Mme NTSAMA ZOA Isabelle",
+                "post": "BE-ex-4"
+            },
+            "member-5": {
+                "name": "M. ESOSE Paul Lysinge",
+                "post": "BE-ex-5"
+            }
+        },
+        "cf": {
+            "nbr": 3,
+            "member-1": {
+                "name": "M. BEKOLO François Xavier",
+                "post": "CF-ex-1"
+            },
+            "member-2": {
+                "name": "M. BITETE Roger",
+                "post": "CF-ex-2"
+            },
+            "member-3": {
+                "name": "Mme DZOGANG Née LELE TATCHOM Mireille Flore",
+                "post": "CF-ex-3"
+            }
+        }
+    }
+}
