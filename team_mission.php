@@ -51,28 +51,28 @@ include_once("language/lang.php"); ?>
             </div>
         </div>
         <!-- Page Header End -->
- <!-- Speech DE Start -->
- <div class="col-md-6 col-lg-12 mt-4 wow fadeIn" data-wow-delay="0.3s">
-                <h3 class="text-center mb-3"><?= $lang['header']['team-mission'] ?></h3>
 
-                <div class="border border-3 border-primary bo pt-lg-2">
-                    
-                    <p style="text-align: justify; height: 10px;" class="m-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <?= $lang['header']['head-mission'] ?>
+ <!-- Mission  Start -->
+ <div class="container">
+ <div class="col-md-6 col-lg-12 mt-4 wow fadeIn" data-wow-delay="0.3s">
+
+                <div class="border border-3 border-primary bo">
+                    <p style="text-align: justify;" class="p-2 m-2 wow fadeInUp" data-wow-delay="0.2s">
+                    <?= $lang['header']['head-mission'] ?>
                     </p>
-                    <br /><br /><br />
                 </div>
                 <br /><br />
-                <div class="border border-3 border-primary bo pt-lg-2">
-                    
+                <div class="border border-3 border-primary bo">
                     <p style="text-align: justify;" class="m-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <?= $lang['header']['body-mission'] ?>
+                    <h6 class="p-2" ><?= $lang['header']['body-mission'] ?></h6>
                     </p>
-                    <br /><br /><br />
                 </div>
             </div>
-            <!-- Speech DE End -->
-          <!-- Footer Start -->
+ </div>
+ 
+            <!-- Mission End -->
+        
+            <!-- Footer Start -->
           <?php include_once("footer.php") ?>
         <!-- Footer End -->
 
