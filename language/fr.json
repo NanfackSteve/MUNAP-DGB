@@ -333,23 +333,26 @@
         "infos": {
             "header": "Mes Informations Personnelles",
             "num-adhesion": "Numéro adhésion",
-            "matricule": "Matricule ",
             "name": "Nom",
             "surnames": "Prénoms",
-            "born on": "Né le",
+            "admin": "Structure",
+            "function": "Fonction",
             "status": "Status",
-            "footer": "Membre depuis : "
+            "footer": "Membre depuis : ",
+            "matricule": "Matricule ",
+            "born on": "Né le",
+            "region": "Région",
+            "quality": "Qualité"
         },
         "cost": {
             "header": "Mes Cotisations",
-            "admin": "Structure",
-            "function": "Fonction",
-            "region": "Région",
-            "quality": "Qualité",
-            "fees": "Montant à cotiser",
-            "amount": "Montant cotisé",
-            "footer": "Reste à cotiser : ",
-            "def": "0"
+            "fees_parent": "Cotisation Parent(s)",
+            "fees_spouse": "Cotisation Conjoint(s)",
+            "fees_child": "Cotisation Enfant(s)",
+            "fees_member": "Cotisation Membre",
+            "fees_total": "Cotisation Totale",
+            "amount": "Montant versé",
+            "footer": "Reste à cotiser : "
         },
         "affiliated": {
             "header": "Personnes Affiliées",

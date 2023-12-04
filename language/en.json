@@ -333,23 +333,26 @@
         "infos": {
             "header": "My personal information",
             "num-adhesion": "Membership number",
-            "matricule": "Matricule ",
             "name": "Name",
             "surnames": "Surnames",
-            "born on": "Born on",
+            "admin": "Structure",
+            "function": "Function",
             "status": "Status",
-            "footer": "Member since : "
+            "footer": "Member since : ",
+            "matricule": "Matricule ",
+            "born on": "Born on",
+            "region": "Region",
+            "quality": "Quality"
         },
         "cost": {
             "header": "My contribution",
-            "admin": "Structure",
-            "function": "Function",
-            "region": "Region",
-            "quality": "Quality",
-            "fees": "Amount to contribute",
+            "fees_parent": "Parent(s) fees",
+            "fees_spouse": "Spouse(s) fees",
+            "fees_child": "Child(ren) fees",
+            "fees_member": "Member fees",
+            "fees_total": "Total fees",
             "amount": "Amount contributed",
-            "footer": "Still to contribute : ",
-            "def": "0"
+            "footer": "Still to contribute : "
         },
         "affiliated": {
             "header": "Affiliated Persons",
