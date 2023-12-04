@@ -25,7 +25,6 @@ include_once("language/lang.php"); ?>
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -71,7 +70,7 @@ include_once("language/lang.php"); ?>
                 <div class="col-lg-4 col-md-6 portfolio-item third wow fadeInUp" data-wow-delay="0.1s">
                     <div class="rounded overflow-hidden">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/actus/activities/actus_bus_A_3.jpg" alt="" style="height: 250px;">
+                            <img class="img-fluid w-100 " src="img/actus/activities/actus_bus_A_3.jpg" alt="" style="height: 250px;">
                             <div class="portfolio-overlay">
                                 <a class="btn btn-square btn-outline-light mx-1" href="img/actus/activities/actus_bus_A_3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                 <a class="btn btn-square btn-outline-light mx-1" href="actus_activ_2.php"><i class="fa fa-link"></i></a>
@@ -113,25 +112,21 @@ include_once("language/lang.php"); ?>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/actus/activities/capture15.jpg" alt=""
-                                    style="height: 250px;">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1"
-                                        href="img/actus/activities/capture15.jpg" data-lightbox="portfolio"><i
-                                            class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/actus/activities/actus_meeting_B_2.jpg" alt="" style="height: 250px;">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/actus/activities/actus_meeting_B_2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href="actus_activ_4.php"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
-                    </div> -->
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Ministère des Finances : 30 Nov. 2023</p>
+                            <h5 class="lh-base mb-0">25 ième Session Ordinaire du Conseil d'Administration</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

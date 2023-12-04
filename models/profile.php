@@ -12,6 +12,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: Bearer ' . $_SESSION['token'],));
 $rep = curl_exec($ch);
 $data = json_decode($rep, true);
+print_r($data);
 curl_close($ch);
 
 // infos membres
