@@ -363,7 +363,7 @@
         },
         "modal": {
             "names": "Noms",
-            "fees": "A cotiser",
+            "fees": "A cotiser (FCFA)",
             "no-parent": "Aucun Parent affilié",
             "no-spouse": "Aucun(e) Conjoint(e) affilié(e)",
             "no-child": "Aucun Enfant affilié",

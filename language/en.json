@@ -363,7 +363,7 @@
         },
         "modal": {
             "names": "Names",
-            "fees": "To Contribute",
+            "fees": "To Contribute (FCFA)",
             "no-parent": "No Affiliate Parent",
             "no-spouse": "No affiliated spouse",
             "no-child": "No Child Affiliated",
