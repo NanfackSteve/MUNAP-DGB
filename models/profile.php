@@ -4,7 +4,7 @@ if (!isset($_SESSION['num_adhesion'])) header("Location: login.php ");
 
 // URL de l'API cible
 $api = json_decode(file_get_contents('./models/api.json'), true);
-$url = $api['link'] . "/api/membrebynumadhesion/?num_adhesion=" . $_SESSION['num_adhesion'];
+$url = $api['link'] . "/api/infosglesmembre/?trimestre=4&structure_id=-1&annee=2023&num_adhesion=" . $_SESSION['num_adhesion'];
 
 // Requete + Reponse cURL
 $ch = curl_init($url);
