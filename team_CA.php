@@ -91,7 +91,7 @@ include_once("language/lang.php"); ?>
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                                 <h5 class="mb-0">M. OYONO Thierry A.</h5>
-                                <small><?= $lang['team']['organes']['ca-controler'] ?></br><?= $lang['team']['organes']['ca-controler-1'] ?></small>
+                                <small><?= $lang['team']['organes']['ca-controler-1'] ?></small>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ include_once("language/lang.php"); ?>
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                                 <h5 class="mb-0">M. NDONG MVE Eric</h5>
-                                <small><?= $lang['team']['organes']['ca-controler-3'] ?><br /><?= $lang['team']['organes']['ca-controler-4'] ?></small>
+                                <small><?= $lang['team']['organes']['ca-controler-4'] ?></small>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ include_once("language/lang.php"); ?>
                             </div>
                             <div class="text-center border border-5 border-light border-top-0 pt-4 pb-1 px-2">
                                 <h5 class="mb-0">M. BITETE Roger</h5>
-                                <small><?= $lang['team']['organes']['ca-controler-5'] ?><br /><?= $lang['team']['organes']['ca-controler-6'] ?></small>
+                                <small><?= $lang['team']['organes']['ca-controler-6'] ?></small>
                             </div>
                         </div>
                     </div>
