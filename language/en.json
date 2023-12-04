@@ -358,10 +358,15 @@
             "header": "Affiliated Persons",
             "parent": "Parent(s)",
             "child": "Child(ren)",
-            "spouse": "Spouse (s)  ",
+            "spouse": "Spouse(s)&nbsp;&nbsp;&nbsp;&nbsp;",
             "footer": "affiliated person(s)"
         },
         "modal": {
+            "names": "Names",
+            "fees": "To Contribute",
+            "no-parent": "No Affiliate Parent",
+            "no-spouse": "No affiliated spouse",
+            "no-child": "No Child Affiliated",
             "parent-header": "Affiliated Parent(s)",
             "see-1": "See Affiliated Spouse(s)",
             "spouse-header": "Affiliated Spouse(s)",

@@ -362,6 +362,11 @@
             "footer": " personne(s) affiliées"
         },
         "modal": {
+            "names": "Noms",
+            "fees": "A cotiser",
+            "no-parent": "Aucun Parent affilié",
+            "no-spouse": "Aucun(e) Conjoint(e) affilié(e)",
+            "no-child": "Aucun Enfant affilié",
             "parent-header": "Parent(s) affilié(s)",
             "see-1": "Voir Conjoint(es) affilié(es)",
             "spouse-header": "Conjoint(es) affilié(es)",

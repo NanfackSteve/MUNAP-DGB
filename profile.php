@@ -84,8 +84,8 @@ include_once("models/profile.php");
                                         </span><span><?= $structure ?></span></li>
                                     <li><span class="me-1"><b><?= $lang['Profile']['infos']['function'] ?></b></span><span><span class="mx-2">/
                                             </span><?= $fonction ?></span></li>
-                                    <li><span style="margin-right: 28px;"><b><?= $lang['Profile']['infos']['status'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $statut ?></span> </li>
+                                    <!-- <li><span style="margin-right: 28px;"><b><?= $lang['Profile']['infos']['status'] ?></b></span><span class="mx-2">/
+                                        </span><span><?= $statut ?></span> </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ include_once("models/profile.php");
                             </div>
                         </div>
                         <div class="card-footer text-center text-muted">
-                            <?= $lang['Profile']['cost']['footer'] ?><span class="text-dark"><?= $cotisation_reste ?></span>
+                            <?= $lang['Profile']['cost']['footer'] ?><span class="text-dark"><?= $cotisation_reste ?> FCFA</span>
                         </div>
                     </div>
                 </div>
@@ -170,9 +170,31 @@ include_once("models/profile.php");
                                     <?= $lang['Profile']['modal']['parent-header'] ?></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-                                <p id="pParent" class="allo-text ">
+                            <div class="modal-body ">
+                                <p id="pParent" class="text-center allo-text ">
+                                    <?php
+                                    if (empty($list_parents)) {
+                                        echo $lang['Profile']['modal']['no-parent'];
+                                    } else {
 
+                                        echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                        echo '<thead style="background-color: var(--primary); color: white;">';
+                                        echo '<tr>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal']['names'] . '</th>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal']['fees'] . '</th>';
+                                        echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                        foreach ($list_parents as $parent) {
+                                            echo '    <tr>';
+                                            echo '      <td>' . $parent['nom_complet'] . '</td>';
+                                            echo '      <td>' . $parent['montant_a_cotiser_parent'] . '</td>';
+                                            echo '    </tr>';
+                                        }
+                                        echo '</tbody>';
+                                        echo '</table>';
+                                    }
+                                    ?>
                                 </p>
                             </div>
                             <div class="modal-footer">
@@ -192,8 +214,29 @@ include_once("models/profile.php");
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p id="pConjoint" class="allo-text">
-
+                                <p id="pConjoint" class="text-center allo-text">
+                                    <?php
+                                    if (empty($list_conjoints)) {
+                                        echo $lang['Profile']['modal']['no-spouse'];
+                                    } else {
+                                        echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                        echo '<thead style="background-color: var(--primary); color: white;">';
+                                        echo '<tr>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal']['names'] . '</th>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal']['fees'] . '</th>';
+                                        echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                        foreach ($list_conjoints as $spouse) {
+                                            echo '    <tr>';
+                                            echo '      <td>' . $spouse['nom_complet'] . '</td>';
+                                            echo '      <td>' . $spouse['montant_a_cotiser_conjoint'] . '</td>';
+                                            echo '    </tr>';
+                                        }
+                                        echo '</tbody>';
+                                        echo '</table>';
+                                    }
+                                    ?>
                                 </p>
                             </div>
                             <div class="modal-footer">
@@ -213,8 +256,30 @@ include_once("models/profile.php");
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p id="pChild" class="allo-text">
+                                <p id="pChild" class="text-center allo-text">
+                                    <?php
+                                    if (empty($list_enfants)) {
+                                        echo $lang['Profile']['modal']['no-child'];
+                                    } else {
 
+                                        echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                        echo '<thead style="background-color: var(--primary); color: white;">';
+                                        echo '<tr>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal']['names'] . '</th>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal']['fees'] . '</th>';
+                                        echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                        foreach ($list_enfants as $enfant) {
+                                            echo '    <tr>';
+                                            echo '      <td>' . $enfant['nom_complet'] . '</td>';
+                                            echo '      <td>' . $enfant['montant_a_cotiser_enfant'] . '</td>';
+                                            echo '    </tr>';
+                                        }
+                                        echo '</tbody>';
+                                        echo '</table>';
+                                    }
+                                    ?>
                                 </p>
                             </div>
                             <div class="modal-footer">
