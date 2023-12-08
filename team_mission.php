@@ -52,8 +52,8 @@ include_once("language/lang.php"); ?>
         <!-- Page Header End -->
 
         <!-- Mission  Start -->
-        <div class="wrapper-mission">
-            <div class="container mission border border-2 border-primary mt-4">
+        <div class="wrapper-mission p-3">
+            <div class="container mission border border-2 border-primary mt-4 ">
                 <p style="text-align: justify;" class="p-2 wow fadeIn" data-wow-delay="0.2s">
                     <?= $lang['header']['head-mission'] ?><br /><?= $lang['header']['body-mission'] ?>
                 </p>
