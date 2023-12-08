@@ -42,38 +42,27 @@ include_once("language/lang.php"); ?>
         <!-- Nav bar End -->
 
         <!-- Page Header Start -->
-        <div class="container-fluid page-header-team py-4 mb-2">
+        <div class="container-fluid page-header-team py-4 ">
             <div class="container py-4">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">
                     <?= $lang['header']['team-mission'] ?>
                 </h1>
-                
             </div>
         </div>
         <!-- Page Header End -->
 
- <!-- Mission  Start -->
- <div class="container">
- <div class="col-md-6 col-lg-12 mt-4 wow fadeIn" data-wow-delay="0.3s">
-
-                <div class="border border-3 border-primary bo">
-                    <p style="text-align: justify;" class="p-2 m-2 wow fadeInUp" data-wow-delay="0.2s">
-                    <?= $lang['header']['head-mission'] ?>
-                    </p>
-                </div>
-                <br /><br />
-                <div class="border border-3 border-primary bo">
-                    <p style="text-align: justify;" class="m-2 wow fadeInUp" data-wow-delay="0.2s">
-                    <h6 class="p-2" ><?= $lang['header']['body-mission'] ?></h6>
-                    </p>
-                </div>
+        <!-- Mission  Start -->
+        <div class="wrapper-mission">
+            <div class="container mission border border-2 border-primary mt-4">
+                <p style="text-align: justify;" class="p-2 wow fadeIn" data-wow-delay="0.2s">
+                    <?= $lang['header']['head-mission'] ?><br /><?= $lang['header']['body-mission'] ?>
+                </p>
             </div>
- </div>
- 
-            <!-- Mission End -->
-        
-            <!-- Footer Start -->
-          <?php include_once("footer.php") ?>
+        </div>
+        <!-- Mission End -->
+
+        <!-- Footer Start -->
+        <?php include_once("footer.php") ?>
         <!-- Footer End -->
 
         <script>
