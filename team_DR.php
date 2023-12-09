@@ -62,16 +62,15 @@ include_once("language/lang.php"); ?>
         <!-- Page Header End -->
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl">
             <div class="container">
 
                 <span id="dr" class="decalage-haut"></span>
                 <div class="row ">
-                    <div class="col-lg-12 bg-light mb-4">
-                        <p class="p-4 " style="text-align: justify;"><?= $lang['team']['organes']['word-dr'] ?></p>
+                    <div class="col-lg-12 bg-light my-4">
+                        <p class="px-4 pt-4" style="text-align: justify;"><?= $lang['team']['organes']['word-dr'] ?></p>
                     </div>
                 </div>
-
 
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
