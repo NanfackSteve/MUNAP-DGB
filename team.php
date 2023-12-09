@@ -58,17 +58,18 @@ include_once("language/lang.php"); ?>
                 <!-- Assemblee Gen  -->
                 <div class="section-title">
                     <div class="text-center">
-                        <h1 class="display-5 mb-5 ">Assemblée Générale</h1>
+                        <h1 class="display-5">Assemblée Générale</h1>
                     </div>
                     <div class="row g-2">
                         <span id="ca" class="decalage-haut"></span>
                         <div class="row g-4">
 
-                            <div class="col-lg-8 mt-3 bg-light">
-                                <p class="p-4" style="text-align: justify;"><?= $lang['team']['organes']['word-AG'] ?>
+                            <div class="col-lg-8 my-4 bg-light">
+                                <p class="px-4 pt-4" style="text-align: justify;">
+                                    <?= $lang['team']['organes']['word-AG'] ?>
                                 </p>
                             </div>
-                            <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="team-item ">
                                     <div class="overflow-hidden position-relative">
                                         <img class="img-fluid" src="img/organes/CA_DGB.jpg" alt="" style="width: 100%;">
@@ -81,7 +82,7 @@ include_once("language/lang.php"); ?>
                             </div>
                         </div>
 
-                        <div class="row mt-5 g-4">
+                        <div class="row">
                             <img class="img-fluid" src="img/header/team_members.jpg" style="min-height: fit-content;">
                         </div>
                     </div>

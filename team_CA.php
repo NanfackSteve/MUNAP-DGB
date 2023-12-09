@@ -63,18 +63,19 @@ include_once("language/lang.php"); ?>
         <!-- Page Header End -->
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl">
             <div class="container">
-                <div class="row g-4">
+                <div class="row g-2">
 
                     <!-- Conseil d'administration -->
                     <span id="ca" class="decalage-haut"></span>
-                    <div class="row g-4">
+                    <div class="row g-2">
 
-                        <div class="col-lg-8 bg-light mt-3">
-                            <p class="p-4" style="text-align: justify;"><?= $lang['team']['organes']['word-ca'] ?></p>
+                        <div class="col-lg-8 bg-light my-4">
+                            <p class="px-4 pt-4" style="text-align: justify;"><?= $lang['team']['organes']['word-ca'] ?>
+                            </p>
                         </div>
-                        <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-4 col-md-6 my-4 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="team-item ">
                                 <div class="overflow-hidden position-relative">
                                     <img class="img-fluid" src="img/organes/CA_President.jpg" alt=""
@@ -88,7 +89,7 @@ include_once("language/lang.php"); ?>
                         </div>
                     </div>
 
-                    <div class="row mt-1 g-4">
+                    <div class="row mt-1 g-3">
                         <span class="col-lg-1 mx-auto"></span>
                         <div class="col-lg-3 col-md-6 mx-auto wow fadeIn" data-wow-delay="0.3s">
                             <div class="team-item">
@@ -131,7 +132,7 @@ include_once("language/lang.php"); ?>
                         <span class="col-lg-1 mx-auto"></span>
                     </div>
 
-                    <div class="row mt-1 g-4">
+                    <div class="row mt-1 g-3">
                         <span class="col-lg-1 mx-auto"></span>
                         <div class="col-lg-3 col-md-6 mx-auto wow fadeIn" data-wow-delay="0.5s">
                             <div class="team-item">
@@ -175,7 +176,7 @@ include_once("language/lang.php"); ?>
                         <span class="col-lg-1 mx-auto"></span>
                     </div>
 
-                    <div class="row mt-1 g-4">
+                    <div class="row mt-1 g-3">
                         <span class="col-lg-1 mx-auto"></span>
                         <div class="col-lg-3 col-md-6 mx-auto wow fadeIn" data-wow-delay="0.7s">
                             <div class="team-item">
