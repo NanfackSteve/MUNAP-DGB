@@ -4,11 +4,11 @@
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4"><?= $lang['footer']['section-1'] ?></h4>
                 <a href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i><?= $lang['footer']['location'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-1 " href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" style="width: 80px;"><?= $lang['footer']['location-btn'] ?></a></p>
+                    <p class="mb-2 text-white"><i class="fa fa-map-marker me-3"></i><?= $lang['footer']['location'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-1 " href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" style="width: 80px;"><?= $lang['footer']['location-btn'] ?></a></p>
 
                 </a>
                 <a href="tel:+237699955507" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i><?= $lang['footer']['tel'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-3 " href="tel:+237699955507" style="width: 80px;"><?= $lang['footer']['tel-btn'] ?></a>
+                    <p class="mb-2 text-white"><i class="fa fa-phone me-3"></i><?= $lang['footer']['tel'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-3 " href="tel:+237699955507" style="width: 80px;"><?= $lang['footer']['tel-btn'] ?></a>
                     </p>
                 </a>
                 <a href=" mailto:munapdgb@yahoo.fr" class="text-white">
@@ -16,10 +16,9 @@
                     </p>
                 </a>
                 <div class="d-flex pt-2">
-                    <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-youtube-play"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>
 
@@ -58,8 +57,8 @@
 <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
 <!-- Import Js Libs -->
 <script src="lib/wow/wow.min.js"></script>

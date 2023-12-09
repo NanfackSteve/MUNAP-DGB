@@ -266,7 +266,7 @@ ul.fleche-puce li::before {
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -809,8 +809,8 @@ ul.fleche-puce li::before {
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-family: "FontAwesome";
+    font-weight: 800;
     margin-right: 10px;
 }
 
