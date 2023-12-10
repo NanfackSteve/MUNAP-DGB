@@ -301,6 +301,7 @@
         "title-page": "MUNAP - Actualités",
         "filter-all": "Tout",
         "activ": {
+            "title-page": "MUNAP - Activités",
             "head-title": "Activités de la Mutuelle",
             "section-title": "Nos Activités",
             "filter-1": "Meetings",
@@ -316,6 +317,7 @@
             "activities-4-title": "25 ième Session Ordinaire du Conseil d'Administration"
         },
         "events": {
+            "title-page": "MUNAP - Events",
             "head-title": "Évèments de la Mutuelle",
             "section-title": "Nos Évènements",
             "filter-1": "Mariages",
