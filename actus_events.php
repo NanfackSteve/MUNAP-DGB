@@ -87,8 +87,9 @@ include_once("language/lang.php"); ?>
                                 </div>
                             </div>
                             <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2"><?= $lang['news']['events']['event-1'] ?></p>
-                                <h5 class="lh-base mb-0"><?= $lang['news']['events']['event-2'] ?></a>
+                                <p class="text-primary fw-medium mb-2"><?= $lang['news']['events']['event-1-place'] ?>
+                                </p>
+                                <h5 class="lh-base mb-0"><?= $lang['news']['events']['event-1-title'] ?></a>
                             </div>
                         </div>
                     </div>
@@ -109,38 +110,7 @@ include_once("language/lang.php"); ?>
                     </div>
                 </div> -->
 
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item first wow fadeIn" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/prestations/allo-mariage.jpg" alt="" style="height: 250px;">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/prestations/allo-mariage.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href="#"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Mairie de Yde : 15 Aout 2023</p>
-                            <h5 class="lh-base mb-0">Mariage de M/Mme ...</a>
-                        </div>
-                    </div>
-                </div> -->
-                    <!-- <div class="col-lg-4 col-md-6 portfolio-item second wow fadeIn" data-wow-delay="0.1s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/dgb/capture15.jpg" alt="" style="height: 250px;">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="img/dgb/capture15.jpg"
-                                        data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
-                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
-                            </div>
-                        </div>
-                    </div> -->
+
                 </div>
             </div>
         </div>

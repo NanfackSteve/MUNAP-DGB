@@ -306,12 +306,14 @@
             "filter-1": "Meetings",
             "filter-2": "Retirements",
             "filter-3": "Materials",
-            "Activities-1": "Ministry of Finance",
-            "Activities-2": "Inauguration of the new bus (VIP)",
-            "Activities-3": "Ministry of Finance",
-            "Activities-4": "Retirement ceremony of the mutualists",
-            "Activities-5": "Congress Palace : 2023 July 15",
-            "Activities-6": "Extraordinary general assembly <br/>"
+            "activities-1-place": "Congress Palace : 2023 July 15",
+            "activities-1-title": "Extraordinary general assembly <br/>&nbsp;",
+            "activities-2-place": "Ministry of Finance",
+            "activities-2-title": "Inauguration of the new bus (VIP)",
+            "activities-3-place": "Ministry of Finance",
+            "activities-3-title": "Retirement ceremony of the mutualists",
+            "activities-4-place": "Ministry of Finance : 2023 Nov 30",
+            "activities-4-title": "25th Ordinary Session of the Board of Directors"
         },
         "events": {
             "head-title": "Mutual Fund Events",
@@ -319,8 +321,8 @@
             "filter-1": "Weddings",
             "filter-2": "Births",
             "filter-3": "Donations",
-            "event-1": "Ministry of Finance",
-            "event-2": "Donation to orphans"
+            "event-1-place": "Ministry of Finance",
+            "event-1-title": "Donation to orphans"
         }
     },
     "Profile": {
@@ -405,6 +407,7 @@
             "head-link-2": "Executive Board",
             "head-link-3": "Financial Commission",
             "head-link-4": "Regional Delegation",
+            "team-head": "General Assembly",
             "word-AG": "The General Assembly is the supreme body of the Mutual. It includes all the personnel of the Directorate General of Budget. The work of the General Assembly is chaired by the Director General of Budget.<br><br>It is responsible for:<ul style=\"padding-left: 40px; padding-right: 20px;\"><li>Defining the major orientations of the Mutual;</li><li>Electing the members of the board of directors;</li><li>Electing the members of the financial commission;</li><li>Electing the members of the executive board;</li><li>Adopting and modifying the statutes and internal regulations.</ul>",
             "btn-ca": "See Board of Directors",
             "word-ca": "The members of the board of directors are elected for a renewable term of two years. The board of directors elects its president from within, by a two-thirds majority of the members present or represented.The board of directors has the most extensive powers to assess the management of the mutual.<br><br>In this capacity, it is charged notably with:<ul style=\"padding-left: 40px; padding-right: 20px;\"><li>Setting the action program of the mutual;</li><li>Adopting the budget of the mutual;</li><li>Adopting activity reports;</li><li>Definitively approving the annual financial statements and financial reports (administrative and management);</li><li>Adopting the agenda for the general assembly as well as all documents submitted to this body;</ul>",

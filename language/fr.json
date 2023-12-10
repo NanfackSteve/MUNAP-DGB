@@ -306,12 +306,14 @@
             "filter-1": "Meetings",
             "filter-2": "Retraites",
             "filter-3": "Materiels",
-            "Activities-1": "Ministère des Finances",
-            "Activities-2": "Inauguration du Nouveau Bus (VIP)",
-            "Activities-3": "Ministère des Finances",
-            "Activities-4": "Cérémonie de départ en retraite des Mutualistes",
-            "Activities-5": "Palais des Congrès : 15 Juillet 2023",
-            "Activities-6": "Assemblée Générale Extraodinaire"
+            "activities-1-place": "Palais des Congrès : 15 Juillet 2023",
+            "activities-1-title": "Assemblée Générale Extraodinaire",
+            "activities-2-place": "Ministère des Finances",
+            "activities-2-title": "Inauguration du Nouveau Bus (VIP)",
+            "activities-3-place": "Ministère des Finances",
+            "activities-3-title": "Cérémonie de départ en retraite des Mutualistes",
+            "activities-4-place": "Ministère des Finances : 30 Nov 2023",
+            "activities-4-title": "25 ième Session Ordinaire du Conseil d'Administration"
         },
         "events": {
             "head-title": "Évèments de la Mutuelle",
@@ -319,8 +321,8 @@
             "filter-1": "Mariages",
             "filter-2": "Naissances",
             "filter-3": "Dons",
-            "event-1": "Ministère des Finances",
-            "event-2": "Dons aux orphelins"
+            "event-1-place": "Ministère des Finances",
+            "event-1-title": "Dons aux orphelins"
         }
     },
     "Profile": {
@@ -405,6 +407,7 @@
             "head-link-2": "Bureau Exécutif",
             "head-link-3": "Commission Financière",
             "head-link-4": "Délégation  Régionale",
+            "team-head": "Assemblée Générale",
             "word-AG": "L’Assemblée Générale est l’instance suprême de la Mutuelle. Elle comprend tout le personnel de la Direction Général du Budget. Les travaux de l’Assemblée Générale sont présidés par le Directeur Général du Budget. <br><br>Elle est chargée :<ul><li>De définir les grandes orientations de la Mutuelle ;</li><li>D’élire les membres de conseil d’Administration </li><li>D’élire les membres de la commission financière ;</li><li>D’élire les membres du bureau exécutif ;</li><li>D’adopter et de modifier les statuts et le règlement intérieur.</ul>",
             "btn-ca": "Voir Conseil d'Administration",
             "word-ca": "Les membres du conseil d’administration sont élus pour un mandat de deux ans renouvelable. le conseil d’administration élit en son sein son président, a la majorité de 2/3 des membres présents ou représeLe conseil d’administration dispose des pouvoirs les plus étendus pour évaluer la gestion de la mutuelle.<br><br>A ce titre, il est chargé notamment : <ul style=\"padding-left: 40px; padding-right: 20px;\"><li>De fixer le programme d’action de la mutuelle;</li><li>D’adopter le budget de la mutuelle;</li><li>D’adopter les rapports les d’activités;</li><li>D’arrêter de manière définitive les comptes et les états financiers annuels (administratif et de gestion);</li><li>D’adopter les projets d’ordre du jour de l’assemblée général ainsi que tous les documents soumis à cette instance;</ul>",
