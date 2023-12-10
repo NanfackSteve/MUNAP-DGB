@@ -4,7 +4,7 @@ if (!isset($_SESSION['num_adhesion'])) header("Location: login.php ");
 
 // URL de l'API cible
 $api = json_decode(file_get_contents('./models/api.json'), true);
-$url = $api['link'] . "/api/infosglesmembre/?trimestre=4&structure_id=-1&annee=" . date('Y') . "&num_adhesion=" . $_SESSION['num_adhesion'];
+$url = $api['link'] . "/api/membresetleurfamille?trimestre=4&structure_id=-1&annee=" . date('Y') . "&num_adhesion=" . $_SESSION['num_adhesion'] . "&see_all=1";
 
 // Requete + Reponse PROFIL
 $ch = curl_init($url);
@@ -19,25 +19,22 @@ curl_close($ch);
 $num_adhesion = $_SESSION['num_adhesion'];
 $nom = $_SESSION['nom'];
 $prenom = $_SESSION['prenom'];
-$structure = $data['membres'][0]['abv'];
-$fonction = $data['membres'][0]['fonction'];
-$statut = $data['membres'][0]['statut'];
+$structure = $data[0]['abv'];
+$fonction = $data[0]['fonction'];
+$statut = $data[0]['statut'];
 // $date_adhesion = $data['membres'][0]['date_adhesion'];
 
 // infos cotisations
-$cotisation_parent = $data['membres'][0]['montantacotiserparent'];
-$cotisation_conjoint = $data['membres'][0]['montantacotiserconjoint'];
-$cotisation_enfant = $data['membres'][0]['montantacotiserenfant'];
-$cotisation_mutualiste = $data['membres'][0]['montantannuelacotiser'];
-$cotisation_total = $data['membres'][0]['montantannuelacotiserglobal'];
-$cotisation_verse = $data['membres'][0]['montantverse'];
-$cotisation_reste = $data['membres'][0]['resteacotiser'];
-
+$cotisation = $data[0]['montantacotiserparent'];
+$cotisation_reste = $data[0]['resteglobalacotiser'];
+$nbr_parent_a_jour = $data[0]['nbreparentajour'];
+$nbr_conjoint_a_jour = $data[0]['nbreconjointajour'];
+$nbr_enfant_a_jour = $data[0]['nbreenfantajour'];
 
 // infos affiliations
-$nbr_parent = $data['membres'][0]['nbreparent'];
-$nbr_conjoint = $data['membres'][0]['nbreconjoint'];
-$nbr_enfant = $data['membres'][0]['nbreenfant'];
+$nbr_parent = $data[0]['nbreparentaligne'];
+$nbr_conjoint = $data[0]['nbreconjointaligne'];
+$nbr_enfant = $data[0]['nbreenfantaligne'];
 
 // Requete + Reponse AFFILIATION
 $url = $api['link'] . "/api/detailsaffiliésmembre?num_adhesion=" . $_SESSION['num_adhesion'];

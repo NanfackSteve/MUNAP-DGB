@@ -346,10 +346,13 @@
         },
         "cost": {
             "header": "Mes Cotisations",
-            "fees_parent": "Cotisation Parent(s)",
-            "fees_spouse": "Cotisation Conjoint(s)",
-            "fees_child": "Cotisation Enfant(s)",
-            "fees_member": "Cotisation Membre",
+            "fees_parent": "Parent(s)&nbsp;",
+            "fees_spouse": "Conjoint(s)&nbsp;",
+            "fees_child": "Enfant(s)",
+            "fees_member": "Membre",
+            "yes": "A jour",
+            "no": "Pas A Jour",
+            "see-more": "Détails",
             "fees_total": "Cotisation Totale",
             "amount": "Montant versé",
             "footer": "Reste à cotiser : "
@@ -363,7 +366,7 @@
         },
         "modal": {
             "names": "Noms",
-            "fees": "A cotiser (FCFA)",
+            "fees": "Montant à cotiser (FCFA)",
             "no-parent": "Aucun Parent affilié",
             "no-spouse": "Aucun(e) Conjoint(e) affilié(e)",
             "no-child": "Aucun Enfant affilié",
@@ -373,6 +376,15 @@
             "see-2": "Voir Enfant(s) affilié(s)",
             "child-header": "Enfant(s) affilié(s)",
             "see-3": "Voir Parents(s) affilié(s)"
+        },
+        "modal-cost": {
+            "no-cost": "Rien à Cotiser",
+            "fees": "Montant à cotiser (FCFA)",
+            "fees-recv": "Montant Versé (FCFA)",
+            "see-1": "Voir Cotisation Conjoint(es)",
+            "see-2": "Voir Cotisation Enfant(s)",
+            "see-3": "Voir Ma Cotisation",
+            "see-4": "Voir Cotisation Parent(s)"
         }
     },
     "team": {

@@ -346,10 +346,13 @@
         },
         "cost": {
             "header": "My contribution",
-            "fees_parent": "Parent(s) fees",
-            "fees_spouse": "Spouse(s) fees",
-            "fees_child": "Child(ren) fees",
-            "fees_member": "Member fees",
+            "fees_parent": "Parent(s)&nbsp;",
+            "fees_spouse": "Spouse(s)&nbsp;&nbsp;&nbsp;&nbsp;",
+            "fees_child": "Child(ren)",
+            "fees_member": "Member&nbsp;&nbsp;",
+            "yes": "Up to date",
+            "no": "Not up to date",
+            "see-more": "Details",
             "fees_total": "Total fees",
             "amount": "Amount contributed",
             "footer": "Still to contribute : "
@@ -363,7 +366,7 @@
         },
         "modal": {
             "names": "Names",
-            "fees": "To Contribute (FCFA)",
+            "fees": "Amount to Contribute (FCFA)",
             "no-parent": "No Affiliate Parent",
             "no-spouse": "No affiliated spouse",
             "no-child": "No Child Affiliated",
@@ -373,6 +376,15 @@
             "see-2": "See Affiliated Child(ren)",
             "child-header": "Affiliated Child(ren)",
             "see-3": "See Affiliated Parent(s)"
+        },
+        "modal-cost": {
+            "no-cost": "Nothing to Contribute",
+            "fees": "Amount to Contribute (FCFA)",
+            "fees-recv": "Amount paid (FCFA)",
+            "see-1": "See Spouse(s) Contribution",
+            "see-2": "See Child(dren) Contribution",
+            "see-3": "See My Contribution",
+            "see-4": "See Parent(s) Contribution"
         }
     },
     "team": {

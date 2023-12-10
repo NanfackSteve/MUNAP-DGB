@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once("language/lang.php");
-include_once("models/profile.php");
+include_once("./language/lang.php");
+include_once("./models/profile.php");
 ?>
 
 <!DOCTYPE html>
@@ -103,6 +103,63 @@ include_once("models/profile.php");
                         </div>
                         <div class="card-body pt-1 pb-0">
                             <div class="row card-text pb-0">
+                                <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
+                                    <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['cost']['fees_parent'] ?>
+                                        <span id="parent-number" class="badge rounded-pill bg-primary ms-3">
+                                            <?php $etat = '-';
+                                            if ($nbr_parent != 0) {
+                                                $etat = ($nbr_parent_a_jour == $nbr_parent) ? $lang['Profile']['cost']['yes'] : $lang['Profile']['cost']['no'];
+                                            }
+                                            echo $etat; ?>
+                                        </span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#parentCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="conjoint" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['cost']['fees_spouse'] ?>
+                                        <span id="conjoint-number" class="badge rounded-pill bg-primary">
+                                            <?php
+                                            $etat = '-';
+                                            if ($nbr_conjoint != 0) {
+                                                $etat = ($nbr_conjoint_a_jour == $nbr_conjoint) ? $lang['Profile']['cost']['yes'] : $lang['Profile']['cost']['no'];
+                                            }
+                                            echo $etat; ?>
+                                        </span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#conjointCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="child" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['cost']['fees_child'] ?>
+                                        <span id="child-number" class="badge rounded-pill bg-primary ms-3">
+                                            <?php
+                                            $etat = '-';
+                                            if ($nbr_enfant != 0) {
+                                                $etat = ($nbr_enfant_a_jour == $nbr_enfant) ? $lang['Profile']['cost']['yes'] : $lang['Profile']['cost']['no'];
+                                            }
+                                            echo $etat; ?>
+                                        </span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#childCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="member" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['cost']['fees_member'] ?>
+                                        <span id="child-number" class="badge rounded-pill bg-primary ms-3">
+                                            <?php
+                                            $etat = '-';
+                                            if (isset($costisation['montantacotisermembre'])) {
+                                                $etat = ($costisation['montantacotisermembre'] == $costisation['montantversemembre']) ? $lang['Profile']['cost']['yes'] : $lang['Profile']['cost']['no'];
+                                            }
+                                            echo $etat; ?>
+                                        </span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#memberCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="card-body pt-1 pb-0">
+                            <div class="row card-text pb-0">
                                 <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li><span class="me-1"><b><?= $lang['Profile']['cost']['fees_parent'] ?></b></span><span class="mx-2">/
                                         </span><span><?= $cotisation_parent ?></span> FCFA</li>
@@ -118,9 +175,162 @@ include_once("models/profile.php");
                                         </span><span><?= $cotisation_verse ?></span> FCFA</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="card-footer text-center text-muted">
                             <?= $lang['Profile']['cost']['footer'] ?><span class="text-dark"><?= $cotisation_reste ?> FCFA</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Cotisation Parent  Start -->
+                <div class="modal fade" id="parentCostModal" tabindex="-1" aria-labelledby="parentCostModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <p class="text-center allo-text ">
+                                    <?php
+                                    if (!isset($nbr_parent) || $nbr_parent = 0) {
+                                        echo $lang['Profile']['modal-cost']['no-cost'];
+                                    } else {
+
+                                        echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                        echo '<thead style="background-color: var(--primary); color: white;">';
+                                        echo '<tr>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees'] . '</th>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees-recv'] . '</th>';
+                                        echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                        echo '    <tr>';
+                                        echo '      <td>' . $costisation['montantacotiserparent'] . '</td>';
+                                        echo '      <td>' . $costisation['montantverseparent'] . '</td>';
+                                        echo '    </tr>';
+                                        echo '</tbody>';
+                                        echo '</table>';
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['Profile']['close'] ?></button>
+                                <button class="btn btn-primary" data-bs-target="#conjointCostModal" data-bs-toggle="modal" data-bs-dismiss="modal"><?= $lang['Profile']['modal-cost']['see-1'] ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Cotisation Conjoint Start -->
+                <div class="modal fade" id="conjointCostModal" tabindex="-1" aria-labelledby="conjointCostModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-center allo-text">
+                                    <?php
+                                    if (!isset($nbr_conjoint) || $nbr_conjoint = 0) {
+                                        echo $lang['Profile']['modal-cost']['no-cost'];
+                                    } else {
+                                        echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                        echo '<thead style="background-color: var(--primary); color: white;">';
+                                        echo '<tr>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees'] . '</th>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees-recv'] . '</th>';
+                                        echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                        echo '    <tr>';
+                                        echo '      <td>' . $costisation['montantacotiserconjoint'] . '</td>';
+                                        echo '      <td>' . $costisation['montantverseconjoint'] . '</td>';
+                                        echo '    </tr>';
+                                        echo '</tbody>';
+                                        echo '</table>';
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['Profile']['close'] ?></button>
+                                <button class="btn btn-primary" data-bs-target="#childCostModal" data-bs-toggle="modal" data-bs-dismiss="modal"><?= $lang['Profile']['modal-cost']['see-2'] ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Cotisation Child Start -->
+                <div class="modal fade" id="childCostModal" tabindex="-1" aria-labelledby="childCostModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p id="pChild" class="text-center allo-text">
+                                    <?php
+                                    if (!isset($nbr_enfant) || $nbr_enfant = 0) {
+                                        echo $lang['Profile']['modal-cost']['no-cost'];
+                                    } else {
+
+                                        echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                        echo '<thead style="background-color: var(--primary); color: white;">';
+                                        echo '<tr>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees'] . '</th>';
+                                        echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees-recv'] . '</th>';
+                                        echo '</tr>';
+                                        echo '</thead>';
+                                        echo '<tbody>';
+                                        echo '    <tr>';
+                                        echo '      <td>' . $costisation['montantacotiserenfant'] . '</td>';
+                                        echo '      <td>' . $costisation['montantverseenfant'] . '</td>';
+                                        echo '    </tr>';
+                                        echo '</tbody>';
+                                        echo '</table>';
+                                    }
+                                    ?>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['Profile']['close'] ?></button>
+                                <button class="btn btn-primary" data-bs-target="#memberCostModal" data-bs-toggle="modal" data-bs-dismiss="modal"><?= $lang['Profile']['modal-cost']['see-3'] ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Cotisation Member Start -->
+                <div class="modal fade" id="memberCostModal" tabindex="-1" aria-labelledby="memberCostModal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-center allo-text">
+                                    <?php
+                                    echo '<table class="table align-middle table-hover table-bordered border-primary caption-top ">';
+                                    echo '<thead style="background-color: var(--primary); color: white;">';
+                                    echo '<tr>';
+                                    echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees'] . '</th>';
+                                    echo '<th scope="col">' . $lang['Profile']['modal-cost']['fees-recv'] . '</th>';
+                                    echo '</tr>';
+                                    echo '</thead>';
+                                    echo '<tbody>';
+                                    echo '    <tr>';
+                                    echo '      <td>' . $costisation['montantacotisermembre'] . '</td>';
+                                    echo '      <td>' . $costisation['montantversemembre'] . '</td>';
+                                    echo '    </tr>';
+                                    echo '</tbody>';
+                                    echo '</table>';
+                                    ?>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['Profile']['close'] ?></button>
+                                <button class="btn btn-primary" data-bs-target="#parentCostModal" data-bs-toggle="modal" data-bs-dismiss="modal"><?= $lang['Profile']['modal-cost']['see-4'] ?></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,7 +342,7 @@ include_once("models/profile.php");
                             <h5><?= $lang['Profile']['affiliated']['header'] ?></h5>
                         </div>
                         <div class="card-body pt-1 pb-0">
-                            <div class="row card-text pb-0">
+                            <div class="row my-4 card-text pb-0">
                                 <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['affiliated']['parent'] ?>
@@ -161,6 +371,7 @@ include_once("models/profile.php");
                         </div>
                     </div>
                 </div>
+
                 <!-- Modal Parent Start -->
                 <div class="modal fade" id="parentModal" tabindex="-1" aria-labelledby="parentModal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
@@ -204,6 +415,7 @@ include_once("models/profile.php");
                         </div>
                     </div>
                 </div>
+
                 <!-- Modal Conjoint Start -->
                 <div class="modal fade" id="conjointModal" tabindex="-1" aria-labelledby="conjointModal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
@@ -246,6 +458,7 @@ include_once("models/profile.php");
                         </div>
                     </div>
                 </div>
+
                 <!-- Modal Child Start -->
                 <div class="modal fade" id="childModal" tabindex="-1" aria-labelledby="childModal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
