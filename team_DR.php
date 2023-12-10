@@ -22,7 +22,7 @@ include_once("language/lang.php"); ?>
             rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
@@ -62,8 +62,8 @@ include_once("language/lang.php"); ?>
         <!-- Page Header End -->
 
         <!-- Team Start -->
-        <div class="container-xxl">
-            <div class="container">
+        <div class="container-xxl mb-5">
+            <div class="container ">
 
                 <span id="dr" class="decalage-haut"></span>
                 <div class="row ">

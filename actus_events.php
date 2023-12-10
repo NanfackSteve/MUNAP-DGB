@@ -22,7 +22,7 @@ include_once("language/lang.php"); ?>
             rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
-        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
@@ -59,6 +59,7 @@ include_once("language/lang.php"); ?>
                 <div class="section-title text-center">
                     <h1 class="display-5 mb-5"><?= $lang['news']['events']['section-title'] ?></h1>
                 </div>
+
                 <div class="row">
                     <div class="col-12 text-center">
                         <ul class="list-inline mb-5" id="portfolio-flters">
@@ -69,7 +70,9 @@ include_once("language/lang.php"); ?>
                         </ul>
                     </div>
                 </div>
+
                 <div class="row g-4 portfolio-container">
+
                     <div class="col-lg-4 col-md-6 portfolio-item third wow fadeIn" data-wow-delay="0.1s">
                         <div class="rounded overflow-hidden">
                             <div class="position-relative overflow-hidden">
@@ -89,44 +92,38 @@ include_once("language/lang.php"); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeIn" data-wow-delay="0.3s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/prestations/allo-naissance.jpg" alt=""
-                                    style="height: 250px;">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1"
-                                        href="img/prestations/allo-naissance.jpg" data-lightbox="portfolio"><i
-                                            class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href="#"><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Hotel la Falaise : </p>
-                                <h5 class="lh-base mb-0">Naissance de ...</a>
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item second wow fadeIn" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/prestations/allo-naissance.jpg" alt="" style="height: 250px;">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/prestations/allo-naissance.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href="#"><i class="fa fa-link"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeIn" data-wow-delay="0.5s">
-                        <div class="rounded overflow-hidden">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/prestations/allo-mariage.jpg" alt=""
-                                    style="height: 250px;">
-                                <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1"
-                                        href="img/prestations/allo-mariage.jpg" data-lightbox="portfolio"><i
-                                            class="fa fa-eye"></i></a>
-                                    <a class="btn btn-square btn-outline-light mx-1" href="#"><i
-                                            class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                            <div class="border border-5 border-light border-top-0 p-4">
-                                <p class="text-primary fw-medium mb-2">Mairie de Yde : 15 Aout 2023</p>
-                                <h5 class="lh-base mb-0">Mariage de M/Mme ...</a>
-                            </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Hotel la Falaise : </p>
+                            <h5 class="lh-base mb-0">Naissance de ...</a>
                         </div>
                     </div>
+                </div> -->
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item first wow fadeIn" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/prestations/allo-mariage.jpg" alt="" style="height: 250px;">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/prestations/allo-mariage.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href="#"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">Mairie de Yde : 15 Aout 2023</p>
+                            <h5 class="lh-base mb-0">Mariage de M/Mme ...</a>
+                        </div>
+                    </div>
+                </div> -->
                     <!-- <div class="col-lg-4 col-md-6 portfolio-item second wow fadeIn" data-wow-delay="0.1s">
                         <div class="rounded overflow-hidden">
                             <div class="position-relative overflow-hidden">

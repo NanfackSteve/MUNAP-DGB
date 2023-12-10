@@ -1,18 +1,19 @@
-<div class="container-fluid bg-dark text-light footer mt-4 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid bg-dark text-light footer mt-3 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4"><?= $lang['footer']['section-1'] ?></h4>
                 <a href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-map-marker me-3"></i><?= $lang['footer']['location'] ?><a
-                            class="rounded-pill btn btn-outline-light btn-sm ms-2 "
+                    <p class="mb-2 text-white"><i
+                            class="fa fa-map-marker-alt me-3"></i><?= $lang['footer']['location'] ?><a
+                            class="rounded-pill btn btn-outline-light btn-sm ms-1"
                             href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9"
                             style="width: 80px;"><?= $lang['footer']['location-btn'] ?></a></p>
 
                 </a>
                 <a href="tel:+237699955507" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-phone me-3"></i><?= $lang['footer']['tel'] ?><a
-                            class="rounded-pill btn btn-outline-light btn-sm ms-4 " href="tel:+237699955507"
+                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i><?= $lang['footer']['tel'] ?><a
+                            class="rounded-pill btn btn-outline-light btn-sm ms-3" href="tel:+237699955507"
                             style="width: 80px;"><?= $lang['footer']['tel-btn'] ?></a>
                     </p>
                 </a>
@@ -23,9 +24,9 @@
                     </p>
                 </a>
                 <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-youtube-play"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
 
