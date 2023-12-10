@@ -63,7 +63,7 @@ include_once("language/lang.php"); ?>
 
         <!-- Team Start -->
         <div class="container-xxl mb-5">
-            <div class="container ">
+            <div class="container">
 
                 <span id="dr" class="decalage-haut"></span>
                 <div class="row ">
