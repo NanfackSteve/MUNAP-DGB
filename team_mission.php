@@ -29,8 +29,19 @@ include_once("language/lang.php"); ?>
     <div class="wrapper-mission p-3">
         <div class="container mission border border-2 border-primary mt-4 ">
             <p style="text-align: justify;" class="p-2 wow fadeIn" data-wow-delay="0.2s">
-                <?= $lang['header']['head-mission'] ?><br /><?= $lang['header']['body-mission'] ?>
-            </p>
+                <?= $lang['team']['mission']['head'] ?></p>
+            <ul class="wow fadeInUp star-list" data-wow-delay="0.2s" style="list-style-type: none; padding-left: 6px;">
+                <li><?= $lang['team']['mission']['m-1'] ?></li>
+                <li><?= $lang['team']['mission']['m-2'] ?>
+                    <ul>
+                        <li><?= $lang['team']['mission']['sm2-1'] ?></li>
+                        <li><?= $lang['team']['mission']['sm2-2'] ?></li>
+                        <li><?= $lang['team']['mission']['sm2-3'] ?></li>
+                    </ul>
+                </li>
+                <li><?= $lang['team']['mission']['m-3'] ?></li>
+                <li><?= $lang['team']['mission']['m-4'] ?></li>
+            </ul>
         </div>
     </div>
     <!-- Mission End -->
