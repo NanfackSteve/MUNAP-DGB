@@ -25,7 +25,8 @@ $statut = $data[0]['statut'];
 // $date_adhesion = $data['membres'][0]['date_adhesion'];
 
 // infos cotisations
-$cotisation = $data[0]['montantacotiserparent'];
+$cotisation = $data[0];
+//print_r($cotisation);
 $cotisation_reste = $data[0]['resteglobalacotiser'];
 $nbr_parent_a_jour = $data[0]['nbreparentajour'];
 $nbr_conjoint_a_jour = $data[0]['nbreconjointajour'];
