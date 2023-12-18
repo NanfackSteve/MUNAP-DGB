@@ -24,12 +24,37 @@ include_once("./models/profile.php");
             <h1 class="display-3 text-white mb-2 mt-3 animated slideInDown"><?= $lang['Profile']['title-2'] ?></h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item "><a class="text-white underline-hover" href="index.php"><?= $lang['Profile']['title-3'] ?></a>
+                    <li class="breadcrumb-item "><a class="text-white underline-hover" href="index.php"><?= $lang['Profile']['link-home'] ?></a>
                     </li>
-                    <li class="breadcrumb-item"><a class="text-white underline-hover" href="#"><?= $lang['Profile']['title-4'] ?>
-                        </a></li>
+                    <li class="breadcrumb-item"><a class="text-white underline-hover" data-bs-toggle="modal" data-bs-target="#pwdModal" href="#"><?= $lang['Profile']['link-pwd'] ?></a>
+                    </li>
                 </ol>
             </nav>
+        </div>
+    </div>
+    <!-- Modal Change Passeord -->
+    <div class="modal fade" id="pwdModal" tabindex="-1" aria-labelledby="pwdModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4><?= $lang['Profile']['link-pwd'] ?></h4>
+                </div>
+                <div id="modal-body" class="modal-body py-3">
+                    <div class="form-floating mb-3">
+                        <input type="password" id="new-pass-1" name="new-pass-1" class="form-control" placeholder="">
+                        <label for="floatingPass-1"><?= $lang['Profile']['pwd-input-1'] ?></label>
+                    </div>
+
+                    <div class="form-floating">
+                        <input type="password" id="new-pass-2" name="new-pass-2" class="form-control" placeholder="">
+                        <label for="floatingPass-2"><?= $lang['Profile']['pwd-input-2'] ?></label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['Profile']['cancel'] ?></button>
+                    <button id="btn-pwd" class="btn btn-primary" onclick="changePwd()"><?= $lang['Profile']['btn-pwd'] ?></button>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Page Header End -->
@@ -134,24 +159,6 @@ include_once("./models/profile.php");
                                 </ul>
                             </div>
                         </div>
-                        <!-- <div class="card-body pt-1 pb-0">
-                            <div class="row card-text pb-0">
-                                <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
-                                    <li><span class="me-1"><b><?= $lang['Profile']['cost']['fees_parent'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $cotisation_parent ?></span> FCFA</li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['cost']['fees_spouse'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $cotisation_conjoint ?></span> FCFA</li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['cost']['fees_child'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $cotisation_enfant ?></span> FCFA</li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['cost']['fees_member'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $cotisation_mutualiste ?></span> FCFA</li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['cost']['fees_total'] ?></b></span><span class="mx-2">/
-                                        </span><span><?= $cotisation_total ?></span> FCFA</li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['cost']['amount'] ?></b></span><span class=" mx-2">/
-                                        </span><span><?= $cotisation_verse ?></span> FCFA</li>
-                                </ul>
-                            </div>
-                        </div> -->
                         <div class="card-footer text-center text-muted">
                             <?= $lang['Profile']['cost']['footer'] ?><span class="text-dark"><?= $cotisation_reste ?> FCFA</span>
                         </div>

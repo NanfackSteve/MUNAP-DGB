@@ -168,6 +168,10 @@ ul.fleche-puce li::before {
     margin-right: 0.5em;
 }
 
+.error {
+    border: 1px solid red;
+}
+
 /* Fin de Mon CSS*/
 
 :root {
@@ -774,8 +778,7 @@ ul.fleche-puce li::before {
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/footer.jpg) center center no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7));
 }
 
 .footer .btn.btn-social {

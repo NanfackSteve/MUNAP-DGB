@@ -18,9 +18,8 @@ include_once("language/lang.php"); ?>
         <!-- Prestations Start -->
         <div class="container">
             <div class="row mt-2 g-4 ">
-                <div class="col-md-6 col-lg-1"></div>
-                <div class="col-md-6 col-lg-5 px-4">
-                    <div class="card wow fadeInUp shadow mb-5 bg-body rounded">
+                <div class="col-md-6 col-lg-4 px-4">
+                    <div class="card wow fadeInUp shadow mb-5 bg-body rounded" data-wow-delay="0.3s">
                         <img src="img/prestations/location-bus.jpg" class="card-img-top img-fluid " alt="...">
                         <div class="card-body ">
                             <h5 class="card-title"><?= $lang['services']['bus-classic-title'] ?></h5>
@@ -60,8 +59,8 @@ include_once("language/lang.php"); ?>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-5 px-4">
-                    <div class="card wow fadeInUp shadow mb-5 bg-body rounded">
+                <div class="col-md-6 col-lg-4 px-4">
+                    <div class="card wow fadeInUp shadow mb-5 bg-body rounded" data-wow-delay="0.5s">
                         <img src="img/prestations/location-bus-vip.jpg" class="card-img-top img-fluid w-100" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"><?= $lang['services']['bus-vip-title'] ?></h5>
@@ -100,7 +99,48 @@ include_once("language/lang.php"); ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-1"></div>
+
+                <div class="col-md-6 col-lg-4 px-4">
+                    <div class="card wow fadeInUp shadow mb-5 bg-body rounded" data-wow-delay="0.7s">
+                        <img src="img/prestations/location-bus-vip-2.jpg" class="card-img-top img-fluid w-100 "
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $lang['services']['bus-vip-2-title'] ?></h5>
+                            <p class="card-text"></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h6><?= $lang['services']['condition-title'] ?></h6>
+                                <ul>
+                                    <li><?= $lang['services']['bus-condition-1'] ?></li>
+                                    <li><?= $lang['services']['bus-condition-2'] ?></li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item">
+                                <h6><?= $lang['services']['bus-case-1'] ?></h6>
+                                <ul>
+                                    <li><?= $lang['services']['bus-vip-condition-2'] ?></li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item">
+                                <h6><?= $lang['services']['bus-case-2'] ?></h6>
+                                <ul>
+                                    <li><?= $lang['services']['bus-vip-condition-1'] ?></li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item pe-0">
+                                <h6><?= $lang['services']['pieces-title'] ?></h6>
+                                <ul>
+                                    <li><?= $lang['services']['bus-piece-1'] ?></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="card-body">
+                            <a target="_blank" download="Formulaire_Bus.pdf" href="files/Formulaire_Bus.pdf"
+                                class="card-link"><?= $lang['services']['download'] ?></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Prestations End -->
