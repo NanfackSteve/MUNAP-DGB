@@ -48,6 +48,23 @@ include_once("language/lang.php"); ?>
 
             <div class="row g-4 portfolio-container">
 
+                <div class="col-lg-4 col-md-6 portfolio-item third wow fadeIn" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/actus/activities/actus_bus_B_0.jpg" alt="" style="height: 250px;">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/actus/activities/actus_bus_B_0.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href="actus_activ_5.php"><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">
+                                <?= $lang['news']['activ']['activities-5-place'] ?></p>
+                            <h5 class="lh-base mb-0"><?= $lang['news']['activ']['activities-5-title'] ?> </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 col-md-6 portfolio-item first wow fadeIn" data-wow-delay="0.1s">
                     <div class="rounded overflow-hidden">
                         <div class="position-relative overflow-hidden">
