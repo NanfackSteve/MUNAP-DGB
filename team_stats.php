@@ -7,6 +7,7 @@ include_once("language/lang.php"); ?>
     <head>
         <title><?= $lang['team']['stats']['title-page'] ?></title>
         <?php include_once("head.php") ?>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
         <!-- Load Regions Stats -->
         <script>
@@ -194,7 +195,7 @@ include_once("language/lang.php"); ?>
         <script>
         let List_header = document.getElementsByClassName('nav-link');
         for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
-        document.getElementById('members').setAttribute("class", "nav-link active");
+        document.getElementById('munap').setAttribute("class", "nav-link active");
         </script>
 
         <script src="js/map_scroll.js"></script>
