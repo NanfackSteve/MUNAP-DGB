@@ -32,7 +32,7 @@ include_once("language/lang.php"); ?>
                     <div class="col-lg-6 pe-lg-0 wow fadeInUp" data-wow-delay="1s" style="min-height: 400px;">
                         <div class="position-relative h-100">
                             <img class="position-absolute img-fluid w-100 h-100"
-                                src="img/actus/activities/actus_sport_A_15.jpg" style="object-fit: cover;" alt="">
+                                src="img/actus/activities/actus_sport_A_0.jpg" style="object-fit: cover;" alt="">
                         </div>
                     </div>
                 </div>
@@ -105,6 +105,18 @@ include_once("language/lang.php"); ?>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="img/actus/activities/actus_sport_A_14.jpg"
+                                        class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/actus/activities/actus_sport_A_15.jpg"
+                                        class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/actus/activities/actus_sport_A_16.jpg"
+                                        class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/actus/activities/actus_sport_A_17.jpg"
                                         class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                                 </div>
                             </div>

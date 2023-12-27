@@ -34,7 +34,7 @@ include_once("language/lang.php"); ?>
                             <!-- <iframe src="https://www.youtube.com/embed/o8G9kXN2F9g" frameborder="1" allowfullscreen class="d-block mx-auto " height="100%" width="100%"></iframe> -->
 
                             <img class="position-absolute img-fluid img-fluid h-100"
-                                src="img/actus/activities/actus_meeting_B_2.jpg" alt="">
+                                src="img/actus/activities/actus_meeting_B_0.jpg" style="object-fit: cover;" alt="">
                         </div>
                     </div>
                 </div>
