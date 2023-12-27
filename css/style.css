@@ -130,6 +130,10 @@
 
 /* CSS DOCUMENTATION */
 
+.text-justify {
+    text-align: justify;
+}
+
 .article {
     background-color: #fff;
     padding: 20px;
