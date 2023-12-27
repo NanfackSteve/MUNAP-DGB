@@ -7,7 +7,7 @@ document.getElementById('total').textContent = parent + conjoint + child;
 
 // --------------- MODIFIER MOT DE PASSE
 
-function changePwd(token) {
+function changePwd(token, num_adhesion) {
 
     let modal = document.getElementById('modal-body');
     let password1 = document.getElementById('new-pass-1');
@@ -23,7 +23,7 @@ function changePwd(token) {
         if (alertDiv) {
             alertDiv.remove();
         }
-        sendPostRequest(token);
+        sendPostRequest(token, num_adhesion, password1.value);
     } else {
         password1.classList.add('error');
         password2.classList.add('error');
@@ -39,21 +39,16 @@ function changePwd(token) {
     }
 }
 
-function sendPostRequest(token) {
+function sendPostRequest(token, num_adhesion, new_pass) {
 
-    // console.log("token = " + token);
-
+    //console.log("new", new_pass)
     fetch("./models/api.json").then(rep => rep.json()).then(data => {
-        fetch(data['link'] + "/api/totalmembres", {
-            method: 'POST',
+        fetch(data['link'] + "/api/resetpassword?password=" + new_pass + "&num_adhesion=" + num_adhesion, {
+            method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + token,
-            },
-            body: JSON.stringify({
-                password: document.getElementById('new-pass-1').value,
-                // Ajoutez d'autres données à envoyer
-            }),
+            }
         })
             .then(response => response.json())
             .then(data => {

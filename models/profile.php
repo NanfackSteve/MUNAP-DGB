@@ -38,7 +38,7 @@ $nbr_conjoint = $data[0]['nbreconjointaligne'];
 $nbr_enfant = $data[0]['nbreenfantaligne'];
 
 // Requete + Reponse AFFILIATION
-$url = $api['link'] . "/api/detailsaffiliésmembre?num_adhesion=" . $_SESSION['num_adhesion'];
+$url = $api['link'] . "/api/detailsaffiliesmembre?num_adhesion=" . $_SESSION['num_adhesion'] . "&annee=" . date('Y');
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: Bearer ' . $_SESSION['token'],));
