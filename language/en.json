@@ -257,23 +257,28 @@
     "news": {
         "title-page": "MUNAP - News",
         "filter-all": "All",
-        "activ": {
+        "activity": {
             "title-page": "MUNAP - Activities",
             "head-title": "Mutual Fund Activities",
             "section-title": "Our Activities",
             "filter-1": "Meetings",
             "filter-2": "Retirements",
             "filter-3": "Materials",
-            "activities-1-place": "Congress Palace : 2023 July 15",
-            "activities-1-title": "Extraordinary General Assembly <br/>&nbsp;",
-            "activities-2-place": "Ministry of Finance",
-            "activities-2-title": "Inauguration of the new bus (VIP)",
-            "activities-3-place": "Ministry of Finance",
-            "activities-3-title": "Retirement ceremony of the mutualists",
-            "activities-4-place": "Ministry of Finance : 2023 Nov 30",
-            "activities-4-title": "25th Ordinary Session of the Board of Directors",
-            "activities-5-place": "Ministère des Finances : 2023 Dec 17",
-            "activities-5-title": "Inauguration of the new bus "
+            "-1-place": "Congress Palace : 2023 July 15",
+            "-1-title": "Extraordinary General Assembly <br/>&nbsp;",
+            "-1-text": "",
+            "-2-place": "Ministry of Finance",
+            "-2-title": "Inauguration of the new bus (VIP)",
+            "-2-text": "",
+            "-3-place": "Ministry of Finance",
+            "-3-title": "Retirement ceremony of the mutualists",
+            "-3-text": "Ceremony for the delivery of gifts to the staff of the National Mutual Fund for Personnel of the General Directorate of the Budget (MUNAP-DGB) admitted to assert their retirement rights.",
+            "-4-place": "Ministry of Finance : 2023 Nov 30",
+            "-4-title": "25th Ordinary Session of the Board of Directors",
+            "-4-text": "The exercise which took place on November 30, 2023, during the 25th session of the Board of Directors of the National Mutual of Personnel of the General Directorate of the Budget, was chaired by <b>Judith Clairence Menguele epse Mvogo</ b>. Chairman of the Board of Directors.<br><br>Leading the National Mutual Staff of the General Directorate of the Budget_ MUNAP-DGB towards the objectives defined at the last General Assembly of July 15, 2023, this is the context in which held this 25th session of the Board of Directors. The meeting was attended by almost all of the members of the said Council.<br><br>The work focused on the examination of the budgeted action plans (PTAB) 2023 and 2024, while presenting the new tools applications of the Mutual, namely the Website and the management application. This session above all made it possible to update the statutes and internal regulations of a mutual whose destiny is now directed by Flore Goma, Executive Director of MUNAP-DGB.",
+            "-5-place": "Ministère des Finances : 2023 Dec 17",
+            "-5-title": "Inauguration of the new bus ",
+            "-5-text": "On December 17, 2023, during the sports day of the General Directorate of the Budget, the Minister of Finance inaugurated the new MUNAP – DGB bus in the presence of DGB staff and its Director General. It was a moment of communion and conviviality between the hierarchy and the DGB staff in general."
         },
         "events": {
             "title-page": "MUNAP - Events",
@@ -282,8 +287,12 @@
             "filter-1": "Weddings",
             "filter-2": "Births",
             "filter-3": "Donations",
-            "event-1-place": "Ministry of Finance",
-            "event-1-title": "Donation to orphans"
+            "-1-place": "Ministry of Finance",
+            "-1-title": "Donation to orphans of the Mutual Fund.",
+            "-1-text": "Ceremony for the delivery of school kits to orphans of the National Mutual Fund for Personnel of the General Directorate of the Budget (MUNAP-DGB) by the managers of the Mutual Fund.",
+            "-2-place": "Orphanage : 2022 March 06",
+            "-2-title": "Visit to an orphanage by the women of the Mutual Fund.",
+            "-2-text": "On March 6, 2022, as a prelude to International Women's Day, MUNANP -DGB visited the orphanage « Foyer school for blind, visually impaired and abandoned children COLONEL DE ROUFFIGNAC» through the women of the Mutual where they offered donations."
         }
     },
     "status": {

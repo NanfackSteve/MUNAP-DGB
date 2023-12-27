@@ -5,7 +5,7 @@ include_once("language/lang.php"); ?>
 <html lang="fr">
 
     <head>
-        <title><?= $lang['news']['activ']['title-page'] ?></title>
+        <title><?= $lang['news']['activity']['title-page'] ?></title>
         <?php include_once("head.php") ?>
         <!-- Libraries Stylesheet -->
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -23,13 +23,9 @@ include_once("language/lang.php"); ?>
                     <div class="col-lg-6 feature-text py-4 wow fadeIn" data-wow-delay="0.5s">
                         <div class="p-lg-5 ps-lg-0">
                             <div class="section-title text-start">
-                                <h2 class="display-5 mb-4"><?= $lang['news']['activ']['activities-1-title'] ?></h2>
+                                <h2 class="display-5 mb-4"><?= $lang['news']['activity']['-1-title'] ?></h2>
                             </div>
-                            <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
-                                amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo
-                                erat amet.
-                            </p>
-
+                            <p class="mb-4 pb-2"><?= $lang['news']['activity']['-1-text'] ?></p>
                         </div>
                     </div>
                     <div class="col-lg-6 pe-lg-0 wow fadeInUp" data-wow-delay="1s" style="min-height: 400px;">
