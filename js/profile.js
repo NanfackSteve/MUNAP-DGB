@@ -5,6 +5,7 @@ let conjoint = parseInt(document.getElementById('conjoint-number').textContent);
 let child = parseInt(document.getElementById('child-number').textContent);
 document.getElementById('total').textContent = parent + conjoint + child;
 
+
 // --------------- MODIFIER MOT DE PASSE
 
 function changePwd(token, num_adhesion) {
@@ -30,10 +31,11 @@ function changePwd(token, num_adhesion) {
 
         if (!alertDiv) {
             alertDiv = document.createElement('div');
-            alertDiv.classList.add('alert', 'alert-danger', 'd-flex', 'align-items-center', 'alert-dismissible', 'fade', 'show');
+            alertDiv.classList.add('alert', 'alert-danger', 'd-flex', 'align-items-center', 'alert-dismissible',
+                'fade', 'show');
             alertDiv.innerHTML = `
-                            <div style="font-size: 0.76rem;">Mots de Passe Incorrects / Incorrect Passwords.</div>
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>`;
+                        <div style="font-size: 0.76rem;">Mots de Passe Incorrects / Incorrect Passwords.</div>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>`;
             modal.parentNode.insertBefore(alertDiv, modal);
         }
     }
@@ -41,23 +43,26 @@ function changePwd(token, num_adhesion) {
 
 function sendPostRequest(token, num_adhesion, new_pass) {
 
-    //console.log("new", new_pass)
     fetch("./models/api.json").then(rep => rep.json()).then(data => {
-        fetch(data['link'] + "/api/resetpassword?password=" + new_pass + "&num_adhesion=" + num_adhesion, {
+        let api = data['link'] + "/api/resetpassword?password=" + new_pass + "&num_adhesion=" +
+            num_adhesion;
+        fetch(api, {
             method: 'GET',
+            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + token,
+                'Authorization': 'Bearer ' + token
             }
         })
             .then(response => response.json())
             .then(data => {
                 // Traitement de la réponse de l'API
+                alert('Mot de passe Modifie')
                 console.log(data);
             })
             .catch(error => {
                 // Gestion des erreurs
-                console.error('Erreur lors de la requête POST:', error);
+                console.error('Erreur de la requête :', error);
             });
 
     })
