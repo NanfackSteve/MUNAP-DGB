@@ -200,6 +200,8 @@ include_once("./models/profile.php");
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
+                                    <h5 class="modal-title" id="conjointModal">
+                                        <?= $lang['Profile']['affiliated']['parent'] ?></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -245,6 +247,7 @@ include_once("./models/profile.php");
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
+                                    <h5 class="modal-title"><?= $lang['Profile']['affiliated']['spouse'] ?></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -289,6 +292,7 @@ include_once("./models/profile.php");
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
+                                    <h5 class="modal-title"><?= $lang['Profile']['affiliated']['child'] ?></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -448,7 +452,7 @@ include_once("./models/profile.php");
                                             echo '    <tr>';
                                             echo '      <td>' . $parent['nom_complet'] . '</td>';
                                             echo '      <td>' . $parent['montantacotiserparent'] . '</td>';
-                                            echo '      <td>' . $spouse['montantverseparent'] . '</td>';
+                                            echo '      <td>' . $parent['montantverseparent'] . '</td>';
                                             echo '    </tr>';
                                         }
                                         echo '</tbody>';
