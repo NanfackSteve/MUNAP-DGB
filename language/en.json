@@ -270,9 +270,9 @@
             "-2-place": "Ministry of Finance",
             "-2-title": "Inauguration of the new bus (VIP)",
             "-2-text": "The new air-conditioned bus called “SAPHIR” was acquired to the great delight of DGB mutual members. It was inaugurated by the Director General of the Budget in the presence of the various management bodies of MUNAP-DGB and officials of the General Directorate of the Budget.",
-            "-3-place": "Ministry of Finance",
-            "-3-title": "Retirement ceremony of the mutualists",
-            "-3-text": "Ceremony for the delivery of gifts to the staff of the National Mutual Fund for Personnel of the General Directorate of the Budget (MUNAP-DGB) admitted to assert their retirement rights.",
+            "-3-place": "",
+            "-3-title": "",
+            "-3-text": "",
             "-4-place": "Ministry of Finance : 2023 Nov 30",
             "-4-title": "25th Ordinary Session of the Board of Directors",
             "-4-text": "The exercise, which took place on November 30, 2023, during the 25th session of the Board of Directors of the National Mutual Aid for Personnel of the General Directorate of Budget, was chaired by <b>Judith Clairence Menguele epse Mvogo</ b>, President of the Board of Directors.<br><br>Leading the National Mutual Aid for Personnel of the General Directorate of Budget - MUNAP-DGB towards the objectives defined during the last General Assembly on July 15, 2023, was the context in which this 25th session of the Board of Directors was held. The meeting was attended by almost all members of said Council<br><br>The discussions focused on the examination of budgeted action plans (PTAB) for 2023 and 2024, while presenting the new management tools of the Mutual Aid, namely the Website and the management application. This session mainly served to update the statutes and internal regulations of a mutual aid whose destinies are now directed by Flore Goma, Executive Director of MUNAP-DGB.",
@@ -287,15 +287,19 @@
             "title-page": "MUNAP - Events",
             "head-title": "Mutual Fund Events",
             "section-title": "Our Events",
-            "filter-1": "Weddings",
+            "filter-1": "Donations",
             "filter-2": "Births",
-            "filter-3": "Donations",
+            "filter-3": "Weddings",
+            "filter-4": "Retirement",
             "-1-place": "Ministry of Finance",
             "-1-title": "Donation to orphans of the Mutual Fund.",
             "-1-text": "Ceremony for the distribution of school kits to orphans of the National Mutual Aid for Personnel of the General Directorate of Budget (MUNAP-DGB) by the officials of the Mutual Aid.",
             "-2-place": "Orphanage : 2022 March 06",
             "-2-title": "Visit to an orphanage by the women of the Mutual Fund.",
-            "-2-text": "On March 6, 2022, in anticipation of International Women's Day, MUNANP-DGB visited the « Foyer école des enfants aveugles, malvoyants et abandonnés COLONEL DE ROUFFIGNAC » orphanage through the women of the Mutual Aid where they offered donations."
+            "-2-text": "On March 6, 2022, in anticipation of International Women's Day, MUNANP-DGB visited the « Foyer école des enfants aveugles, malvoyants et abandonnés COLONEL DE ROUFFIGNAC » orphanage through the women of the Mutual Aid where they offered donations.",
+            "-3-place": "Ministry of Finance",
+            "-3-title": "Retirement ceremony of the mutualists",
+            "-3-text": "Ceremony for the delivery of gifts to the staff of the National Mutual Fund for Personnel of the General Directorate of the Budget (MUNAP-DGB) admitted to assert their retirement rights."
         }
     },
     "status": {
@@ -495,7 +499,7 @@
             "spouse": "Spouse(s)&nbsp;&nbsp;&nbsp;&nbsp;",
             "footer": "affiliated person(s)"
         },
-        "modal": {
+        "modal-affiliate": {
             "names": "Names",
             "fees": "Amount to Contribute (FCFA)",
             "no-parent": "No Affiliate Parent",
@@ -509,6 +513,10 @@
             "see-3": "See Affiliated Parent(s)"
         },
         "modal-cost": {
+            "title-parent": "Parent(s) Contribution",
+            "title-spouse": "Spouse(s) Contribution",
+            "title-child": "Child(dren) Contribution",
+            "title-me": "My Contribution",
             "no-cost": "Nothing to Contribute",
             "fees": "Amount to Contribute (FCFA)",
             "fees-recv": "Amount paid (FCFA)",

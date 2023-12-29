@@ -270,9 +270,9 @@
             "-2-place": "Ministère des Finances",
             "-2-title": "Inauguration du Nouveau Bus (VIP)",
             "-2-text": "Le nouveau bus climatisé baptisé « SAPHIR » a été acquis pour le grand bonheur des mutualistes de la DGB. Il a été inauguré par le Directeur Général du Budget en présence des différents organes de gestion de MUNAP-DGB et des responsables de la Direction Générale du Budget.",
-            "-3-place": "Ministère des Finances",
-            "-3-title": "Cérémonie de départ en retraite des Mutualistes",
-            "-3-text": "Cérémonie de la remise des cadeaux aux personnels de de la Mutuelle Nationale des Personnels de la Direction Générale du Budget (MUNAP-DGB) admis à faire valoir leurs droits à la retraite.",
+            "-3-place": "",
+            "-3-title": "",
+            "-3-text": "",
             "-4-place": "Ministère des Finances : 30 Nov 2023",
             "-4-title": "25 ième Session Ordinaire du Conseil d'Administration",
             "-4-text": "L’exercice qui s’est déroulé le 30 novembre 2023, au cours de la 25ème session du Conseil d’Administration de la Mutuelle Nationale des Personnels de la Direction Générale du Budget, était présidée par <b>Judith Clairence Menguele épse Mvogo</b>. Président du Conseil d’Administration.<br><br>Mener la Mutuelle Nationale des Personnels de la Direction Générale du Budget_ MUNAP-DGB vers les objectifs définis lors de la dernière Assemblée Générale du 15 juillet 2023, tel est le contexte dans lequel se tenait cette 25ème session du Conseil d’Administration. La rencontre a connu la participation de la quasi-totalité des membres dudit Conseil.<br><br>Les travaux se sont appesantis sur l’examen des plans d’actions budgétisés (PTAB) 2023 et 2024, tout en présentant les nouveaux outils applicatifs de la Mutuelle à savoir le Site Web et l’application de gestion. Cette session a surtout permis de réactualiser les statuts et règlement intérieur d’une mutuelle dont les destinées sont désormais dirigées par Flore Goma, Directeur Exécutif de la MUNAP-DGB. ",
@@ -287,15 +287,19 @@
             "title-page": "MUNAP - Events",
             "head-title": "Évèments de la Mutuelle",
             "section-title": "Nos Évènements",
-            "filter-1": "Mariages",
+            "filter-1": "Dons",
             "filter-2": "Naissances",
-            "filter-3": "Dons",
+            "filter-3": "Mariages",
+            "filter-4": "Retraite",
             "-1-place": "Ministère des Finances",
             "-1-title": "Dons aux orphelins de la Mutuelle.",
             "-1-text": "Cérémonie de la remise des kits scolaires aux orphelins de la Mutuelle Nationale des Personnels de la Direction Générale du Budget (MUNAP-DGB) par les responsables de la Mutuelle.",
             "-2-place": "Orphelinat : 06 Mars 2022",
             "-2-title": "Visite d'un Orphelinat par les femmes de la Mutuelle.",
-            "-2-text": "Le 06 mars 2022, en prélude de la fête internationale de la femme, la MUNANP –DGB a effectué une visite à l’orphelinat le « Foyer école des enfants aveugles, malvoyants et abandonnés COLONEL DE ROUFFIGNAC » par l’entremise des femmes de la Mutuelle où elles ont offerte des dons."
+            "-2-text": "Le 06 mars 2022, en prélude de la fête internationale de la femme, la MUNANP –DGB a effectué une visite à l’orphelinat le « Foyer école des enfants aveugles, malvoyants et abandonnés COLONEL DE ROUFFIGNAC » par l’entremise des femmes de la Mutuelle où elles ont offerte des dons.",
+            "-3-place": "Ministère des Finances",
+            "-3-title": "Cérémonie de départ en retraite des Mutualistes",
+            "-3-text": "Cérémonie de la remise des cadeaux aux personnels de de la Mutuelle Nationale des Personnels de la Direction Générale du Budget (MUNAP-DGB) admis à faire valoir leurs droits à la retraite."
         }
     },
     "status": {
@@ -495,7 +499,7 @@
             "spouse": "Conjoint(es)",
             "footer": " personne(s) affiliées"
         },
-        "modal": {
+        "modal-affiliate": {
             "names": "Noms",
             "fees": "Montant à cotiser (FCFA)",
             "no-parent": "Aucun Parent affilié",
@@ -509,6 +513,10 @@
             "see-3": "Voir Parents(s) affilié(s)"
         },
         "modal-cost": {
+            "title-parent": "Cotisation Parent(s)",
+            "title-spouse": "Cotisation Conjoint(es)",
+            "title-child": "Cotisation Enfant(s)",
+            "title-me": "Ma Cotisation",
             "no-cost": "Rien à Cotiser",
             "fees": "Montant à cotiser (FCFA)",
             "fees-recv": "Montant Versé (FCFA)",

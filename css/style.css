@@ -446,6 +446,21 @@ ul.fleche-puce li::before {
     background-size: cover;
 }
 
+.page-header-team-ca {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/team_CA.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-team-be {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/team_BE.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-team-cf {
+    background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/team_CF.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .page-header-team-stats {
     background: linear-gradient(rgba(53, 53, 53, .5), rgba(53, 53, 53, .6)), url(../img/header/team_stats.png) center center no-repeat;
     background-size: cover;

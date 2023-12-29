@@ -41,13 +41,14 @@ include_once("language/lang.php"); ?>
                             <li class="mx-2" data-filter=".first"><?= $lang['news']['events']['filter-1'] ?></li>
                             <li class="mx-2" data-filter=".second"><?= $lang['news']['events']['filter-2'] ?></li>
                             <li class="mx-2" data-filter=".third"><?= $lang['news']['events']['filter-3'] ?></li>
+                            <li class="mx-2" data-filter=".four"><?= $lang['news']['events']['filter-4'] ?></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row g-4 portfolio-container">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item third wow fadeIn" data-wow-delay="0.1s">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeIn" data-wow-delay="0.1s">
                         <div class="rounded overflow-hidden">
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/actus/events/actus_dons_A_2.jpg" alt=""
@@ -68,7 +69,28 @@ include_once("language/lang.php"); ?>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item third wow fadeIn" data-wow-delay="0.1s">
+                    <div class="col-lg-4 col-md-6 portfolio-item four wow fadeIn" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/actus/activities/actus_retraite_A_4.jpg" alt=""
+                                    style="height: 250px;">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1"
+                                        href="img/actus/activities/actus_retraite_A_4.jpg" data-lightbox="portfolio"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="actus_event_3.php"><i
+                                            class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="border border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">
+                                    <?= $lang['news']['events']['-3-place'] ?></p>
+                                <h5 class="lh-base mb-0"><?= $lang['news']['events']['-3-title'] ?> </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeIn" data-wow-delay="0.1s">
                         <div class="rounded overflow-hidden">
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/actus/events/actus_dons_B_9.jpg" alt=""
