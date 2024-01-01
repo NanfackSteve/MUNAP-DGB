@@ -499,6 +499,15 @@
             "spouse": "Conjoint(es)",
             "footer": " personne(s) affiliées"
         },
+        "allocation": {
+            "header": "Mes allocations",
+            "birth": "Naissance",
+            "wedding": "Mariage",
+            "hospital": "Fais Médicaux",
+            "medal": "Décoration",
+            "retirement": "Retraite",
+            "footer": "allocation(s) percues"
+        },
         "modal-affiliate": {
             "names": "Noms",
             "fees": "Montant à cotiser (FCFA)",

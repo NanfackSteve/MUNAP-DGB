@@ -19,7 +19,7 @@ include_once("./models/profile.php");
     <!-- Nav bar End -->
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header-profile h-3 mb-5">
+    <div class="container-fluid page-header-profile h-3 mb-3">
         <div class="container py-2">
             <h1 class="display-3 text-white mb-2 mt-3 animated slideInDown"><?= $lang['Profile']['title-2'] ?></h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -61,29 +61,29 @@ include_once("./models/profile.php");
 
 
     <!-- Infos Member Start -->
-    <div class="container-fluid bg-white mt-5 ">
-        <div class="container ">
-            <div class="row">
+    <div class="container-fluid bg-white mt-3">
+        <div class="container">
+            <div class="row justify-content-center">
 
                 <!-- INFOS PERSO -->
-                <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-8 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="card shadow">
                         <div class="card-header text-center">
                             <h5><?= $lang['Profile']['infos']['header'] ?></h5>
                         </div>
                         <div class="card-body pt-1 pb-0">
                             <div class="row card-text pb-0">
-                                <ul class="col" style="list-style-type: none; padding-left: 0.5rem; ">
-                                    <li><span class="me-2"><b><?= $lang['Profile']['infos']['num-adhesion'] ?></b></span><span class="mx-1">/
+                                <ul class="col" style="list-style-type: none; padding-left: 0.7rem; ">
+                                    <li><span class="me-2"><b><?= $lang['Profile']['infos']['num-adhesion'] ?></b></span><span class="mx-1"> :
                                         </span><span><?= $num_adhesion ?></span></li>
-                                    <li><span style="margin-right: 30px;"><b><?= $lang['Profile']['infos']['name'] ?></b></span><span class="mx-2">/
+                                    <li><span style="margin-right: 30px;"><b><?= $lang['Profile']['infos']['name'] ?></b></span><span class="mx-2"> :
                                         </span><span><?= $nom ?></span></li>
-                                    <li><span class="me-2"><b><?= $lang['Profile']['infos']['surnames'] ?></b></span><span class="mx-2">/
+                                    <li><span class="me-2"><b><?= $lang['Profile']['infos']['surnames'] ?></b></span><span class="mx-2"> :
                                         </span><span><?= $prenom ?></span>
                                     </li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['infos']['admin'] ?></b></span><span class="mx-1">/
+                                    <li><span class="me-1"><b><?= $lang['Profile']['infos']['admin'] ?></b></span><span class="mx-1"> :
                                         </span><span><?= $structure ?></span></li>
-                                    <li><span class="me-1"><b><?= $lang['Profile']['infos']['function'] ?></b></span><span><span class="mx-2">/
+                                    <li><span class="me-1"><b><?= $lang['Profile']['infos']['function'] ?></b></span><span><span class="mx-2"> :
                                             </span><?= $fonction ?></span></li>
                                     <!-- <li><span style="margin-right: 28px;"><b><?= $lang['Profile']['infos']['status'] ?></b></span><span class="mx-2">/
                                         </span><span><?= $statut ?></span> </li> -->
@@ -95,15 +95,18 @@ include_once("./models/profile.php");
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
 
                 <!-- INFOS COTISATION -->
                 <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="card  shadow">
+                    <div class="card shadow">
                         <div class="card-header text-center">
                             <h5><?= $lang['Profile']['cost']['header'] ?></h5>
                         </div>
                         <div class="card-body pt-1 pb-0">
-                            <div class="row card-text pb-0">
+                            <div class="row card-text my-4 pb-0">
                                 <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['cost']['fees_parent'] ?>
@@ -169,7 +172,7 @@ include_once("./models/profile.php");
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="conjointModal">
+                                <h5 class="modal-title">
                                     <?= $lang['Profile']['modal-cost']['title-parent'] ?></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
@@ -325,12 +328,12 @@ include_once("./models/profile.php");
 
                 <!-- INFOS AFFILIATION -->
                 <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="card  shadow">
+                    <div class="card shadow">
                         <div class="card-header text-center">
                             <h5><?= $lang['Profile']['affiliated']['header'] ?></h5>
                         </div>
                         <div class="card-body pt-1 pb-0">
-                            <div class="row my-4 card-text pb-0">
+                            <div class="row my-5 card-text pb-0">
                                 <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
                                     <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['affiliated']['parent'] ?>
@@ -496,6 +499,56 @@ include_once("./models/profile.php");
                         </div>
                     </div>
                 </div>
+
+                <!-- INFOS ALLOCATION -->
+                <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="card shadow">
+                        <div class="card-header text-center">
+                            <h5><?= $lang['Profile']['allocation']['header'] ?></h5>
+                        </div>
+                        <div class="card-body pt-1 pb-0">
+                            <div class="row my-0 card-text pb-0">
+                                <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
+                                    <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['allocation']['birth'] ?>
+                                        <span id="alloc-birth" class="badge rounded-pill bg-primary ms-4"><?= $nbr_parent ?></span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#birthModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="conjoint" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['allocation']['wedding'] ?>
+                                        <span id="alloc-wedding" class="badge rounded-pill bg-primary"><?= $nbr_conjoint ?></span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#weddingModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="child" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['allocation']['hospital'] ?>
+                                        <span id="alloc-hospital" class="badge rounded-pill bg-primary ms-4"><?= $nbr_enfant ?></span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#hospitalModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="child" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['allocation']['medal'] ?>
+                                        <span id="alloc-medal" class="badge rounded-pill bg-primary ms-4"><?= $nbr_enfant ?></span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#medalModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                    <li id="child" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['allocation']['retirement'] ?>
+                                        <span id="alloc-retirement" class="badge rounded-pill bg-primary ms-4"><?= $nbr_enfant ?></span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#retirementModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center text-muted">
+                            Total : <span id="total-allocation" class="text-dark">0</span><span class="text-dark">
+                                <?= $lang['Profile']['allocation']['footer'] ?></span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

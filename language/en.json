@@ -499,6 +499,15 @@
             "spouse": "Spouse(s)&nbsp;&nbsp;&nbsp;&nbsp;",
             "footer": "affiliated person(s)"
         },
+        "allocation": {
+            "header": "My allocations",
+            "birth": "Birth",
+            "wedding": "Marriage",
+            "hospital": "Hospital Expenses",
+            "medal": "Decoration",
+            "retirement": "Retirement",
+            "footer": "allocation(s) received"
+        },
         "modal-affiliate": {
             "names": "Names",
             "fees": "Amount to Contribute (FCFA)",

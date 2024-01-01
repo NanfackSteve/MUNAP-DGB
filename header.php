@@ -25,14 +25,14 @@
             <!-- Home Start -->
             <li class="nav-item">
                 <a id="home" href="index.php" class="nav-link"
-                    style="margin: 0 15px 0 0 ;"><?= $lang['header']['home']; ?></a>
+                    style="margin: 0 13px 0 0 ;"><?= $lang['header']['home']; ?></a>
             </li>
             <!-- Home End -->
 
             <!-- MUNAP Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="munap" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="margin: 0 15px 0 0 ;"><?= $lang['header']['team']; ?><i
+                    aria-expanded="false" style="margin: 0 13px 0 0 ;"><?= $lang['header']['team']; ?><i
                         class="ms-2 fas fa-angle-down"></i>
 
                 </a>
@@ -69,7 +69,7 @@
             <!-- Services Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="process" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="margin: 0 15px 0 0 ;">
+                    aria-expanded="false" style="margin: 0 13px 0 0 ;">
                     <?= $lang['header']['services']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="process">
@@ -92,7 +92,7 @@
             <!-- Actus Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="actus" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="margin: 0 15px 0 0 ;">
+                    aria-expanded="false" style="margin: 0 13px 0 0 ;">
                     <?= $lang['header']['news']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="actus">
@@ -109,7 +109,7 @@
             <!-- Docus Start -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="docu" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="margin: 0 15px 0 0 ;">
+                    aria-expanded="false" style="margin: 0 13px 0 0 ;">
                     <?= $lang['header']['docu']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="docu">
@@ -142,7 +142,7 @@
             <!-- Language Start -->
             <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="langue" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="margin: 0 15px 0 0 ;">
+                    aria-expanded="false" style="margin: 0 13px 0 0 ;">
                     <i class="fa fa-language "></i> lang
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="langue">
@@ -157,7 +157,7 @@
 
         </ul>
         <?php if (isset($_SESSION['LOGGED_USER'])) : ?>
-        <a href="login.php" class="btn btn-primary py-4 px-lg-4 d-lg-block"><?= $lang['header']['logout']; ?><i
+        <a href="login.php" class="btn btn-primary py-4 px-lg-3 d-lg-block"><?= $lang['header']['logout']; ?><i
                 class="fa fa-arrow-right ms-3"></i></a>
         <?php else : ?>
         <a href="login.php" class="btn btn-primary py-4 px-lg-5  d-lg-block"><?= $lang['header']['login']; ?><i

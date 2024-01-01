@@ -3,7 +3,9 @@
 let parent = parseInt(document.getElementById('parent-number').textContent);
 let conjoint = parseInt(document.getElementById('conjoint-number').textContent);
 let child = parseInt(document.getElementById('child-number').textContent);
-document.getElementById('total').textContent = parent + conjoint + child;
+let sum = parent + conjoint + child;
+if (isNaN(sum)) sum = 0;
+document.getElementById('total').textContent = sum;
 
 
 // --------------- MODIFIER MOT DE PASSE
@@ -57,7 +59,7 @@ function sendPostRequest(token, num_adhesion, new_pass) {
             .then(response => response.json())
             .then(data => {
                 // Traitement de la réponse de l'API
-                alert('Mot de passe Modifie')
+                alert('Mot de passe Modifié')
                 console.log(data);
             })
             .catch(error => {
