@@ -16,7 +16,7 @@ include_once("language/lang.php"); ?>
     <!-- Nav bar End -->
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header-team-be py-4 mb-2">
+    <div class="container-fluid page-header-team-be py-4 mb-2" style="height: 18rem">
         <div class="container py-4">
             <h1 class="display-3 text-white mb-3 animated slideInDown">
                 <?= $lang['team']['organes']['head-link-2'] ?> </h1>

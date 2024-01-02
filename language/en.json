@@ -533,6 +533,22 @@
             "see-2": "See Child(dren) Contribution",
             "see-3": "See My Contribution",
             "see-4": "See Parent(s) Contribution"
+        },
+        "modal-allocation": {
+            "no": "Any Allowance received",
+            "birth-header": "Birth Allowance(s)",
+            "wedding-header": "Marriage Allowance(s)",
+            "medal-header": "Decoration Allowance(s)",
+            "retirement-header": "Retirement Allowance(s)",
+            "hospital-header": "Medical Expenses Allowance(s)",
+            "names": "Beneficiary",
+            "fees": "Amount to be collected (FCFA)",
+            "fees-recv": "Amount received (FCFA)",
+            "see-1": "Voir Allocation Naissance",
+            "see-2": "Voir Allocation Mariage",
+            "see-3": "Voir Allocation Décoration",
+            "see-4": "Voir Allocation Frais Medicaux",
+            "see-5": "Voir Allocation Frais Retraite"
         }
     },
     "footer": {

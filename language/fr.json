@@ -502,8 +502,8 @@
         "allocation": {
             "header": "Mes allocations",
             "birth": "Naissance",
-            "wedding": "Mariage",
-            "hospital": "Fais Médicaux",
+            "wedding": "Mariage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+            "hospital": "Frais Médicaux",
             "medal": "Décoration",
             "retirement": "Retraite",
             "footer": "allocation(s) percues"
@@ -519,7 +519,7 @@
             "spouse-header": "Conjoint(es) affilié(es)",
             "see-2": "Voir Enfant(s) affilié(s)",
             "child-header": "Enfant(s) affilié(s)",
-            "see-3": "Voir Parents(s) affilié(s)"
+            "see-3": "Voir Parent(s) affilié(s)"
         },
         "modal-cost": {
             "title-parent": "Cotisation Parent(s)",
@@ -533,6 +533,22 @@
             "see-2": "Voir Cotisation Enfant(s)",
             "see-3": "Voir Ma Cotisation",
             "see-4": "Voir Cotisation Parent(s)"
+        },
+        "modal-allocation": {
+            "no": "Aucune allocation percue",
+            "birth-header": "Allocation(s) Naissance(s)",
+            "wedding-header": "Allocation(s) Mariage(s)",
+            "medal-header": "Allocation(s) Décoration",
+            "retirement-header": "Allocation(s) Retraitre",
+            "hospital-header": "Allocation(s) Frais Medicaux",
+            "names": "Bénéficiaire",
+            "fees": "Montant à verser (FCFA)",
+            "fees-recv": "Montant Versé (FCFA)",
+            "see-1": "Voir Allocation Naissance",
+            "see-2": "Voir Allocation Mariage",
+            "see-3": "Voir Allocation Décoration",
+            "see-4": "Voir Allocation Frais Medicaux",
+            "see-5": "Voir Allocation Frais Retraite"
         }
     },
     "footer": {
@@ -550,7 +566,7 @@
         "section-2-link-4": "Nos Évènements",
         "section-2-link-5": "Nos Activités",
         "section-3": "Documentation",
-        "section-3-link-1": "Téléchargez - Les Status",
+        "section-3-link-1": "Téléchargez - Les Statuts",
         "section-3-link-2": "Téléchargez - Règlement Intérieur",
         "conception": "Développé par",
         "taf-team": "Equipe Technique MUNAP-DGB"
