@@ -22,7 +22,7 @@ $prenom = $_SESSION['prenom'];
 $structure = $data[0]['abv'];
 $fonction = $data[0]['fonction'];
 $statut = $data[0]['statut'];
-// $date_adhesion = $data['membres'][0]['date_adhesion'];
+$date_adhesion = $data[0]['date_adhesion'];
 
 // infos cotisations
 $cotisation = $data[0];
@@ -74,20 +74,14 @@ foreach ($data as $allocation) {
     $allocations[$libelle]['liste'][] = $allocation;
 }
 //print_r($allocations);
-$nbr_allocation_naissance = 0;
-$nbr_allocation_mariage = 0;
-$nbr_allocation_medicaux = 0;
-$nbr_allocation_decoration = 0;
-$nbr_allocation_retraite = 0;
+$nbr_allocation_naissance = isset($allocations['Allocation de naissance']['nombre']) ? $allocations['Allocation de naissance']['nombre'] : 0;
+$nbr_allocation_mariage = isset($allocations['Allocation de mariage']['nombre']) ? $allocations['Allocation de mariage']['nombre'] : 0;
+$nbr_allocation_medicaux = isset($allocations['Allocation de medicaux']['nombre']) ? $allocations['Allocation de medicaux']['nombre'] : 0;
+$nbr_allocation_decoration = isset($allocations['Allocation de decoration']['nombre']) ? $allocations['Allocation de decoration']['nombre'] : 0;
+$nbr_allocation_retraite = isset($allocations['Allocation de retraite']['nombre']) ? $allocations['Allocation de retraite']['nombre'] : 0;
 
-$nbr_allocation_naissance = $allocations['Allocation de naissance']['nombre'];
-$nbr_allocation_mariage = $allocations['Allocation de mariage']['nombre'];
-$nbr_allocation_medicaux = $allocations['Allocation de medicaux']['nombre'];
-$nbr_allocation_decoration = $allocations['Allocation de decoration']['nombre'];
-$nbr_allocation_retraite = $allocations['Allocation de retraite']['nombre'];
-
-$list_allocation_naissance = $allocations['Allocation de naissance']['liste'];
-$list_allocation_mariage = $allocations['Allocation de mariage']['liste'];
-$list_allocation_medicaux = $allocations['Allocation de medicaux']['liste'];
-$list_allocation_decoration = $allocations['Allocation de decoration']['liste'];
-$list_allocation_retraite = $allocations['Allocation de retraite']['liste'];
+$list_allocation_naissance = isset($allocations['Allocation de naissance']['liste']) ? $allocations['Allocation de naissance']['liste'] : array();
+$list_allocation_mariage = isset($allocations['Allocation de mariage']['liste']) ? $allocations['Allocation de mariage']['liste'] : array();
+$list_allocation_medicaux = isset($allocations['Allocation de medicaux']['liste']) ? $allocations['Allocation de medicaux']['liste'] : array();
+$list_allocation_decoration = isset($allocations['Allocation de decoration']['liste']) ? $allocations['Allocation de decoration']['liste'] : array();
+$list_allocation_retraite = isset($allocations['Allocation de retraite']['liste']) ? $allocations['Allocation de retraite']['liste'] : array();

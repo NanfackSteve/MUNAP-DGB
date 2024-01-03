@@ -15,7 +15,7 @@ let hospital = parseInt(document.getElementById('alloc-hospital').textContent);
 let medal = parseInt(document.getElementById('alloc-medal').textContent);
 let retirement = parseInt(document.getElementById('alloc-retirement').textContent);
 let sum_allocation = birth + wedding + hospital + medal + retirement;
-if (isNaN(sum)) sum = 0;
+if (isNaN(sum_allocation)) sum_allocation = 0;
 document.getElementById('total-allocation').textContent = sum_allocation;
 
 // --------------- MODIFIER MOT DE PASSE
