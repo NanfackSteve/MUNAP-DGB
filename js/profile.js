@@ -7,7 +7,7 @@ let sum = parent + conjoint + child;
 if (isNaN(sum)) sum = 0;
 document.getElementById('total').textContent = sum;
 
-// --------------- TOTAL ALLOCATIONS AFFILIES
+// --------------- TOTAL ALLOCATIONS 
 
 let birth = parseInt(document.getElementById('alloc-birth').textContent);
 let wedding = parseInt(document.getElementById('alloc-wedding').textContent);
@@ -16,7 +16,7 @@ let medal = parseInt(document.getElementById('alloc-medal').textContent);
 let retirement = parseInt(document.getElementById('alloc-retirement').textContent);
 let sum_allocation = birth + wedding + hospital + medal + retirement;
 if (isNaN(sum)) sum = 0;
-document.getElementById('total').textContent = sum_allocation;
+document.getElementById('total-allocation').textContent = sum_allocation;
 
 // --------------- MODIFIER MOT DE PASSE
 
