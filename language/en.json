@@ -501,11 +501,11 @@
         },
         "allocation": {
             "header": "My allocations",
-            "birth": "Birth",
-            "wedding": "Marriage",
+            "birth": "Birth&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;",
+            "wedding": "Marriage&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;",
             "hospital": "Hospital Expenses",
-            "medal": "Decoration",
-            "retirement": "Retirement",
+            "medal": "Decoration&ensp;&ensp;&ensp;&nbsp;",
+            "retirement": "Retirement&ensp;&ensp;&ensp;&nbsp;",
             "footer": "allocation(s) received"
         },
         "modal-affiliate": {

@@ -501,11 +501,11 @@
         },
         "allocation": {
             "header": "Mes allocations",
-            "birth": "Naissance",
-            "wedding": "Mariage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+            "birth": "Naissance&nbsp;&nbsp;&nbsp;",
+            "wedding": "Mariage&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;",
             "hospital": "Frais Médicaux",
-            "medal": "Décoration",
-            "retirement": "Retraite",
+            "medal": "Décoration&nbsp;",
+            "retirement": "Retraite&ensp;&ensp;&ensp;&nbsp;",
             "footer": "allocation(s) percues"
         },
         "modal-affiliate": {
