@@ -16,16 +16,16 @@ include_once("language/lang.php"); ?>
     <?php include_once("header.php") ?>
     <!-- Nav bar End -->
 
-    <!-- Event Start  -->
+    <!-- News Start  -->
     <div class="container-fluid bg-light overflow-hidden px-lg-0 mt-3">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 feature-text py-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="section-title text-start">
-                            <h2 class="display-5 mb-4"><?= $lang['news']['activity']['-4-title'] ?></h2>
+                            <h2 class="display-5 mb-4"><?= $lang['news']['CA']['-1-title'] ?></h2>
                         </div>
-                        <p class="text-justify mb-4 "><?= $lang['news']['activity']['-4-text'] ?></p>
+                        <p class="text-justify mb-4 "><?= $lang['news']['CA']['-1-text'] ?></p>
 
                     </div>
                 </div>
@@ -39,7 +39,7 @@ include_once("language/lang.php"); ?>
             </div>
         </div>
     </div>
-    <!-- Event End -->
+    <!-- News End -->
 
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeIn" data-wow-delay="0.6s">

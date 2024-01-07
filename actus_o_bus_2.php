@@ -23,9 +23,9 @@ include_once("language/lang.php"); ?>
                     <div class="col-lg-6 feature-text py-4 wow fadeIn" data-wow-delay="0.5s">
                         <div class="p-lg-5 ps-lg-0">
                             <div class="section-title text-start">
-                                <h2 class="display-5 mb-4"><?= $lang['news']['activity']['-5-title'] ?></h2>
+                                <h2 class="display-5 mb-4"><?= $lang['news']['others']['-5-title'] ?></h2>
                             </div>
-                            <p class="text-justify mb-4 pb-2"><?= $lang['news']['activity']['-5-text'] ?></p>
+                            <p class="text-justify mb-4 pb-2"><?= $lang['news']['others']['-5-text'] ?></p>
 
                         </div>
                     </div>

@@ -93,15 +93,25 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="actus" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false" style="margin: 0 13px 0 0 ;">
-                    <?= $lang['header']['news']; ?><i class="ms-2 fas fa-angle-down"></i>
+                    <?= $lang['header']['actus']; ?><i class="ms-2 fas fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="actus">
-                    <li><a class="dropdown-item" href="actus_activities.php"><?= $lang['header']['news-activ']; ?></a>
+                    <li><a class="dropdown-item" href="actus_ag.php"><?= $lang['header']['actus-ag']; ?></a>
                     </li>
                     <li>
                         <hr class="dropdown-divider" />
                     </li>
-                    <li><a class="dropdown-item" href="actus_events.php"><?= $lang['header']['news-events']; ?></a></li>
+                    <li><a class="dropdown-item" href="actus_ca.php"><?= $lang['header']['actus-ca']; ?></a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="actus_meeting.php"><?= $lang['header']['actus-meeting']; ?></a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="actus_others.php"><?= $lang['header']['actus-others']; ?></a>
+                    </li>
                 </ul>
             </li>
             <!-- Actus End -->

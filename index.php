@@ -55,7 +55,7 @@ include_once("language/lang.php");
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">
                                     <?= $lang['index']['caroussel-1-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_activ_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
+                                <a href="actus_ag_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
 
                             </div>
                         </div>
@@ -75,7 +75,7 @@ include_once("language/lang.php");
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">
                                     <?= $lang['index']['caroussel-2-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_event_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
+                                <a href="actus_o_dons_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ include_once("language/lang.php");
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">
                                     <?= $lang['index']['caroussel-3-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_activ_5.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
+                                <a href="actus_o_bus_2.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ include_once("language/lang.php");
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">
                                     <?= $lang['index']['caroussel-4-subtitle'] ?></h5>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">____________</p>
-                                <a href="actus_event_3.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
+                                <a href="actus_o_retiremt_1.php" class="btn btn-primary py-md-3 px-md-5 ms-2 animated slideInLeft"><?= $lang['index']['read-more'] ?></a>
                             </div>
                         </div>
                     </div>

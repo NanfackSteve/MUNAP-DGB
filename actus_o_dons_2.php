@@ -23,15 +23,15 @@ include_once("language/lang.php"); ?>
                 <div class="col-lg-6 feature-text py-4 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 ps-lg-0">
                         <div class="section-title text-start">
-                            <h2 class="display-5 mb-4"><?= $lang['news']['events']['-3-title'] ?></h2>
+                            <h2 class="display-5 mb-4"><?= $lang['news']['others']['-4-title'] ?></h2>
                         </div>
-                        <p class="text-justify mb-4 pb-2"><?= $lang['news']['events']['-3-text'] ?></p>
+                        <p class="text-justify mb-4 pb-2"><?= $lang['news']['others']['-4-text'] ?></p>
 
                     </div>
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeInUp" data-wow-delay="1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid img-fluid h-100" src="img/actus/activities/actus_retraite_A_4.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/actus/events/actus_dons_B_9.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -51,25 +51,49 @@ include_once("language/lang.php"); ?>
                     <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/actus/activities/actus_retraite_A_1.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                                <img src="img/actus/events/actus_dons_B_1.jpg" class="d-block mx-auto img-fluid  " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class=" carousel-item">
+                                <img src="img/actus/events/actus_dons_B_2.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/actus/activities/actus_retraite_A_2.jpg" class="d-block mx-auto img-fluid" alt="..." style="height: 20rem;">
+                                <img src="img/actus/events/actus_dons_B_3.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/actus/activities/actus_retraite_A_3.jpg" class="d-block mx-auto img-fluid" alt="..." style="height: 20rem;">
+                                <img src="img/actus/events/actus_dons_B_4.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/actus/activities/actus_retraite_A_4.jpg" class="d-block mx-auto img-fluid" alt="..." style="height: 20rem;">
+                                <img src="img/actus/events/actus_dons_B_5.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/actus/activities/actus_retraite_A_5.jpg" class="d-block mx-auto img-fluid" alt="..." style="height: 20rem;">
+                                <img src="img/actus/events/actus_dons_B_6.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/actus/activities/actus_retraite_A_6.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;;">
+                                <img src="img/actus/events/actus_dons_B_7.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_8.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_9.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_10.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_11.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_12.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_13.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/actus/events/actus_dons_B_14.jpg" class="d-block mx-auto img-fluid " alt="..." style="height: 20rem;">
                             </div>
                         </div>
-                        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
