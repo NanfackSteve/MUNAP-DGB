@@ -66,6 +66,11 @@
     color: gold;
 }
 
+/* CSS ACTUS TABS */
+.myTabs:hover {
+    background-color: var(--primary);
+    color: snow;
+}
 
 /* CSS carte */
 
