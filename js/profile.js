@@ -63,17 +63,15 @@ function sendPostRequest(token, num_adhesion, new_pass) {
             mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + token
-            }
+                'Authorization': 'Bearer ' + token,
+            },
         })
             .then(response => response.json())
             .then(data => {
-                // Traitement de la réponse de l'API
-                alert('Mot de passe Modifié')
+                alert('Mot de passe Modifié');
                 console.log(data);
-            })
-            .catch(error => {
-                // Gestion des erreurs
+            }).catch(error => {
+                alert("Une erreur est survenue. Ressayez plus tard ! ");
                 console.error('Erreur de la requête :', error);
             });
 
