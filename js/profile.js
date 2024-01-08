@@ -20,9 +20,10 @@ document.getElementById('total-allocation').textContent = sum_allocation;
 
 // --------------- MODIFIER MOT DE PASSE
 
-function changePwd(token, num_adhesion) {
+function changePwd(token) {
 
     let modal = document.getElementById('modal-body');
+    let oldPassword = document.getElementById('old-pass');
     let password1 = document.getElementById('new-pass-1');
     let password2 = document.getElementById('new-pass-2');
 
@@ -36,7 +37,7 @@ function changePwd(token, num_adhesion) {
         if (alertDiv) {
             alertDiv.remove();
         }
-        sendPostRequest(token, num_adhesion, password1.value);
+        sendPostRequest(token, oldPassword.value, password1.value, password2.value);
     } else {
         password1.classList.add('error');
         password2.classList.add('error');
@@ -53,22 +54,24 @@ function changePwd(token, num_adhesion) {
     }
 }
 
-function sendPostRequest(token, num_adhesion, new_pass) {
+function sendPostRequest(token, old_password, new_pass, confirm_pass) {
 
     fetch("./models/api.json").then(rep => rep.json()).then(data => {
-        let api = data['link'] + "/api/resetpassword?password=" + new_pass + "&num_adhesion=" +
-            num_adhesion;
+
+        let api = data['link'] + "/api/changepassword?old_password=" + old_password + "&password=" +
+            new_pass + "&password_confirmation=" + confirm_pass;
+
         fetch(api, {
-            method: 'GET',
-            mode: 'no-cors',
+            method: 'PUT',
+            // mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + token,
-            },
+            }
         })
             .then(response => response.json())
             .then(data => {
-                alert('Mot de passe Modifié');
+                alert('Mot de passe Modifié ');
                 console.log(data);
             }).catch(error => {
                 alert("Une erreur est survenue. Ressayez plus tard ! ");

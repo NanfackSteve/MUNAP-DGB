@@ -462,6 +462,7 @@
         "close": "Close",
         "cancel": "Cancel",
         "btn-pwd": "Change",
+        "pwd-input-0": "Enter Old password",
         "pwd-input-1": "Enter new password",
         "pwd-input-2": "Confirm new password",
         "infos": {

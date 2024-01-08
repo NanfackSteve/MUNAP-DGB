@@ -462,6 +462,7 @@
         "close": "Fermer",
         "cancel": "Annuler",
         "btn-pwd": "Modifier",
+        "pwd-input-0": "Ancien Mot de Passe",
         "pwd-input-1": "Nouveau Mot de Passe",
         "pwd-input-2": "Confirmer le Mot de Passe",
         "infos": {

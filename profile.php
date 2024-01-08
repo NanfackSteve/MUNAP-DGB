@@ -41,6 +41,11 @@ include_once("./models/profile.php");
                 </div>
                 <div id="modal-body" class="modal-body py-3">
                     <div class="form-floating mb-3">
+                        <input type="password" id="old-pass" name="old-pass" class="form-control" placeholder="">
+                        <label for="old-pass"><?= $lang['Profile']['pwd-input-0'] ?></label>
+                    </div>
+
+                    <div class="form-floating mb-3">
                         <input type="password" id="new-pass-1" name="new-pass-1" class="form-control" placeholder="">
                         <label for="floatingPass-1"><?= $lang['Profile']['pwd-input-1'] ?></label>
                     </div>
@@ -52,7 +57,7 @@ include_once("./models/profile.php");
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['Profile']['cancel'] ?></button>
-                    <button id="btn-pwd" class="btn btn-primary" onclick="changePwd('<?php isset($_SESSION['token']) ? $_SESSION['token'] : '' ?>', '<?= $num_adhesion ?>')"><?= $lang['Profile']['btn-pwd'] ?></button>
+                    <button id="btn-pwd" class="btn btn-primary" onclick="changePwd('<?= $_SESSION['token'] ?>')"><?= $lang['Profile']['btn-pwd'] ?></button>
                 </div>
             </div>
         </div>
