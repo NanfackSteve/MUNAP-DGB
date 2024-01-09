@@ -74,90 +74,97 @@ if (isset($_POST['num_adh']) &&  isset($_POST['password'])) {
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
 
-    <!-- Include Pooper and JS using Bootstrap v5.0 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        <!-- Include Pooper and JS using Bootstrap v5.0 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/login.css">
-</head>
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
 
-<body style="background-color: #eee;">
-    <section class="h-100 gradient-form" style="background-color: #eee;">
-        <div class="container pb-3 pt-5 h-100">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col-xl-10">
-                    <div class="card rounded-3 text-black ">
-                        <div class="row g-0">
-                            <div class="col-lg-6">
-                                <div class="card-body p-md-5 mx-md-4">
-                                    <div class="row ">
-                                        <div class="text-center mb-4">
-                                            <img src="img/logo-munap.jpg" style="width: 185px;" alt="logo-munap-dgb">
-                                        </div>
-                                    </div>
-
-                                    <!-- Check User Connexion -->
-                                    <?php if (isset($check_user) && $check_user == False) : ?>
-                                        <div class="alert alert-danger d-flex align-items-center alert-dismissible fade show" role="alert">
-                                            <div style="font-size: 0.76rem;"><b>Nom d'utilisateur</b> ou <b>Mot de
-                                                    passe</b> Incorrect</div>
-                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                        </div>
-                                    <?php endif; ?>
-
-                                    <form class="mt-4" action="login.php" method="POST">
-
-                                        <div class="form-floating mb-3">
-                                            <input type="text" id="floatingInput" name="num_adh" class="form-control" placeholder="name@example.com">
-                                            <label for="floatingInput">Nom
-                                                d'utilisateur ou Email</label>
-                                        </div>
-
-                                        <div class="form-floating mb-4">
-                                            <input type="password" id="floatingPassword" name="password" class="form-control" placeholder="Password">
-                                            <label for="floatingPassword">Mot de Passe</label>
-                                        </div>
-
-                                        <div class="text-center pt-1 mb-4 pb-1">
-                                            <button style="width:70%; background: #AB7442; border-radius: 20px;" class="btn btn-block text-white fa-lg mb-3" type="submit"><b>Connexion</b>
-                                            </button><br>
-                                            <!-- <a class="text-muted" href="#!">Mot de passe oublié ?</a> -->
-                                            <div class="text-center mt-4">
-                                                <a href="index.php" class="underline-hover">
-                                                    <!-- <i class="fa fa-globe-africa me-2"></i> -->Aller
-                                                    sur le Site Web <i class="fa fa-arrow-right ms-1"></i>
-                                                </a>
+    <body style="background-color: #eee;">
+        <section class="h-100 gradient-form" style="background-color: #eee;">
+            <div class="container pb-3 pt-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-xl-10">
+                        <div class="card rounded-3 text-black ">
+                            <div class="row g-0">
+                                <div class="col-lg-6">
+                                    <div class="card-body p-md-5 mx-md-4">
+                                        <div class="row ">
+                                            <div class="text-center mb-4">
+                                                <img src="img/logo-munap.jpg" style="width: 185px;"
+                                                    alt="logo-munap-dgb">
                                             </div>
                                         </div>
 
-                                    </form>
+                                        <!-- Check User Connexion -->
+                                        <?php if (isset($check_user) && $check_user == False) : ?>
+                                        <div class="alert alert-danger d-flex align-items-center alert-dismissible fade show"
+                                            role="alert">
+                                            <div style="font-size: 0.76rem;"><b>Nom d'utilisateur</b> ou <b>Mot de
+                                                    passe</b> Incorrect</div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <?php endif; ?>
 
+                                        <form class="mt-4" action="login.php" method="POST">
+
+                                            <div class="form-floating mb-3">
+                                                <input type="text" id="floatingInput" name="num_adh"
+                                                    class="form-control" placeholder="name@example.com">
+                                                <label for="floatingInput">Numéro d'adhésion</label>
+                                            </div>
+
+                                            <div class="form-floating mb-4">
+                                                <input type="password" id="floatingPassword" name="password"
+                                                    class="form-control" placeholder="Password">
+                                                <label for="floatingPassword">Mot de Passe</label>
+                                            </div>
+
+                                            <div class="text-center pt-1 mb-4 pb-1">
+                                                <button style="width:70%; background: #AB7442; border-radius: 20px;"
+                                                    class="btn btn-block text-white fa-lg mb-3"
+                                                    type="submit"><b>Connexion</b>
+                                                </button><br>
+                                                <!-- <a class="text-muted" href="#!">Mot de passe oublié ?</a> -->
+                                                <div class="text-center mt-4">
+                                                    <a href="index.php" class="underline-hover">
+                                                        <!-- <i class="fa fa-globe-africa me-2"></i> -->Aller
+                                                        sur le Site Web <i class="fa fa-arrow-right ms-1"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </form>
+
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="col-lg-6 d-flex align-items-center munap-login">
-                                <div class="text-white px-3 py-4 p-md-5 mx-md-4  ">
-                                    <h4 class="font-verdana mb-4 text-white">Mutuelle Nationale du Personnel
-                                        de la Direction Générale du Budget</h4>
+                                <div class="col-lg-6 d-flex align-items-center munap-login">
+                                    <div class="text-white px-3 py-4 p-md-5 mx-md-4  ">
+                                        <h4 class="font-verdana mb-4 text-white">Mutuelle Nationale du Personnel
+                                            de la Direction Générale du Budget</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 
 </html>
