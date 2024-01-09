@@ -63,7 +63,6 @@ function sendPostRequest(token, old_password, new_pass, confirm_pass) {
 
         fetch(api, {
             method: 'PUT',
-            // mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + token,
@@ -71,8 +70,12 @@ function sendPostRequest(token, old_password, new_pass, confirm_pass) {
         })
             .then(response => response.json())
             .then(data => {
+                document.getElementById('old-pass').value = "";
+                document.getElementById('new-pass-1').value = "";
+                document.getElementById('new-pass-2').value = "";
                 alert('Mot de passe Modifié ');
-                console.log(data);
+                $('#pwdModal').modal('hide');
+                // console.log(data);
             }).catch(error => {
                 alert("Une erreur est survenue. Ressayez plus tard ! ");
                 console.error('Erreur de la requête :', error);
