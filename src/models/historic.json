@@ -1,0 +1,365 @@
+{
+    "2007": {
+        "ca": {
+            "nbr": 1,
+            "member-1": {
+                "name": "Mme TSAFACK Berthe",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 2,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            }
+        },
+        "cf": {
+            "nbr": 0
+        }
+    },
+    "2008": {
+        "ca": {
+            "nbr": 1,
+            "member-1": {
+                "name": "Mme TSAFACK Berthe",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 2,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            }
+        },
+        "cf": {
+            "nbr": 1,
+            "member-1": {
+                "name": "M. MENGBANG EDOU",
+                "post": "CF-ex-1"
+            }
+        }
+    },
+    "2009": {
+        "ca": {
+            "nbr": 12,
+            "member-1": {
+                "name": "Mme TSAFACK Berthe",
+                "post": "ca-president"
+            },
+            "member-2": {
+                "name": "M. MEKONTCHOU Samuel",
+                "post": "ca-controler-2",
+                "comment": "Sous-directeurs"
+            },
+            "member-3": {
+                "name": "M. ABENA Hubert",
+                "post": "ca-controler-2",
+                "comment": "Sous-directeurs"
+            },
+            "member-4": {
+                "name": "M. AKAME Charles",
+                "post": "ca-controler-3",
+                "comment": "Contrôleurs Financiers"
+            },
+            "member-5": {
+                "name": "Mme GOUADJIO Colette",
+                "post": "ca-controler-7",
+                "comment": "Chefs de Service"
+            },
+            "member-6": {
+                "name": "M. NGALEU",
+                "post": "ca-controler-7",
+                "comment": "Chefs de Service"
+            },
+            "member-7": {
+                "name": "M. HAMAN TIZI",
+                "post": "ca-controler-7",
+                "comment": "Chefs de Service"
+            },
+            "member-8": {
+                "name": "M. NTSAMA Jean Marie",
+                "post": "ca-controler-8",
+                "comment": "Chefs de Bureau"
+            },
+            "member-9": {
+                "name": "M. AZEFAC Olivier",
+                "post": "ca-controler-10",
+                "comment": "Agent"
+            },
+            "member-10": {
+                "name": "Mme ETOBE Joséphine",
+                "post": "ca-controler-9",
+                "comment": "Cadres"
+            },
+            "member-11": {
+                "name": "M. MAMA OLOA Aloys",
+                "post": "ca-controler-6",
+                "comment": "Contrôleurs départementaux des Finances"
+            },
+            "member-12": {
+                "name": "M. DJOKNA DAMSALA",
+                "post": "ca-controler-1",
+                "comment": "Contrôleurs régionaux des Finances"
+            }
+        },
+        "be": {
+            "nbr": 2,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            }
+        },
+        "cf": {
+            "nbr": 1,
+            "member-1": {
+                "name": "M. MENGBANG EDOU",
+                "post": "CF-ex-1"
+            }
+        }
+    },
+    "2010": {
+        "ca": {
+            "nbr": 1,
+            "member-1": {
+                "name": "M. YAZID AMINOU",
+                "post": "ca-president"
+            }
+        },
+        "be": {
+            "nbr": 5,
+            "member-1": {
+                "name": "M. OTTI André",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-2"
+            },
+            "member-3": {
+                "name": "Mme TOUKAM Rosalie",
+                "post": "BE-ex-3"
+            },
+            "member-4": {
+                "name": "M. MOUT ABALANG",
+                "post": "BE-ex-4"
+            },
+            "member-5": {
+                "name": "Mme TONG SONGUE Prudentienne",
+                "post": "BE-ex-5"
+            }
+        },
+        "cf": {
+            "nbr": 3,
+            "member-1": {
+                "name": "Mme ETAME TOTO Justine",
+                "post": "CF-ex-1"
+            },
+            "member-2": {
+                "name": "M. YAMDJEU Lazare",
+                "post": "CF-ex-2"
+            },
+            "member-3": {
+                "name": "Mme MANGOUA Mallette",
+                "post": "CF-ex-3"
+            }
+        }
+    },
+    "2012": {
+        "ca": {
+            "nbr": 10,
+            "member-1": {
+                "name": "M. YAZID AMINOU RADJI",
+                "post": "ca-president"
+            },
+            "member-2": {
+                "name": "M. EDOU ALO’O Cyrill",
+                "post": "ca-controler-5",
+                "comment": "Directeurs et Chefs de Division"
+            },
+            "member-3": {
+                "name": "Mme NOUBOUE Alice",
+                "post": "ca-controler-1",
+                "comment": "Contrôleurs régionaux des Finances"
+            },
+            "member-4": {
+                "name": "M. SOULEYMANOU HALILOU",
+                "post": "ca-controler-6",
+                "comment": "Contrôleurs départementaux des Finances"
+            },
+            "member-5": {
+                "name": "M. NGUESSONG André Gérard",
+                "post": "ca-controler-2",
+                "comment": "Sous-directeurs"
+            },
+            "member-6": {
+                "name": "Mme MOUDIO Lydie Victorine",
+                "post": "ca-controler-7",
+                "comment": "Chefs de Service"
+            },
+            "member-7": {
+                "name": "M. NTOUNG Andrew ATEM",
+                "post": "ca-controler-8",
+                "comment": "Chefs de Bureau"
+            },
+            "member-8": {
+                "name": "M. BEKOLO François Xavier",
+                "post": "ca-controler-9",
+                "comment": "Cadres"
+            },
+            "member-9": {
+                "name": "Mme NGONO Anastasie",
+                "post": "ca-controler-10",
+                "comment": "Agent"
+            },
+            "member-10": {
+                "name": "Mme ETAME TOTO Justine",
+                "post": "ca-controler-11",
+                "comment": "retraite"
+            }
+        },
+        "be": {
+            "nbr": 5,
+            "member-1": {
+                "name": "M. NOLABO Paul",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "Mme GOUAJIO Colette",
+                "post": "BE-ex-2"
+            },
+            "member-3": {
+                "name": "Mme MANGOUA Mallette",
+                "post": "BE-ex-3"
+            },
+            "member-4": {
+                "name": "Mme NTSAMA ZOA Isabelle",
+                "post": "BE-ex-4"
+            },
+            "member-5": {
+                "name": "Mme TCHINDJI Regina",
+                "post": "BE-ex-5"
+            }
+        },
+        "cf": {
+            "nbr": 3,
+            "member-1": {
+                "name": "Dr. AKOA AKOA Samuel",
+                "post": "CF-ex-1"
+            },
+            "member-2": {
+                "name": "Mme KONCHIEU Juliette",
+                "post": "CF-ex-2"
+            },
+            "member-3": {
+                "name": "M. BITETE Roger",
+                "post": "CF-ex-3"
+            }
+        }
+    },
+    "2016": {
+        "ca": {
+            "nbr": 10,
+            "member-1": {
+                "name": "M. WAKOU Roger",
+                "post": "ca-president"
+            },
+            "member-2": {
+                "name": "Mme NOUBOUE Alice",
+                "post": "ca-controler-1",
+                "comment": "Contrôleurs régionaux des Finances"
+            },
+            "member-3": {
+                "name": "M. NGUESSONG André Gérard",
+                "post": "ca-controler-2",
+                "comment": "Sous-directeurs"
+            },
+            "member-4": {
+                "name": "Mme MANGOUA Mallette",
+                "post": "ca-controler-3",
+                "comment": "Contrôleurs Financiers"
+            },
+            "member-5": {
+                "name": "M. SOULEYMANOU HALILOU",
+                "post": "ca-controler-6",
+                "comment": "Contrôleurs départementaux des Finances"
+            },
+            "member-6": {
+                "name": "M. AWONO ELOUNDOU Vincent de Paul Bertrand",
+                "post": "ca-controler-7",
+                "comment": "Chefs de Service"
+            },
+            "member-7": {
+                "name": "Mme ANOUME Solange",
+                "post": "ca-controler-8",
+                "comment": "Chefs de Bureau"
+            },
+            "member-8": {
+                "name": "M. MAYO Dieudonné",
+                "post": "ca-controler-9",
+                "comment": "Cadres"
+            },
+            "member-9": {
+                "name": "Mme NGONO Anastasie",
+                "post": "ca-controler-10",
+                "comment": "Agent"
+            },
+            "member-10": {
+                "name": "Mme GOUAJIO Colette",
+                "post": "ca-controler-11",
+                "comment": "retraite"
+            }
+        },
+        "be": {
+            "nbr": 5,
+            "member-1": {
+                "name": "Dr. AKOA AKOA Samuel",
+                "post": "BE-ex-1"
+            },
+            "member-2": {
+                "name": "Mme MENGUELE Judith Clairence",
+                "post": "BE-ex-2"
+            },
+            "member-3": {
+                "name": "M. FEGMI Guy",
+                "post": "BE-ex-3"
+            },
+            "member-4": {
+                "name": "Mme NTSAMA ZOA Isabelle",
+                "post": "BE-ex-4"
+            },
+            "member-5": {
+                "name": "M. ESOSE Paul Lysinge",
+                "post": "BE-ex-5"
+            }
+        },
+        "cf": {
+            "nbr": 3,
+            "member-1": {
+                "name": "M. BEKOLO François Xavier",
+                "post": "CF-ex-1"
+            },
+            "member-2": {
+                "name": "M. BITETE Roger",
+                "post": "CF-ex-2"
+            },
+            "member-3": {
+                "name": "Mme DZOGANG Née LELE TATCHOM Mireille Flore",
+                "post": "CF-ex-3"
+            }
+        }
+    }
+}
