@@ -1,13 +1,13 @@
-ErrorDocument 403 /src/views/layouts/404.php   # Personnalise la page pour l'erreur 404 (NoT Found)
-
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE image/jpeg # active la compression des images
-</IfModule>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
 
 <Files "admin.php">
     AuthType Basic
     AuthName "Admin Page"
-    AuthUserFile .htpasswd
+    AuthUserFile "/home/vol6_4/infinityfree.com/if0_35105569/munap-dgb.free.nf/htdocs/.htpasswd"
     Require valid-user
 </Files>
 
+Redirect 302 /admin https://munap-dgb.free.nf/src/views/admin.php
