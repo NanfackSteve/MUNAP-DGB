@@ -42,6 +42,10 @@ try {
                 require_once('src/views/loginPage.php');
                 break;
 
+            case "admin":
+                require_once('src/views/adminPage.php');
+                break;
+
             default:
                 throw new Exception("La page que vous recherchez n'existe pas.");
                 break;
