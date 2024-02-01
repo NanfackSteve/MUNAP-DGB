@@ -37,18 +37,6 @@ include_once('src/models/language/lang.php');
 
     <!-- Template Stylesheet -->
     <link href="Bootstrap_5/css/style.css" rel="stylesheet">
-
-    <!-- Load Stats Members -->
-    <script>
-        fetch("/src/models/api.json").then(rep => rep.json()).then(data => {
-            fetch(data['link'] + "/api/totalmembres").then(rep => rep.json()).then(data => {
-                $('#munap-stats-1').text(data['membres_honneur']);
-                $("#munap-stats-2").text(data['membres_conseiller']);
-                $("#munap-stats-3").text(data['membres_actif']);
-                $("#munap-stats-4").text(data['membres_retraite']);
-            })
-        })
-    </script>
 </head>
 
 <body>
@@ -184,25 +172,33 @@ include_once('src/models/language/lang.php');
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 id="munap-stats-1" class="text-primary m-0" data-toggle="counter-up">0</h2>
+                            <h2 id="honnor-members" class="text-primary m-0" data-toggle="counter-up">
+                                <?= (isset($stats['membres_honneur'])) ? $stats['membres_honneur'] : 0 ?>
+                            </h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-1'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 id="munap-stats-2" class="text-primary m-0" data-toggle="counter-up">0</h2>
+                            <h2 id="advisor-members" class="text-primary m-0" data-toggle="counter-up">
+                                <?= (isset($stats['membres_conseiller'])) ? $stats['membres_conseiller'] : 0 ?>
+                            </h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-2'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 id="munap-stats-3" class="text-primary m-0" data-toggle="counter-up">0</h2>
+                            <h2 id="active-members" class="text-primary m-0" data-toggle="counter-up">
+                                <?= (isset($stats['membres_actif'])) ? $stats['membres_actif'] : 0 ?>
+                            </h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-3'] ?></p>
                         </div>
 
                         <div class="m-3 d-flex flex-column align-items-center">
                             <i class="fa fa-users fa-2x text-primary"></i>
-                            <h2 id="munap-stats-4" class="text-primary m-0" data-toggle="counter-up">0</h2>
+                            <h2 id="retirement-members" class="text-primary m-0" data-toggle="counter-up">
+                                <?= (isset($stats['membres_retraite'])) ? $stats['membres_retraite'] : 0 ?>
+                            </h2>
                             <p class="fw-medium mb-0"><?= $lang['index']['munap-stats-4'] ?></p>
                         </div>
 

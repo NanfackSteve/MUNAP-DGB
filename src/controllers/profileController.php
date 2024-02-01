@@ -8,7 +8,7 @@ class Profile
     {
         session_start();
         include_once('src/models/language/lang.php');
-        include_once('src/models/profile.php');
+        include_once('src/models/profileModel.php');
         require_once('src/views/profilePage.php');
     }
 }
