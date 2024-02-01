@@ -1,0 +1,97 @@
+[
+    {
+        "abv": "DGB",
+        "libelle": "DIRECTION GENEREALE DU BUDGET",
+        "total": 4
+    },
+    {
+        "abv": "DDPP",
+        "libelle": "DIRECTION DE LA DEPENSE DE PERSONNEL ET DES PENSIONS",
+        "total": 113
+    },
+    {
+        "abv": "DCOB",
+        "libelle": "DIVISION DU CONTROLE BUDGETAIRE, DE L'AUDIT ET DE LA QUALITE DE LA DEPENSE",
+        "total": 487
+    },
+    {
+        "abv": "DREF",
+        "libelle": "DIVISION DE LA REFORME BUDGETAIRE",
+        "total": 41
+    },
+    {
+        "abv": "DPB",
+        "libelle": "DIVISION DE LA PREPARATION DU BUDGET",
+        "total": 109
+    },
+    {
+        "abv": "DPC",
+        "libelle": "DIVISION DES PARTICIPATIONS ET DES CONTRIBUTIONS",
+        "total": 86
+    },
+    {
+        "abv": "DI-DGB",
+        "libelle": "DIVISION INFORMATIQUE",
+        "total": 42
+    },
+    {
+        "abv": "AUTRES",
+        "libelle": "AUTRES STRUCTURES",
+        "total": 6
+    },
+    {
+        "abv": "SDAG",
+        "libelle": "SOUS-DIRECTION DES AFFAIRES GENERALES",
+        "total": 56
+    },
+    {
+        "abv": "SDCF",
+        "libelle": "SOUS-DIRECTION DU CONTROLE FINANCIER",
+        "total": 57
+    },
+    {
+        "abv": "CAB/DGB",
+        "libelle": "CABINET DU DIRECTEUR GENERAL DU BUDGET",
+        "total": 4
+    },
+    {
+        "abv": "SGCC",
+        "libelle": "SERVICE DE LA GESTION DES CREDITS DES CHAPITRES COMMUNS",
+        "total": 19
+    },
+    {
+        "abv": "SGDB",
+        "libelle": "SERVICE DE LA GESTION DES DOCUMENTS BUDGETAIRES",
+        "total": 6
+    },
+    {
+        "abv": "CFR",
+        "libelle": "CONTROLE FINANCIER REGIONAL",
+        "total": 138
+    },
+    {
+        "abv": "CFD",
+        "libelle": "CONTROLE FINANCIER DEPARTEMENTAL",
+        "total": 142
+    },
+    {
+        "abv": "CFA",
+        "libelle": "CONTROLE FINANCIER DE COMMUNE D'ARRONDISSEMENT",
+        "total": 8
+    },
+    {
+        "abv": "CFS",
+        "libelle": "CONTROLE FINANCIER SPECIALISE",
+        "total": 138
+    },
+    {
+        "abv": "CFC",
+        "libelle": "CONTRÔLE FINANCIER CENTRAL",
+        "total": 100
+    },
+    {
+        "abv": "RT",
+        "libelle": "RETRAITE",
+        "total": 12
+    }
+]

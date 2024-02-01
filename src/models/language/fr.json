@@ -204,7 +204,9 @@
             "cm-lt": "Littoral",
             "cm-lit-1": "Littoral",
             "cm-central-services": "Services Centraux",
-            "stats-title": "Mutualistes / Région"
+            "stats-title": "Mutualistes / Région",
+            "stats-by-sexe": "Statistiques par Sexe (Année)",
+            "stats-by-structures": "Statistiques par Structures"
         }
     },
     "services": {
