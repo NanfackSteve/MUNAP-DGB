@@ -1,0 +1,1 @@
+ErrorDocument 403 /src/views/layouts/404.php   # Personnalise la page pour l'erreur 404 (NoT Found)
