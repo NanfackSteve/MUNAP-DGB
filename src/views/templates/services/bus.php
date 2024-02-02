@@ -5,6 +5,38 @@
 <!-- Prestations Start -->
 <div class="container">
 
+    <div class="row">
+        <div class="col-sm-12 col-lg-12 p-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa fa-eye me-1"></i><?= $lang['services']['calendar-btn'] ?>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                <?= $lang['services']['calendar-modal-title'] ?></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id='calendar'></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
     <div class="row mt-2 g-4 ">
         <div class="col-md-6 col-lg-4 px-4">
             <div class="card wow fadeInLeft shadow mb-5 bg-body rounded" data-wow-delay="0.5s">
@@ -136,6 +168,64 @@
 let List_header = document.getElementsByClassName('nav-link');
 for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
 document.getElementById('services').setAttribute("class", "nav-link active");
+</script>
+
+<script>
+$(document).ready(function() {
+    display_events();
+}); //end document.ready block
+
+function display_events() {
+    fetch("http://localhost:3333/src/models/test-bus.json")
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            const result = data;
+            const events = result.map(item => ({
+                title: `Bus ${item.id}`,
+                start: item['date-debut'],
+                end: item['date-fin'],
+                allDay: true,
+                display: 'none',
+            }));
+
+            const calendar = $('#calendar').fullCalendar({
+                locale: 'fr',
+                buttonText: {
+                    today: 'Aujourd\'hui',
+                    month: 'Mois',
+                    week: 'Semaine',
+                    day: 'Jour',
+                },
+                dayNames: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
+                dayNamesShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
+                monthNames: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août',
+                    'Septembre', 'Octobre', 'Novembre', 'Décembre'
+                ],
+                monthNamesShort: ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct',
+                    'Nov', 'Déc'
+                ],
+                defaultView: 'month',
+                timeZone: 'local',
+                editable: true,
+                selectable: true,
+                selectHelper: true,
+                events: events,
+                eventRender: function(event, element, view) {
+                    element.bind('click', function() {
+                        alert(event.title);
+                    });
+                }
+            }); //end fullCalendar block
+            $('#calendar').fullCalendar('render');
+
+
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error fetching events');
+        });
+}
 </script>
 
 <?php $content = ob_get_clean();
