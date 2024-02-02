@@ -7,25 +7,25 @@
 
     <div class="row">
         <div class="col-sm-12 col-lg-12 p-4">
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button Calendar modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#calendarModal">
                 <i class="fa fa-eye me-1"></i><?= $lang['services']['calendar-btn'] ?>
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            <div class="modal fade" id="calendarModal" tabindex="-1" aria-labelledby="calendarModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">
+                            <h5 class="modal-title" id="calendarModalLabel">
                                 <?= $lang['services']['calendar-modal-title'] ?></h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div id='calendar'></div>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer" style="width: 100%; height: 100%; overflow: hidden;">
                             <button type="button" class="btn btn-secondary"
                                 data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                         </div>
@@ -176,15 +176,19 @@ $(document).ready(function() {
 }); //end document.ready block
 
 function display_events() {
-    fetch("http://localhost:3333/src/models/test-bus.json")
+    fetch("src/models/test-bus.json")
         .then(response => response.json())
         .then(data => {
-            console.log(data)
+            // console.log(data)
+
+            const colors = ['#706e67d9', '#AB7442', '#eca80acf'];
+
             const result = data;
-            const events = result.map(item => ({
+            const events = result.map((item, index) => ({
                 title: `Bus ${item.id}`,
                 start: item['date-debut'],
                 end: item['date-fin'],
+                color: colors[index],
                 allDay: true,
                 display: 'none',
             }));
