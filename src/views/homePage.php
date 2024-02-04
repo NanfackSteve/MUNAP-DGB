@@ -1,6 +1,6 @@
 <?php
 session_start();
-$_SESSION['lang'] = $lang;
+$_SESSION['lang'] = $langue;
 include_once('src/models/language/lang.php');
 ?>
 

@@ -2,16 +2,25 @@
     {
         "id": 1,
         "date-debut": "2024-01-01",
-        "date-fin": "2024-01-02"
+        "date-fin": "2024-01-02",
+        "status": "attente"
     },
     {
         "id": 2,
         "date-debut": "2024-03-01",
-        "date-fin": "2024-03-07"
+        "date-fin": "2024-03-07",
+        "status": "reserve"
     },
     {
         "id": 3,
         "date-debut": "2024-03-08",
-        "date-fin": "2024-03-09"
+        "date-fin": "2024-03-09",
+        "status": "attente"
+    },
+    {
+        "id": 2,
+        "date-debut": "2024-02-01",
+        "date-fin": "2024-02-01",
+        "status": "reserve"
     }
 ]

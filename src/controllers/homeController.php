@@ -15,7 +15,7 @@ class Home
         //print_r($data);
         curl_close($ch);
 
-        $lang = $language;
+        $langue = $language;
         require_once('src/views/homePage.php');
     }
 }

@@ -224,6 +224,29 @@ ul.fleche-puce li::before {
     opacity: 1;
 }
 
+/* CSS Toast Bus */
+#toastContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    /* Ajoutez cette ligne pour définir une position relative */
+}
+
+#busToast {
+    width: 200px;
+    /* Ajustez la largeur du toast selon vos besoins */
+    z-index: 1050;
+    /* Une valeur plus élevée que celle du calendrier */
+    position: absolute;
+    /* Ajoutez cette ligne pour définir une position absolue */
+    top: 20%;
+    /* Ajoutez cette ligne pour centrer le toast verticalement */
+    left: 25%;
+    /* Ajoutez cette ligne pour centrer le toast horizontalement */
+    transform: translate(-50%, -50%);
+}
 
 /*** Button ***/
 .btn {
