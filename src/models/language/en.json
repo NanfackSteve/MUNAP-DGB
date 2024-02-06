@@ -20,7 +20,7 @@
         "docu": "Documentation",
         "docu-status": "Statutes",
         "docu-rules": "Internal Rules",
-        "docu-speech": "Speech",
+        "docu-speech": "Speechs",
         "docu-report": "Reports",
         "team": "THE MUNAP",
         "team-wordDE": "Executive Director's Word",
@@ -357,13 +357,13 @@
                 {
                     "date": "11-02-2023",
                     "place": "Ministry of Finance",
-                    "title": "Inauguration of the new bus (VIP)",
+                    "title": "Inauguration of the new bus (VIP) called : “SAPHIR”",
                     "text": "The new air-conditioned bus called “SAPHIR” was acquired to the great delight of DGB mutual members. It was inaugurated by the Director General of the Budget in the presence of the various management bodies of MUNAP-DGB and officials of the General Directorate of the Budget."
                 },
                 {
                     "date": "17-12-2023",
                     "place": "Ministry of Finance : 2023 Dec 17",
-                    "title": "Inauguration of the new bus ",
+                    "title": "Inauguration of the new bus (VIP)",
                     "text": "On December 17, 2023, during the sports day of the General Directorate of Budget, the Minister of Finance inaugurated the new bus of MUNAP - DGB in the presence of the staff of the DGB and its Director General. It was a moment of communion and conviviality between the hierarchy and the staff of the DGB in general."
                 }
             ],
@@ -532,10 +532,14 @@
         "article-46": "<ol><li>Any modification of the Internal Regulations must be approved by</li>  </ol>"
     },
     "speech": {
-        "title-page": "MUNAP - Speech"
+        "name": "Speech",
+        "title-page": "MUNAP - Speechs",
+        "btn-title": "Download"
     },
     "report": {
-        "title-page": "MUNAP - Reports"
+        "name": "Report",
+        "title-page": "MUNAP - Reports",
+        "btn-title": "Download"
     },
     "Profile": {
         "title-1": "MUNAP My Profile",

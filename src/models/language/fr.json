@@ -357,13 +357,13 @@
                 {
                     "date": "11-02-2023",
                     "place": "Ministère des Finances",
-                    "title": "Inauguration du Nouveau Bus (VIP)",
+                    "title": "Inauguration du Nouveau Bus (VIP) baptisé : « SAPHIR »",
                     "text": "Le nouveau bus climatisé baptisé « SAPHIR » a été acquis pour le grand bonheur des mutualistes de la DGB. Il a été inauguré par le Directeur Général du Budget en présence des différents organes de gestion de MUNAP-DGB et des responsables de la Direction Générale du Budget."
                 },
                 {
                     "date": "17-12-2023",
                     "place": "Ministère des Finances : 17 Dec 2023",
-                    "title": "Inauguration d'un Nouveau Bus<br/>&nbsp;",
+                    "title": "Inauguration d'un Nouveau Bus (VIP) &nbsp;",
                     "text": "Le 17 décembre 2023, lors de la journée sportive de la Direction Générale du Budget, le Ministre des Finances a inauguré le nouveau bus de la MUNAP – DGB en présence du personnel de la DGB et de son Directeur Général. Ce fut un moment de communion et de convivialité entre la hiérarchie et le personnel de la DGB en général."
                 }
             ],
@@ -532,10 +532,14 @@
         "article-46": "<ol><li>Toute modification du Règlement Intérieur doit être approuvée par</li>  </ol>"
     },
     "speech": {
-        "title-page": "MUNAP - Discours"
+        "name": "Discours",
+        "title-page": "MUNAP - Discours",
+        "btn-title": "Téléchargez"
     },
     "report": {
-        "title-page": "MUNAP - Rapports"
+        "name": "Rapport",
+        "title-page": "MUNAP - Rapports",
+        "btn-title": "Téléchargez"
     },
     "Profile": {
         "title-1": "MUNAP - Profil",

@@ -19,11 +19,17 @@ class Docu
                 break;
 
             case "speechs":
-                echo "Pages des Discours Bientot disponible";
+                $head_title = $lang['speech']['title-page'];
+                $btn_text = $lang['speech']['btn-title'];
+                $doc_type = $lang['speech']['name'];
+                require_once('src/views/layouts/speech_report_layout.php');
                 break;
 
             case "reports":
-                echo "Pages des Rapports Bientot disponible";
+                $head_title = $lang['report']['title-page'];
+                $btn_text = $lang['report']['btn-title'];
+                $doc_type = $lang['report']['name'];
+                require_once('src/views/layouts/speech_report_layout.php');
                 break;
 
             default:
