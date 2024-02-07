@@ -6,7 +6,7 @@
 
         <!-- Tools 1 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/pagnes.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['cloth'] ?></h5>
@@ -18,7 +18,7 @@
 
         <!-- Tools 2 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.2s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/polos.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['t-shirt'] ?></h5>
@@ -30,7 +30,7 @@
 
         <!-- Tools 3 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/cap.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['cap'] ?></h5>
@@ -42,7 +42,7 @@
 
         <!-- Tools 4 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.4s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/umbrella.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['umbrellas'] ?></h5>
@@ -54,7 +54,7 @@
 
         <!-- Tools 5 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/cooking.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['cooking'] ?></h5>
@@ -66,7 +66,7 @@
 
         <!-- Tools 6 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.6s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/bag.png" class="card-img-top" alt="..." style="height: 14rem;">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['bag'] ?></h5>
@@ -78,7 +78,7 @@
 
         <!-- Tools 7 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/pen-keys.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['pen-keys'] ?></h5>
@@ -90,7 +90,7 @@
 
         <!-- Tools 8 -->
         <div class="col-sm-12 col-lg-3 wow bounceInUp" data-wow-delay="0.8s">
-            <div class="card">
+            <div class="card shadow-lg bg-body rounded">
                 <img src="img/prestations/tools/cap-cowboy.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['tools']['gadget'] ?></h5>
