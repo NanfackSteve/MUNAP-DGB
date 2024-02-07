@@ -1,7 +1,7 @@
 <?php $title_page = $lang['services']['title-page']; ?>
 
 <?php ob_start(); ?>
-<div class="container my-4">
+<div class="container my-4 px-4">
     <div class="row g-4">
 
         <!-- Tools 1 -->
@@ -104,9 +104,9 @@
 </div> <!-- Container End -->
 
 <script>
-let List_header = document.getElementsByClassName('nav-link');
-for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
-document.getElementById('services').setAttribute("class", "nav-link active");
+    let List_header = document.getElementsByClassName('nav-link');
+    for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
+    document.getElementById('services').setAttribute("class", "nav-link active");
 </script>
 
 <?php $content = ob_get_clean();
