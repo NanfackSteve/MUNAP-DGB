@@ -206,7 +206,15 @@
             "cm-central-services": "Services Centraux",
             "stats-title": "Mutualistes / Région",
             "stats-by-sexe": "Statistiques par Sexe (Année)",
-            "stats-by-structures": "Statistiques par Structures"
+            "stats-by-sexe-men": "Hommes",
+            "stats-by-sexe-women": "Femmes",
+            "stats-by-structures": "Statistiques par Structures",
+            "stats-by-structures-label": "Effectifs",
+            "stats-by-members-type": "Statistiques par Catégories de Membres",
+            "honnor-member": "Honnaires",
+            "advisor-member": "Conseillers",
+            "active-member": "Actifs",
+            "retired-member": "Retraités"
         }
     },
     "services": {

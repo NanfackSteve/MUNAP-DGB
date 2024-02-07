@@ -6,7 +6,7 @@ class Home
 {
     public function index($language)
     {
-        // get Stats From API
+        // get Members Stats From API
         $api = json_decode(file_get_contents('src/models/api.json'), true);
         $ch = curl_init($api['link'] . "/api/totalmembres");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

@@ -206,7 +206,15 @@
             "cm-central-services": "Central Services",
             "stats-title": "Mutualists / Region",
             "stats-by-sexe": "Statistics by Gender (Year)",
-            "stats-by-structures": "Statistics by Structures"
+            "stats-by-sexe-men": "Men",
+            "stats-by-sexe-women": "Women",
+            "stats-by-structures": "Statistics by Structures",
+            "stats-by-structures-label": "Workforce",
+            "stats-by-members-type": "Statistics by Member Categories",
+            "honnor-member": "Honorary",
+            "advisor-member": "Advisory",
+            "active-member": "Active",
+            "retired-member": "Retired"
         }
     },
     "services": {
