@@ -19,7 +19,7 @@ class Services
                 break;
 
             case "tools":
-                echo "Pages des Gadgets Bientot disponible !!!";
+                require_once('src/views/templates/services/tools.php');
                 break;
 
             default:

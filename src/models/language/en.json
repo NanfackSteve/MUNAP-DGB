@@ -261,7 +261,7 @@
         "r-modal-body": "When a member is granted the right to retire, the Mutual Fund pays them an allowance set at <b>100,000 F</b> if they have regularly paid their contributions over the <b>last three (3) years</b>.",
         "calendar-btn": "Reservations Calendar",
         "calendar-modal-title": "Reservations Calendar",
-        "bus-vip-title": "Air-Conditioned VIP Bus « LE SAPHIR »",
+        "bus-vip-title": "Air-Conditioned Bus « SAPHIR »",
         "bus-vip-2-title": "Air-Conditioned VIP Bus",
         "bus-classic-title": "Mini Bus COASTER",
         "bus-case-1": "For Mutualists",
@@ -272,7 +272,18 @@
         "bus-classic-condition-2": "Pay an amount of <b>50,000F</b> per day of rental.",
         "bus-condition-1": "Pay the driver an amount of <b>15,000F</b><br />per day of rental.",
         "bus-condition-2": "Cover the costs of fuel, tolls, and vehicle cleaning.",
-        "bus-piece-1": "Unstamped request addressed to the Executive Director"
+        "bus-piece-1": "Unstamped request addressed to the Executive Director",
+        "tools": {
+            "cost": "Price",
+            "cloth": "Loincloth",
+            "t-shirt": "Polo",
+            "cap": "Cap",
+            "umbrellas": "Umbrella",
+            "cooking": "Cooking apron",
+            "bag": "Bag",
+            "pen-keys": "Pen & Keychain",
+            "gadget": "Wide brim"
+        }
     },
     "news": {
         "title-page": "MUNAP - Activities",

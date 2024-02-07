@@ -9,10 +9,13 @@
             <?= $lang['team']['organes']['head-link-4'] ?></h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white underline-hover" href="index.php?menu=munap&sub=team_CA"><?= $lang['team']['organes']['head-link-1'] ?></a></li>
-                <li class="breadcrumb-item"><a class="text-white underline-hover" href="index.php?menu=munap&sub=team_BE"><?= $lang['team']['organes']['head-link-2'] ?></a>
+                <li class="breadcrumb-item"><a class="text-white underline-hover"
+                        href="index.php?menu=munap&sub=team_CA"><?= $lang['team']['organes']['head-link-1'] ?></a></li>
+                <li class="breadcrumb-item"><a class="text-white underline-hover"
+                        href="index.php?menu=munap&sub=team_BE"><?= $lang['team']['organes']['head-link-2'] ?></a>
                 </li>
-                <li class="breadcrumb-item"><a class="text-white underline-hover" href="index.php?menu=munap&sub=team_CF"><?= $lang['team']['organes']['head-link-3'] ?></a></li>
+                <li class="breadcrumb-item"><a class="text-white underline-hover"
+                        href="index.php?menu=munap&sub=team_CF"><?= $lang['team']['organes']['head-link-3'] ?></a></li>
             </ol>
         </nav>
     </div>
@@ -143,7 +146,7 @@
             <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                 <div class="team-item">
                     <div class="overflow-hidden position-relative">
-                        <img class="img-fluid w-100" src="img/avatar-anonyme.png" alt="">
+                        <img class="img-fluid w-100" src="img/anonyme-person.png" alt="">
 
                     </div>
                     <div class="text-center border border-5 border-light border-top-0 p-4">
@@ -155,7 +158,7 @@
             <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                 <div class="team-item">
                     <div class="overflow-hidden position-relative">
-                        <img class="img-fluid w-100" src="img/avatar-anonyme.png" alt="">
+                        <img class="img-fluid w-100" src="img/anonyme-person.png" alt="">
 
                     </div>
                     <div class="text-center border border-5 border-light border-top-0 p-4">
@@ -171,9 +174,9 @@
 <!-- Team DR End -->
 
 <script>
-    let List_header = document.getElementsByClassName('nav-link');
-    for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
-    document.getElementById('munap').setAttribute("class", "nav-link active");
+let List_header = document.getElementsByClassName('nav-link');
+for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
+document.getElementById('munap').setAttribute("class", "nav-link active");
 </script>
 
 <?php $content = ob_get_clean();

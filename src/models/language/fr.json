@@ -272,7 +272,18 @@
         "bus-classic-condition-2": "Verser une somme de <b>50.000F</b> par jour de location.",
         "bus-condition-1": "Verser au chauffeur une somme de <b>15.000F</b><br />par jour de location",
         "bus-condition-2": "Prendre en charge les frais de carburant, de péage et de lavage du véhicule",
-        "bus-piece-1": "Demande non timbrée addressée au Directeur Exécutif"
+        "bus-piece-1": "Demande non timbrée addressée au Directeur Exécutif",
+        "tools": {
+            "cost": "Prix",
+            "cloth": "Pagne",
+            "t-shirt": "Polo",
+            "cap": "Casquette",
+            "umbrellas": "Parapluie",
+            "cooking": "Tablier de Cuisine",
+            "bag": "Sac",
+            "pen-keys": "Stylo & Porte-clé",
+            "gadget": "Large bord"
+        }
     },
     "news": {
         "title-page": "MUNAP - Activités",
