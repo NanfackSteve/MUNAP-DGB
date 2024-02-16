@@ -12,7 +12,8 @@
                 <img src=" img/prestations/allo-mariage.jpg" class="card-img-top img-fluid " alt="...">
                 <div class="card-body ">
                     <h5 class="card-title"><?= $lang['services']['m-title'] ?></h5>
-                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#mariageModal"><?= $lang['services']['view-award'] ?></a>
+                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal"
+                        data-bs-target="#mariageModal"><?= $lang['services']['view-award'] ?></a>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -32,7 +33,8 @@
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a target="_blank" download="Formulaire_Mariage" href="files/Formulaire_Mariage.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                    <a target="_blank" download="Formulaire_Mariage" href="files/Formulaire_Mariage.pdf"
+                        class="card-link"><?= $lang['services']['download'] ?></a>
                 </div>
             </div>
         </div>
@@ -50,8 +52,10 @@
                         <p class="allo-text"><?= $lang['services']['m-modal-body'] ?></p>
                     </div>
                     <div class="modal-footer align-items-center">
-                        <a href="docu_status.php#title3-chap2-sect3" class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        <a href="docu_status.php#title3-chap2-sect3"
+                            class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                     </div>
                 </div>
             </div>
@@ -64,7 +68,8 @@
                 <img src=" img/prestations/allo-medicaux.jpg" class="card-img-top img-fluid w-100" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['h-title'] ?></h5>
-                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#santeModal"><?= $lang['services']['view-award'] ?></a>
+                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal"
+                        data-bs-target="#santeModal"><?= $lang['services']['view-award'] ?></a>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -83,7 +88,8 @@
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a class="card-link" href="files/Formulaire_Frais_Remboursement.pdf" target="_blank" download="Formulaire_Frais_Remboursement.pdf"><?= $lang['services']['download'] ?></a>
+                    <a class="card-link" href="files/Formulaire_Remboursement_Frais_Medicaux.pdf" target="_blank"
+                        download="Formulaire_Remboursement_Frais_Medicaux.pdf"><?= $lang['services']['download'] ?></a>
                 </div>
             </div>
         </div>
@@ -99,8 +105,10 @@
                         <p class="allo-text"><?= $lang['services']['h-modal-body'] ?></p>
                     </div>
                     <div class="modal-footer align-items-center">
-                        <a href="docu_status.php#title3-chap2-sect2" class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        <a href="docu_status.php#title3-chap2-sect2"
+                            class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                     </div>
                 </div>
             </div>
@@ -113,7 +121,8 @@
                 <img src=" img/prestations/allo-decoration.jpg" class="card-img-top img-fluid w-100" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['d-title'] ?></h5>
-                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#decorationModal"><?= $lang['services']['view-award'] ?></a>
+                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal"
+                        data-bs-target="#decorationModal"><?= $lang['services']['view-award'] ?></a>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -132,7 +141,8 @@
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a target="_blank" download="Formulaire_Decoration.pdf" href="files/Formulaire_Decoration.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                    <a target="_blank" download="Formulaire_Decoration.pdf" href="files/Formulaire_Decoration.pdf"
+                        class="card-link"><?= $lang['services']['download'] ?></a>
                 </div>
             </div>
         </div>
@@ -149,8 +159,10 @@
                         <p class="allo-text"><?= $lang['services']['d-modal-body'] ?></p>
                     </div>
                     <div class="modal-footer align-items-center">
-                        <a href="docu_status.php#title3-chap2-sect4" class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        <a href="docu_status.php#title3-chap2-sect4"
+                            class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                     </div>
                 </div>
             </div>
@@ -163,7 +175,8 @@
                 <img src="img/prestations/allo-naissance.jpg" class="card-img-top img-fluid w-100" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['n-title'] ?></h5>
-                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#naissanceModal"><?= $lang['services']['view-award'] ?></a>
+                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal"
+                        data-bs-target="#naissanceModal"><?= $lang['services']['view-award'] ?></a>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -183,7 +196,8 @@
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a target="_blank" download="Formulaire_Naissance" href="files/Formulaire_Naissance.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                    <a target="_blank" download="Formulaire_Naissance" href="files/Formulaire_Naissance.pdf"
+                        class="card-link"><?= $lang['services']['download'] ?></a>
                 </div>
             </div>
         </div>
@@ -200,8 +214,10 @@
                         <p class="allo-text"><?= $lang['services']['n-modal-body'] ?></p>
                     </div>
                     <div class="modal-footer align-items-center">
-                        <a href="docu_status.php#title3-chap2-sect3" class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        <a href="docu_status.php#title3-chap2-sect3"
+                            class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                     </div>
                 </div>
             </div>
@@ -214,7 +230,8 @@
                 <img src="img/prestations/allo-deces.jpg" class="card-img-top img-fluid w-100" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['D-title'] ?></h5>
-                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#decesModal"><?= $lang['services']['view-award'] ?></a>
+                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal"
+                        data-bs-target="#decesModal"><?= $lang['services']['view-award'] ?></a>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -233,7 +250,8 @@
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a target="_blank" download="Formulaire_Deces.pdf" href="files/Formulaire_Deces.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                    <a target="_blank" download="Formulaire_Deces.pdf" href="files/Formulaire_Deces.pdf"
+                        class="card-link"><?= $lang['services']['download'] ?></a>
                 </div>
             </div>
         </div>
@@ -249,8 +267,10 @@
                         <p class="allo-text"><?= $lang['services']['D-modal-body'] ?></p>
                     </div>
                     <div class="modal-footer align-items-center">
-                        <a href="docu_status.php#title3-chap2-sect1" class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        <a href="docu_status.php#title3-chap2-sect1"
+                            class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                     </div>
                 </div>
             </div>
@@ -263,7 +283,8 @@
                 <img src="img/prestations/allo-retraire.jpg" class="card-img-top img-fluid w-100" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?= $lang['services']['r-title'] ?></h5>
-                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal" data-bs-target="#retraiteModal"><?= $lang['services']['view-award'] ?></a>
+                    <a href="#" class="btn btn-link ps-0 py-0" data-bs-toggle="modal"
+                        data-bs-target="#retraiteModal"><?= $lang['services']['view-award'] ?></a>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -280,7 +301,8 @@
                     </li>
                 </ul>
                 <div class="card-body">
-                    <a target="_blank" download="Formulaire_Retraite.pdf" href="files/Formulaire_Retraite.pdf" class="card-link"><?= $lang['services']['download'] ?></a>
+                    <a target="_blank" download="Formulaire_Retraite.pdf" href="files/Formulaire_Retraite.pdf"
+                        class="card-link"><?= $lang['services']['download'] ?></a>
                 </div>
             </div>
         </div>
@@ -297,8 +319,10 @@
                         <p class="allo-text"><?= $lang['services']['r-modal-body'] ?></p>
                     </div>
                     <div class="modal-footer align-items-center">
-                        <a href="docu_status.php#title3-chap2-sect4" class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
+                        <a href="docu_status.php#title3-chap2-sect4"
+                            class="btn btn-link"><?= $lang['services']['read-article'] ?></a>
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal"><?= $lang['services']['close'] ?></button>
                     </div>
                 </div>
             </div>
@@ -309,9 +333,9 @@
 <!-- Prestations End -->
 
 <script>
-    let List_header = document.getElementsByClassName('nav-link');
-    for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
-    document.getElementById('services').setAttribute("class", "nav-link active");
+let List_header = document.getElementsByClassName('nav-link');
+for (let i = 0; i < List_header.length; i++) List_header[i].setAttribute("class", "nav-link");
+document.getElementById('services').setAttribute("class", "nav-link active");
 </script>
 
 <?php $content = ob_get_clean();
