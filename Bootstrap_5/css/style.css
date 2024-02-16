@@ -235,7 +235,7 @@ ul.fleche-puce li::before {
 }
 
 #busToast {
-    width: 200px;
+    width: 300px;
     /* Ajustez la largeur du toast selon vos besoins */
     z-index: 1050;
     /* Une valeur plus élevée que celle du calendrier */

@@ -1,26 +1,26 @@
 [
     {
-        "id": 1,
-        "date-debut": "2024-01-01",
-        "date-fin": "2024-01-02",
-        "status": "attente"
+        "nom_vehicule": "Bus Coaster",
+        "type_location": "Mutualiste",
+        "statut_location": "Confirmé",
+        "num_adhesion": "A0011",
+        "infos_non_mutualiste": " ",
+        "date_debut_location": "2024-02-15",
+        "date_fin_location": "2024-02-17",
+        "montant": 270000,
+        "lieu_utilisation": "Yaoundé",
+        "motif": "Réservation pour un mariage"
     },
     {
-        "id": 2,
-        "date-debut": "2024-03-01",
-        "date-fin": "2024-03-07",
-        "status": "reserve"
-    },
-    {
-        "id": 3,
-        "date-debut": "2024-03-08",
-        "date-fin": "2024-03-09",
-        "status": "attente"
-    },
-    {
-        "id": 2,
-        "date-debut": "2024-02-01",
-        "date-fin": "2024-02-01",
-        "status": "reserve"
+        "nom_vehicule": "Bus SAPHIR",
+        "type_location": "Mutualiste",
+        "statut_location": "Réservé",
+        "num_adhesion": "A0013",
+        "infos_non_mutualiste": " ",
+        "date_debut_location": "2024-02-15",
+        "date_fin_location": "2024-02-19",
+        "montant": 360000,
+        "lieu_utilisation": "Yaoundé",
+        "motif": "Réservation du bus pour la cérémonie de la remise des médailles"
     }
 ]
