@@ -259,6 +259,57 @@
         "piece-13": "Retirement notification",
         "r-modal-title": "Retirement Allowance Fees",
         "r-modal-body": "When a member is granted the right to retire, the Mutual Fund pays them an allowance set at <b>100,000 F</b> if they have regularly paid their contributions over the <b>last three (3) years</b>.",
+        "bus_location": {
+            "calendar": {
+                "to_day_btn": "To day",
+                "days": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "days_short": [
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
+                ],
+                "months": [
+                    "January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                    "August",
+                    "September",
+                    "October",
+                    "November",
+                    "December"
+                ],
+                "months_short": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
+                ]
+            }
+        },
         "calendar-btn": "Reservations Calendar",
         "calendar-modal-title": "Reservations Calendar",
         "bus-vip-title": "Air-Conditioned Bus « SAPHIR »",

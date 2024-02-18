@@ -259,6 +259,57 @@
         "piece-13": "Notification de retraite",
         "r-modal-title": "Frais Allocation Retraite",
         "r-modal-body": "Lorsqu’un membre est admis à faire valoir ses droits à la retraite, la Mutuelle lui verse une allocation fixée à <b>100.000 F</b> s’il a régulièrement verse ses cotisations au cours des <b>trois (3) dernières années</b>.",
+        "bus_location": {
+            "calendar": {
+                "to_day_btn": "aujourd’hui",
+                "days": [
+                    "Dimanche",
+                    "Lundi",
+                    "Mardi",
+                    "Mercredi",
+                    "Jeudi",
+                    "Vendredi",
+                    "Samedi"
+                ],
+                "days_short": [
+                    "Dim",
+                    "Lun",
+                    "Mar",
+                    "Mer",
+                    "Jeu",
+                    "Ven",
+                    "Sam"
+                ],
+                "months": [
+                    "Janvier",
+                    "Février",
+                    "Mars",
+                    "Avril",
+                    "Mai",
+                    "Juin",
+                    "Juillet",
+                    "Août",
+                    "Septembre",
+                    "Octobre",
+                    "Novembre",
+                    "Décembre"
+                ],
+                "months_short": [
+                    "Jan",
+                    "Fév",
+                    "Mar",
+                    "Avr",
+                    "Mai",
+                    "Juin",
+                    "Juil",
+                    "Août",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Déc"
+                ]
+            }
+        },
         "calendar-btn": "Calendrier des Réservations",
         "calendar-modal-title": "Calendrier des Reservations",
         "bus-vip-title": "Bus Climatisé VIP « LE SAPHIR »",

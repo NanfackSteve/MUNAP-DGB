@@ -236,15 +236,10 @@ ul.fleche-puce li::before {
 
 #busToast {
     width: 300px;
-    /* Ajustez la largeur du toast selon vos besoins */
     z-index: 1050;
-    /* Une valeur plus élevée que celle du calendrier */
     position: absolute;
-    /* Ajoutez cette ligne pour définir une position absolue */
     top: 20%;
-    /* Ajoutez cette ligne pour centrer le toast verticalement */
-    left: 25%;
-    /* Ajoutez cette ligne pour centrer le toast horizontalement */
+    left: 28%;
     transform: translate(-50%, -50%);
 }
 

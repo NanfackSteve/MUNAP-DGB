@@ -15,6 +15,13 @@ class Services
                 break;
 
             case "bus":
+                // get All Events Calendar From API
+                $api = json_decode(file_get_contents('src/models/api.json'), true);
+                $ch = curl_init($api['link'] . "/api/getreservationbus");
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $rep = curl_exec($ch);
+                $bus_datas = json_decode($rep, true);
+                //print_r($bus_datas);
                 require_once('src/views/templates/services/bus.php');
                 break;
 
