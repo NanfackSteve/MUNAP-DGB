@@ -21,6 +21,7 @@ class Services
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
                 $rep = curl_exec($ch);
                 $bus_datas = json_decode($rep, true);
+                $bus_datas = isset($bus_datas) ? $bus_datas : array();
                 //print_r($bus_datas);
                 require_once('src/views/templates/services/bus.php');
                 break;

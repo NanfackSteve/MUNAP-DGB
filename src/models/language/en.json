@@ -261,6 +261,7 @@
         "r-modal-body": "When a member is granted the right to retire, the Mutual Fund pays them an allowance set at <b>100,000 F</b> if they have regularly paid their contributions over the <b>last three (3) years</b>.",
         "bus_location": {
             "calendar": {
+                "no_reservation": " <b>Reservations unavailable, please try again later !</b>&ensp;",
                 "to_day_btn": "To day",
                 "days": [
                     "Sunday",

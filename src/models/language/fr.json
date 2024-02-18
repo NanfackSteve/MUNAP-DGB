@@ -261,6 +261,7 @@
         "r-modal-body": "Lorsqu’un membre est admis à faire valoir ses droits à la retraite, la Mutuelle lui verse une allocation fixée à <b>100.000 F</b> s’il a régulièrement verse ses cotisations au cours des <b>trois (3) dernières années</b>.",
         "bus_location": {
             "calendar": {
+                "no_reservation": "<b>Réservations indisponiles, Ressayez plus tard !</b>&ensp;&ensp;&ensp;",
                 "to_day_btn": "aujourd’hui",
                 "days": [
                     "Dimanche",
