@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout du code
+    - name: Code Checkout 
       uses: actions/checkout@v3
     
     - name: FTP Configurations
@@ -31,4 +31,4 @@ jobs:
         
     - name: Deploy to Web Host
       run: |
-        lftp -e "mirror -R -e -x .gitignore -x .git --delete-first ./ ${{ secrets.WEB_SITE_DIR }} ; quit" -d ftpupload.net  
+        lftp -e "mirror -R -e -x .gitignore -x .git --delete-first ./ ${{ secrets.WEB_SITE_DIR }} ; quit" -d ${{ secrets.HOST_FTP }}  
