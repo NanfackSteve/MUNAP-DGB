@@ -1,5 +1,5 @@
 # Workflow for deploying Dynamic WebSite to InfityFree Host
-name: Deploy MUNAP WebSite 
+name: Deploy MUNAP-DGB WebSite 
 
 on:
   # Runs on pushes targeting the default branch
@@ -15,20 +15,20 @@ jobs:
     
     steps:
     - name: Checkout du code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     
-    - name: Configure FTP
+    - name: FTP Configurations
       run: |
-        echo "machine ftpupload.net" >> ~/.netrc
-        echo "login if0_35105569" >> ~/.netrc
-        echo "password SAZoEgJ127QbU" >> ~/.netrc
+        echo "machine ${{ secrets.HOST_FTP }}" >> ~/.netrc
+        echo "login ${{ secrets.LOGIN_FTP }}" >> ~/.netrc
+        echo "password ${{ secrets.PWD_FTP }}" >> ~/.netrc
         chmod 600 ~/.netrc
     
-    - name: Installer lftp
+    - name: Install Client FTP
       run: |
         sudo apt-get update
         sudo apt-get install lftp -y
         
-    - name: Deploy to InfinityFree
+    - name: Deploy to Web Host
       run: |
-        lftp -e "mirror -R -e -x .gitignore -x scss -x .git --delete-first ./ munap-dgb.free.nf/htdocs/ ; quit" -d ftpupload.net  
+        lftp -e "mirror -R -e -x .gitignore -x .git --delete-first ./ ${{ secrets.WEB_SITE_DIR }} ; quit" -d ftpupload.net  
