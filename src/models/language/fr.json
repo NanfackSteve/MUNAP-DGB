@@ -611,12 +611,35 @@
     "speech": {
         "name": "Discours",
         "title-page": "MUNAP - Discours",
-        "btn-title": "Téléchargez"
+        "btn-title": "Téléchargez",
+        "no-document": "Désolé, aucun discours trouvé !",
+        "list": [
+            {
+                "date": "15-07-2023",
+                "title": "Assemblée Générale Extraordinaire",
+                "text": "Discours d'Ouverture du Président de l'Assemblée Générale",
+                "file": "files/speechs/Discours_Ouverture_DGB_AGE_15-07-2023.pdf"
+            },
+            {
+                "date": "15-07-2023",
+                "title": "Assemblée Générale Extraordinaire",
+                "text": "Discours de Cloture du Président de l'Assemblée Générale",
+                "file": "files/speechs/Discours_Cloture_DGB_AGE_15-07-2023.pdf"
+            },
+            {
+                "date": "04-07-2009",
+                "title": "Assemblée Générale Ordinaire",
+                "text": "Discours du Président du Conseil d'Administration",
+                "file": "files/speechs/Discours_PCA_AGO_04-07-2009.pdf"
+            }
+        ]
     },
     "report": {
         "name": "Rapport",
         "title-page": "MUNAP - Rapports",
-        "btn-title": "Téléchargez"
+        "btn-title": "Téléchargez",
+        "no-document": "Désolé, aucun rapport trouvé !",
+        "list": []
     },
     "Profile": {
         "title-1": "MUNAP - Profil",

@@ -19,16 +19,22 @@ class Docu
                 break;
 
             case "speechs":
+                $title_page = $lang['speech']['title-page'];
                 $head_title = $lang['speech']['title-page'];
                 $btn_text = $lang['speech']['btn-title'];
                 $doc_type = $lang['speech']['name'];
+                $documents  = $lang['speech']['list'];
+                $no_document  = $lang['speech']['no-document'];
                 require_once('src/views/layouts/speech_report_layout.php');
                 break;
 
             case "reports":
+                $title_page = $lang['report']['title-page'];
                 $head_title = $lang['report']['title-page'];
                 $btn_text = $lang['report']['btn-title'];
                 $doc_type = $lang['report']['name'];
+                $documents  = $lang['report']['list'];
+                $no_document  = $lang['report']['no-document'];
                 require_once('src/views/layouts/speech_report_layout.php');
                 break;
 
