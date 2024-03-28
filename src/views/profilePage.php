@@ -133,6 +133,19 @@
                         <div class="card-body pt-1 pb-0">
                             <div class="row card-text my-4 pb-0">
                                 <ul class="col mt-2 mb-2" style="list-style-type: none; padding-left: 0.5rem; ">
+                                    <li id="member" class="list-group-item d-flex justify-content-between align-items-center map">
+                                        <?= $lang['Profile']['cost']['fees_member'] ?>
+                                        <span id="member-cost-number" class="badge rounded-pill bg-primary ms-4">
+                                            <?php
+                                            $etat = '-';
+                                            if (isset($cotisation['montantacotisermembre'])) {
+                                                $etat = ($cotisation['montantacotisermembre'] == $cotisation['montantversemembre']) ? $lang['Profile']['cost']['yes'] : $lang['Profile']['cost']['no'];
+                                            }
+                                            echo $etat; ?>
+                                        </span>
+                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#memberCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
+                                        </a>
+                                    </li>
                                     <li id="parent" class="list-group-item d-flex justify-content-between align-items-center map">
                                         <?= $lang['Profile']['cost']['fees_parent'] ?>
                                         <span id="parent-cost-number" class="badge rounded-pill bg-primary ms-3">
@@ -169,19 +182,6 @@
                                             echo $etat; ?>
                                         </span>
                                         <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#childCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
-                                        </a>
-                                    </li>
-                                    <li id="member" class="list-group-item d-flex justify-content-between align-items-center map">
-                                        <?= $lang['Profile']['cost']['fees_member'] ?>
-                                        <span id="member-cost-number" class="badge rounded-pill bg-primary ms-3">
-                                            <?php
-                                            $etat = '-';
-                                            if (isset($cotisation['montantacotisermembre'])) {
-                                                $etat = ($cotisation['montantacotisermembre'] == $cotisation['montantversemembre']) ? $lang['Profile']['cost']['yes'] : $lang['Profile']['cost']['no'];
-                                            }
-                                            echo $etat; ?>
-                                        </span>
-                                        <a href="#" class="btn btn-primary btn-sm bo" data-bs-toggle="modal" data-bs-target="#memberCostModal"><i class="fa fa-eye me-1"></i><?= $lang['Profile']['see-more'] ?>
                                         </a>
                                     </li>
                                 </ul>

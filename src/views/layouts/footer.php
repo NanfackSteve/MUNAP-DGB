@@ -6,7 +6,7 @@
             <div class="col-lg-4 col-md-6">
                 <h4 class="text-light mb-4"><?= $lang['footer']['section-1'] ?></h4>
                 <a href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i><?= $lang['footer']['location'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-1" href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" style="width: 80px;"><?= $lang['footer']['location-btn'] ?></a></p>
+                    <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i><?= $lang['footer']['location'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-2" href="https://maps.app.goo.gl/2UdGjfbBMmzEZmMf9" style="width: 80px;"><?= $lang['footer']['location-btn'] ?></a></p>
 
                 </a>
                 <a href="tel:+237699955507" class="text-white">
@@ -14,7 +14,7 @@
                     </p>
                 </a>
                 <a href=" mailto:munapdgb@yahoo.fr" class="text-white">
-                    <p class="mb-2 "><i class="fa fa-envelope me-2"></i><?= $lang['footer']['email'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-2" href="mailto:munapdgb@yahoo.fr" style="width: 80px;"><?= $lang['footer']['email-btn'] ?></a>
+                    <p class="mb-2 "><i class="fa fa-envelope me-2"></i><?= $lang['footer']['email'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-3" href="mailto:munapdgb@yahoo.fr" style="width: 80px;"><?= $lang['footer']['email-btn'] ?></a>
                     </p>
                 </a>
                 <div class="d-flex pt-2">

@@ -215,25 +215,25 @@ include_once('src/models/language/lang.php');
 
     <div class="row mt-5 px-lg-5">
         <h3 class="text-center "><?= $lang['index']['partner'] ?></h3>
-        <div class="wow fadeIn pb-2 px-4 px-lg-5" data-wow-delay="0.7s">
+        <div class="pb-2 px-4 px-lg-5">
             <div class="d-flex align-items-center justify-content-evenly flex-wrap">
 
-                <div class="m-3 d-flex flex-column align-items-center">
+                <div class="m-3 d-flex flex-column align-items-center wow zoomIn" data-wow-delay="0.3s">
                     <img src="img/partenaires/mundi.jpg" alt="Logo_BUNEC" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>MUNDI</b></p>
                 </div>
 
-                <div class="m-3 d-flex flex-column align-items-center">
+                <div class="m-3 d-flex flex-column align-items-center wow zoomIn" data-wow-delay="0.5s">
                     <img src="img/partenaires/mutresor.jpg" alt="Logo_CENADI" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>MUTRESOR</b></p>
                 </div>
 
-                <div class="m-3 d-flex flex-column align-items-center">
+                <div class="m-3 d-flex flex-column align-items-center wow zoomIn" data-wow-delay="0.7s">
                     <img src="img/partenaires/douanes.jpeg" alt="Logo_MINSANTE" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>DOUANES</b></p>
                 </div>
 
-                <div class="m-3 d-flex flex-column align-items-center">
+                <div class="m-3 d-flex flex-column align-items-center wow zoomIn" data-wow-delay="0.9s">
                     <img src="img/partenaires/logo_Fidev.jpg" alt="Logo_FIDEV" width="70px" height="70px">
                     <p class="fw-medium m-2"><b>FIDEV</b></p>
                 </div>
