@@ -18,12 +18,12 @@ if (isset($_SESSION['token'])) {
     curl_close($ch);
 }
 
-
-
 // infos membres
 $num_adhesion = $_SESSION['num_adhesion'];
 $nom = $_SESSION['nom'];
 $prenom = $_SESSION['prenom'];
+$sexe = isset($data[0]['sexe']) ? $data[0]['sexe'] : 'RAS';
+$date_naissance = isset($data[0]['date_naissance']) ? $data[0]['date_naissance'] : 'RAS';
 $structure = isset($data[0]['abv']) ? $data[0]['abv'] : 'RAS';
 $fonction = isset($data[0]['fonction']) ? $data[0]['fonction'] : 'RAS';
 $statut = isset($data[0]['statut']) ? $data[0]['statut'] : 'RAS';

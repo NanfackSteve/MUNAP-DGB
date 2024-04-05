@@ -106,6 +106,12 @@
                                     <li><span class="me-2"><b><?= $lang['Profile']['infos']['surnames'] ?></b></span><span class="mx-2"> :
                                         </span><span><?= $prenom ?></span>
                                     </li>
+                                    <li><span class="me-2"><b><?= $lang['Profile']['infos']['sexe'] ?></b></span><span class="mx-2"> :
+                                        </span><span><?= $sexe ?></span>
+                                    </li>
+                                    <li><span class="me-2"><b><?= $lang['Profile']['infos']['born_on'] ?></b></span><span class="mx-2"> :
+                                        </span><span><?= $date_naissance ?></span>
+                                    </li>
                                     <li><span class="me-1"><b><?= $lang['Profile']['infos']['admin'] ?></b></span><span class="mx-1"> :
                                         </span><span><?= $structure ?></span></li>
                                     <li><span class="me-1"><b><?= $lang['Profile']['infos']['function'] ?></b></span><span><span class="mx-2"> :
