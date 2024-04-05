@@ -191,7 +191,7 @@
             }
         });
 
-        // Pie Chart
+        // Pie Chart (Stats By Quality Member)
         const members_type = [];
         members_type.push(<?= (isset($stats['membres_honneur'])) ? $stats['membres_honneur'] : 0 ?>);
         members_type.push(<?= (isset($stats['membres_conseiller'])) ? $stats['membres_conseiller'] : 0 ?>);
@@ -229,41 +229,40 @@
         ctx5.scale(1, 1);
         myChart5.update();
 
-        // Single Bar Chart
-        fetch("src/models/test.json").then(rep => rep.json()).then(jsonData => {
+        // Single Bar Chart (Stats By Structure)
+        let jsonData = <?= json_encode($stats_by_structure) ?>;
+        var abvArray = jsonData.map(item => item.abv);
+        var totalArray = jsonData.map(item => item.total);
 
-            var abvArray = jsonData.map(item => item.abv);
-            var totalArray = jsonData.map(item => item.total);
+        var ctx4 = $("#bar-chart").get(0).getContext("2d");
+        var canvas4 = document.getElementById("bar-chart");
+        canvas4.height = window.innerWidth < 768 ? canvas4.height * 2.5 : canvas4.height;
 
-            var ctx4 = $("#bar-chart").get(0).getContext("2d");
-            var canvas4 = document.getElementById("bar-chart");
-            canvas4.height = window.innerWidth < 768 ? canvas4.height * 2.5 : canvas4.height;
-
-            var myChart4 = new Chart(ctx4, {
-                type: "bar",
-                data: {
-                    labels: abvArray,
-                    datasets: [{
-                        label: "<?= $lang['team']['stats']['stats-by-structures-label'] ?>",
-                        backgroundColor: "rgba(169, 121, 10, .8)",
-                        data: totalArray
-                    }]
-                },
-                options: {
-                    indexAxis: 'y',
-                    scales: {
-                        x: {
-                            beginAtZero: true,
-                        },
-                        y: {
-                            ticks: {
-                                autoSkip: false, // ne reduit pas les legendes
-                            }
+        var myChart4 = new Chart(ctx4, {
+            type: "bar",
+            data: {
+                labels: abvArray,
+                datasets: [{
+                    label: "<?= $lang['team']['stats']['stats-by-structures-label'] ?>",
+                    backgroundColor: "rgba(169, 121, 10, .8)",
+                    data: totalArray
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                    },
+                    y: {
+                        ticks: {
+                            autoSkip: false, // ne reduit pas les legendes
                         }
                     }
                 }
-            }); // end Chart
-        });
+            }
+        }); // end Chart
+
 
     })(jQuery);
 </script>

@@ -44,13 +44,21 @@ class Munap
                 break;
 
             case "stats":
-                // get Stats From API
+                // get Regions and Members Stats From API
                 $api = json_decode(file_get_contents('src/models/api.json'), true);
                 $ch = curl_init($api['link'] . "/api/totalmembres");
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
                 $rep = curl_exec($ch);
                 $stats = json_decode($rep, true);
                 //print_r($stats);
+                curl_close($ch);
+
+                // get Members Stats by Structures
+                $ch = curl_init($api['link'] . "/api/repartitionbystructure");
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $rep = curl_exec($ch);
+                $stats_by_structure = json_decode($rep, true);
+                //print_r($stats_by_structure);
                 curl_close($ch);
 
                 require_once('src/views/templates/munap/stats.php');
