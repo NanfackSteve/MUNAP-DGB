@@ -10,7 +10,7 @@
 
                 </a>
                 <a href="tel:+237699955507" class="text-white">
-                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i><?= $lang['footer']['tel'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-3" href="tel:+237699955507" style="width: 80px;"><?= $lang['footer']['tel-btn'] ?></a>
+                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i><?= $lang['footer']['tel'] ?><a class="rounded-pill btn btn-outline-light btn-sm ms-4" href="tel:+237699955507" style="width: 80px;"><?= $lang['footer']['tel-btn'] ?></a>
                     </p>
                 </a>
                 <a href=" mailto:munapdgb@yahoo.fr" class="text-white">
@@ -22,6 +22,11 @@
                     <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@IT-Support-DGB"><i class="fab fa-youtube"></i></a>
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
+                <div class="mt-4">
+                    <a href="https://www.dgb.cm" class="btn btn-primary ">Site Web Officiel de la
+                        DGB</a>
+                </div>
+
             </div>
             <!-- Addresses End -->
 
@@ -43,6 +48,12 @@
                 <a class="btn btn-link" target="_blank" href="files/Mutuelle_Reglement_interieur.pdf" download="Mutuelle_Reglement_interieur.pdf"><?= $lang['footer']['section-3-link-2'] ?></a>
             </div>
             <!-- Download Documents End -->
+
+            <!-- test -->
+            <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4"></h4>
+                
+            </div> -->
         </div>
     </div>
 
