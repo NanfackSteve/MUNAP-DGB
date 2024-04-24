@@ -169,19 +169,25 @@
         "use strict";
 
         // Sexe/year Chart
+        let sexData = <?= json_encode($stats_by_sex) ?>;
+        let sexYears = sexData["infos_male"].map(item => item.year);
+        let sexMale = sexData["infos_male"].map(item => item.male);
+        let sexFemale = sexData["infos_female"].map(item => item.female);
+
+
         var ctx2 = $("#male-female").get(0).getContext("2d");
         var myChart2 = new Chart(ctx2, {
             type: "line",
             data: {
-                labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+                labels: sexYears.reverse(),
                 datasets: [{
                     label: "<?= $lang['team']['stats']['stats-by-sexe-men'] ?>",
-                    data: [99, 135, 170, 130, 166, 180, 270],
+                    data: sexMale.reverse(),
                     backgroundColor: "rgba(219, 135, 24, .4)",
                     fill: true
                 }, {
                     label: "<?= $lang['team']['stats']['stats-by-sexe-women'] ?>",
-                    data: [15, 30, 55, 45, 70, 65, 85],
+                    data: sexFemale.reverse(),
                     backgroundColor: "rgba(219, 135, 24, .6)",
                     fill: true
                 }]

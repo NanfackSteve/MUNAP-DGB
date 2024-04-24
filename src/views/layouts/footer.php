@@ -23,8 +23,7 @@
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="mt-4">
-                    <a href="https://www.dgb.cm" class="btn btn-primary ">Site Web Officiel de la
-                        DGB</a>
+                    <a href="https://www.dgb.cm" class="btn btn-primary "><?= $lang['footer']['website_dgb'] ?></a>
                 </div>
 
             </div>

@@ -366,6 +366,12 @@
             "head-title": "Meetings Activities",
             "contents": [
                 {
+                    "date": "22-04-2024",
+                    "place": "South Region : 22th April 2024",
+                    "title": "Awareness of decentralized structures",
+                    "text": "<h3>MUNAP-DGB: Place for awareness-raising of decentralized structures</h3><br/> <p class='text-justify'>The Executive Office of the MUNAP-DGB, under the Chairmanship of its Executive Director, Mrs. GOMA Flore, organized on March 1, 2024 in Yaoundé, an awareness-raising seminar for Departmental Financial Controllers of the Center and Financial Controllers placed with Decentralized Local Authorities of the Center; accompanied by the Regional Financial Controller of the Center.</p><p class='text-justify'>After a first stage devoted to the staff of the central structures of the DGB, the MUNAP-DGB launches the awareness phase of the decentralized structures. In this methodical approach which is in line with the action plan of the current Executive Office under the leadership of Mrs. GOMA Flore, the beneficiaries were edified on the new actions of the National Mutual of the Staff of the Directorate General of Budget (MUNAP-DGB).</p><p class='text-justify'>This wave of awareness-raising, which will extend to all financial districts, has as its main objective to « raise awareness of the activities, the organization and the benefits of MUNAP », recalled the Executive Director. To this end, a presentation was presented by its Secretary General, Mr. Marc Désiré BEKONO on the « statutes and Internal Regulations of the MUNAP-DGB ». This presentation addressed the key areas of the administrative organization of the association, in particular those relating to the conditions of membership and benefits. The other highlight of the said meeting focused on the Presentation and the current functioning of the MUNAP-DGB Regional Delegation of the Center. These exchanges have notably allowed the Executive Office to note the difficulties related to the smooth running of this body and to take immediate corrective measures for optimal management.</p><p class='text-justify'>It was also an opportunity for the Executive Board to present the new website of the MUNAP-DGB. A digital platform open to all DGB staff and which will serve as a « digital bridge » for access to all real-time information on the management and operation of the MUNAP-DGB. A management based on transparency according to the spirit and vision of the current executive team whose mandate is placed under the sign of the « MUNAP-DGB NEW LOOK ».</p><p class='text-justify'>In her closing remarks, the Executive Director congratulated the current teams of the MUNAP-DGB Centre Regional Delegation and announced the renewal of the executive board of this body in the coming months. In addition, she invited managers to be more involved in order to « grow the Mutual ».</p><p class='text-justify'>Recall that the MUNAP-DGB was created on June 23, 2007 with the object: « to maintain and promote solidarity and mutual aid links between its members in the event of unfortunate or happy events».</p>"
+                },
+                {
                     "date": "01-03-2024",
                     "place": "HIPF : 01st March 2024",
                     "title": "Awareness of decentralized structures",
@@ -748,6 +754,7 @@
         "tel-btn": "Call",
         "email": "munapdgb@yahoo.fr",
         "email-btn": "Email",
+        "website_dgb": "DGB Official Website",
         "section-2": "Useful Links",
         "section-2-link-1": "Who We Are?",
         "section-2-link-2": "Offices and Members",

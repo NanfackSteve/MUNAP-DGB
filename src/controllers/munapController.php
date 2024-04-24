@@ -61,6 +61,14 @@ class Munap
                 //print_r($stats_by_structure);
                 curl_close($ch);
 
+                // get Members Stats by Sex
+                $ch = curl_init($api['link'] . "/api/repartitionbysexe");
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $rep = curl_exec($ch);
+                $stats_by_sex = json_decode($rep, true);
+                //print_r($stats_by_sex);
+                curl_close($ch);
+
                 require_once('src/views/templates/munap/stats.php');
                 break;
 
